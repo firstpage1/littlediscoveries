@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Little Discoveries — Sydney Family Activities</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav">
+    <div class="nav__inner container">
+      <a href="#" class="nav__logo">
+        <span class="nav__logo-icon">🗺️</span>
+        <span>Little Discoveries</span>
+      </a>
+      <nav class="nav__links">
+        <a href="#activities">Activities</a>
+        <a href="#about">About</a>
+        <a href="#" class="btn btn--nav">Submit Activity</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__bg-shapes">
+      <div class="shape shape--1"></div>
+      <div class="shape shape--2"></div>
+      <div class="shape shape--3"></div>
+    </div>
+    <div class="container hero__inner">
+      <div class="hero__badge">✨ Sydney's #1 Family Activity Guide</div>
+      <h1 class="hero__title">Little Discoveries</h1>
+      <p class="hero__subtitle">Turning weekends in Sydney into adventures!</p>
+      <a href="#activities" class="btn btn--primary btn--lg">Find Activities →</a>
+    </div>
+  </section>
+
+  <!-- USPs -->
+  <section class="usps">
+    <div class="container usps__grid">
+      <div class="usp-card">
+        <div class="usp-card__icon">🎯</div>
+        <div class="usp-card__body">
+          <strong>Over 300 Activities</strong>
+          <span>Across Sydney</span>
+        </div>
+      </div>
+      <div class="usp-card">
+        <div class="usp-card__icon">⭐</div>
+        <div class="usp-card__body">
+          <strong>Local Experts</strong>
+          <span>Sydney's Best Picks</span>
+        </div>
+      </div>
+      <div class="usp-card">
+        <div class="usp-card__icon">👨‍👩‍👧‍👦</div>
+        <div class="usp-card__body">
+          <strong>1,500+ Families</strong>
+          <span>Trust Little Discoveries</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACTIVITIES -->
+  <section class="activities" id="activities">
+    <div class="container">
+      <h2 class="section-title">Find Your Next Adventure</h2>
+      <p class="section-subtitle">Filter by what works for your family</p>
+
+      <!-- FILTERS -->
+      <div class="filters" id="filters">
+        <!-- Age -->
+        <div class="filter-group">
+          <label class="filter-group__label">🧒 Age</label>
+          <div class="filter-chips" data-filter="age">
+            <button class="chip chip--active" data-value="">All Ages</button>
+            <button class="chip" data-value="0-2">0–2</button>
+            <button class="chip" data-value="3-5">3–5</button>
+            <button class="chip" data-value="6-9">6–9</button>
+            <button class="chip" data-value="10+">10+</button>
+          </div>
+        </div>
+
+        <!-- Neighborhood -->
+        <div class="filter-group">
+          <label class="filter-group__label">📍 Neighbourhood</label>
+          <div class="filter-chips" data-filter="neighborhood">
+            <button class="chip chip--active" data-value="">All Areas</button>
+            <button class="chip" data-value="CBD">CBD</button>
+            <button class="chip" data-value="Eastern Suburbs">Eastern Suburbs</button>
+            <button class="chip" data-value="North Shore">North Shore</button>
+            <button class="chip" data-value="Inner West">Inner West</button>
+            <button class="chip" data-value="Northern Beaches">Northern Beaches</button>
+            <button class="chip" data-value="Western Sydney">Western Sydney</button>
+            <button class="chip" data-value="South Sydney">South Sydney</button>
+          </div>
+        </div>
+
+        <!-- Weekday -->
+        <div class="filter-group">
+          <label class="filter-group__label">📅 Day</label>
+          <div class="filter-chips" data-filter="day">
+            <button class="chip chip--active" data-value="">Any Day</button>
+            <button class="chip" data-value="Weekdays">Weekdays</button>
+            <button class="chip" data-value="Weekends">Weekends</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- RESULTS COUNT -->
+      <div class="results-bar">
+        <span id="results-count">Showing 15 activities</span>
+        <button class="btn btn--ghost btn--sm" id="clear-filters">Clear filters</button>
+      </div>
+
+      <!-- ACTIVITY GRID -->
+      <div class="activity-grid" id="activity-grid">
+        <!-- Populated by JS -->
+      </div>
+
+      <!-- NO RESULTS -->
+      <div class="no-results hidden" id="no-results">
+        <div class="no-results__icon">🔍</div>
+        <h3>No activities found</h3>
+        <p>Try adjusting your filters to find more adventures.</p>
+        <button class="btn btn--primary" id="no-results-clear">Clear filters</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container about__inner">
+      <div class="about__text">
+        <h2>Sydney's Favourite Family Guide</h2>
+        <p>Little Discoveries was born out of a simple idea — every Sydney family deserves an easy way to find amazing activities for their kids. We handpick the best experiences, test them ourselves, and bring them straight to you.</p>
+        <p>From rainy-day museums to sun-soaked beach adventures, we cover it all — sorted by age, neighbourhood, and day so you can stop searching and start exploring.</p>
+        <a href="#activities" class="btn btn--primary">Explore Activities</a>
+      </div>
+      <div class="about__stats">
+        <div class="stat-card">
+          <span class="stat-card__num">300+</span>
+          <span class="stat-card__label">Curated Activities</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-card__num">30+</span>
+          <span class="stat-card__label">Sydney Suburbs</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-card__num">1,500+</span>
+          <span class="stat-card__label">Happy Families</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-card__num">5⭐</span>
+          <span class="stat-card__label">Avg. Rating</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="nav__logo-icon">🗺️</span>
+        <strong>Little Discoveries</strong>
+        <p>Turning weekends in Sydney into adventures!</p>
+      </div>
+      <div class="footer__links">
+        <a href="#">About</a>
+        <a href="#">Submit Activity</a>
+        <a href="#">Contact</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+      <p class="footer__copy">© 2026 Little Discoveries. Made with ❤️ in Sydney.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
