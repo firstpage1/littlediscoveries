@@ -623,7 +623,7 @@ a { text-decoration: none; color: inherit; }
   .trusted__logos { grid-template-columns: repeat(2, 1fr); }
   .founder__inner { flex-direction: column; text-align: center; }
   .founder__mascot { width: 100px; margin: 0 auto; }
-  .hero__mascot { width: 80px; }
+  .hero__mascot { width: 120px; }
 }
 
 /* ===========================
@@ -648,7 +648,7 @@ a { text-decoration: none; color: inherit; }
 }
 .hero__title { margin-bottom: 0; }
 .hero__mascot {
-  width: 110px;
+  width: 180px;
   height: auto;
   flex-shrink: 0;
 }
@@ -757,12 +757,11 @@ a { text-decoration: none; color: inherit; }
 .review-card__author div { display: flex; flex-direction: column; }
 .review-card__author span { font-weight: 600; color: var(--muted); font-size: .8rem; }
 .review-card__photo {
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  border-radius: var(--radius-sm);
   object-fit: cover;
   flex-shrink: 0;
-  border: 2px solid var(--border);
 }
 
 /* ===========================
@@ -839,19 +838,11 @@ a { text-decoration: none; color: inherit; }
   transition: box-shadow .2s;
 }
 .why-card:hover { box-shadow: var(--shadow); }
-.why-card__icon {
-  font-size: 2rem;
-  margin-bottom: 12px;
-  width: 56px;
-  height: 56px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.why-card__icon img {
-  width: 56px;
-  height: 56px;
+.why-card__monster {
+  width: 120px;
+  height: 120px;
   object-fit: contain;
+  margin-bottom: 16px;
 }
 .why-card h3 {
   font-size: .95rem;
