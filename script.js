@@ -76,6 +76,42 @@ function formatDate(dateStr) {
 }
 
 /* ===========================
+   TAG -> EMOJI LOOKUP
+=========================== */
+const TAG_EMOJI = {
+  library:        "📚",
+  rhymetime:      "🎵",
+  storytime:      "📖",
+  babies:         "👶",
+  toddlers:       "🧒",
+  "pre-schoolers":"🌟",
+  "school holidays": "🎒",
+  workshop:       "🎨",
+  craft:          "✂️",
+  STEM:           "🔬",
+  robotics:       "🤖",
+  coding:         "💻",
+  sport:          "⚽",
+  gymnastics:     "🤸",
+  bilingual:      "🌏",
+  Auslan:         "🤟",
+  inclusive:      "🌈",
+  music:          "🎶",
+  art:            "🎨",
+  nature:         "🌿",
+  swimming:       "🏊",
+  dance:          "💃"
+};
+
+function tagsEmoji(tags) {
+  if (!tags || tags.length === 0) return "🎯";
+  for (const t of tags) {
+    if (TAG_EMOJI[t]) return TAG_EMOJI[t];
+  }
+  return "🎯";
+}
+
+/* ===========================
    RENDER
 =========================== */
 function renderCards(list) {
@@ -97,12 +133,17 @@ function renderCards(list) {
   const sorted = [...list].sort((a, b) => (b.isFeatured ? 1 : 0) - (a.isFeatured ? 1 : 0));
 
   grid.innerHTML = sorted.map((act, i) => {
-    const thumb = act.imageUrl
-      ? `<img src="${escapeHtml(act.imageUrl)}" alt="${escapeHtml(act.title)}" loading="lazy" onerror="this.parentElement.style.background='${cardGradient(i)}'; this.remove();" />`
-      : "";
+    // Thumbnail: real image if available, else gradient + emoji
+    let thumbContent;
+    if (act.imageUrl && act.imageUrl.trim() !== "") {
+      thumbContent = `<img src="${escapeHtml(act.imageUrl)}" alt="${escapeHtml(act.title)}" loading="lazy" style="width:100%;height:100%;object-fit:cover;" onerror="this.parentElement.style.background='${cardGradient(i)}'; this.outerHTML='<span style=\\'font-size:4rem;\\'>${tagsEmoji(act.tags)}</span>';" />`;
+    } else {
+      thumbContent = `<span style="font-size:4rem;">${tagsEmoji(act.tags)}</span>`;
+    }
+    const thumbStyle = (act.imageUrl && act.imageUrl.trim() !== "") ? `background: #eee` : `background: ${cardGradient(i)}`;
 
     const dateHtml = act.startDate
-      ? `<span class="tag tag--date">📆 ${formatDate(act.startDate)}${act.endDate ? " – " + formatDate(act.endDate) : ""}</span>`
+      ? `<span class="tag tag--date">📆 ${formatDate(act.startDate)}${act.endDate ? " - " + formatDate(act.endDate) : ""}</span>`
       : "";
 
     const timeHtml = act.time
@@ -121,15 +162,23 @@ function renderCards(list) {
       ? `<span class="tag tag--recurring">🔁 Recurring</span>`
       : "";
 
-    const sourceUrl = act.source || act.website;
-    const websiteBtn = sourceUrl
-      ? `<a href="${escapeHtml(sourceUrl)}" target="_blank" rel="noopener noreferrer" class="activity-card__cta">View Details →</a>`
-      : `<span class="activity-card__cta">View Details →</span>`;
+    // Link to subpage if seoSlug exists, else fall back to source URL
+    let cardUrl, websiteBtn;
+    if (act.seoSlug) {
+      cardUrl = `/littlediscoveries/${act.seoSlug}/`;
+      websiteBtn = `<a href="${cardUrl}" class="activity-card__cta">View Details →</a>`;
+    } else {
+      const sourceUrl = act.source || act.website;
+      cardUrl = sourceUrl || "#";
+      websiteBtn = sourceUrl
+        ? `<a href="${escapeHtml(sourceUrl)}" target="_blank" rel="noopener noreferrer" class="activity-card__cta">View Details →</a>`
+        : `<span class="activity-card__cta">View Details →</span>`;
+    }
 
     return `
-    <article class="activity-card${act.isFeatured ? " activity-card--featured" : ""}">
-      <div class="activity-card__thumb" style="background: ${cardGradient(i)}">
-        ${thumb}
+    <article class="activity-card${act.isFeatured ? " activity-card--featured" : ""}" onclick="location.href='${act.seoSlug ? `/littlediscoveries/${act.seoSlug}/` : (act.source || act.website || '#')}'" style="cursor:pointer;">
+      <div class="activity-card__thumb" style="${thumbStyle}">
+        ${thumbContent}
         ${featuredBadge}
       </div>
       <div class="activity-card__body">
