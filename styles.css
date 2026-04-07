@@ -414,11 +414,12 @@ a { text-decoration: none; color: inherit; }
   padding: 3px 10px;
   border-radius: 50px;
 }
-.tag--age    { background: #FFF0F5; color: #c0195e; }
-.tag--area   { background: #E8F4FD; color: #1A6DA4; }
-.tag--day    { background: #E8FBF2; color: #0F8A52; }
-.tag--online { background: #F0EEFF; color: #5B4FCF; }
-.tag--date   { background: #FFF8E1; color: #B8860B; }
+.tag--age      { background: #FFF0F5; color: #c0195e; }
+.tag--area     { background: #E8F4FD; color: #1A6DA4; }
+.tag--day      { background: #E8FBF2; color: #0F8A52; }
+.tag--online   { background: #F0EEFF; color: #5B4FCF; }
+.tag--date     { background: #FFF8E1; color: #B8860B; }
+.tag--category { background: #FFF3E0; color: #E65100; }
 
 .activity-card__title {
   font-size: 1.05rem;
@@ -631,7 +632,7 @@ a { text-decoration: none; color: inherit; }
    NAV LOGO IMAGE
 =========================== */
 .nav__logo-img {
-  height: 44px;
+  height: 56px;
   width: auto;
   display: block;
 }
@@ -747,8 +748,9 @@ a { text-decoration: none; color: inherit; }
   letter-spacing: .08em;
   color: var(--orange);
   margin-bottom: 8px;
+  text-align: center;
 }
-.reviews .section-title { margin-bottom: 40px; }
+.reviews .section-title { margin-bottom: 40px; text-align: center; }
 .reviews__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

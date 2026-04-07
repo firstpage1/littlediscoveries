@@ -189,6 +189,7 @@ function renderCards(list) {
       </div>
       <div class="activity-card__body">
         <div class="activity-card__tags">
+          ${act.category ? `<span class="tag tag--category">${escapeHtml(act.category)}</span>` : ""}
           <span class="tag tag--age">🧒 ${escapeHtml(ageLabel(act.age))}</span>
           <span class="tag tag--area">🏙️ ${escapeHtml(act.neighborhood)}</span>
           <span class="tag tag--day">📅 ${escapeHtml(dayLabel(act.day))}</span>
