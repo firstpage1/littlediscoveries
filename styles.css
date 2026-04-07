@@ -413,9 +413,11 @@ a { text-decoration: none; color: inherit; }
   padding: 3px 10px;
   border-radius: 50px;
 }
-.tag--age    { background: #FFF0E6; color: #D45D1A; }
-.tag--area   { background: #E8F4FD; color: #1A6DA4; }
-.tag--day    { background: #E8FBF2; color: #0F8A52; }
+.tag--age       { background: #FFF0E6; color: #D45D1A; }
+.tag--area      { background: #E8F4FD; color: #1A6DA4; }
+.tag--day       { background: #E8FBF2; color: #0F8A52; }
+.tag--recurring { background: #F0EEFF; color: #5B4FCF; }
+.tag--date      { background: #FFF8E1; color: #B8860B; }
 
 .activity-card__title {
   font-size: 1.05rem;
@@ -433,12 +435,40 @@ a { text-decoration: none; color: inherit; }
   margin-bottom: 16px;
 }
 
+.activity-card--featured {
+  border-color: var(--yellow);
+  box-shadow: 0 4px 20px rgba(255,209,102,.25);
+}
+
+.activity-card__featured {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: var(--yellow);
+  color: var(--dark);
+  font-size: .72rem;
+  font-weight: 800;
+  padding: 4px 10px;
+  border-radius: 50px;
+  letter-spacing: .04em;
+}
+
+.activity-card__time,
+.activity-card__address {
+  font-size: .8rem;
+  color: var(--muted);
+  font-weight: 600;
+  margin-bottom: 4px;
+  line-height: 1.4;
+}
+
 .activity-card__footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 14px;
   border-top: 1px solid var(--border);
+  margin-top: 12px;
 }
 
 .activity-card__cost {
@@ -456,6 +486,7 @@ a { text-decoration: none; color: inherit; }
   align-items: center;
   gap: 4px;
   transition: gap .15s;
+  text-decoration: none;
 }
 .activity-card:hover .activity-card__cta { gap: 8px; }
 
