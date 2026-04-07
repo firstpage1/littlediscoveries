@@ -24,7 +24,8 @@ const state = {
 function ageLabel(ageArr) {
   if (!ageArr || ageArr.length === 0) return "All Ages";
   if (ageArr.length >= 4) return "All Ages";
-  return ageArr.join(", ");
+  // Shorten the new verbose labels for the card tags
+  return ageArr.map(a => a.replace(" years)", ")")).join(", ");
 }
 
 function dayLabel(dayArr) {
@@ -120,8 +121,9 @@ function renderCards(list) {
       ? `<span class="tag tag--recurring">🔁 Recurring</span>`
       : "";
 
-    const websiteBtn = act.website
-      ? `<a href="${escapeHtml(act.website)}" target="_blank" rel="noopener noreferrer" class="activity-card__cta">View Details →</a>`
+    const sourceUrl = act.source || act.website;
+    const websiteBtn = sourceUrl
+      ? `<a href="${escapeHtml(sourceUrl)}" target="_blank" rel="noopener noreferrer" class="activity-card__cta">View Details →</a>`
       : `<span class="activity-card__cta">View Details →</span>`;
 
     return `
