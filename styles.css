@@ -762,8 +762,8 @@ a { text-decoration: none; color: inherit; }
 .review-card__author div { display: flex; flex-direction: column; }
 .review-card__author span { font-weight: 600; color: var(--muted); font-size: .8rem; }
 .review-card__photo {
-  width: 72px;
-  height: 72px;
+  width: 96px;
+  height: 96px;
   border-radius: var(--radius-sm);
   object-fit: cover;
   flex-shrink: 0;
@@ -829,6 +829,10 @@ a { text-decoration: none; color: inherit; }
   padding: 80px 0;
   background: var(--white);
 }
+.why .section-title,
+.why .section-subtitle {
+  text-align: center;
+}
 .why__grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -841,13 +845,14 @@ a { text-decoration: none; color: inherit; }
   border-radius: var(--radius-lg);
   background: var(--bg);
   transition: box-shadow .2s;
+  text-align: center;
 }
 .why-card:hover { box-shadow: var(--shadow); }
 .why-card__monster {
   width: 120px;
   height: 120px;
   object-fit: contain;
-  margin-bottom: 16px;
+  margin: 0 auto 16px;
 }
 .why-card h3 {
   font-size: .95rem;
@@ -868,6 +873,10 @@ a { text-decoration: none; color: inherit; }
 .categories {
   padding: 72px 0;
   background: var(--bg);
+}
+.categories .section-title,
+.categories .section-subtitle {
+  text-align: center;
 }
 .categories__grid {
   display: flex;
