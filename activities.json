@@ -612,5 +612,50 @@
       "camps"
     ],
     "category": "STEM"
+  },
+  {
+    "id": 16,
+    "title": "Ashfield Mall Kids Science Workshops",
+    "website": "https://www.eventbrite.com.au/e/ashfield-mall-kids-science-workshops-tickets-1984734644750",
+    "imageUrl": "https://cdn.evbuc.com/images/1179083982/643672515903/1/original.20260305-053351",
+    "description": "Hands-on science fun for little experimenters! Kids mix, fizz and create their way through experiments like bath bombs, slime, perfumes and lava lamps.",
+    "longDescription": "Get ready for science that bubbles, fizzes and glows! These school holiday workshops at Ashfield Mall let kids roll up their sleeves and dive into hands-on experiments they can actually take home.\n\nWhat kids will do:\n- Make their own bath bombs\n- Create slime and perfumes\n- Build a lava lamp\n- Explore chemical reactions in a fun, safe way\n\nBrought to you by the team at Ashfield Mall, these popular workshops sell out fast \u2014 bookings are essential. Located opposite Kmart inside the centre.",
+    "address": "Ashfield Mall, Corner of Liverpool Road & Brown Street, Ashfield NSW 2131",
+    "venue": "Ashfield Mall (opposite Kmart)",
+    "age": [
+      "Pre-schoolers (3\u20135 years)",
+      "School Kids (5\u201313 years)"
+    ],
+    "neighborhood": "Inner West",
+    "day": [
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "cost": "$5",
+    "costLabel": "per child",
+    "startDate": "2026-04-10",
+    "endDate": "2026-04-17",
+    "time": "11:00am - 2:00pm",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "ashfield-mall-kids-science-workshops",
+    "seoTitle": "Ashfield Mall Kids Science Workshops \u2013 School Holiday Science Fun Sydney",
+    "seoDescription": "Kids make bath bombs, slime, perfumes and lava lamps at Ashfield Mall these school holidays. Ages 4+, just $5 per child. Book now on Eventbrite.",
+    "isFeatured": false,
+    "isRecurring": false,
+    "source": "https://www.eventbrite.com.au/e/ashfield-mall-kids-science-workshops-tickets-1984734644750",
+    "tags": [
+      "science",
+      "STEM",
+      "school holidays",
+      "workshop",
+      "hands-on",
+      "slime",
+      "Inner West"
+    ],
+    "category": "STEM"
   }
 ]
