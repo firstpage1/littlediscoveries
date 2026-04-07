@@ -20,7 +20,7 @@
     "costLabel": "entry",
     "startDate": "2026-02-05",
     "endDate": "2026-04-02",
-    "time": "10:30am (20 minutes)",
+    "time": "10:30am-10:50am",
     "isOnline": false,
     "seoIndex": true,
     "seoSlug": "rhymetime-glebe-library",
@@ -51,7 +51,7 @@
       "Babies (1–2 years)",
       "Toddlers (2–3 years)"
     ],
-    "neighborhood": "South Sydney",
+    "neighborhood": "Inner West",
     "day": [
       "Wednesday"
     ],
@@ -59,7 +59,7 @@
     "costLabel": "entry",
     "startDate": "2026-02-04",
     "endDate": "2026-04-01",
-    "time": "10:30am (20 minutes)",
+    "time": "10:30am-10:50am",
     "isOnline": false,
     "seoIndex": true,
     "seoSlug": "rhymetime-surry-hills-library",
@@ -98,7 +98,7 @@
     "costLabel": "entry",
     "startDate": "2026-02-05",
     "endDate": "2026-04-02",
-    "time": "10:15am and 11:00am (20 minutes each)",
+    "time": "10:30am-10:50am",
     "isOnline": false,
     "seoIndex": true,
     "seoSlug": "rhymetime-green-square-library",
@@ -130,7 +130,7 @@
       "Babies (1–2 years)",
       "Toddlers (2–3 years)"
     ],
-    "neighborhood": "CBD",
+    "neighborhood": "South Sydney",
     "day": [
       "Tuesday"
     ],
@@ -138,7 +138,7 @@
     "costLabel": "entry",
     "startDate": "",
     "endDate": "",
-    "time": "10:30am (20 minutes)",
+    "time": "10:15am-10:35am and 11:00am-11:20am",
     "isOnline": false,
     "seoIndex": true,
     "seoSlug": "rhymetime-darling-square-library",
@@ -169,7 +169,7 @@
     "age": [
       "Pre-schoolers (3–5 years)"
     ],
-    "neighborhood": "South Sydney",
+    "neighborhood": "CBD",
     "day": [
       "Wednesday"
     ],
@@ -177,7 +177,7 @@
     "costLabel": "entry",
     "startDate": "2026-02-04",
     "endDate": "2026-04-01",
-    "time": "11:30am (30 minutes)",
+    "time": "10:30am-10:50am",
     "isOnline": false,
     "seoIndex": true,
     "seoSlug": "storytime-surry-hills-library",
@@ -206,7 +206,7 @@
     "age": [
       "Pre-schoolers (3–5 years)"
     ],
-    "neighborhood": "Inner West",
+    "neighborhood": "South Sydney",
     "day": [
       "Thursday"
     ],
@@ -214,7 +214,7 @@
     "costLabel": "entry",
     "startDate": "",
     "endDate": "2026-04-10",
-    "time": "11:30am–12:00pm (Thursdays)",
+    "time": "11:30am-12:00pm",
     "isOnline": false,
     "seoIndex": true,
     "seoSlug": "storytime-glebe-library",
@@ -244,7 +244,7 @@
     "age": [
       "Pre-schoolers (3–5 years)"
     ],
-    "neighborhood": "South Sydney",
+    "neighborhood": "Inner West",
     "day": [
       "Thursday"
     ],
@@ -252,7 +252,7 @@
     "costLabel": "entry",
     "startDate": "2026-02-05",
     "endDate": "2026-04-02",
-    "time": "11:30am (30 minutes)",
+    "time": "11:30am-12:00pm",
     "isOnline": false,
     "seoIndex": true,
     "seoSlug": "storytime-green-square-library",
@@ -282,7 +282,7 @@
     "age": [
       "Pre-schoolers (3–5 years)"
     ],
-    "neighborhood": "CBD",
+    "neighborhood": "South Sydney",
     "day": [
       "Thursday"
     ],
@@ -290,7 +290,7 @@
     "costLabel": "entry",
     "startDate": "",
     "endDate": "",
-    "time": "11:30am (30 minutes)",
+    "time": "11:30am-12:00pm",
     "isOnline": false,
     "seoIndex": true,
     "seoSlug": "bilingual-storytime-darling-square-english-mandarin",
@@ -321,7 +321,7 @@
     "age": [
       "Pre-schoolers (3–5 years)"
     ],
-    "neighborhood": "Inner West",
+    "neighborhood": "CBD",
     "day": [
       "Saturday"
     ],
@@ -329,7 +329,7 @@
     "costLabel": "entry",
     "startDate": "2026-02-05",
     "endDate": "2026-04-02",
-    "time": "11:30am–12:00pm (fortnightly Saturdays - 2nd and 4th of each month)",
+    "time": "11:30am-12:00pm",
     "isOnline": false,
     "seoIndex": true,
     "seoSlug": "auslan-english-storytime-glebe-library",
@@ -363,13 +363,13 @@
       "Toddlers (2–3 years)",
       "Pre-schoolers (3–5 years)"
     ],
-    "neighborhood": "Eastern Suburbs",
+    "neighborhood": "Inner West",
     "day": [],
     "cost": "Free",
     "costLabel": "entry",
     "startDate": "",
     "endDate": "",
-    "time": "",
+    "time": "11:30am-12:00pm",
     "isOnline": false,
     "seoIndex": true,
     "seoSlug": "rainbow-families-storytime-kings-cross",
@@ -438,7 +438,7 @@
     "age": [
       "School Kids (5–13 years)"
     ],
-    "neighborhood": "CBD",
+    "neighborhood": "Eastern Suburbs",
     "day": [
       "Monday",
       "Tuesday",
