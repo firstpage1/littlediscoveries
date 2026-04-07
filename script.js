@@ -29,8 +29,14 @@ function ageLabel(ageArr) {
 }
 
 function dayLabel(dayArr) {
-  if (!dayArr || dayArr.length >= 2) return "Any Day";
-  return dayArr[0];
+  if (!dayArr || dayArr.length === 0) return "Any Day";
+  if (dayArr.length === 7) return "Any Day";
+  if (dayArr.length === 5 &&
+      ["Monday","Tuesday","Wednesday","Thursday","Friday"].every(d => dayArr.includes(d)))
+    return "Mon - Fri";
+  const abbr = { Monday:"Mon", Tuesday:"Tue", Wednesday:"Wed", Thursday:"Thu",
+                 Friday:"Fri", Saturday:"Sat", Sunday:"Sun" };
+  return dayArr.map(d => abbr[d] || d).join(", ");
 }
 
 function escapeHtml(str) {

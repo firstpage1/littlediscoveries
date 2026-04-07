@@ -8,9 +8,14 @@
     "longDescription": "Rhymetime at Glebe Library is a free weekly session designed especially for babies and toddlers aged 0–2 years and their carers. The 20-minute program fosters a love of reading and helps develop important early literacy skills and social interaction. Sessions start promptly at 10:30am during school term - no bookings required, just arrive a little early.\n\n* Free entry - no bookings required\n* Builds early literacy skills through singing and fingerplay\n* A wonderful way for babies and toddlers to socialise\n* Runs weekly during school term (no sessions during NSW school or public holidays)\n* Sessions start promptly at 10:30am - please allow time for arrival",
     "address": "186–194 Glebe Point Road, Glebe NSW 2037",
     "venue": "Glebe Library",
-    "age": ["Babies (1–2 years)", "Toddlers (2–3 years)"],
+    "age": [
+      "Babies (1–2 years)",
+      "Toddlers (2–3 years)"
+    ],
     "neighborhood": "Inner West",
-    "day": ["Weekdays"],
+    "day": [
+      "Thursday"
+    ],
     "cost": "Free",
     "costLabel": "entry",
     "startDate": "2026-02-05",
@@ -24,7 +29,14 @@
     "isFeatured": false,
     "isRecurring": true,
     "source": "https://whatson.cityofsydney.nsw.gov.au/events/rhymetime-glebe-library-0-2-years",
-    "tags": ["library", "rhymetime", "babies", "toddlers", "free", "Inner West"]
+    "tags": [
+      "library",
+      "rhymetime",
+      "babies",
+      "toddlers",
+      "free",
+      "Inner West"
+    ]
   },
   {
     "id": 2,
@@ -35,9 +47,14 @@
     "longDescription": "Rhymetime at Surry Hills Library is a free, drop-in weekly session for babies and toddlers aged 0–2 years and their carers. The 20-minute program combines singing, fingerplay and rhymes to foster a love of reading and develop early literacy skills. Sessions start promptly at 10:30am - no bookings required.\n\n* Free entry - no bookings required\n* Develops early literacy and social skills through songs and fingerplay\n* Great way for babies and toddlers to connect with other little ones\n* Weekly during school term (no sessions during NSW school or public holidays)\n* Sessions start promptly at 10:30am - please allow time for arrival",
     "address": "405 Crown Street, Surry Hills NSW 2010",
     "venue": "Surry Hills Library",
-    "age": ["Babies (1–2 years)", "Toddlers (2–3 years)"],
+    "age": [
+      "Babies (1–2 years)",
+      "Toddlers (2–3 years)"
+    ],
     "neighborhood": "South Sydney",
-    "day": ["Weekdays"],
+    "day": [
+      "Wednesday"
+    ],
     "cost": "Free",
     "costLabel": "entry",
     "startDate": "2026-02-04",
@@ -51,7 +68,14 @@
     "isFeatured": false,
     "isRecurring": true,
     "source": "https://whatson.cityofsydney.nsw.gov.au/events/rhymetime-surry-hills-library-0-2-years",
-    "tags": ["library", "rhymetime", "babies", "toddlers", "free", "Surry Hills"]
+    "tags": [
+      "library",
+      "rhymetime",
+      "babies",
+      "toddlers",
+      "free",
+      "Surry Hills"
+    ]
   },
   {
     "id": 3,
@@ -62,9 +86,14 @@
     "longDescription": "Rhymetime at Green Square Library offers two free weekly sessions for babies and toddlers aged 0–2 years and their carers. At 10:15am and 11:00am each week, the 20-minute sessions combine singing, fingerplay and rhymes to build early literacy skills and encourage social interaction. No bookings required - simply arrive a little early.\n\n* Free entry - no bookings required\n* Two session times available: 10:15am and 11:00am\n* Singing and fingerplay to develop early literacy skills\n* A fun, social outing for babies, toddlers and carers\n* Weekly during school term (no sessions during NSW school or public holidays)",
     "address": "355 Botany Road, Zetland NSW 2017",
     "venue": "Green Square Library",
-    "age": ["Babies (1–2 years)", "Toddlers (2–3 years)"],
+    "age": [
+      "Babies (1–2 years)",
+      "Toddlers (2–3 years)"
+    ],
     "neighborhood": "South Sydney",
-    "day": ["Weekdays"],
+    "day": [
+      "Wednesday"
+    ],
     "cost": "Free",
     "costLabel": "entry",
     "startDate": "2026-02-05",
@@ -78,7 +107,15 @@
     "isFeatured": false,
     "isRecurring": true,
     "source": "https://whatson.cityofsydney.nsw.gov.au/events/rhymetime-green-square-library",
-    "tags": ["library", "rhymetime", "babies", "toddlers", "free", "Green Square", "Zetland"]
+    "tags": [
+      "library",
+      "rhymetime",
+      "babies",
+      "toddlers",
+      "free",
+      "Green Square",
+      "Zetland"
+    ]
   },
   {
     "id": 4,
@@ -89,9 +126,14 @@
     "longDescription": "Rhymetime at Darling Square Library is a free weekly drop-in session for babies and toddlers aged 0–2 years and their carers, held inside the modern Darling Exchange Building in Haymarket. The 20-minute sessions use singing, fingerplay and rhymes to foster a love of reading and develop early literacy skills and social interaction. Sessions start promptly at 10:30am - no bookings required.\n\n* Free entry - no bookings required\n* Interactive singing and fingerplay for babies and toddlers\n* Builds early literacy skills and encourages social interaction\n* Located at the modern Darling Square Library, Haymarket\n* Weekly during school term (no sessions during NSW school or public holidays)",
     "address": "1 Little Pier Street (Level 1–2, Darling Exchange Building), Haymarket NSW 2000",
     "venue": "Darling Square Library",
-    "age": ["Babies (1–2 years)", "Toddlers (2–3 years)"],
+    "age": [
+      "Babies (1–2 years)",
+      "Toddlers (2–3 years)"
+    ],
     "neighborhood": "CBD",
-    "day": ["Weekdays"],
+    "day": [
+      "Tuesday"
+    ],
     "cost": "Free",
     "costLabel": "entry",
     "startDate": "",
@@ -105,7 +147,15 @@
     "isFeatured": false,
     "isRecurring": true,
     "source": "https://whatson.cityofsydney.nsw.gov.au/events/rhymetime-at-darling-square-library-0-2-years",
-    "tags": ["library", "rhymetime", "babies", "toddlers", "free", "CBD", "Haymarket"]
+    "tags": [
+      "library",
+      "rhymetime",
+      "babies",
+      "toddlers",
+      "free",
+      "CBD",
+      "Haymarket"
+    ]
   },
   {
     "id": 5,
@@ -116,9 +166,13 @@
     "longDescription": "Storytime at Surry Hills Library is a free, fun and interactive 30-minute session for pre-schoolers aged 3–5 years and their carers. Each week, children enjoy stories and songs that foster a love of reading and develop the early literacy skills and social interaction they need before starting school. Sessions start promptly at 11:30am - no bookings required.\n\n* Free entry - no bookings required\n* Stories and songs to build early literacy and school-readiness\n* Encourages social interaction and a lifelong love of reading\n* 30-minute sessions starting promptly at 11:30am\n* Weekly during school term (no sessions during NSW school or public holidays)",
     "address": "405 Crown Street, Surry Hills NSW 2010",
     "venue": "Surry Hills Library",
-    "age": ["Pre-schoolers (3–5 years)"],
+    "age": [
+      "Pre-schoolers (3–5 years)"
+    ],
     "neighborhood": "South Sydney",
-    "day": ["Weekdays"],
+    "day": [
+      "Wednesday"
+    ],
     "cost": "Free",
     "costLabel": "entry",
     "startDate": "2026-02-04",
@@ -132,7 +186,13 @@
     "isFeatured": false,
     "isRecurring": true,
     "source": "https://whatson.cityofsydney.nsw.gov.au/events/storytime-surry-hills-library-3-5-years",
-    "tags": ["library", "storytime", "pre-schoolers", "free", "Surry Hills"]
+    "tags": [
+      "library",
+      "storytime",
+      "pre-schoolers",
+      "free",
+      "Surry Hills"
+    ]
   },
   {
     "id": 6,
@@ -143,9 +203,13 @@
     "longDescription": "Storytime at Glebe Library is a free weekly session held every Thursday for pre-schoolers aged 3–5 years and their carers. The 30-minute sessions combine reading stories and singing songs to foster a love of reading and develop the early literacy skills children need before starting school. No bookings required - simply arrive a little early as sessions start promptly.\n\n* Free entry - no bookings required\n* Weekly Thursdays during school term\n* Stories and songs for pre-schoolers aged 3 to 5\n* Builds school-readiness literacy and social skills\n* 30-minute sessions - please arrive promptly",
     "address": "186–194 Glebe Point Road, Glebe NSW 2037",
     "venue": "Glebe Library",
-    "age": ["Pre-schoolers (3–5 years)"],
+    "age": [
+      "Pre-schoolers (3–5 years)"
+    ],
     "neighborhood": "Inner West",
-    "day": ["Weekdays"],
+    "day": [
+      "Thursday"
+    ],
     "cost": "Free",
     "costLabel": "entry",
     "startDate": "",
@@ -159,7 +223,14 @@
     "isFeatured": false,
     "isRecurring": true,
     "source": "https://whatson.cityofsydney.nsw.gov.au/events/storytime-glebe-library-3-5-years",
-    "tags": ["library", "storytime", "pre-schoolers", "free", "Glebe", "Inner West"]
+    "tags": [
+      "library",
+      "storytime",
+      "pre-schoolers",
+      "free",
+      "Glebe",
+      "Inner West"
+    ]
   },
   {
     "id": 7,
@@ -170,9 +241,13 @@
     "longDescription": "Storytime at Green Square Library is a free, interactive weekly session for pre-schoolers aged 3–5 years and their carers. Over 30 minutes, children enjoy stories and songs that develop early literacy skills and social interaction - building the foundations they need before starting school. Sessions start promptly at 11:30am. No bookings required.\n\n* Free entry - no bookings required\n* Interactive stories and songs every week during school term\n* Develops literacy, social skills and school-readiness\n* 30-minute sessions starting promptly at 11:30am\n* No sessions during NSW school or public holidays",
     "address": "355 Botany Road, Zetland NSW 2017",
     "venue": "Green Square Library",
-    "age": ["Pre-schoolers (3–5 years)"],
+    "age": [
+      "Pre-schoolers (3–5 years)"
+    ],
     "neighborhood": "South Sydney",
-    "day": ["Weekdays"],
+    "day": [
+      "Thursday"
+    ],
     "cost": "Free",
     "costLabel": "entry",
     "startDate": "2026-02-05",
@@ -186,7 +261,14 @@
     "isFeatured": false,
     "isRecurring": true,
     "source": "https://whatson.cityofsydney.nsw.gov.au/events/storytime-green-square-library",
-    "tags": ["library", "storytime", "pre-schoolers", "free", "Green Square", "Zetland"]
+    "tags": [
+      "library",
+      "storytime",
+      "pre-schoolers",
+      "free",
+      "Green Square",
+      "Zetland"
+    ]
   },
   {
     "id": 8,
@@ -197,9 +279,13 @@
     "longDescription": "Bilingual Storytime at Darling Square Library is a free weekly session for pre-schoolers aged 3–5 years and their carers. Stories, songs and rhymes are delivered in both English and Mandarin, supporting early literacy development, nurturing Mandarin language knowledge, and providing a wonderful cultural exchange for the whole family. Sessions start promptly at 11:30am and run for 30 minutes during school term. No bookings required.\n\n* Free entry - no bookings required\n* Stories, songs and rhymes in both English and Mandarin\n* Supports early literacy and Mandarin language development\n* A wonderful cultural exchange for the whole family\n* Weekly during school term - sessions start promptly at 11:30am",
     "address": "1 Little Pier Street (Level 1–2, Darling Exchange Building), Haymarket NSW 2000",
     "venue": "Darling Square Library",
-    "age": ["Pre-schoolers (3–5 years)"],
+    "age": [
+      "Pre-schoolers (3–5 years)"
+    ],
     "neighborhood": "CBD",
-    "day": ["Weekdays"],
+    "day": [
+      "Thursday"
+    ],
     "cost": "Free",
     "costLabel": "entry",
     "startDate": "",
@@ -213,7 +299,15 @@
     "isFeatured": true,
     "isRecurring": true,
     "source": "https://whatson.cityofsydney.nsw.gov.au/events/bilingual-storytime-darling-square-library",
-    "tags": ["library", "storytime", "bilingual", "Mandarin", "pre-schoolers", "free", "CBD"]
+    "tags": [
+      "library",
+      "storytime",
+      "bilingual",
+      "Mandarin",
+      "pre-schoolers",
+      "free",
+      "CBD"
+    ]
   },
   {
     "id": 9,
@@ -224,9 +318,13 @@
     "longDescription": "Auslan and English Storytime at Glebe Library is a free, inclusive fortnightly session presented by library staff and Deaf Connect. Designed for both deaf and hearing children aged 3–5 years, the session fosters a love of reading and develops literacy skills and social interaction. Stories are told in both Auslan and English. Sessions run on the 2nd and 4th Saturday of each month during school term, from 11:30am to 12:00pm. No bookings required but numbers are limited - arrive early to secure your place. Parents and guardians must stay during the session.\n\n* Free entry - no bookings required (arrive early, numbers are limited)\n* Welcoming for both deaf and hearing children aged 3–5\n* Stories in Auslan and English, presented with Deaf Connect\n* Builds literacy skills and encourages social interaction\n* Fortnightly Saturdays (2nd and 4th of each month) during school term",
     "address": "186–194 Glebe Point Road, Glebe NSW 2037",
     "venue": "Glebe Library",
-    "age": ["Pre-schoolers (3–5 years)"],
+    "age": [
+      "Pre-schoolers (3–5 years)"
+    ],
     "neighborhood": "Inner West",
-    "day": ["Weekends"],
+    "day": [
+      "Saturday"
+    ],
     "cost": "Free",
     "costLabel": "entry",
     "startDate": "2026-02-05",
@@ -240,7 +338,16 @@
     "isFeatured": true,
     "isRecurring": true,
     "source": "https://whatson.cityofsydney.nsw.gov.au/events/auslan-and-english-storytime-glebe-library",
-    "tags": ["library", "storytime", "Auslan", "inclusive", "pre-schoolers", "free", "Glebe", "weekend"]
+    "tags": [
+      "library",
+      "storytime",
+      "Auslan",
+      "inclusive",
+      "pre-schoolers",
+      "free",
+      "Glebe",
+      "weekend"
+    ]
   },
   {
     "id": 10,
@@ -251,9 +358,13 @@
     "longDescription": "Rainbow Families Storytime at Kings Cross Library is a free, inclusive event for children aged 0–5 years and their carers, celebrating Mardi Gras through the joy of storytelling. Led by library staff, the session features LGBTIQA+-themed stories exploring themes of love, family, community and friendship - followed by a fun craft activity for everyone. A warm, welcoming session for all families.\n\n* Free entry - open to all families\n* LGBTIQA+-themed stories of love, family, community and friendship\n* Celebrates Mardi Gras with an inclusive, joyful atmosphere\n* Followed by a creative craft activity for children\n* Suitable for children aged 0–5 years and their carers",
     "address": "50–52 Darlinghurst Road, Potts Point NSW 2011",
     "venue": "Kings Cross Library",
-    "age": ["Babies (1–2 years)", "Toddlers (2–3 years)", "Pre-schoolers (3–5 years)"],
+    "age": [
+      "Babies (1–2 years)",
+      "Toddlers (2–3 years)",
+      "Pre-schoolers (3–5 years)"
+    ],
     "neighborhood": "Eastern Suburbs",
-    "day": ["Weekdays", "Weekends"],
+    "day": [],
     "cost": "Free",
     "costLabel": "entry",
     "startDate": "",
@@ -267,7 +378,15 @@
     "isFeatured": false,
     "isRecurring": false,
     "source": "https://whatson.cityofsydney.nsw.gov.au/events/rainbow-families-storytime-0-5-years",
-    "tags": ["library", "storytime", "inclusive", "Mardi Gras", "craft", "free", "Potts Point"]
+    "tags": [
+      "library",
+      "storytime",
+      "inclusive",
+      "Mardi Gras",
+      "craft",
+      "free",
+      "Potts Point"
+    ]
   },
   {
     "id": 11,
@@ -278,9 +397,13 @@
     "longDescription": "Pop-up Book Houses is a free school holiday workshop at Kings Cross Library where children aged 5–8 learn to create their very own three-dimensional pop-up book that unfolds into a miniature dollhouse. Led by library staff, every material, tool and step of guidance is included. Places are limited so bookings are essential. Parents and guardians must sign in and stay within the library for the duration of the activity.\n\n* Free entry - bookings essential (places are limited)\n* Children create their own 3D pop-up book that unfolds into a dollhouse\n* All materials, tools and guidance provided by library staff\n* Suitable for children aged 5–8 years\n* Parents or guardians must stay within the library space",
     "address": "50–52 Darlinghurst Road, Potts Point NSW 2011",
     "venue": "Kings Cross Library",
-    "age": ["School Kids (5–13 years)"],
+    "age": [
+      "School Kids (5–13 years)"
+    ],
     "neighborhood": "Eastern Suburbs",
-    "day": ["Weekdays"],
+    "day": [
+      "Tuesday"
+    ],
     "cost": "Free",
     "costLabel": "bookings essential",
     "startDate": "2026-01-13",
@@ -294,7 +417,14 @@
     "isFeatured": true,
     "isRecurring": false,
     "source": "https://whatson.cityofsydney.nsw.gov.au/events/school-holidays-pop-up-book-houses-5-8-years-kings-cross",
-    "tags": ["school holidays", "workshop", "craft", "library", "free", "Potts Point"]
+    "tags": [
+      "school holidays",
+      "workshop",
+      "craft",
+      "library",
+      "free",
+      "Potts Point"
+    ]
   },
   {
     "id": 12,
@@ -305,9 +435,17 @@
     "longDescription": "Maker and Creator is a free two-hour school holiday workshop at the Darling Square Library makerspace, designed for curious kids aged 8–12. Children get hands-on with the latest makerspace kits and electronic gadgets, with different activities each session. Expect robot battles with Edison bots, Sphero and Ozobot challenges, wind tube experiments and LED circuit building with conductive tape. Parents and guardians must stay within the library during the session.\n\n* Free entry - check the event page for available session dates\n* Hands-on with Spheros, Ozobots, Edison robots and more\n* Battle it out with robots and light up LEDs using conductive tape\n* Make things fly in the wind tube - different activities each session\n* Parents or guardians must stay within the library space",
     "address": "1 Little Pier Street (Level 1–2, Darling Exchange Building), Haymarket NSW 2000",
     "venue": "Darling Square Library",
-    "age": ["School Kids (5–13 years)"],
+    "age": [
+      "School Kids (5–13 years)"
+    ],
     "neighborhood": "CBD",
-    "day": ["Weekdays", "Weekends"],
+    "day": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
     "cost": "Free",
     "costLabel": "entry",
     "startDate": "",
@@ -321,7 +459,15 @@
     "isFeatured": true,
     "isRecurring": false,
     "source": "https://whatson.cityofsydney.nsw.gov.au/events/school-holiday-maker-and-creator-8-12-years",
-    "tags": ["school holidays", "STEM", "robotics", "makerspace", "technology", "free", "CBD"]
+    "tags": [
+      "school holidays",
+      "STEM",
+      "robotics",
+      "makerspace",
+      "technology",
+      "free",
+      "CBD"
+    ]
   },
   {
     "id": 13,
@@ -332,9 +478,17 @@
     "longDescription": "Creative Coding: Code & Create is a free school holiday workshop at the Darling Square Library Makerspace for kids aged 8–12. This beginner-level session, led by experienced creative coder Jared Berghold, introduces fundamental coding skills through making. Participants use code to generate their own printable artwork they take home. No prior coding experience required. Parents and guardians must stay within the library.\n\n* Free entry - check the event page for available session dates\n* Beginner-friendly - no coding experience required\n* Led by Jared Berghold, a creative coder with 15+ years of experience\n* Kids use code to generate printable artwork to take home\n* Parents or guardians must stay within the library space",
     "address": "1 Little Pier Street (Level 1–2, Darling Exchange Building), Haymarket NSW 2000",
     "venue": "Darling Square Library",
-    "age": ["School Kids (5–13 years)"],
+    "age": [
+      "School Kids (5–13 years)"
+    ],
     "neighborhood": "CBD",
-    "day": ["Weekdays", "Weekends"],
+    "day": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
     "cost": "Free",
     "costLabel": "entry",
     "startDate": "",
@@ -348,7 +502,15 @@
     "isFeatured": false,
     "isRecurring": false,
     "source": "https://whatson.cityofsydney.nsw.gov.au/events/school-holidays-creative-coding-for-kids-8-12yrs",
-    "tags": ["school holidays", "coding", "technology", "art", "creative", "free", "CBD"]
+    "tags": [
+      "school holidays",
+      "coding",
+      "technology",
+      "art",
+      "creative",
+      "free",
+      "CBD"
+    ]
   },
   {
     "id": 14,
@@ -359,9 +521,17 @@
     "longDescription": "PCYC City of Sydney runs structured full-day and half-day school holiday programs for school-aged children at their Woolloomooloo centre. Programs are delivered by qualified coaches and cover a wide range of activities including laser tag, multi-sport, gymnastics, boxing, painting, dance, crafts, coding and skateboarding. Active and Creative Kids vouchers are accepted for eligible activities. Located opposite the Domain Carpark in the heart of the city.\n\n* Full day program: 9am–3pm (drop-off from 8am, pick-up until 4pm)\n* Wide variety of activities: laser tag, gymnastics, boxing, coding, skateboarding and more\n* Run by qualified coaches with experience working with young people\n* Active and Creative Kids vouchers accepted\n* Suitable for primary and high school aged children",
     "address": "51 Cathedral Street, Woolloomooloo NSW 2011",
     "venue": "PCYC City of Sydney–Woolloomooloo",
-    "age": ["School Kids (5–13 years)"],
+    "age": [
+      "School Kids (5–13 years)"
+    ],
     "neighborhood": "Eastern Suburbs",
-    "day": ["Weekdays"],
+    "day": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
     "cost": "Paid",
     "costLabel": "Active & Creative Kids vouchers accepted",
     "startDate": "",
@@ -375,7 +545,14 @@
     "isFeatured": false,
     "isRecurring": true,
     "source": "https://whatson.cityofsydney.nsw.gov.au/events/pcyc-school-holiday-activities",
-    "tags": ["school holidays", "sport", "gymnastics", "arts", "coding", "Woolloomooloo"]
+    "tags": [
+      "school holidays",
+      "sport",
+      "gymnastics",
+      "arts",
+      "coding",
+      "Woolloomooloo"
+    ]
   },
   {
     "id": 15,
@@ -386,9 +563,18 @@
     "longDescription": "Code Camp inspires kids to get creative with technology these holidays. Children learn valuable new skills, have loads of fun and make new friends through a wide range of in-person camps, including coding, robotics, stop-motion animation, DJing and more. Popular programs include Minecraft Engineers (ages 7–12), Minecraft Minis (ages 5–7), Roblox Legends (ages 7–10) and Robotics Camps (ages 7–12). Camps run 9:30am to 3:30pm with extended hours available at selected venues.\n\n* Coding, robotics, Minecraft, Roblox, DJing and stop-motion animation camps\n* Suitable for children aged 5–12 years\n* 9:30am–3:30pm (drop-off from 9am, pick-up until 3:45pm)\n* Extended hours 8am–5pm available at selected venues\n* Use code WOS25 when booking to save $25 on your child's camp",
     "address": "",
     "venue": "Various Sydney locations",
-    "age": ["Pre-schoolers (3–5 years)", "School Kids (5–13 years)"],
+    "age": [
+      "Pre-schoolers (3–5 years)",
+      "School Kids (5–13 years)"
+    ],
     "neighborhood": "CBD",
-    "day": ["Weekdays"],
+    "day": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
     "cost": "Paid",
     "costLabel": "save $25 with code WOS25",
     "startDate": "",
@@ -402,6 +588,14 @@
     "isFeatured": false,
     "isRecurring": true,
     "source": "https://whatson.cityofsydney.nsw.gov.au/events/tech-and-creative-holiday-camps-for-ages-5-12",
-    "tags": ["school holidays", "coding", "robotics", "technology", "Minecraft", "Roblox", "camps"]
+    "tags": [
+      "school holidays",
+      "coding",
+      "robotics",
+      "technology",
+      "Minecraft",
+      "Roblox",
+      "camps"
+    ]
   }
 ]
