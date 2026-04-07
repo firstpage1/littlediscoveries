@@ -30,9 +30,46 @@
     .detail-body ul { padding-left:20px; }
     .detail-body li { font-size:.95rem; color:var(--mid); line-height:1.7; margin-bottom:6px; }
     .detail-body p { font-size:.95rem; color:var(--mid); line-height:1.7; margin-bottom:12px; }
-    .detail-cta { background:var(--orange); color:var(--white); border-radius:var(--radius-lg); padding:32px; text-align:center; margin-top:40px; }
-    .detail-cta h3 { font-size:1.3rem; font-weight:900; margin-bottom:8px; }
-    .detail-cta p { opacity:.9; margin-bottom:20px; }
+    .detail-cta {
+      background: var(--white);
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 36px 40px;
+      margin-top: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 32px;
+      flex-wrap: wrap;
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: hidden;
+    }
+    .detail-cta::before {
+      content: "";
+      position: absolute;
+      left: 0; top: 0; bottom: 0;
+      width: 5px;
+      background: linear-gradient(180deg, #ff85a1, #f94d85, #c0195e);
+    }
+    .detail-cta__body { flex: 1; min-width: 220px; }
+    .detail-cta__label {
+      font-size: .72rem; font-weight: 900; text-transform: uppercase;
+      letter-spacing: .08em; color: var(--orange); margin-bottom: 8px;
+    }
+    .detail-cta h3 {
+      font-size: 1.4rem; font-weight: 900; color: var(--dark);
+      margin-bottom: 8px; line-height: 1.2;
+    }
+    .detail-cta p { font-size: .9rem; color: var(--muted); margin: 0; font-weight: 600; }
+    .detail-cta__action { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; flex-shrink: 0; }
+    .detail-cta__note { font-size: .75rem; color: var(--muted); font-weight: 700; }
+    @media (max-width: 600px) {
+      .detail-cta { flex-direction: column; padding: 28px 24px; }
+      .detail-cta::before { width: 100%; height: 5px; bottom: auto; right: 0; }
+      .detail-cta__action { width: 100%; }
+      .detail-cta__action .btn { width: 100%; justify-content: center; }
+    }
     .geo-summary { display:none; }
   </style>
 </head>
@@ -72,9 +109,15 @@
       </div>
       <p>Luna Park Sydney has been delighting families since 1935 and sits in one of the most spectacular locations in the world — right on the harbour at Milsons Point with sweeping views of the Sydney Harbour Bridge and Opera House.</p><h2>What's on offer:</h2><ul><li>Classic rides and thrill rides for all ages</li><li>Toddler and junior rides for little ones</li><li>Carnival games and fairy floss</li><li>Stunning harbour and bridge views</li><li>Special school holiday events and entertainment</li><li>Combine with a ferry ride for extra fun</li></ul>
       <div class="detail-cta">
-        <h3>Plan Your Visit</h3>
-        <p>Check the website for current prices, hours and booking details.</p>
-        <a href="https://www.lunaparksydney.com" target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--lg">Visit Website →</a>
+        <div class="detail-cta__body">
+          <p class="detail-cta__label">Ready to go?</p>
+          <h3>Plan Your Visit</h3>
+          <p>Find the latest details, prices and booking info on the official page.</p>
+        </div>
+        <div class="detail-cta__action">
+          <a href="https://www.lunaparksydney.com" target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--lg">Visit Official Website →</a>
+          <span class="detail-cta__note">Check website for latest prices &amp; hours</span>
+        </div>
       </div>
       <div class="geo-summary">Activity: Luna Park Sydney. Location: 1 Olympic Drive, Milsons Point NSW 2061. Neighbourhood: North Shore. Cost: From $25. Category: Festivals.</div>
     </div>
