@@ -135,8 +135,13 @@ function renderCards(list) {
   noResults.classList.add("hidden");
   countEl.textContent = `Showing ${list.length} activit${list.length === 1 ? "y" : "ies"}`;
 
-  // Featured first
-  const sorted = [...list].sort((a, b) => (b.isFeatured ? 1 : 0) - (a.isFeatured ? 1 : 0));
+  // Free first, paid at bottom; within each group featured first
+  const sorted = [...list].sort((a, b) => {
+    const aFree = (a.cost === "Free" || a.cost === "free" || a.costLabel === "Free") ? 0 : 1;
+    const bFree = (b.cost === "Free" || b.cost === "free" || b.costLabel === "Free") ? 0 : 1;
+    if (aFree !== bFree) return aFree - bFree;
+    return (b.isFeatured ? 1 : 0) - (a.isFeatured ? 1 : 0);
+  });
 
   grid.innerHTML = sorted.map((act, i) => {
     // Thumbnail: real image if available, else gradient + emoji
