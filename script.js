@@ -15,7 +15,7 @@ async function loadActivities() {
 const state = {
   age: "",
   neighborhood: "",
-  day: ""
+  days: []  // array — multi-select
 };
 
 /* ===========================
@@ -150,16 +150,16 @@ function renderCards(list) {
       ? `<div class="activity-card__time">🕐 ${escapeHtml(act.time)}</div>`
       : "";
 
-    const addressHtml = act.address
-      ? `<div class="activity-card__address">📍 ${escapeHtml(act.address)}</div>`
+    const venueHtml = act.venue
+      ? `<div class="activity-card__address">📍 ${escapeHtml(act.venue)}</div>`
       : "";
 
     const featuredBadge = act.isFeatured
       ? `<div class="activity-card__featured">⭐ Featured</div>`
       : "";
 
-    const recurringBadge = act.isRecurring
-      ? `<span class="tag tag--recurring">🔁 Recurring</span>`
+    const onlineBadge = act.isOnline
+      ? `<span class="tag tag--online">💻 Online</span>`
       : "";
 
     // Link to subpage if seoSlug exists, else fall back to source URL
@@ -186,13 +186,13 @@ function renderCards(list) {
           <span class="tag tag--age">🧒 ${escapeHtml(ageLabel(act.age))}</span>
           <span class="tag tag--area">🏙️ ${escapeHtml(act.neighborhood)}</span>
           <span class="tag tag--day">📅 ${escapeHtml(dayLabel(act.day))}</span>
-          ${recurringBadge}
+          ${onlineBadge}
           ${dateHtml}
         </div>
         <h3 class="activity-card__title">${escapeHtml(act.title)}</h3>
         <p class="activity-card__desc">${escapeHtml(act.description)}</p>
         ${timeHtml}
-        ${addressHtml}
+        ${venueHtml}
         <div class="activity-card__footer">
           <div class="activity-card__cost">
             ${escapeHtml(act.cost)} <span>${escapeHtml(act.costLabel)}</span>
@@ -208,12 +208,12 @@ function renderCards(list) {
    FILTER
 =========================== */
 function applyFilters() {
-  const { age, neighborhood, day } = state;
+  const { age, neighborhood, days } = state;
 
   const filtered = activities.filter(act => {
     const ageMatch = !age || (act.age && act.age.includes(age));
     const neighborhoodMatch = !neighborhood || act.neighborhood === neighborhood;
-    const dayMatch = !day || (act.day && act.day.includes(day));
+    const dayMatch = days.length === 0 || (act.day && days.some(d => act.day.includes(d)));
     return ageMatch && neighborhoodMatch && dayMatch;
   });
 
@@ -223,7 +223,7 @@ function applyFilters() {
 function resetFilters() {
   state.age = "";
   state.neighborhood = "";
-  state.day = "";
+  state.days = [];
 
   document.querySelectorAll(".filter-chips").forEach(group => {
     group.querySelectorAll(".chip").forEach(chip => {
@@ -242,9 +242,31 @@ function bindEvents() {
     const filterKey = group.dataset.filter;
     group.querySelectorAll(".chip").forEach(chip => {
       chip.addEventListener("click", () => {
-        group.querySelectorAll(".chip").forEach(c => c.classList.remove("chip--active"));
-        chip.classList.add("chip--active");
-        state[filterKey] = chip.dataset.value;
+        if (filterKey === "day") {
+          const val = chip.dataset.value;
+          if (val === "") {
+            // "Any Day" clears all
+            group.querySelectorAll(".chip").forEach(c => c.classList.remove("chip--active"));
+            chip.classList.add("chip--active");
+            state.days = [];
+          } else {
+            group.querySelector('[data-value=""]').classList.remove("chip--active");
+            chip.classList.toggle("chip--active");
+            const active = chip.classList.contains("chip--active");
+            if (active) {
+              state.days.push(val);
+            } else {
+              state.days = state.days.filter(d => d !== val);
+            }
+            if (state.days.length === 0) {
+              group.querySelector('[data-value=""]').classList.add("chip--active");
+            }
+          }
+        } else {
+          group.querySelectorAll(".chip").forEach(c => c.classList.remove("chip--active"));
+          chip.classList.add("chip--active");
+          state[filterKey] = chip.dataset.value;
+        }
         applyFilters();
       });
     });

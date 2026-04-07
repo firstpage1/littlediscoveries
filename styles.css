@@ -413,11 +413,11 @@ a { text-decoration: none; color: inherit; }
   padding: 3px 10px;
   border-radius: 50px;
 }
-.tag--age       { background: #FFF0E6; color: #D45D1A; }
-.tag--area      { background: #E8F4FD; color: #1A6DA4; }
-.tag--day       { background: #E8FBF2; color: #0F8A52; }
-.tag--recurring { background: #F0EEFF; color: #5B4FCF; }
-.tag--date      { background: #FFF8E1; color: #B8860B; }
+.tag--age    { background: #FFF0F5; color: #c0195e; }
+.tag--area   { background: #E8F4FD; color: #1A6DA4; }
+.tag--day    { background: #E8FBF2; color: #0F8A52; }
+.tag--online { background: #F0EEFF; color: #5B4FCF; }
+.tag--date   { background: #FFF8E1; color: #B8860B; }
 
 .activity-card__title {
   font-size: 1.05rem;
