@@ -3,7 +3,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Little Discoveries - Sydney Family Activities</title>
+  <title>Little Discoveries - Sydney Family Activities | Free and Paid Kids Events in Sydney</title>
+  <meta name="description" content="Find 300+ family activities across Sydney. Filter by age, neighbourhood and day. Free and paid events for babies, toddlers, pre-schoolers and school kids." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://firstpage1.github.io/littlediscoveries/" />
+  <meta property="og:title" content="Little Discoveries - Sydney Family Activities" />
+  <meta property="og:description" content="Find 300+ family activities across Sydney. Filter by age, neighbourhood and day. Free and paid events for families." />
+  <meta property="og:url" content="https://firstpage1.github.io/littlediscoveries/" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Little Discoveries",
+    "url": "https://firstpage1.github.io/littlediscoveries/",
+    "description": "Sydney's guide to the best family activities for babies, toddlers, pre-schoolers and school kids. Filter by age, neighbourhood and day of the week.",
+    "publisher": { "@type": "Organization", "name": "Little Discoveries" }
+  }
+  </script>
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,9 +32,8 @@
   <!-- NAV -->
   <header class="nav">
     <div class="nav__inner container">
-      <a href="#" class="nav__logo">
-        <span class="nav__logo-icon">🗺️</span>
-        <span>Little Discoveries</span>
+      <a href="/littlediscoveries/" class="nav__logo">
+        <img src="/littlediscoveries/images/logo.svg" alt="Little Discoveries" class="nav__logo-img" />
       </a>
       <nav class="nav__links">
         <a href="#activities">Activities</a>
@@ -35,7 +52,10 @@
     </div>
     <div class="container hero__inner">
       <div class="hero__badge">✨ Sydney's #1 Family Activity Guide</div>
-      <h1 class="hero__title">Little Discoveries</h1>
+      <div class="hero__title-row">
+        <h1 class="hero__title">Little Discoveries</h1>
+        <img src="/littlediscoveries/images/mascot.svg" alt="Little Discoveries mascot" class="hero__mascot" />
+      </div>
       <p class="hero__subtitle">Turning weekends in Sydney into adventures!</p>
       <a href="#activities" class="btn btn--primary btn--lg">Find Activities →</a>
     </div>
@@ -135,6 +155,120 @@
     </div>
   </section>
 
+  <!-- NEWSLETTER -->
+  <section class="newsletter">
+    <div class="container newsletter__inner">
+      <div class="newsletter__text">
+        <h2>What's On This Weekend?</h2>
+        <p>Join 1,200+ Sydney parents who get the best events in their inbox ♡</p>
+      </div>
+      <form class="newsletter__form" onsubmit="return false;">
+        <input type="email" placeholder="Your email" class="newsletter__input" aria-label="Your email address" />
+        <button type="submit" class="btn btn--primary">Join Now</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews" id="reviews">
+    <div class="container">
+      <p class="reviews__label">Why families love Little Discoveries</p>
+      <h2 class="section-title">It's Made Family Time Easy (And Fun)</h2>
+      <div class="reviews__grid">
+        <div class="review-card">
+          <p class="review-card__label">IT'S MADE FAMILY TIME EASY (AND FUN)</p>
+          <p class="review-card__quote">"We've lived here for years, but through Little Discoveries I've found new parks, activities, and even storytime events nearby. I love that I don't have to scroll through five different websites. It's all in one place, easy to use, and perfect when I'm out and about with the kids."</p>
+          <div class="review-card__stars">⭐⭐⭐⭐⭐</div>
+          <div class="review-card__author"><strong>Nicole Sokol</strong> | Mum of 2 kids</div>
+        </div>
+        <div class="review-card">
+          <p class="review-card__label">KEEPS ME IN THE KNOW (AND IN FAVOURITE AUNT STATUS)</p>
+          <p class="review-card__quote">"Little Discoveries helps me find fun things to do with the kids like beach festivals or craft mornings. It's an easy way to stay in the loop and keep up my fun aunt status 😊"</p>
+          <div class="review-card__stars">⭐⭐⭐⭐⭐</div>
+          <div class="review-card__author"><strong>Hayley Jay</strong> | Aunty of 2 kids</div>
+        </div>
+        <div class="review-card">
+          <p class="review-card__label">EVERY WEEKEND SORTED</p>
+          <p class="review-card__quote">"I used to spend so much time scrolling trying to figure out what to do with the kids. Now I just check Little Discoveries and boom: events, places, and activities all in one spot. It's our weekend go-to."</p>
+          <div class="review-card__stars">⭐⭐⭐⭐⭐</div>
+          <div class="review-card__author"><strong>Priscilla Koukoui</strong> | Mum of twins</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOUNDER -->
+  <section class="founder">
+    <div class="container founder__inner">
+      <img src="/littlediscoveries/images/mascot.svg" alt="" class="founder__mascot" aria-hidden="true" />
+      <div class="founder__content">
+        <p class="founder__label">Built by a Sydney Mum, for Sydney Families</p>
+        <h2 class="founder__title">I Was That Parent Googling 10 Tabs.</h2>
+        <blockquote class="founder__quote">"Hi, I'm a mum from Bondi who got tired of Googling 10 tabs every weekend. So I built the site I wish existed."</blockquote>
+        <p class="founder__attribution">Patricia Haueiss | Founder of Little Discoveries</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY -->
+  <section class="why">
+    <div class="container">
+      <h2 class="section-title">Where Great Days Begin</h2>
+      <p class="section-subtitle">Created by parents, for parents. With ideas that spark joy, not stress.</p>
+      <div class="why__grid">
+        <div class="why-card">
+          <div class="why-card__icon">🗺️</div>
+          <h3>Discover Cool Kids Friendly Places</h3>
+          <p>Uncover hidden gems and parent-approved spots that turn an ordinary afternoon into a "can we go again?" kind of day, without the endless Googling.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-card__icon">🎉</div>
+          <h3>Make It a Real-Life Adventure</h3>
+          <p>Step away from the screen and into a hands-on experience. Think crafty workshops, festivals or play zones. You might even bump into other awesome families while you're at it.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-card__icon">📅</div>
+          <h3>Year-Round Kid-Approved Ideas</h3>
+          <p>From rainy-day rescues to sunny park days, discover age-appropriate picks whether you're parenting a toddler tornado or a cool tween.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-card__icon">💬</div>
+          <h3>Real Tips from Real Families</h3>
+          <p>No tourist traps or fluff, just honest advice from fellow parents who've tested the waters (and the playgrounds) before you.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section class="categories">
+    <div class="container">
+      <h2 class="section-title">Activities We Feature</h2>
+      <p class="section-subtitle">Activities to suit every interest and energy level.</p>
+      <div class="categories__grid">
+        <div class="category-pill">🎨 Arts &amp; Crafts</div>
+        <div class="category-pill">⚽ Sports</div>
+        <div class="category-pill">🎵 Music</div>
+        <div class="category-pill">🎪 Festivals</div>
+        <div class="category-pill">🔬 STEM</div>
+        <div class="category-pill">🌿 Outdoor Adventures</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUSTED SOURCES -->
+  <section class="trusted">
+    <div class="container">
+      <h2 class="trusted__title">Discover events from trusted sources</h2>
+      <div class="trusted__logos">
+        <div class="trusted-logo">NSW<br/>Government</div>
+        <div class="trusted-logo">Waverley<br/>Council</div>
+        <div class="trusted-logo">Randwick<br/>City Council</div>
+        <div class="trusted-logo">City of<br/>Sydney</div>
+      </div>
+    </div>
+  </section>
+
   <!-- ABOUT -->
   <section class="about" id="about">
     <div class="container about__inner">
@@ -169,8 +303,7 @@
   <footer class="footer">
     <div class="container footer__inner">
       <div class="footer__brand">
-        <span class="nav__logo-icon">🗺️</span>
-        <strong>Little Discoveries</strong>
+        <img src="/littlediscoveries/images/logo.svg" alt="Little Discoveries" class="footer__logo" />
         <p>Turning weekends in Sydney into adventures!</p>
       </div>
       <div class="footer__links">

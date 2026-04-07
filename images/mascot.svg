@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" width="200" height="250">
+
+  <!-- Orange spikes / fins on back (behind body) -->
+  <polygon points="40,140 20,100 55,130" fill="#FF6B35"/>
+  <polygon points="40,110 15,70 52,100" fill="#FF8C5A"/>
+  <polygon points="42,80 22,42 56,72" fill="#FF6B35"/>
+  <polygon points="48,55 32,18 60,46" fill="#FF8C5A"/>
+
+  <!-- Tail -->
+  <ellipse cx="38" cy="195" rx="22" ry="14" fill="#FFD166" transform="rotate(-30 38 195)"/>
+  <ellipse cx="28" cy="215" rx="14" ry="10" fill="#FFBE0B" transform="rotate(-45 28 215)"/>
+
+  <!-- Main body - rounded yellow oval -->
+  <ellipse cx="115" cy="165" rx="68" ry="72" fill="#FFD166"/>
+
+  <!-- Head - round yellow circle sitting on top of body -->
+  <circle cx="115" cy="88" r="52" fill="#FFD166"/>
+
+  <!-- Inner face area - slightly lighter -->
+  <ellipse cx="115" cy="95" rx="38" ry="32" fill="#FFE566"/>
+
+  <!-- Eyes - large cute dark eyes -->
+  <circle cx="100" cy="82" r="13" fill="#1C1C2E"/>
+  <circle cx="130" cy="82" r="13" fill="#1C1C2E"/>
+  <!-- Eye shine -->
+  <circle cx="105" cy="77" r="4" fill="white"/>
+  <circle cx="135" cy="77" r="4" fill="white"/>
+  <!-- Small extra shine -->
+  <circle cx="97" cy="84" r="2" fill="white"/>
+  <circle cx="127" cy="84" r="2" fill="white"/>
+
+  <!-- Smile - curved happy mouth -->
+  <path d="M 100 108 Q 115 122 130 108" stroke="#1C1C2E" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Blush circles (cute rosy cheeks) -->
+  <circle cx="86" cy="100" r="9" fill="#FFB3C6" opacity="0.6"/>
+  <circle cx="144" cy="100" r="9" fill="#FFB3C6" opacity="0.6"/>
+
+  <!-- Little arms / stubs -->
+  <ellipse cx="60" cy="158" rx="14" ry="22" fill="#FFD166" transform="rotate(-20 60 158)"/>
+  <ellipse cx="170" cy="158" rx="14" ry="22" fill="#FFD166" transform="rotate(20 170 158)"/>
+
+  <!-- Feet / legs -->
+  <ellipse cx="95" cy="232" rx="22" ry="14" fill="#FFBE0B"/>
+  <ellipse cx="135" cy="232" rx="22" ry="14" fill="#FFBE0B"/>
+
+  <!-- Toe lines -->
+  <line x1="83" y1="232" x2="80" y2="244" stroke="#FF8C5A" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="95" y1="234" x2="95" y2="246" stroke="#FF8C5A" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="107" y1="232" x2="110" y2="244" stroke="#FF8C5A" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="123" y1="232" x2="120" y2="244" stroke="#FF8C5A" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="135" y1="234" x2="135" y2="246" stroke="#FF8C5A" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="147" y1="232" x2="150" y2="244" stroke="#FF8C5A" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Small nostrils -->
+  <circle cx="109" cy="100" r="2.5" fill="#E8A800" opacity="0.7"/>
+  <circle cx="121" cy="100" r="2.5" fill="#E8A800" opacity="0.7"/>
+
+</svg>
