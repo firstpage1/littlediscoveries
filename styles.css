@@ -624,6 +624,7 @@ a { text-decoration: none; color: inherit; }
   .categories__grid { grid-template-columns: repeat(2, 1fr); }
   .trusted__logos { grid-template-columns: repeat(2, 1fr); }
   .founder__inner { flex-direction: column; text-align: center; }
+  .founder__photo { width: 100%; max-width: 320px; height: 300px; margin: 0 auto; }
   .founder__mascot { width: 100px; margin: 0 auto; }
   .hero__mascot { width: 120px; }
 }
@@ -814,10 +815,11 @@ a { text-decoration: none; color: inherit; }
   gap: 48px;
 }
 .founder__photo {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
+  width: 320px;
+  height: 420px;
+  border-radius: 16px;
   object-fit: cover;
+  object-position: top center;
   flex-shrink: 0;
   border: 4px solid var(--white);
   box-shadow: var(--shadow-lg);
