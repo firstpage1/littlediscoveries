@@ -504,6 +504,13 @@ a { text-decoration: none; color: inherit; }
 
 .hidden { display: none !important; }
 
+/* SHOW MORE */
+.show-more-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0 20px;
+}
+
 /* ===========================
    ABOUT
 =========================== */

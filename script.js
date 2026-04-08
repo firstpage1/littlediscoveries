@@ -12,10 +12,13 @@ async function loadActivities() {
 /* ===========================
    STATE
 =========================== */
+const PAGE_SIZE = 15;
+
 const state = {
   age: "",
   neighborhood: "",
-  days: []  // array — multi-select
+  days: [],  // array — multi-select
+  visibleCount: PAGE_SIZE
 };
 
 /* ===========================
@@ -133,7 +136,6 @@ function renderCards(list) {
   }
 
   noResults.classList.add("hidden");
-  countEl.textContent = `Showing ${list.length} activit${list.length === 1 ? "y" : "ies"}`;
 
   // Free first, paid at bottom; within each group featured first
   const sorted = [...list].sort((a, b) => {
@@ -143,7 +145,12 @@ function renderCards(list) {
     return (b.isFeatured ? 1 : 0) - (a.isFeatured ? 1 : 0);
   });
 
-  grid.innerHTML = sorted.map((act, i) => {
+  const visible = sorted.slice(0, state.visibleCount);
+  const hasMore = sorted.length > state.visibleCount;
+
+  countEl.textContent = `Showing ${visible.length} of ${list.length} activit${list.length === 1 ? "y" : "ies"}`;
+
+  grid.innerHTML = visible.map((act, i) => {
     // Thumbnail: real image if available, else gradient + emoji
     let thumbContent;
     if (act.imageUrl && act.imageUrl.trim() !== "") {
@@ -214,6 +221,29 @@ function renderCards(list) {
       </div>
     </article>`;
   }).join("");
+
+  // Show More button
+  let showMoreBtn = document.getElementById("show-more-btn");
+  if (!showMoreBtn) {
+    showMoreBtn = document.createElement("div");
+    showMoreBtn.id = "show-more-btn";
+    showMoreBtn.className = "show-more-wrap";
+    showMoreBtn.innerHTML = `<button class="btn btn--primary btn--lg" id="show-more">Show More Activities</button>`;
+    grid.after(showMoreBtn);
+
+    document.getElementById("show-more").addEventListener("click", () => {
+      const prevCount = state.visibleCount;
+      state.visibleCount += PAGE_SIZE;
+      applyFilters();
+      // Scroll to first newly revealed card
+      const cards = document.querySelectorAll(".activity-card");
+      if (cards[prevCount]) {
+        cards[prevCount].scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    });
+  }
+
+  showMoreBtn.style.display = hasMore ? "flex" : "none";
 }
 
 /* ===========================
@@ -236,6 +266,7 @@ function resetFilters() {
   state.age = "";
   state.neighborhood = "";
   state.days = [];
+  state.visibleCount = PAGE_SIZE;
 
   document.querySelectorAll(".filter-chips").forEach(group => {
     group.querySelectorAll(".chip").forEach(chip => {
@@ -254,6 +285,7 @@ function bindEvents() {
     const filterKey = group.dataset.filter;
     group.querySelectorAll(".chip").forEach(chip => {
       chip.addEventListener("click", () => {
+        state.visibleCount = PAGE_SIZE;
         if (filterKey === "day") {
           const val = chip.dataset.value;
           if (val === "") {
