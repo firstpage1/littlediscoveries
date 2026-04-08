@@ -1005,7 +1005,7 @@
     "cost": "Free",
     "costLabel": "entry",
     "isOnline": false,
-    "seoIndex": false,
+    "seoIndex": true,
     "isFeatured": false,
     "isRecurring": true,
     "category": "Playground",
@@ -1015,7 +1015,8 @@
       "water play",
       "Darling Harbour",
       "CBD"
-    ]
+    ],
+    "seoSlug": "darling-quarter-playground-sydney"
   },
   {
     "id": 25,
@@ -1085,7 +1086,7 @@
     "cost": "Free",
     "costLabel": "entry",
     "isOnline": false,
-    "seoIndex": false,
+    "seoIndex": true,
     "isFeatured": false,
     "isRecurring": true,
     "category": "Outdoors",
@@ -1096,7 +1097,8 @@
       "scavenger hunt",
       "CBD",
       "harbour"
-    ]
+    ],
+    "seoSlug": "royal-botanic-garden-sydney"
   },
   {
     "id": 27,
@@ -1125,7 +1127,7 @@
     "cost": "Free",
     "costLabel": "entry",
     "isOnline": false,
-    "seoIndex": false,
+    "seoIndex": true,
     "isFeatured": false,
     "isRecurring": true,
     "category": "Beach",
@@ -1135,7 +1137,8 @@
       "swimming",
       "Eastern Suburbs",
       "iconic"
-    ]
+    ],
+    "seoSlug": "bondi-beach-sydney"
   },
   {
     "id": 28,
@@ -1162,7 +1165,7 @@
     "cost": "Free",
     "costLabel": "entry",
     "isOnline": false,
-    "seoIndex": false,
+    "seoIndex": true,
     "isFeatured": false,
     "isRecurring": true,
     "category": "Outdoors",
@@ -1172,7 +1175,8 @@
       "free",
       "Eastern Suburbs",
       "beaches"
-    ]
+    ],
+    "seoSlug": "bondi-to-coogee-coastal-walk"
   },
   {
     "id": 29,
@@ -1201,7 +1205,7 @@
     "cost": "Free",
     "costLabel": "entry",
     "isOnline": false,
-    "seoIndex": false,
+    "seoIndex": true,
     "isFeatured": false,
     "isRecurring": true,
     "category": "Beach",
@@ -1212,7 +1216,8 @@
       "North Shore",
       "toddlers",
       "swimming"
-    ]
+    ],
+    "seoSlug": "balmoral-beach-north-shore"
   },
   {
     "id": 30,
@@ -1241,7 +1246,7 @@
     "cost": "Free",
     "costLabel": "entry (bike hire extra)",
     "isOnline": false,
-    "seoIndex": false,
+    "seoIndex": true,
     "isFeatured": false,
     "isRecurring": true,
     "category": "Outdoors",
@@ -1251,7 +1256,8 @@
       "free",
       "Western Sydney",
       "water play"
-    ]
+    ],
+    "seoSlug": "sydney-olympic-park-family"
   },
   {
     "id": 31,
@@ -1280,7 +1286,7 @@
     "cost": "Free",
     "costLabel": "entry",
     "isOnline": false,
-    "seoIndex": false,
+    "seoIndex": true,
     "isFeatured": false,
     "isRecurring": true,
     "category": "Park",
@@ -1290,7 +1296,8 @@
       "free",
       "Western Sydney",
       "playground"
-    ]
+    ],
+    "seoSlug": "parramatta-park-western-sydney"
   },
   {
     "id": 32,
@@ -1318,7 +1325,7 @@
     "cost": "Free",
     "costLabel": "entry",
     "isOnline": false,
-    "seoIndex": false,
+    "seoIndex": true,
     "isFeatured": false,
     "isRecurring": true,
     "category": "Playground",
@@ -1328,7 +1335,8 @@
       "Inner West",
       "climbing",
       "sandpit"
-    ]
+    ],
+    "seoSlug": "camperdown-memorial-rest-park"
   },
   {
     "id": 33,
@@ -1356,7 +1364,7 @@
     "cost": "Free",
     "costLabel": "entry",
     "isOnline": false,
-    "seoIndex": false,
+    "seoIndex": true,
     "isFeatured": false,
     "isRecurring": true,
     "category": "Park",
@@ -1366,7 +1374,8 @@
       "free",
       "Inner West",
       "playground"
-    ]
+    ],
+    "seoSlug": "birchgrove-park-balmain"
   },
   {
     "id": 34,
@@ -1393,7 +1402,7 @@
     "cost": "$25",
     "costLabel": "canoe hire",
     "isOnline": false,
-    "seoIndex": false,
+    "seoIndex": true,
     "isFeatured": false,
     "isRecurring": true,
     "category": "Outdoors",
@@ -1403,7 +1412,8 @@
       "nature",
       "North Shore",
       "wildlife"
-    ]
+    ],
+    "seoSlug": "lane-cove-national-park-sydney"
   },
   {
     "id": 35,
@@ -1424,7 +1434,7 @@
     "cost": "$75",
     "costLabel": "per lesson",
     "isOnline": false,
-    "seoIndex": false,
+    "seoIndex": true,
     "isFeatured": false,
     "isRecurring": true,
     "category": "Sport",
@@ -1434,7 +1444,8 @@
       "Northern Beaches",
       "Manly",
       "beach"
-    ]
+    ],
+    "seoSlug": "manly-surf-school"
   },
   {
     "id": 36,
@@ -1461,7 +1472,7 @@
     "cost": "Free",
     "costLabel": "entry",
     "isOnline": false,
-    "seoIndex": false,
+    "seoIndex": true,
     "isFeatured": false,
     "isRecurring": true,
     "category": "Wildlife",
@@ -1472,7 +1483,8 @@
       "Northern Beaches",
       "Manly",
       "free"
-    ]
+    ],
+    "seoSlug": "north-head-sanctuary-manly"
   },
   {
     "id": 37,
@@ -1499,7 +1511,7 @@
     "cost": "$29",
     "costLabel": "per adult",
     "isOnline": false,
-    "seoIndex": false,
+    "seoIndex": true,
     "isFeatured": false,
     "isRecurring": true,
     "category": "Attraction",
@@ -1509,7 +1521,8 @@
       "CBD",
       "4D cinema",
       "attraction"
-    ]
+    ],
+    "seoSlug": "sydney-tower-eye"
   },
   {
     "id": 38,
@@ -1536,7 +1549,7 @@
     "cost": "$8",
     "costLabel": "vehicle entry",
     "isOnline": false,
-    "seoIndex": false,
+    "seoIndex": true,
     "isFeatured": false,
     "isRecurring": true,
     "category": "Outdoors",
@@ -1546,7 +1559,8 @@
       "Aboriginal",
       "rock art",
       "North Shore"
-    ]
+    ],
+    "seoSlug": "ku-ring-gai-chase-national-park"
   },
   {
     "id": 39,
@@ -1575,7 +1589,7 @@
     "cost": "$9",
     "costLabel": "per child",
     "isOnline": false,
-    "seoIndex": false,
+    "seoIndex": true,
     "isFeatured": false,
     "isRecurring": true,
     "category": "Swimming",
@@ -1585,7 +1599,8 @@
       "pool",
       "North Shore",
       "Ryde"
-    ]
+    ],
+    "seoSlug": "ryde-aquatic-leisure-centre"
   },
   {
     "id": 40,
@@ -1611,7 +1626,7 @@
     "cost": "$18",
     "costLabel": "per adult",
     "isOnline": false,
-    "seoIndex": false,
+    "seoIndex": true,
     "isFeatured": false,
     "isRecurring": true,
     "category": "Museum",
@@ -1621,7 +1636,8 @@
       "convict",
       "UNESCO",
       "CBD"
-    ]
+    ],
+    "seoSlug": "hyde-park-barracks-museum"
   },
   {
     "id": 41,
@@ -1645,7 +1661,7 @@
     "cost": "$45",
     "costLabel": "per workshop",
     "isOnline": false,
-    "seoIndex": false,
+    "seoIndex": true,
     "isFeatured": false,
     "isRecurring": true,
     "category": "Arts",
@@ -1656,7 +1672,8 @@
       "Inner West",
       "Rozelle",
       "workshop"
-    ]
+    ],
+    "seoSlug": "circus-arts-sydney-rozelle"
   },
   {
     "id": 42,
@@ -1683,7 +1700,7 @@
     "cost": "Free",
     "costLabel": "entry",
     "isOnline": false,
-    "seoIndex": false,
+    "seoIndex": true,
     "isFeatured": false,
     "isRecurring": true,
     "category": "Playground",
@@ -1693,7 +1710,8 @@
       "free",
       "Western Sydney",
       "Fairfield"
-    ]
+    ],
+    "seoSlug": "fairfield-adventure-park-sydney"
   },
   {
     "id": 43,
@@ -1720,7 +1738,7 @@
     "cost": "$20",
     "costLabel": "per hour",
     "isOnline": false,
-    "seoIndex": false,
+    "seoIndex": true,
     "isFeatured": false,
     "isRecurring": true,
     "category": "Active",
@@ -1730,7 +1748,8 @@
       "sport",
       "Western Sydney",
       "foam pit"
-    ]
+    ],
+    "seoSlug": "bounce-inc-trampoline-park-sydney"
   },
   {
     "id": 44,
@@ -1754,7 +1773,7 @@
     "costLabel": "entry",
     "time": "10am-4pm",
     "isOnline": false,
-    "seoIndex": false,
+    "seoIndex": true,
     "isFeatured": false,
     "isRecurring": true,
     "category": "Markets",
@@ -1765,7 +1784,8 @@
       "Glebe",
       "Saturday",
       "food"
-    ]
+    ],
+    "seoSlug": "glebe-markets-sydney"
   },
   {
     "id": 45,
@@ -1792,7 +1812,7 @@
     "cost": "Free",
     "costLabel": "entry (parking fee)",
     "isOnline": false,
-    "seoIndex": false,
+    "seoIndex": true,
     "isFeatured": false,
     "isRecurring": true,
     "category": "Outdoors",
@@ -1803,6 +1823,7 @@
       "day trip",
       "Western Sydney",
       "free"
-    ]
+    ],
+    "seoSlug": "blue-mountains-echo-point-sydney"
   }
 ]
