@@ -455,6 +455,25 @@ a { text-decoration: none; color: inherit; }
   letter-spacing: .04em;
 }
 
+.activity-card--editors-choice {
+  border-color: #f94d85;
+  box-shadow: 0 6px 28px rgba(249,77,133,.18);
+}
+
+.activity-card__editors-choice {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: linear-gradient(135deg, #f94d85 0%, #ff8c42 100%);
+  color: #fff;
+  font-size: .72rem;
+  font-weight: 800;
+  padding: 4px 12px;
+  border-radius: 50px;
+  letter-spacing: .04em;
+  box-shadow: 0 2px 8px rgba(249,77,133,.35);
+}
+
 .activity-card__time,
 .activity-card__address {
   font-size: .8rem;

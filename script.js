@@ -137,8 +137,11 @@ function renderCards(list) {
 
   noResults.classList.add("hidden");
 
-  // Free first, paid at bottom; within each group featured first
+  // Editor's choice first, then free before paid, then featured
   const sorted = [...list].sort((a, b) => {
+    const aEC = a.editorsChoice ? 0 : 1;
+    const bEC = b.editorsChoice ? 0 : 1;
+    if (aEC !== bEC) return aEC - bEC;
     const aFree = (a.cost === "Free" || a.cost === "free" || a.costLabel === "Free") ? 0 : 1;
     const bFree = (b.cost === "Free" || b.cost === "free" || b.costLabel === "Free") ? 0 : 1;
     if (aFree !== bFree) return aFree - bFree;
@@ -172,7 +175,9 @@ function renderCards(list) {
       ? `<div class="activity-card__address">📍 ${escapeHtml(act.venue)}</div>`
       : "";
 
-    const featuredBadge = act.isFeatured
+    const featuredBadge = act.editorsChoice
+      ? `<div class="activity-card__editors-choice">✨ Editor's Choice</div>`
+      : act.isFeatured
       ? `<div class="activity-card__featured">⭐ Featured</div>`
       : "";
 
@@ -194,7 +199,7 @@ function renderCards(list) {
     }
 
     return `
-    <article class="activity-card${act.isFeatured ? " activity-card--featured" : ""}" onclick="location.href='${act.seoSlug ? `/littlediscoveries/${act.seoSlug}/` : (act.source || act.website || '#')}'" style="cursor:pointer;">
+    <article class="activity-card${act.editorsChoice ? " activity-card--editors-choice" : act.isFeatured ? " activity-card--featured" : ""}" onclick="location.href='${act.seoSlug ? `/littlediscoveries/${act.seoSlug}/` : (act.source || act.website || '#')}'" style="cursor:pointer;">
       <div class="activity-card__thumb" style="${thumbStyle}">
         ${thumbContent}
         ${featuredBadge}

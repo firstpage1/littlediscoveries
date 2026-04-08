@@ -800,7 +800,8 @@
       "picnic",
       "cycling"
     ],
-    "category": "Outdoor Adventures"
+    "category": "Outdoor Adventures",
+    "editorsChoice": true
   },
   {
     "id": 20,
@@ -976,7 +977,8 @@
       "free",
       "Western Sydney",
       "kids lab"
-    ]
+    ],
+    "editorsChoice": true
   },
   {
     "id": 24,
@@ -1019,7 +1021,8 @@
       "CBD",
       "kids cooking",
       "cupcakes"
-    ]
+    ],
+    "editorsChoice": true
   },
   {
     "id": 25,
@@ -1206,7 +1209,8 @@
       "North Shore",
       "rangers",
       "wildlife"
-    ]
+    ],
+    "editorsChoice": true
   },
   {
     "id": 30,
@@ -1427,7 +1431,8 @@
       "Darling Harbour",
       "family film",
       "no bookings"
-    ]
+    ],
+    "editorsChoice": true
   },
   {
     "id": 36,
@@ -1800,6 +1805,7 @@
       "Western Sydney",
       "Parramatta",
       "theatre"
-    ]
+    ],
+    "editorsChoice": true
   }
 ]
