@@ -670,5 +670,63 @@
     "seoSlug": "magical-butterfly-house-ryde-library",
     "seoTitle": "Magical Butterfly House – Free School Holiday Activity at Ryde Library 2026 | Little Discoveries",
     "seoDescription": "Explore the world of butterflies at Ryde Library on Friday 10 April 2026. Free, bookings essential. Ages 7+. City of Ryde school holiday program."
+  },
+  {
+    "id": 32,
+    "title": "Bondi Firelight – Free Family Bonfire Night",
+    "description": "A free, alcohol-free community bonfire evening on Bondi Beach with fire twirlers, live music, toasted marshmallows, and entertainment for the whole family. BYO picnic rug.",
+    "longDescription": "Grab a picnic rug and head to Bondi Beach South for Bondi Firelight — a magical free community evening hosted by Waverley Council.\n\nFrom 5:45pm, enjoy:\n\n* A roaring community bonfire on the sand\n* Fire twirlers and live chill music\n* Toasted marshmallows\n* Roving entertainment\n* A relaxed, alcohol-free atmosphere\n\nFamilies are encouraged to bring a picnic rug, low chair, and musical instruments. No bookings required — just show up and soak in the Bondi atmosphere. One of the most iconic free family nights Sydney has to offer.",
+    "venue": "Bondi Beach South",
+    "address": "Bondi Beach South, Bondi Beach NSW 2026",
+    "neighborhood": "Eastern Suburbs",
+    "category": "Festivals",
+    "day": [
+      "Thursday"
+    ],
+    "time": "From 5:45pm",
+    "startDate": "2026-04-09",
+    "endDate": "2026-04-09",
+    "cost": "Free",
+    "costLabel": "free, no bookings needed",
+    "age": [
+      "Toddlers (2–3 years)",
+      "Pre-schoolers (3–5 years)",
+      "School Kids (5–13 years)"
+    ],
+    "imageUrl": "https://images.pexels.com/photos/7207568/pexels-photo-7207568.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "website": "https://www.waverley.nsw.gov.au/recreation/events/events/bondi_firelight",
+    "source": "https://www.waverley.nsw.gov.au/recreation/events/events/bondi_firelight",
+    "seoSlug": "bondi-firelight-family-bonfire-night",
+    "seoTitle": "Bondi Firelight – Free Family Bonfire Night at Bondi Beach | Little Discoveries",
+    "seoDescription": "Free community bonfire at Bondi Beach South on Thursday 9 April 2026. Fire twirlers, live music, toasted marshmallows — alcohol-free family fun. No bookings."
+  },
+  {
+    "id": 33,
+    "title": "Movies in the Park – Kung Fu Panda 4",
+    "description": "Free outdoor screening of Kung Fu Panda 4 at Waverley Park under the stars. BYO picnic blanket and snacks — free popcorn provided. No bookings needed.",
+    "longDescription": "Pack your picnic blanket and head to Waverley Park for a free outdoor screening of Kung Fu Panda 4 — part of Waverley Council's 2026 Movies in the Park series.\n\nArrive early to grab a good spot on the grass as the park fills up fast. Credits roll at dusk.\n\n* Free entry — no bookings required\n* Free popcorn provided\n* BYO picnic, blankets, and low chairs\n* Family-friendly, all-ages atmosphere\n* Set in the heart of Waverley, Eastern Suburbs\n\nOne of Sydney's best free family traditions under the stars.",
+    "venue": "Waverley Park",
+    "address": "Waverley Park, Waverley NSW 2024",
+    "neighborhood": "Eastern Suburbs",
+    "category": "Film",
+    "day": [
+      "Saturday"
+    ],
+    "time": "From 5:00pm (arrive early, credits roll at dusk)",
+    "startDate": "2026-04-11",
+    "endDate": "2026-04-11",
+    "cost": "Free",
+    "costLabel": "free, no bookings needed, free popcorn",
+    "age": [
+      "Toddlers (2–3 years)",
+      "Pre-schoolers (3–5 years)",
+      "School Kids (5–13 years)"
+    ],
+    "imageUrl": "https://images.pexels.com/photos/6521574/pexels-photo-6521574.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "website": "https://www.waverley.nsw.gov.au/recreation/events/events/movies_in_the_park",
+    "source": "https://www.waverley.nsw.gov.au/recreation/events/events/movies_in_the_park",
+    "seoSlug": "movies-in-the-park-kung-fu-panda-waverley",
+    "seoTitle": "Movies in the Park – Kung Fu Panda 4 at Waverley Park | Free Family Night | Little Discoveries",
+    "seoDescription": "Free outdoor screening of Kung Fu Panda 4 at Waverley Park on Saturday 11 April 2026. Free popcorn, no bookings needed. BYO picnic."
   }
 ]
