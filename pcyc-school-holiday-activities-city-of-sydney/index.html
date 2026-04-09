@@ -4,14 +4,18 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>PCYC School Holiday Activities Woolloomooloo | Kids Holiday Program Sydney | Little Discoveries</title>
-  <meta name="description" content="Full and half-day school holiday programs at PCYC Woolloomooloo - sport, arts, coding and more for school-aged kids. Active and Creative Kids vouchers accepted." />
+  <meta name="description" content="Full and half-day school holiday programs at PCYC Woolloomooloo - sport, arts, coding and more for school-aged kids. Active & Creative Kids vouchers accepted." />
+  <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://firstpage1.github.io/littlediscoveries/pcyc-school-holiday-activities-city-of-sydney/" />
   <meta property="og:title" content="PCYC School Holiday Activities Woolloomooloo | Kids Holiday Program Sydney | Little Discoveries" />
-  <meta property="og:description" content="Full and half-day school holiday programs at PCYC Woolloomooloo - sport, arts, coding and more for school-aged kids. Active and Creative Kids vouchers accepted." />
+  <meta property="og:description" content="Full and half-day school holiday programs at PCYC Woolloomooloo - sport, arts, coding and more for school-aged kids. Active & Creative Kids vouchers accepted." />
+  <meta property="og:image" content="https://images.pexels.com/photos/7207568/pexels-photo-7207568.jpeg?auto=compress&cs=tinysrgb&w=800" />
   <meta property="og:url" content="https://firstpage1.github.io/littlediscoveries/pcyc-school-holiday-activities-city-of-sydney/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Little Discoveries" />
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="PCYC School Holiday Activities Woolloomooloo | Kids Holiday Program Sydney | Little Discoveries" />
+  <meta name="twitter:description" content="Full and half-day school holiday programs at PCYC Woolloomooloo - sport, arts, coding and more for school-aged kids. Active & Creative Kids vouchers accepted." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
@@ -21,11 +25,13 @@
     "@type": "Event",
     "name": "PCYC School Holiday Activities - City of Sydney",
     "description": "Safe, fun and affordable full-day school holiday programs for school-aged children at PCYC Woolloomooloo - sport, arts, crafts, coding, laser tag and more. Active and Creative Kids vouchers accepted.",
+    "startDate": "",
+    "endDate": "",
     "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
     "eventStatus": "https://schema.org/EventScheduled",
     "location": {
       "@type": "Place",
-      "name": "PCYC City of Sydney - Woolloomooloo",
+      "name": "PCYC City of Sydney–Woolloomooloo",
       "address": "51 Cathedral Street, Woolloomooloo NSW 2011"
     },
     "organizer": {
@@ -36,14 +42,25 @@
     "url": "https://firstpage1.github.io/littlediscoveries/pcyc-school-holiday-activities-city-of-sydney/",
     "offers": {
       "@type": "Offer",
+      "price": "0",
       "priceCurrency": "AUD",
       "availability": "https://schema.org/InStock"
+    },
+    "audience": {
+      "@type": "Audience",
+      "audienceType": "School Kids (5–13 years)"
     }
   }
   </script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    :root { --primary: #f94d85; --orange: #f94d85; --yellow: #FFD166; --dark: #1C1C2E; --mid: #4A4A6A; --muted: #8888AA; --bg: #FFF9F5; --white: #FFFFFF; --border: #EDE8E3; --radius: 14px; --radius-lg: 22px; --shadow: 0 4px 20px rgba(0,0,0,.10); }
+    :root {
+      --primary: #f94d85; --orange: #f94d85; --yellow: #FFD166;
+      --dark: #1C1C2E; --mid: #4A4A6A; --muted: #8888AA;
+      --bg: #FFF9F5; --white: #FFFFFF; --border: #EDE8E3;
+      --radius: 14px; --radius-lg: 22px;
+      --shadow: 0 4px 20px rgba(0,0,0,.10); --shadow-lg: 0 8px 40px rgba(0,0,0,.14);
+    }
     html { scroll-behavior: smooth; }
     body { font-family: 'Nunito', system-ui, sans-serif; background: var(--bg); color: var(--dark); line-height: 1.6; -webkit-font-smoothing: antialiased; }
     img { display: block; max-width: 100%; }
@@ -52,17 +69,20 @@
     .nav { position: sticky; top: 0; z-index: 100; background: rgba(255,249,245,.92); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); }
     .nav__inner { display: flex; align-items: center; justify-content: space-between; height: 64px; }
     .nav__logo { display: flex; align-items: center; gap: 8px; font-size: 1.15rem; font-weight: 900; color: var(--dark); }
-    .nav__back { font-size: .875rem; font-weight: 700; color: var(--muted); transition: color .2s; }
+    .nav__logo-icon { font-size: 1.4rem; }
+    .nav__back { font-size: .875rem; font-weight: 700; color: var(--muted); display: flex; align-items: center; gap: 6px; transition: color .2s; }
     .nav__back:hover { color: var(--orange); }
-    .activity-hero { width: 100%; height: 320px; display: flex; align-items: center; justify-content: center; font-size: 6rem; position: relative; overflow: hidden; }
+    .activity-hero { width: 100%; height: 320px; display: flex; align-items: center; justify-content: center; font-size: 6rem; background: linear-gradient(135deg, #f093fb 0%, #fa71cd 100%); position: relative; overflow: hidden; }
+    .activity-hero img { width: 100%; height: 100%; object-fit: cover; }
     .activity-content { padding: 40px 0 80px; }
     .activity-meta { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
     .tag { font-size: .72rem; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; padding: 4px 12px; border-radius: 50px; }
     .tag--age { background: #FFF0E6; color: #D45D1A; }
     .tag--area { background: #E8F4FD; color: #1A6DA4; }
     .tag--day { background: #E8FBF2; color: #0F8A52; }
-    .tag--cost { background: #FFF8E1; color: #B8860B; }
+    .tag--cost { background: #F0EEFF; color: #5B4FCF; }
     .tag--recurring { background: #F0EEFF; color: #5B4FCF; }
+    .tag--category { background: #FFF0E6; color: #D45D1A; }
     h1.activity-title { font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 900; line-height: 1.15; color: var(--dark); margin-bottom: 16px; letter-spacing: -.02em; }
     .activity-short-desc { font-size: 1.05rem; color: var(--mid); line-height: 1.7; margin-bottom: 28px; padding-bottom: 28px; border-bottom: 1.5px solid var(--border); }
     .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 32px; }
@@ -100,21 +120,21 @@
 <body>
 
   <div class="geo-summary" aria-hidden="true">
-    PCYC City of Sydney runs structured full-day school holiday programs for school-aged children at PCYC Woolloomooloo, 51 Cathedral Street, Woolloomooloo NSW 2011, in the Eastern Suburbs of Sydney. Activities include laser tag, multi-sport, gymnastics, boxing, painting, dance, crafts, coding and skateboarding. Cost: Paid. Active and Creative Kids vouchers accepted. Full day: 9am to 3pm (drop-off from 8am, pick-up until 4pm).
+    PCYC School Holiday Activities - City of Sydney. Location: PCYC City of Sydney–Woolloomooloo, 51 Cathedral Street, Woolloomooloo NSW 2011. Neighbourhood: Eastern Suburbs. Ages: School Kids (5–13 years). Days: Mon – Fri (weekdays). Time: 9:00am–3:00pm (drop-off from 8am, pick-up until 4pm). Cost: Paid — Active & Creative Kids vouchers accepted. Category: Sports.
   </div>
 
   <header class="nav">
     <div class="nav__inner container">
       <a href="/littlediscoveries/" class="nav__logo">
-        <span>🗺️</span>
+        <span class="nav__logo-icon">🗺️</span>
         <span>Little Discoveries</span>
       </a>
       <a href="/littlediscoveries/" class="nav__back">← Back to all activities</a>
     </div>
   </header>
 
-  <div class="activity-hero" style="background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);">
-    <span>⚽</span>
+  <div class="activity-hero" style="background: linear-gradient(135deg, #f093fb 0%, #fa71cd 100%);">
+    <img src="https://images.pexels.com/photos/7207568/pexels-photo-7207568.jpeg?auto=compress&cs=tinysrgb&w=800" alt="PCYC School Holiday Activities - City of Sydney" style="width:100%;height:100%;object-fit:cover;" onerror="this.parentElement.innerHTML='<span style=&quot;font-size:6rem;&quot;>⚽</span>'" />
   </div>
 
   <main class="activity-content">
@@ -122,11 +142,12 @@
       <a href="/littlediscoveries/" class="back-link">← Back to all activities</a>
 
       <div class="activity-meta">
-        <span class="tag tag--age">🎒 School Kids (5-13)</span>
+        <span class="tag tag--category">Sports</span>
+        <span class="tag tag--age">🧒 School Kids (5–13 years)</span>
         <span class="tag tag--area">🏙️ Eastern Suburbs</span>
-        <span class="tag tag--day">📅 Weekdays</span>
-        <span class="tag tag--cost">💰 Paid (vouchers accepted)</span>
-        <span class="tag tag--recurring">🔁 Recurring</span>
+        <span class="tag tag--day">📅 Mon – Fri (weekdays)</span>
+        <span class="tag tag--cost">✅ Paid</span>
+        
       </div>
 
       <h1 class="activity-title">PCYC School Holiday Activities - City of Sydney</h1>
@@ -135,48 +156,37 @@
       <div class="info-grid">
         <div class="info-card">
           <div class="info-card__label">📍 Location</div>
-          <div class="info-card__value">PCYC City of Sydney - Woolloomooloo<br><span style="font-weight:600;color:var(--muted)">51 Cathedral Street, Woolloomooloo NSW 2011</span></div>
+          <div class="info-card__value">PCYC City of Sydney–Woolloomooloo<br><span style="font-weight:600;color:var(--muted)">51 Cathedral Street, Woolloomooloo NSW 2011</span></div>
         </div>
         <div class="info-card">
           <div class="info-card__label">🕐 Time</div>
-          <div class="info-card__value">9:00am-3:00pm (drop-off from 8am, pick-up until 4pm)</div>
+          <div class="info-card__value">9:00am–3:00pm (drop-off from 8am, pick-up until 4pm)</div>
         </div>
-        <div class="info-card">
-          <div class="info-card__label">📅 Schedule</div>
-          <div class="info-card__value">School holidays - check event page for dates</div>
-        </div>
+        
         <div class="info-card">
           <div class="info-card__label">💰 Cost</div>
-          <div class="info-card__value">Paid - Active and Creative Kids vouchers accepted</div>
+          <div class="info-card__value">Paid — Active & Creative Kids vouchers accepted</div>
         </div>
         <div class="info-card">
           <div class="info-card__label">🧒 Ages</div>
-          <div class="info-card__value">School Kids (5-13 years)</div>
+          <div class="info-card__value">School Kids (5–13 years)</div>
         </div>
         <div class="info-card">
-          <div class="info-card__label">📍 Neighbourhood</div>
-          <div class="info-card__value">Eastern Suburbs (Woolloomooloo)</div>
+          <div class="info-card__label">🏙️ Neighbourhood</div>
+          <div class="info-card__value">Eastern Suburbs</div>
         </div>
       </div>
 
       <div class="long-desc">
-        <h2>About this activity</h2>
-        <p>PCYC City of Sydney runs structured full-day and half-day school holiday programs for school-aged children at their Woolloomooloo centre. Programs are delivered by qualified coaches and cover a wide range of activities including laser tag, multi-sport, gymnastics, boxing, painting, dance, crafts, coding and skateboarding. Active and Creative Kids vouchers are accepted for eligible activities. Located opposite the Domain Carpark in the heart of the city.</p>
-        <ul>
-          <li>Full day program: 9am-3pm (drop-off from 8am, pick-up until 4pm)</li>
-          <li>Wide variety of activities: laser tag, gymnastics, boxing, coding, skateboarding and more</li>
-          <li>Run by qualified coaches with experience working with young people</li>
-          <li>Active and Creative Kids vouchers accepted</li>
-          <li>Suitable for primary and high school aged children</li>
-        </ul>
+        <h2>About this activity</h2><p>PCYC City of Sydney runs structured full-day and half-day school holiday programs for school-aged children at their Woolloomooloo centre. Programs are delivered by qualified coaches and cover a wide range of activities including laser tag, multi-sport, gymnastics, boxing, painting, dance, crafts, coding and skateboarding. Active and Creative Kids vouchers are accepted for eligible activities. Located opposite the Domain Carpark in the heart of the city.</p><ul><li>Full day program: 9am–3pm (drop-off from 8am, pick-up until 4pm)</li><li>Wide variety of activities: laser tag, gymnastics, boxing, coding, skateboarding and more</li><li>Run by qualified coaches with experience working with young people</li><li>Active and Creative Kids vouchers accepted</li><li>Suitable for primary and high school aged children</li></ul>
       </div>
 
       <div class="activity-cta">
         <div class="activity-cta__text">
-          <h3>Ready to book?</h3>
-          <p>View the original listing on City of Sydney What's On for pricing and booking details.</p>
+          <h3>Ready to visit?</h3>
+          <p>View the official listing for the latest details and bookings.</p>
         </div>
-        <a href="https://whatson.cityofsydney.nsw.gov.au/events/pcyc-school-holiday-activities" target="_blank" rel="noopener noreferrer" class="btn btn--primary">View original listing on City of Sydney What's On</a>
+        <a href="https://whatson.cityofsydney.nsw.gov.au/events/pcyc-school-holiday-activities" target="_blank" rel="noopener noreferrer" class="btn btn--primary">View official listing →</a>
       </div>
 
       <a href="/littlediscoveries/" class="btn btn--ghost">← Back to all activities</a>
@@ -193,7 +203,7 @@
       <div class="footer__links">
         <a href="/littlediscoveries/#about">About</a>
         <a href="/littlediscoveries/">Activities</a>
-        <a href="/littlediscoveries/">Contact</a>
+        <a href="/littlediscoveries/#newsletter">Newsletter</a>
       </div>
       <p class="footer__copy">© 2026 Little Discoveries. Made with ❤️ in Sydney.</p>
     </div>

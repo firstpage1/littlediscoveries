@@ -4,14 +4,18 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>School Holidays Maker and Creator Darling Square | Free Kids STEM Workshop Sydney | Little Discoveries</title>
-  <meta name="description" content="Free school holiday maker workshop for kids 8-12 at Darling Square Library. Robots, Spheros, Ozobots, wind tubes and LEDs - a hands-on STEM adventure." />
+  <meta name="description" content="Free school holiday maker workshop for kids 8–12 at Darling Square Library. Robots, Spheros, Ozobots, wind tubes and LEDs - a hands-on STEM adventure." />
+  <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://firstpage1.github.io/littlediscoveries/school-holidays-maker-creator-darling-square/" />
   <meta property="og:title" content="School Holidays Maker and Creator Darling Square | Free Kids STEM Workshop Sydney | Little Discoveries" />
-  <meta property="og:description" content="Free school holiday maker workshop for kids 8-12 at Darling Square Library. Robots, Spheros, Ozobots, wind tubes and LEDs - a hands-on STEM adventure." />
+  <meta property="og:description" content="Free school holiday maker workshop for kids 8–12 at Darling Square Library. Robots, Spheros, Ozobots, wind tubes and LEDs - a hands-on STEM adventure." />
+  <meta property="og:image" content="https://images.pexels.com/photos/8612992/pexels-photo-8612992.jpeg?auto=compress&cs=tinysrgb&w=800" />
   <meta property="og:url" content="https://firstpage1.github.io/littlediscoveries/school-holidays-maker-creator-darling-square/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Little Discoveries" />
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="School Holidays Maker and Creator Darling Square | Free Kids STEM Workshop Sydney | Little Discoveries" />
+  <meta name="twitter:description" content="Free school holiday maker workshop for kids 8–12 at Darling Square Library. Robots, Spheros, Ozobots, wind tubes and LEDs - a hands-on STEM adventure." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
@@ -20,13 +24,15 @@
     "@context": "https://schema.org",
     "@type": "Event",
     "name": "School Holidays: Maker and Creator - 8 to 12 Years, Darling Square",
-    "description": "A free two-hour school holiday workshop at Darling Square Library's makerspace where kids aged 8-12 get hands-on with Spheros, Ozobots, Edison robots, wind tubes and LED circuits.",
+    "description": "A free two-hour school holiday workshop at Darling Square Library's makerspace where kids aged 8–12 get hands-on with Spheros, Ozobots, Edison robots, wind tubes and LED circuits.",
+    "startDate": "",
+    "endDate": "",
     "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
     "eventStatus": "https://schema.org/EventScheduled",
     "location": {
       "@type": "Place",
       "name": "Darling Square Library",
-      "address": "1 Little Pier Street (Level 1-2, Darling Exchange Building), Haymarket NSW 2000"
+      "address": "1 Little Pier Street (Level 1–2, Darling Exchange Building), Haymarket NSW 2000"
     },
     "organizer": {
       "@type": "Organization",
@@ -39,12 +45,22 @@
       "price": "0",
       "priceCurrency": "AUD",
       "availability": "https://schema.org/InStock"
+    },
+    "audience": {
+      "@type": "Audience",
+      "audienceType": "School Kids (5–13 years)"
     }
   }
   </script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    :root { --primary: #f94d85; --orange: #f94d85; --yellow: #FFD166; --dark: #1C1C2E; --mid: #4A4A6A; --muted: #8888AA; --bg: #FFF9F5; --white: #FFFFFF; --border: #EDE8E3; --radius: 14px; --radius-lg: 22px; --shadow: 0 4px 20px rgba(0,0,0,.10); }
+    :root {
+      --primary: #f94d85; --orange: #f94d85; --yellow: #FFD166;
+      --dark: #1C1C2E; --mid: #4A4A6A; --muted: #8888AA;
+      --bg: #FFF9F5; --white: #FFFFFF; --border: #EDE8E3;
+      --radius: 14px; --radius-lg: 22px;
+      --shadow: 0 4px 20px rgba(0,0,0,.10); --shadow-lg: 0 8px 40px rgba(0,0,0,.14);
+    }
     html { scroll-behavior: smooth; }
     body { font-family: 'Nunito', system-ui, sans-serif; background: var(--bg); color: var(--dark); line-height: 1.6; -webkit-font-smoothing: antialiased; }
     img { display: block; max-width: 100%; }
@@ -53,9 +69,11 @@
     .nav { position: sticky; top: 0; z-index: 100; background: rgba(255,249,245,.92); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); }
     .nav__inner { display: flex; align-items: center; justify-content: space-between; height: 64px; }
     .nav__logo { display: flex; align-items: center; gap: 8px; font-size: 1.15rem; font-weight: 900; color: var(--dark); }
-    .nav__back { font-size: .875rem; font-weight: 700; color: var(--muted); transition: color .2s; }
+    .nav__logo-icon { font-size: 1.4rem; }
+    .nav__back { font-size: .875rem; font-weight: 700; color: var(--muted); display: flex; align-items: center; gap: 6px; transition: color .2s; }
     .nav__back:hover { color: var(--orange); }
-    .activity-hero { width: 100%; height: 320px; display: flex; align-items: center; justify-content: center; font-size: 6rem; position: relative; overflow: hidden; }
+    .activity-hero { width: 100%; height: 320px; display: flex; align-items: center; justify-content: center; font-size: 6rem; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); position: relative; overflow: hidden; }
+    .activity-hero img { width: 100%; height: 100%; object-fit: cover; }
     .activity-content { padding: 40px 0 80px; }
     .activity-meta { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
     .tag { font-size: .72rem; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; padding: 4px 12px; border-radius: 50px; }
@@ -63,7 +81,8 @@
     .tag--area { background: #E8F4FD; color: #1A6DA4; }
     .tag--day { background: #E8FBF2; color: #0F8A52; }
     .tag--cost { background: #F0EEFF; color: #5B4FCF; }
-    .tag--featured { background: var(--yellow); color: var(--dark); }
+    .tag--recurring { background: #F0EEFF; color: #5B4FCF; }
+    .tag--category { background: #FFF0E6; color: #D45D1A; }
     h1.activity-title { font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 900; line-height: 1.15; color: var(--dark); margin-bottom: 16px; letter-spacing: -.02em; }
     .activity-short-desc { font-size: 1.05rem; color: var(--mid); line-height: 1.7; margin-bottom: 28px; padding-bottom: 28px; border-bottom: 1.5px solid var(--border); }
     .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 32px; }
@@ -101,21 +120,21 @@
 <body>
 
   <div class="geo-summary" aria-hidden="true">
-    Maker and Creator is a free school holiday STEM workshop for children aged 8 to 12 years at Darling Square Library, 1 Little Pier Street, Haymarket NSW 2000, in the Sydney CBD. Kids get hands-on with Spheros, Ozobots, Edison robots, wind tubes and LED circuits. Sessions run for 2 hours during school holidays. Cost: Free. Check event page for available dates.
+    School Holidays: Maker and Creator - 8 to 12 Years, Darling Square. Location: Darling Square Library, 1 Little Pier Street (Level 1–2, Darling Exchange Building), Haymarket NSW 2000. Neighbourhood: Eastern Suburbs. Ages: School Kids (5–13 years). Days: Mon – Fri (weekdays). Time: 2-hour sessions - check event page for dates. Cost: Free — entry. Category: Arts & Crafts.
   </div>
 
   <header class="nav">
     <div class="nav__inner container">
       <a href="/littlediscoveries/" class="nav__logo">
-        <span>🗺️</span>
+        <span class="nav__logo-icon">🗺️</span>
         <span>Little Discoveries</span>
       </a>
       <a href="/littlediscoveries/" class="nav__back">← Back to all activities</a>
     </div>
   </header>
 
-  <div class="activity-hero" style="background: linear-gradient(135deg, #c6f432 0%, #1cbf73 100%);">
-    <span>🤖</span>
+  <div class="activity-hero" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+    <img src="https://images.pexels.com/photos/8612992/pexels-photo-8612992.jpeg?auto=compress&cs=tinysrgb&w=800" alt="School Holidays: Maker and Creator - 8 to 12 Years, Darling Square" style="width:100%;height:100%;object-fit:cover;" onerror="this.parentElement.innerHTML='<span style=&quot;font-size:6rem;&quot;>🎨</span>'" />
   </div>
 
   <main class="activity-content">
@@ -123,61 +142,51 @@
       <a href="/littlediscoveries/" class="back-link">← Back to all activities</a>
 
       <div class="activity-meta">
-        <span class="tag tag--featured">⭐ Featured</span>
-        <span class="tag tag--age">🎒 School Kids (8-12)</span>
-        <span class="tag tag--area">🏙️ CBD</span>
-        <span class="tag tag--day">📅 School Holidays</span>
+        <span class="tag tag--category">Arts & Crafts</span>
+        <span class="tag tag--age">🧒 School Kids (5–13 years)</span>
+        <span class="tag tag--area">🏙️ Eastern Suburbs</span>
+        <span class="tag tag--day">📅 Mon – Fri (weekdays)</span>
         <span class="tag tag--cost">✅ Free</span>
+        
       </div>
 
       <h1 class="activity-title">School Holidays: Maker and Creator - 8 to 12 Years, Darling Square</h1>
-      <p class="activity-short-desc">A free two-hour school holiday workshop at Darling Square Library's makerspace where kids aged 8-12 get hands-on with Spheros, Ozobots, Edison robots, wind tubes and LED circuits.</p>
+      <p class="activity-short-desc">A free two-hour school holiday workshop at Darling Square Library's makerspace where kids aged 8–12 get hands-on with Spheros, Ozobots, Edison robots, wind tubes and LED circuits.</p>
 
       <div class="info-grid">
         <div class="info-card">
           <div class="info-card__label">📍 Location</div>
-          <div class="info-card__value">Darling Square Library<br><span style="font-weight:600;color:var(--muted)">1 Little Pier Street, Haymarket NSW 2000</span></div>
+          <div class="info-card__value">Darling Square Library<br><span style="font-weight:600;color:var(--muted)">1 Little Pier Street (Level 1–2, Darling Exchange Building), Haymarket NSW 2000</span></div>
         </div>
         <div class="info-card">
           <div class="info-card__label">🕐 Time</div>
-          <div class="info-card__value">2-hour sessions (check event page for dates)</div>
+          <div class="info-card__value">2-hour sessions - check event page for dates</div>
         </div>
-        <div class="info-card">
-          <div class="info-card__label">📅 Schedule</div>
-          <div class="info-card__value">Check event page for available session dates</div>
-        </div>
+        
         <div class="info-card">
           <div class="info-card__label">💰 Cost</div>
-          <div class="info-card__value">Free entry</div>
+          <div class="info-card__value">Free — entry</div>
         </div>
         <div class="info-card">
           <div class="info-card__label">🧒 Ages</div>
-          <div class="info-card__value">School Kids (8-12 years)</div>
+          <div class="info-card__value">School Kids (5–13 years)</div>
         </div>
         <div class="info-card">
-          <div class="info-card__label">📍 Neighbourhood</div>
-          <div class="info-card__value">CBD (Haymarket)</div>
+          <div class="info-card__label">🏙️ Neighbourhood</div>
+          <div class="info-card__value">Eastern Suburbs</div>
         </div>
       </div>
 
       <div class="long-desc">
-        <h2>About this activity</h2>
-        <p>Maker and Creator is a free two-hour school holiday workshop at the Darling Square Library makerspace, designed for curious kids aged 8-12. Children get hands-on with the latest makerspace kits and electronic gadgets, with different activities each session. Expect robot battles with Edison bots, Sphero and Ozobot challenges, wind tube experiments and LED circuit building with conductive tape. Parents and guardians must stay within the library during the session.</p>
-        <ul>
-          <li>Free entry - check the event page for available session dates</li>
-          <li>Hands-on with Spheros, Ozobots, Edison robots and more</li>
-          <li>Battle it out with robots and light up LEDs using conductive tape</li>
-          <li>Make things fly in the wind tube - different activities each session</li>
-          <li>Parents or guardians must stay within the library space</li>
-        </ul>
+        <h2>About this activity</h2><p>Maker and Creator is a free two-hour school holiday workshop at the Darling Square Library makerspace, designed for curious kids aged 8–12. Children get hands-on with the latest makerspace kits and electronic gadgets, with different activities each session. Expect robot battles with Edison bots, Sphero and Ozobot challenges, wind tube experiments and LED circuit building with conductive tape. Parents and guardians must stay within the library during the session.</p><ul><li>Free entry - check the event page for available session dates</li><li>Hands-on with Spheros, Ozobots, Edison robots and more</li><li>Battle it out with robots and light up LEDs using conductive tape</li><li>Make things fly in the wind tube - different activities each session</li><li>Parents or guardians must stay within the library space</li></ul>
       </div>
 
       <div class="activity-cta">
         <div class="activity-cta__text">
-          <h3>Ready to explore?</h3>
-          <p>View the original listing on City of Sydney What's On for upcoming session dates.</p>
+          <h3>Ready to visit?</h3>
+          <p>View the official listing for the latest details and bookings.</p>
         </div>
-        <a href="https://whatson.cityofsydney.nsw.gov.au/events/school-holiday-maker-and-creator-8-12-years" target="_blank" rel="noopener noreferrer" class="btn btn--primary">View original listing on City of Sydney What's On</a>
+        <a href="https://whatson.cityofsydney.nsw.gov.au/events/school-holiday-maker-and-creator-8-12-years" target="_blank" rel="noopener noreferrer" class="btn btn--primary">View official listing →</a>
       </div>
 
       <a href="/littlediscoveries/" class="btn btn--ghost">← Back to all activities</a>
@@ -194,7 +203,7 @@
       <div class="footer__links">
         <a href="/littlediscoveries/#about">About</a>
         <a href="/littlediscoveries/">Activities</a>
-        <a href="/littlediscoveries/">Contact</a>
+        <a href="/littlediscoveries/#newsletter">Newsletter</a>
       </div>
       <p class="footer__copy">© 2026 Little Discoveries. Made with ❤️ in Sydney.</p>
     </div>
