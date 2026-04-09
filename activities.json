@@ -859,18 +859,24 @@
   },
   {
     "id": 21,
-    "title": "School Holiday Disco at Darling Harbour",
-    "description": "An Easter Saturday family disco with K-Pop dance classes, live performances from The Gumboots and TG5, a tumble zone, DJ set, and a visit from the Easter Bunny.",
+    "title": "April School Holidays in Darling Harbour",
+    "description": "A packed free program at Darling Harbour: Easter Saturday disco with DJs, K-Pop dance classes, a parents' dance-off, tumble zone, Easter Bunny visit, Kids Yoga, circus shows, and roving performers.",
     "venue": "Tumbalong Park",
     "address": "Tumbalong Park, Darling Harbour, Sydney NSW 2000",
     "neighborhood": "Darling Harbour",
     "category": "Festivals",
     "day": [
-      "Saturday"
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
     ],
-    "time": "3:00pm – 7:00pm",
+    "time": "Various times (Disco: 4 Apr 3–7pm)",
     "startDate": "2026-04-04",
-    "endDate": "2026-04-04",
+    "endDate": "2026-04-19",
     "cost": "Free",
     "costLabel": "free entry, no bookings needed",
     "age": [
@@ -880,12 +886,16 @@
     ],
     "imageUrl": "https://images.pexels.com/photos/7207568/pexels-photo-7207568.jpeg?auto=compress&cs=tinysrgb&w=800",
     "website": "https://whatson.cityofsydney.nsw.gov.au/events/april-school-holidays-in-darling-harbour",
-    "source": "https://whatson.cityofsydney.nsw.gov.au/events/april-school-holidays-in-darling-harbour"
+    "source": "https://whatson.cityofsydney.nsw.gov.au/events/april-school-holidays-in-darling-harbour",
+    "longDescription": "Darling Harbour goes all-out for the April school holidays with a full program of free family fun running 4–19 April 2026.\n\nHighlights include an epic School Holiday Disco on Easter Saturday (4 April) with a DJ set, K-Pop dance classes, a parents' dance-off competition, a tumble zone with hula hoops and cartwheels, live performances, and a visit from the Easter Bunny.\n\nThroughout the holidays, catch free Kids Yoga sessions at the Playground Lawn, the Sync or Swim circus show on Saturdays, roving performers across the precinct, and refreshed play equipment at Darling Quarter catering to older kids and tweens.",
+    "seoSlug": "april-school-holidays-darling-harbour",
+    "seoTitle": "April School Holidays in Darling Harbour 2026 – Free Family Fun | Little Discoveries",
+    "seoDescription": "Free school holiday activities at Darling Harbour 4–19 April 2026: Easter disco, Kids Yoga, circus shows, roving performers and more."
   },
   {
     "id": 22,
     "title": "Easter School Holidays at Darling Square",
-    "description": "Free Easter program with an egg hunt, Easter Bunny visits, free face painting, twisted balloon art, and an inflatable jumping castle for kids up to 13.",
+    "description": "Free Easter fun for the whole family at Darling Square: egg hunt with prizes, Easter Bunny visits, inflatable jumping castle, face painting, and twisted balloon art.",
     "venue": "Darling Square",
     "address": "Darling Square, Haymarket NSW 2000",
     "neighborhood": "Haymarket",
@@ -899,9 +909,9 @@
       "Saturday",
       "Sunday"
     ],
-    "time": "12:00pm – 3:00pm",
-    "startDate": "2026-04-14",
-    "endDate": "2026-04-27",
+    "time": "Various times during school holidays",
+    "startDate": "2026-04-07",
+    "endDate": "2026-04-17",
     "cost": "Free",
     "costLabel": "free entry, no bookings needed",
     "age": [
@@ -911,12 +921,16 @@
     ],
     "imageUrl": "https://images.pexels.com/photos/7207568/pexels-photo-7207568.jpeg?auto=compress&cs=tinysrgb&w=800",
     "website": "https://whatson.cityofsydney.nsw.gov.au/events/easter-school-holidays-at-darling-square",
-    "source": "https://whatson.cityofsydney.nsw.gov.au/events/easter-school-holidays-at-darling-square"
+    "source": "https://whatson.cityofsydney.nsw.gov.au/events/easter-school-holidays-at-darling-square",
+    "longDescription": "Darling Square comes alive for Easter school holidays with a lineup of free activities for kids during the NSW Autumn school break (7–17 April 2026).\n\n* Easter hunt — follow clues around Darling Square to claim a sweet prize\n* Easter Bunny hopping around the precinct\n* Inflatable jumping castle for kids up to 13 years\n* Free face painting\n* Free twisted balloon art\n\nWith over 50 restaurants on-site, it's also a great spot to stop for a family lunch after all the fun.",
+    "seoSlug": "easter-school-holidays-darling-square",
+    "seoTitle": "Easter School Holidays at Darling Square 2026 – Free Kids Activities | Little Discoveries",
+    "seoDescription": "Free Easter activities for kids at Darling Square, Sydney: egg hunt, Easter Bunny, jumping castle, face painting and balloon art. No bookings needed."
   },
   {
     "id": 23,
-    "title": "Imagination Station – Space-Themed Activities",
-    "description": "Free interactive space installation at Darling Harbour's Pier Street Underpass with rocket-making, astronaut mask decorating, author storytimes, and a giant art cube. Sensory-friendly.",
+    "title": "Imagination Station – Space-Themed Activities at Darling Harbour",
+    "description": "Free drop-in space-themed workshops at Pier Street Underpass: build a rocket, decorate an astronaut mask, design a spaceship, and catch storytimes from Russ the Story Bus. Sensory-friendly.",
     "venue": "Pier Street Underpass, Darling Harbour",
     "address": "Pier Street Underpass, Darling Harbour, Sydney NSW 2000",
     "neighborhood": "Darling Harbour",
@@ -930,7 +944,7 @@
       "Saturday",
       "Sunday"
     ],
-    "time": "All day",
+    "time": "All day (free-flowing drop-in)",
     "startDate": "2026-04-04",
     "endDate": "2026-04-19",
     "cost": "Free",
@@ -943,22 +957,26 @@
     ],
     "imageUrl": "https://images.pexels.com/photos/1336784/pexels-photo-1336784.jpeg?auto=compress&cs=tinysrgb&w=800",
     "website": "https://whatson.cityofsydney.nsw.gov.au/events/imagination-station-at-pier-st-underpass-darling-harbour",
-    "source": "https://whatson.cityofsydney.nsw.gov.au/events/imagination-station-at-pier-st-underpass-darling-harbour"
+    "source": "https://whatson.cityofsydney.nsw.gov.au/events/imagination-station-at-pier-st-underpass-darling-harbour",
+    "longDescription": "The Pier Street Underpass at Darling Harbour transforms into Imagination Station for the April school holidays — a free, all-ages interactive installation where creativity takes flight.\n\nActivities include:\n\n* Building your own rocket\n* Decorating an astronaut mask\n* Designing a spaceship\n* Cosmic painting\n* Author storytimes aboard Russ the Story Bus (the travelling library from the Sydney Writers' Festival)\n* A giant illustrated art cube by renowned illustrator James Gulliver Hancock\n\nNo bookings needed — just drop in. Sensory-friendly activities available throughout.",
+    "seoSlug": "imagination-station-darling-harbour",
+    "seoTitle": "Imagination Station Darling Harbour 2026 – Free Space Activities for Kids | Little Discoveries",
+    "seoDescription": "Free drop-in space-themed craft and storytimes at Pier Street Underpass, Darling Harbour. Build rockets, decorate astronaut masks and more — no bookings needed."
   },
   {
     "id": 24,
-    "title": "Kids' Shows & Yoga at Darling Harbour",
-    "description": "Free weekly school holiday entertainment at Darling Harbour's playground lawn: Rhythm n Bubs music and movement, Kids Yoga, Sunday musical performances, and roving performers.",
+    "title": "School Holiday Performances & Workshops – Darling Harbour",
+    "description": "Free weekly shows and workshops at Darling Harbour's Playground Lawn: Rhythm n Bubs music classes on Wednesdays, Sync or Swim circus on Saturdays, Sunday party shows, and Kids Yoga.",
     "venue": "Darling Harbour Playground Lawn",
     "address": "Darling Harbour, Sydney NSW 2000",
     "neighborhood": "Darling Harbour",
     "category": "Music",
     "day": [
       "Wednesday",
-      "Friday",
+      "Saturday",
       "Sunday"
     ],
-    "time": "Various times",
+    "time": "Wednesdays & Sundays from 10:30am; Saturdays 10:30am & 11:30am",
     "startDate": "2026-04-04",
     "endDate": "2026-04-19",
     "cost": "Free",
@@ -971,26 +989,26 @@
     ],
     "imageUrl": "https://images.pexels.com/photos/6437816/pexels-photo-6437816.jpeg?auto=compress&cs=tinysrgb&w=800",
     "website": "https://whatson.cityofsydney.nsw.gov.au/events/performances-at-playground-lawn-darling-harbour",
-    "source": "https://whatson.cityofsydney.nsw.gov.au/events/performances-at-playground-lawn-darling-harbour"
+    "source": "https://whatson.cityofsydney.nsw.gov.au/events/performances-at-playground-lawn-darling-harbour",
+    "longDescription": "Every week of the April school holidays, Darling Harbour's Playground Lawn hosts free live performances and workshops for families.\n\nRegular schedule:\n\n* Wednesdays 10:30–11:15am — Rhythm n Bubs music and movement classes with Phoebe Haselden & Co (great for babies and toddlers)\n* Saturdays 10:30–11:00am and 11:30am–12:00pm — Sync or Swim circus show\n* Sundays 10:30–11:15am — Summer Party with Tiptoe Giants\n* Free Kids Yoga sessions throughout the holidays\n* Roving performers appearing across the precinct daily\n\nAll events are free with no bookings required. Just turn up and enjoy.",
+    "seoSlug": "school-holiday-performances-darling-harbour",
+    "seoTitle": "Free School Holiday Shows & Workshops at Darling Harbour 2026 | Little Discoveries",
+    "seoDescription": "Free live performances every week of the April school holidays at Darling Harbour Playground Lawn — circus, music classes, Kids Yoga and more."
   },
   {
     "id": 25,
-    "title": "School Holidays: T-shirt to Tote Printing – Green Square",
-    "description": "Kids aged 8–12 design, carve, and print a block then press it onto a recycled t-shirt or tote bag at Green Square Library. An eco-friendly school holiday craft workshop.",
+    "title": "School Holidays: T-shirt to Tote Printing – Green Square Library",
+    "description": "Kids aged 8–12 design and carve their own print block then press it onto a recycled t-shirt or tote bag at Green Square Library. An eco-friendly craft workshop — bookings essential.",
     "venue": "Green Square Library",
     "address": "1 Joynton Avenue, Zetland NSW 2017",
     "neighborhood": "Green Square",
     "category": "Arts & Crafts",
     "day": [
-      "Monday",
-      "Tuesday",
-      "Wednesday",
-      "Thursday",
-      "Friday"
+      "Saturday"
     ],
     "time": "Check booking",
-    "startDate": "2026-04-07",
-    "endDate": "2026-04-17",
+    "startDate": "2026-04-11",
+    "endDate": "2026-04-11",
     "cost": "Free",
     "costLabel": "free, bookings essential",
     "age": [
@@ -998,12 +1016,16 @@
     ],
     "imageUrl": "https://images.pexels.com/photos/1336784/pexels-photo-1336784.jpeg?auto=compress&cs=tinysrgb&w=800",
     "website": "https://whatson.cityofsydney.nsw.gov.au/events/school-holidays-t-shirt-to-tote-8-12-years-green-square",
-    "source": "https://whatson.cityofsydney.nsw.gov.au/events/school-holidays-t-shirt-to-tote-8-12-years-green-square"
+    "source": "https://whatson.cityofsydney.nsw.gov.au/events/school-holidays-t-shirt-to-tote-8-12-years-green-square",
+    "longDescription": "Get creative and go green at this hands-on printmaking workshop for children aged 8–12 at Green Square Library.\n\nParticipants design, carve, and ink up their own custom block, then press it onto a pre-loved t-shirt or tote bag to take home — a unique wearable they've made themselves.\n\nThe workshop celebrates sustainability and upcycling, giving second-hand fabric a new life through art.\n\nParents or guardians must sign in and remain within the library space for the duration of the session. Bookings are essential — spaces are limited.",
+    "seoSlug": "school-holidays-tshirt-tote-green-square",
+    "seoTitle": "T-shirt to Tote Printing Workshop – Green Square Library School Holidays 2026 | Little Discoveries",
+    "seoDescription": "Free printmaking workshop for kids 8–12 at Green Square Library. Design and print your own block onto a recycled t-shirt or tote. Saturday 11 April 2026."
   },
   {
     "id": 26,
-    "title": "School Holiday Storytime – Maybanke Community Centre",
-    "description": "Free storytime sessions for young children during the school holidays at Maybanke Community Centre in Pyrmont, with stories and songs.",
+    "title": "Storytime with Josh – School Holidays at Pyrmont",
+    "description": "Free stories and songs for young children during the school holidays at Maybanke Community Centre in Pyrmont. A relaxed, welcoming session for little ones aged 1–5.",
     "venue": "Maybanke Community Centre",
     "address": "1 Bowman Street, Pyrmont NSW 2009",
     "neighborhood": "Pyrmont",
@@ -1015,7 +1037,7 @@
       "Thursday",
       "Friday"
     ],
-    "time": "Check website",
+    "time": "Check website for session times",
     "startDate": "2026-04-07",
     "endDate": "2026-04-17",
     "cost": "Free",
@@ -1027,7 +1049,11 @@
     ],
     "imageUrl": "https://images.pexels.com/photos/8466915/pexels-photo-8466915.jpeg?auto=compress&cs=tinysrgb&w=800",
     "website": "https://whatson.cityofsydney.nsw.gov.au/events/story-time-with-lailanie",
-    "source": "https://whatson.cityofsydney.nsw.gov.au/events/story-time-with-lailanie"
+    "source": "https://whatson.cityofsydney.nsw.gov.au/events/story-time-with-lailanie",
+    "longDescription": "Join Josh from the City of Sydney community team for a warm and engaging storytime session at Maybanke Community Centre in Pyrmont.\n\nDesigned for young children aged 1–5, the session features picture books, songs, and rhymes in a relaxed and welcoming environment.\n\nNo bookings needed — simply turn up and settle in. A lovely free outing for babies, toddlers, and pre-schoolers during the school holidays.",
+    "seoSlug": "storytime-josh-pyrmont",
+    "seoTitle": "Storytime with Josh – Free School Holiday Storytime at Pyrmont 2026 | Little Discoveries",
+    "seoDescription": "Free storytime with songs and stories for kids aged 1–5 at Maybanke Community Centre, Pyrmont during the April 2026 school holidays. No bookings needed."
   },
   {
     "id": 27,
@@ -1050,12 +1076,16 @@
     ],
     "imageUrl": "https://images.pexels.com/photos/8612992/pexels-photo-8612992.jpeg?auto=compress&cs=tinysrgb&w=800",
     "website": "https://www.eventbrite.com.au/e/bricks-in-the-school-holidays-baulkham-hills-library-tickets-1984001648338",
-    "source": "https://www.eventbrite.com.au/e/bricks-in-the-school-holidays-baulkham-hills-library-tickets-1984001648338"
+    "source": "https://www.eventbrite.com.au/e/bricks-in-the-school-holidays-baulkham-hills-library-tickets-1984001648338",
+    "longDescription": "Unleash your creativity at Bricks in the School Holidays — a free LEGO building event for kids in Kindergarten through Year 6 at Baulkham Hills Library.\n\nChildren take on imaginative building challenges designed to stretch their creativity and problem-solving skills.\n\nThe event is sponsored by the Friends of The Hills Library. Please note: parents and carers must remain on the library premises for the full duration of the session. Bookings are essential — register on Eventbrite to secure your child's spot.",
+    "seoSlug": "bricks-school-holidays-baulkham-hills-library",
+    "seoTitle": "Bricks in the School Holidays – Free LEGO at Baulkham Hills Library 2026 | Little Discoveries",
+    "seoDescription": "Free LEGO building challenges for K–6 kids at Baulkham Hills Library on Thursday 9 April 2026. Bookings essential. Sponsored by Friends of The Hills Library."
   },
   {
     "id": 28,
     "title": "Look at the Moon – Hurstville Museum & Gallery",
-    "description": "Discover fun facts about the moon and create lunar-inspired art at Hurstville Museum & Gallery. A 75-minute school holiday program for ages 8–12.",
+    "description": "Discover fun facts about the moon and create lunar-inspired art at Hurstville Museum & Gallery. A 75-minute school holiday workshop for ages 8–12 guided by an artist facilitator.",
     "venue": "Hurstville Museum & Gallery",
     "address": "14 MacMahon Street, Hurstville NSW 2220",
     "neighborhood": "Hurstville",
@@ -1073,12 +1103,16 @@
     ],
     "imageUrl": "https://images.pexels.com/photos/8924160/pexels-photo-8924160.jpeg?auto=compress&cs=tinysrgb&w=800",
     "website": "https://www.eventbrite.com.au/e/school-holidays-look-at-the-moon-ages-8-12-tickets-1981067310655",
-    "source": "https://www.eventbrite.com.au/e/school-holidays-look-at-the-moon-ages-8-12-tickets-1981067310655"
+    "source": "https://www.eventbrite.com.au/e/school-holidays-look-at-the-moon-ages-8-12-tickets-1981067310655",
+    "longDescription": "Join artist facilitators at Hurstville Museum & Gallery for an inspiring lunar-themed art workshop during the school holidays.\n\nKids aged 8–12 explore fascinating facts about the moon before getting hands-on with art materials, techniques, and mixed-media to create their own moon-inspired artwork to take home.\n\nThe session runs for 75 minutes. Children aged 10 and under must have a parent or guardian (aged 16+) remain on the premises for the full duration.\n\nBookings are essential — register on Eventbrite. Contact the museum at museumgallery@georgesriver.nsw.gov.au or 02 9330 6444 for more information.",
+    "seoSlug": "look-at-the-moon-hurstville-museum",
+    "seoTitle": "Look at the Moon – Free School Holiday Art Workshop at Hurstville Museum 2026 | Little Discoveries",
+    "seoDescription": "Lunar art workshop for kids 8–12 at Hurstville Museum & Gallery. Thursday 16 April 2026, 2–3:15pm. Free, bookings essential."
   },
   {
     "id": 29,
     "title": "Wind Catcher Insect Craft – North Ryde Library",
-    "description": "Kids aged 7+ create their own windcatcher insect crafts at North Ryde Library. Part of City of Ryde's free April school holiday program. Parents/carers must accompany children.",
+    "description": "Make your own bug wind mobile to hang in your window or garden at North Ryde Library. A free school holiday craft for kids aged 7+. Bookings essential; parents must accompany children.",
     "venue": "North Ryde Library",
     "address": "North Ryde NSW 2113",
     "neighborhood": "North Ryde",
@@ -1096,12 +1130,16 @@
     ],
     "imageUrl": "https://images.pexels.com/photos/1336784/pexels-photo-1336784.jpeg?auto=compress&cs=tinysrgb&w=800",
     "website": "https://www.eventbrite.com.au/e/wind-catcher-insect-craft-7yrs-north-ryde-library-tickets-1982474088365",
-    "source": "https://www.eventbrite.com.au/e/wind-catcher-insect-craft-7yrs-north-ryde-library-tickets-1982474088365"
+    "source": "https://www.eventbrite.com.au/e/wind-catcher-insect-craft-7yrs-north-ryde-library-tickets-1982474088365",
+    "longDescription": "Get crafty at North Ryde Library and make your very own bug wind mobile to take home!\n\nKids aged 7 and over construct a colourful windcatcher insect from craft materials — perfect to hang in a bedroom window or out in the garden where it'll spin and flutter in the breeze.\n\nPart of the City of Ryde's free school holiday program. Children aged 12 and under must be accompanied by a parent or carer for the full session.\n\nTickets are required for the child only (not the accompanying adult). Bookings essential — register on Eventbrite.",
+    "seoSlug": "wind-catcher-insect-craft-north-ryde-library",
+    "seoTitle": "Wind Catcher Insect Craft – Free School Holiday Activity at North Ryde Library 2026 | Little Discoveries",
+    "seoDescription": "Make a bug wind mobile at North Ryde Library on Tuesday 14 April 2026. Free, bookings essential. Ages 7+. Part of City of Ryde's school holiday program."
   },
   {
     "id": 30,
     "title": "Wind Catcher Insect Craft – Eastwood Library",
-    "description": "Kids aged 7+ create their own windcatcher insect crafts at Eastwood Library. Part of City of Ryde's free April school holiday program. Parents/carers must accompany children.",
+    "description": "Make your own bug wind mobile to hang in your window or garden at Eastwood Library. A free school holiday craft for kids aged 7+. Bookings essential; parents must accompany children.",
     "venue": "Eastwood Library",
     "address": "Eastwood NSW 2122",
     "neighborhood": "Eastwood",
@@ -1119,12 +1157,16 @@
     ],
     "imageUrl": "https://images.pexels.com/photos/1336784/pexels-photo-1336784.jpeg?auto=compress&cs=tinysrgb&w=800",
     "website": "https://www.eventbrite.com.au/e/wind-catcher-insect-craft-7yrs-eastwood-library-tickets-1982474010131",
-    "source": "https://www.eventbrite.com.au/e/wind-catcher-insect-craft-7yrs-eastwood-library-tickets-1982474010131"
+    "source": "https://www.eventbrite.com.au/e/wind-catcher-insect-craft-7yrs-eastwood-library-tickets-1982474010131",
+    "longDescription": "Get crafty at Eastwood Library and make your very own bug wind mobile to take home!\n\nKids aged 7 and over construct a colourful windcatcher insect from craft materials — perfect to hang in a bedroom window or out in the garden where it'll spin and flutter in the breeze.\n\nPart of the City of Ryde's free school holiday program. Children aged 12 and under must be accompanied by a parent or carer for the full session.\n\nTickets are required for the child only (not the accompanying adult). Bookings essential — register on Eventbrite.",
+    "seoSlug": "wind-catcher-insect-craft-eastwood-library",
+    "seoTitle": "Wind Catcher Insect Craft – Free School Holiday Activity at Eastwood Library 2026 | Little Discoveries",
+    "seoDescription": "Make a bug wind mobile at Eastwood Library on Wednesday 15 April 2026. Free, bookings essential. Ages 7+. Part of City of Ryde's school holiday program."
   },
   {
     "id": 31,
     "title": "Magical Butterfly House – Ryde Library",
-    "description": "An enchanting hands-on school holiday experience exploring the world of butterflies for children aged 7+ at Ryde Library. Part of City of Ryde's free April school holiday program.",
+    "description": "An enchanting hands-on experience exploring the wonderful world of butterflies for kids aged 7+ at Ryde Library. Free, bookings essential. Part of City of Ryde's school holiday program.",
     "venue": "Ryde Library",
     "address": "Ryde NSW 2112",
     "neighborhood": "Ryde",
@@ -1132,7 +1174,7 @@
     "day": [
       "Friday"
     ],
-    "time": "Check booking",
+    "time": "Check booking for time",
     "startDate": "2026-04-10",
     "endDate": "2026-04-10",
     "cost": "Free",
@@ -1142,6 +1184,10 @@
     ],
     "imageUrl": "https://images.pexels.com/photos/8924160/pexels-photo-8924160.jpeg?auto=compress&cs=tinysrgb&w=800",
     "website": "https://www.eventbrite.com.au/e/magical-butterfly-house-7yrs-ryde-library-tickets-1982472672129",
-    "source": "https://www.eventbrite.com.au/e/magical-butterfly-house-7yrs-ryde-library-tickets-1982472672129"
+    "source": "https://www.eventbrite.com.au/e/magical-butterfly-house-7yrs-ryde-library-tickets-1982472672129",
+    "longDescription": "Step into a magical world of butterflies at Ryde Library during the school holidays!\n\nDesigned for children aged 7 and over, this enchanting hands-on session invites kids to explore the life cycle, patterns, and wonders of butterflies through interactive activities.\n\nPart of the City of Ryde's free and low-cost April 2026 school holiday program. Children aged 12 and under must be accompanied by a parent or carer.\n\nBookings are essential — secure your spot on Eventbrite.",
+    "seoSlug": "magical-butterfly-house-ryde-library",
+    "seoTitle": "Magical Butterfly House – Free School Holiday Activity at Ryde Library 2026 | Little Discoveries",
+    "seoDescription": "Explore the world of butterflies at Ryde Library on Friday 10 April 2026. Free, bookings essential. Ages 7+. City of Ryde school holiday program."
   }
 ]
