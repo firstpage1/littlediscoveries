@@ -137,16 +137,33 @@ function renderCards(list) {
 
   noResults.classList.add("hidden");
 
-  // Editor's choice first, then free before paid, then featured
-  const sorted = [...list].sort((a, b) => {
-    const aEC = a.editorsChoice ? 0 : 1;
-    const bEC = b.editorsChoice ? 0 : 1;
-    if (aEC !== bEC) return aEC - bEC;
-    const aFree = (a.cost === "Free" || a.cost === "free" || a.costLabel === "Free") ? 0 : 1;
-    const bFree = (b.cost === "Free" || b.cost === "free" || b.costLabel === "Free") ? 0 : 1;
-    if (aFree !== bFree) return aFree - bFree;
-    return (b.isFeatured ? 1 : 0) - (a.isFeatured ? 1 : 0);
+  // Sort: EC first, then free interleaved by category for variety, then paid
+  const isFreeAct = a => (a.cost === "Free" || a.cost === "free" || (a.costLabel || "").toLowerCase().startsWith("free"));
+  const CATEGORY_CYCLE = ["Festivals","STEM","Arts & Crafts","Science","Music","Storytime","Technology","Outdoor Adventures","Sports","Cooking"];
+  const ecItems   = list.filter(a => a.editorsChoice);
+  const freeItems = list.filter(a => !a.editorsChoice && isFreeAct(a));
+  const paidItems = list.filter(a => !a.editorsChoice && !isFreeAct(a));
+  // Group free items by category, each group sorted by id
+  const catGroups = {};
+  freeItems.forEach(act => {
+    const cat = act.category || "Other";
+    (catGroups[cat] = catGroups[cat] || []).push(act);
   });
+  Object.values(catGroups).forEach(g => g.sort((a, b) => a.id - b.id));
+  const orderedCats = [
+    ...CATEGORY_CYCLE.filter(c => catGroups[c]),
+    ...Object.keys(catGroups).filter(c => !CATEGORY_CYCLE.includes(c))
+  ];
+  // Round-robin interleave across categories
+  const mixedFree = [];
+  for (let round = 0; ; round++) {
+    let added = false;
+    for (const cat of orderedCats) {
+      if (catGroups[cat] && catGroups[cat][round]) { mixedFree.push(catGroups[cat][round]); added = true; }
+    }
+    if (!added) break;
+  }
+  const sorted = [...ecItems, ...mixedFree, ...paidItems];
 
   const visible = sorted.slice(0, state.visibleCount);
   const hasMore = sorted.length > state.visibleCount;
