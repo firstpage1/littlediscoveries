@@ -32,7 +32,7 @@
     *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
     :root{--primary:#f94d85;--orange:#f94d85;--yellow:#FFD166;--dark:#1C1C2E;--mid:#4A4A6A;--muted:#8888AA;--bg:#FFF9F5;--white:#FFFFFF;--border:#EDE8E3;--radius:14px;--radius-lg:22px;--shadow:0 4px 20px rgba(0,0,0,.10);--shadow-lg:0 8px 40px rgba(0,0,0,.14)}
     html{scroll-behavior:smooth}body{font-family:'Nunito',system-ui,sans-serif;background:var(--bg);color:var(--dark);line-height:1.6;-webkit-font-smoothing:antialiased}img{display:block;max-width:100%}a{text-decoration:none;color:inherit}.container{max-width:860px;margin:0 auto;padding:0 24px}
-    .nav{position:sticky;top:0;z-index:100;background:rgba(255,249,245,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}.nav__inner{display:flex;align-items:center;justify-content:space-between;height:64px}.nav__logo{display:flex;align-items:center;gap:8px;font-size:1.15rem;font-weight:900;color:var(--dark)}.nav__logo-icon{font-size:1.4rem}.nav__back{font-size:.875rem;font-weight:700;color:var(--muted);display:flex;align-items:center;gap:6px;transition:color .2s}.nav__back:hover{color:var(--orange)}
+    .nav{position:sticky;top:0;z-index:100;background:rgba(255,249,245,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}.nav__inner{display:flex;align-items:center;justify-content:space-between;height:64px}.nav__logo{display:flex;align-items:center;gap:8px;font-size:1.15rem;font-weight:900;color:var(--dark)}.nav__logo-img{height:48px;width:auto;display:block;}.nav__back{font-size:.875rem;font-weight:700;color:var(--muted);display:flex;align-items:center;gap:6px;transition:color .2s}.nav__back:hover{color:var(--orange)}
     .activity-hero{width:100%;height:320px;display:flex;align-items:center;justify-content:center;font-size:6rem;background:linear-gradient(135deg,#f093fb 0%,#f5576c 100%);position:relative;overflow:hidden}.activity-hero img{width:100%;height:100%;object-fit:cover}
     .activity-content{padding:40px 0 80px}.activity-meta{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
     .tag{font-size:.72rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase;padding:4px 12px;border-radius:50px}.tag--age{background:#FFF0E6;color:#D45D1A}.tag--area{background:#E8F4FD;color:#1A6DA4}.tag--day{background:#E8FBF2;color:#0F8A52}.tag--cost{background:#F0EEFF;color:#5B4FCF}.tag--recurring{background:#F0EEFF;color:#5B4FCF}.tag--category{background:#FFF0E6;color:#D45D1A}
@@ -50,7 +50,7 @@
 <body>
   <div class="geo-summary" aria-hidden="true">School Holidays: Maker and Creator - 8 to 12 Years, Darling Square. Location: Darling Square Library, 1 Little Pier Street (Level 1–2, Darling Exchange Building), Haymarket NSW 2000. Neighbourhood: Eastern Suburbs. Ages: School Kids (5–13 years). Time: 2-hour sessions - check event page for dates. Cost: Free — entry. Category: Arts & Crafts.</div>
   <header class="nav"><div class="nav__inner container">
-    <a href="/littlediscoveries/" class="nav__logo"><span class="nav__logo-icon">🗺️</span><span>Little Discoveries</span></a>
+    <a href="/littlediscoveries/" class="nav__logo"><img src="/littlediscoveries/images/logo.png" alt="Little Discoveries" class="nav__logo-img" /></a>
     <a href="/littlediscoveries/" class="nav__back">← Back to all activities</a>
   </div></header>
   <div class="activity-hero" style="background:linear-gradient(135deg,#f093fb 0%,#f5576c 100%);"><img src="https://images.pexels.com/photos/8612992/pexels-photo-8612992.jpeg?auto=compress&cs=tinysrgb&w=800" alt="School Holidays: Maker and Creator - 8 to 12 Years, Darling Square" style="width:100%;height:100%;object-fit:cover;" onerror="this.parentElement.innerHTML='<span style=&quot;font-size:6rem;&quot;>🎨</span>'" /></div>
@@ -82,8 +82,8 @@
     <a href="/littlediscoveries/" class="btn btn--ghost">← Back to all activities</a>
   </div></main>
   <footer class="footer"><div class="container footer__inner">
-    <div class="footer__brand"><span style="font-size:2rem">🗺️</span><strong>Little Discoveries</strong><p>Turning weekends in Sydney into adventures!</p></div>
-    <div class="footer__links"><a href="/littlediscoveries/#about">About</a><a href="/littlediscoveries/">Activities</a><a href="/littlediscoveries/#newsletter">Newsletter</a></div>
+    <div class="footer__brand"><p>Turning weekends in Sydney into adventures!</p></div>
+    <div class="footer__links"><a href="/littlediscoveries/#founder">About</a><a href="mailto:hello@patriciahaueiss.com">Contact</a></div>
     <p class="footer__copy">© 2026 Little Discoveries. Made with ❤️ in Sydney.</p>
   </div></footer>
 </body></html>
