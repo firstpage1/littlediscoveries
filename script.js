@@ -194,8 +194,6 @@ function renderCards(list) {
 
     const featuredBadge = act.editorsChoice
       ? `<div class="activity-card__editors-choice">✨ Editor's Choice</div>`
-      : act.isFeatured
-      ? `<div class="activity-card__featured">⭐ Featured</div>`
       : "";
 
     const onlineBadge = act.isOnline
@@ -216,7 +214,7 @@ function renderCards(list) {
     }
 
     return `
-    <article class="activity-card${act.editorsChoice ? " activity-card--editors-choice" : act.isFeatured ? " activity-card--featured" : ""}" onclick="location.href='${act.seoSlug ? `/littlediscoveries/${act.seoSlug}/` : (act.source || act.website || '#')}'" style="cursor:pointer;">
+    <article class="activity-card${act.editorsChoice ? " activity-card--editors-choice" : ""}" onclick="location.href='${act.seoSlug ? `/littlediscoveries/${act.seoSlug}/` : (act.source || act.website || '#')}'" style="cursor:pointer;">
       <div class="activity-card__thumb" style="${thumbStyle}">
         ${thumbContent}
         ${featuredBadge}

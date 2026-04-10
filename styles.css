@@ -456,8 +456,8 @@ a { text-decoration: none; color: inherit; }
 }
 
 .activity-card--editors-choice {
-  border-color: #f94d85;
-  box-shadow: 0 6px 28px rgba(249,77,133,.18);
+  border-color: var(--yellow);
+  box-shadow: 0 6px 28px rgba(255,209,102,.35);
 }
 
 .activity-card__editors-choice {
