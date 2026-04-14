@@ -273,6 +273,7 @@ function applyFilters() {
   const { age, neighborhood, days } = state;
 
   const filtered = activities.filter(act => {
+    if (act.expired) return false;
     const ageMatch = !age || (act.age && act.age.includes(age));
     const neighborhoodMatch = !neighborhood || act.neighborhood === neighborhood;
     const dayMatch = days.length === 0 || (act.day && days.some(d => act.day.includes(d)));
