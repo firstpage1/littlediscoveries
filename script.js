@@ -389,7 +389,7 @@ loadActivities();
       });
       const data = await res.json();
       if (data.success === 'true' || data.success === true) {
-        msg.textContent = '🎉 You\'re in! Check your inbox for your first roundup.';
+        msg.textContent = 'Thank you for subscribing! On Sunday we\'ll send you the best of next week\'s activities. 🎉';
         msg.style.color = '#1cbf73';
         msg.style.display = 'block';
         form.reset();
