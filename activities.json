@@ -1792,5 +1792,90 @@
       "Sunday"
     ],
     "category": "Arts & Crafts"
+  },
+  {
+    "id": 58,
+    "title": "Biennale of Sydney – Free Family Art at White Bay Power Station",
+    "website": "https://www.biennaleofsydney.art/",
+    "imageUrl": "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "description": "The 25th Biennale of Sydney transforms the spectacular White Bay Power Station into a free open art playground — with hands-on family workshops, immersive installations and interactive art for all ages.",
+    "longDescription": "Inside the cathedral-like halls of White Bay Power Station in Rozelle, one of Australia's most ambitious art events has thrown open its doors for free — and families are invited. The 25th Biennale of Sydney, themed 'Rememory', runs until June 2026 and fills this breathtaking heritage building with immersive installations, interactive artworks and hands-on creative experiences that are as engaging for a seven-year-old as they are for an adult.\n\nWhite Bay Power Station is an industrial masterpiece in itself — towering turbine halls, soaring ceilings and raw industrial bones turned into a world-class arts venue. The Biennale has programmed regular Family Days with free drop-in art workshops led by artists, so kids don't just look at art, they make it. The Biennale also extends to other venues including the Art Gallery of NSW and the Chau Chak Wing Museum, making it easy to combine with a broader cultural day out.\n\nFamilies can look forward to:\n* Free general admission to one of Australia's biggest art events — no ticket required\n* Spectacular White Bay Power Station — a heritage building unlike anything else in Sydney\n* Family Days with free drop-in hands-on art workshops led by practising artists\n* Immersive and interactive installations designed to engage visitors of all ages\n* Multiple venues including Art Gallery NSW and Chau Chak Wing Museum\n* Runs Tuesday to Sunday, 10am–5pm — great for a weekday or weekend visit\n* Located in Rozelle (Inner West) — accessible via ferry to Balmain East or bus",
+    "address": "White Bay Power Station, Roseby Street, Rozelle NSW 2039",
+    "venue": "White Bay Power Station",
+    "age": [
+      "Toddlers (2–3 years)",
+      "Pre-schoolers (3–5 years)",
+      "School Kids (5–13 years)"
+    ],
+    "neighborhood": "Inner West",
+    "day": [
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "cost": "Free",
+    "costLabel": "free general admission",
+    "startDate": "2026-03-14",
+    "endDate": "2026-06-14",
+    "time": "10:00am – 5:00pm",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "biennale-sydney-free-family-art-white-bay-power-station-2026",
+    "seoTitle": "Biennale of Sydney 2026 – Free Family Art at White Bay Power Station | Little Discoveries",
+    "seoDescription": "Free entry to the 25th Biennale of Sydney at White Bay Power Station. Immersive art, hands-on family workshops and interactive installations — open Tue–Sun until June 2026.",
+    "isFeatured": false,
+    "editorsChoice": true,
+    "isRecurring": false,
+    "source": "https://www.biennaleofsydney.art/",
+    "tags": [
+      "art",
+      "workshop",
+      "inclusive",
+      "family",
+      "free"
+    ],
+    "category": "Arts & Crafts"
+  },
+  {
+    "id": 59,
+    "title": "South East Block Party – Free Youth Week Event, Randwick",
+    "website": "https://www.randwick.nsw.gov.au/community/whats-on/major-events",
+    "imageUrl": "https://images.pexels.com/photos/1684187/pexels-photo-1684187.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "description": "Randwick City Council's free Youth Week Block Party at Coral Sea Park — live entertainment, food, activities and games for young people and families on Wednesday 24 April.",
+    "longDescription": "Coral Sea Park in Randwick transforms into a free outdoor party for Youth Week on Wednesday 24 April — and the whole family is welcome. Randwick City Council's South East Block Party brings together live entertainment, free food, fun activities and games in one of the Eastern Suburbs' best parks, with harbour and ocean views as the backdrop.\n\nYouth Week is a NSW-wide annual celebration of young people aged 12–25, and the South East Block Party is one of the most relaxed and welcoming local events of the year. Older kids can connect with community services and creative workshops, while families with younger children can enjoy the park atmosphere, live music and free activities. It's the kind of event where you wander in not knowing what to expect and end up staying for hours.\n\nFamilies can look forward to:\n* Free entry, free food and free entertainment — bring nothing but yourselves\n* Live music and performances throughout the afternoon\n* Fun activities, games and interactive zones for all ages\n* Beautiful Coral Sea Park setting with harbour views in Randwick\n* Part of NSW Youth Week — a welcoming community celebration\n* Easy to combine with a walk along the Coogee to Bondi coastal track\n* Parking at Coral Sea Park or accessible by bus from the city",
+    "address": "Coral Sea Park, Marine Parade, Randwick NSW 2031",
+    "venue": "Coral Sea Park",
+    "age": [
+      "School Kids (5–13 years)"
+    ],
+    "neighborhood": "Eastern Suburbs",
+    "day": [
+      "Wednesday"
+    ],
+    "cost": "Free",
+    "costLabel": "free entry, food and entertainment",
+    "startDate": "2026-04-24",
+    "endDate": "2026-04-24",
+    "time": "3:00pm – 7:00pm",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "south-east-block-party-randwick-youth-week-2026",
+    "seoTitle": "South East Block Party Randwick – Free Youth Week Event 24 April 2026 | Little Discoveries",
+    "seoDescription": "Free Youth Week Block Party at Coral Sea Park, Randwick on Wednesday 24 April 2026. Live entertainment, food, activities and games for young people and families.",
+    "isFeatured": false,
+    "editorsChoice": false,
+    "isRecurring": false,
+    "source": "https://www.randwick.nsw.gov.au/community/whats-on/major-events",
+    "tags": [
+      "outdoor",
+      "sport",
+      "inclusive",
+      "family",
+      "free"
+    ],
+    "category": "Outdoor Adventures"
   }
 ]

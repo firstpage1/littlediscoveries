@@ -264,4 +264,16 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://firstpage1.github.io/littlediscoveries/biennale-sydney-free-family-art-white-bay-power-station-2026/</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://firstpage1.github.io/littlediscoveries/south-east-block-party-randwick-youth-week-2026/</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
