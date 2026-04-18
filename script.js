@@ -355,7 +355,7 @@ function bindEvents() {
 =========================== */
 function init() {
   bindEvents();
-  renderCards(activities);
+  applyFilters();
 }
 
 loadActivities();
