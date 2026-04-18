@@ -361,6 +361,53 @@ function init() {
 loadActivities();
 
 /* ===========================
+   NEWSLETTER SIGNUP
+=========================== */
+(function () {
+  const form = document.getElementById('newsletter-form');
+  if (!form) return;
+
+  form.addEventListener('submit', async function (e) {
+    e.preventDefault();
+    const emailInput = form.querySelector('input[type="email"]');
+    const btn = document.getElementById('newsletter-btn');
+    const msg = document.getElementById('newsletter-msg');
+    const email = emailInput.value.trim();
+
+    btn.disabled = true;
+    btn.textContent = 'Sending…';
+
+    try {
+      const res = await fetch('https://formsubmit.co/ajax/patricia.haueiss@gmail.com', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify({
+          email: email,
+          _subject: 'New Newsletter Signup – Little Discoveries',
+          _captcha: 'false'
+        })
+      });
+      const data = await res.json();
+      if (data.success === 'true' || data.success === true) {
+        msg.textContent = '🎉 You\'re in! Check your inbox for your first roundup.';
+        msg.style.color = '#1cbf73';
+        msg.style.display = 'block';
+        form.reset();
+        btn.textContent = 'Joined!';
+      } else {
+        throw new Error('failed');
+      }
+    } catch {
+      msg.textContent = 'Something went wrong — please try again.';
+      msg.style.color = '#f5576c';
+      msg.style.display = 'block';
+      btn.disabled = false;
+      btn.textContent = 'Join Now';
+    }
+  });
+}());
+
+/* ===========================
    MOBILE HAMBURGER MENU
 =========================== */
 (function () {

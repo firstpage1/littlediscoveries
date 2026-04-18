@@ -273,10 +273,11 @@
         <h2>What's On This Weekend?</h2>
         <p>Join 1,200+ Sydney parents who get the best events in their inbox ♡</p>
       </div>
-      <form class="newsletter__form" onsubmit="return false;">
-        <input type="email" placeholder="Your email" class="newsletter__input" aria-label="Your email address" />
-        <button type="submit" class="btn btn--primary">Join Now</button>
+      <form class="newsletter__form" id="newsletter-form">
+        <input type="email" placeholder="Your email" class="newsletter__input" aria-label="Your email address" required />
+        <button type="submit" class="btn btn--primary" id="newsletter-btn">Join Now</button>
       </form>
+      <p id="newsletter-msg" style="display:none;margin-top:0.75rem;font-weight:600;"></p>
     </div>
   </section>
 
@@ -441,7 +442,7 @@
     </div>
   </footer>
 
-  <script src="script.js?v=797d36da"></script>
+  <script src="script.js?v=a7f6ee82"></script>
   <div class="geo-summary" aria-hidden="true" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;">
 Little Discoveries is Sydney's curated family activity guide covering all suburbs including CBD, Eastern Suburbs, Inner West, North Shore, Northern Beaches and Western Sydney. Activities are available for babies (0–2), toddlers (2–3), pre-schoolers (3–5), school kids (5–13) and teens. Categories include free events, school holiday programs, wildlife parks, outdoor adventures, arts and crafts workshops, STEM activities, music, dance, sport and festivals. Updated weekly. All activities are located in Sydney, New South Wales, Australia.
   </div>
