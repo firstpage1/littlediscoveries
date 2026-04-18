@@ -203,7 +203,7 @@ function renderCards(list) {
     // Link to subpage if seoSlug exists, else fall back to source URL
     let cardUrl, websiteBtn;
     if (act.seoSlug) {
-      cardUrl = `/littlediscoveries/${act.seoSlug}/`;
+      cardUrl = `/${act.seoSlug}/`;
       websiteBtn = `<a href="${cardUrl}" class="activity-card__cta">View Details →</a>`;
     } else {
       const sourceUrl = act.source || act.website;
@@ -214,7 +214,7 @@ function renderCards(list) {
     }
 
     return `
-    <article class="activity-card${act.editorsChoice ? " activity-card--editors-choice" : ""}" onclick="location.href='${act.seoSlug ? `/littlediscoveries/${act.seoSlug}/` : (act.source || act.website || '#')}'" style="cursor:pointer;">
+    <article class="activity-card${act.editorsChoice ? " activity-card--editors-choice" : ""}" onclick="location.href='${act.seoSlug ? `/${act.seoSlug}/` : (act.source || act.website || '#')}'" style="cursor:pointer;">
       <div class="activity-card__thumb" style="${thumbStyle}">
         ${thumbContent}
         ${featuredBadge}
