@@ -4,7 +4,7 @@
 let activities = [];
 
 async function loadActivities() {
-  const res = await fetch('activities.json?v=37799814');
+  const res = await fetch('activities.json?v=e76189ed');
   activities = await res.json();
   init();
 }
