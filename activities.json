@@ -41,7 +41,8 @@
       "free",
       "CBD"
     ],
-    "category": "Arts & Crafts"
+    "category": "Arts & Crafts",
+    "expired": true
   },
   {
     "id": 13,
@@ -86,7 +87,8 @@
       "CBD"
     ],
     "category": "STEM",
-    "editorsChoice": true
+    "editorsChoice": true,
+    "expired": true
   },
   {
     "id": 14,
@@ -129,7 +131,8 @@
       "coding",
       "Woolloomooloo"
     ],
-    "category": "Sports"
+    "category": "Sports",
+    "expired": true
   },
   {
     "id": 15,
@@ -174,7 +177,8 @@
       "Roblox",
       "camps"
     ],
-    "category": "STEM"
+    "category": "STEM",
+    "expired": true
   },
   {
     "id": 16,
@@ -220,7 +224,8 @@
       "Inner West"
     ],
     "category": "STEM",
-    "editorsChoice": true
+    "editorsChoice": true,
+    "expired": true
   },
   {
     "id": 17,
@@ -452,7 +457,8 @@
     "seoSlug": "april-school-holidays-darling-harbour",
     "seoTitle": "April School Holidays in Darling Harbour 2026 – Free Family Fun | Little Discoveries",
     "seoDescription": "Free school holiday activities at Darling Harbour 4–19 April 2026: Easter disco, Kids Yoga, circus shows, roving performers and more.",
-    "editorsChoice": true
+    "editorsChoice": true,
+    "expired": true
   },
   {
     "id": 22,
@@ -487,7 +493,8 @@
     "longDescription": "Darling Square pulls out all the stops for Easter school holidays with a lineup of free activities that make the precinct worth a dedicated visit — or three. Running throughout the NSW Autumn school break (7–17 April 2026), the program is designed for younger children and families who want festive fun without spending a lot.\n\nThe Easter egg hunt is the highlight — kids follow clues around the precinct to claim their sweet prize — but the jumping castle, face painting and twisted balloon art mean there's plenty to keep little ones busy well beyond the hunt. With over 50 restaurants and cafes on site, Darling Square is also one of the best spots in the city for a family lunch in between activities.\n\nFamilies can look forward to:\n* Free Easter egg hunt with clues hidden across the Darling Square precinct\n* Easter Bunny visits throughout the day — keep an eye out for surprise appearances\n* Inflatable jumping castle for kids up to 13 years\n* Free face painting by professional artists\n* Free twisted balloon art — your child can request their favourite animal or character\n* No bookings needed — just show up and join in\n* Over 50 restaurants on site for a family lunch before or after",
     "seoSlug": "easter-school-holidays-darling-square",
     "seoTitle": "Easter School Holidays at Darling Square 2026 – Free Kids Activities | Little Discoveries",
-    "seoDescription": "Free Easter activities for kids at Darling Square, Sydney: egg hunt, Easter Bunny, jumping castle, face painting and balloon art. No bookings needed."
+    "seoDescription": "Free Easter activities for kids at Darling Square, Sydney: egg hunt, Easter Bunny, jumping castle, face painting and balloon art. No bookings needed.",
+    "expired": true
   },
   {
     "id": 23,
@@ -523,7 +530,8 @@
     "longDescription": "The Pier Street Underpass at Darling Harbour has become something remarkable for the April school holidays — Imagination Station, a free all-ages interactive installation where space exploration meets hands-on creativity. It's the kind of place where a five-year-old and a twelve-year-old can both be completely absorbed at the same time, building rockets, decorating astronaut masks and designing spaceships side by side.\n\nThe installation runs free as a drop-in all day, every day from 4–19 April, which makes it perfect for a spontaneous visit or a planned adventure. Russ the Story Bus — the travelling library from the Sydney Writers' Festival — pulls up regularly for author storytimes. A giant illustrated art cube by celebrated Australian illustrator James Gulliver Hancock anchors the space and is worth seeing on its own.\n\nFamilies can look forward to:\n* Free drop-in space-themed art and craft activities — no bookings, just turn up\n* Build your own rocket from a range of materials and launch it into your imagination\n* Decorate an astronaut mask to wear home as a souvenir\n* Design and colour your own spaceship — guided by space-age prompts\n* Cosmic painting and large-scale collaborative art projects\n* Author storytimes aboard Russ the Story Bus — check on-site for timing\n* Sensory-friendly activities available throughout — welcoming for all kids",
     "seoSlug": "imagination-station-darling-harbour",
     "seoTitle": "Imagination Station Darling Harbour 2026 – Free Space Activities for Kids | Little Discoveries",
-    "seoDescription": "Free drop-in space-themed craft and storytimes at Pier Street Underpass, Darling Harbour. Build rockets, decorate astronaut masks and more — no bookings needed."
+    "seoDescription": "Free drop-in space-themed craft and storytimes at Pier Street Underpass, Darling Harbour. Build rockets, decorate astronaut masks and more — no bookings needed.",
+    "expired": true
   },
   {
     "id": 24,
@@ -555,7 +563,8 @@
     "longDescription": "Every week of the April school holidays, Darling Harbour's Playground Lawn becomes a stage. Free live performances and workshops run to a weekly schedule from 4–19 April, giving families a reliable reason to keep coming back to one of Sydney's most beautiful outdoor spaces.\n\nThe regular highlights are Rhythm n Bubs on Wednesday mornings — a joyful music and movement class led by Phoebe Haselden & Co that has families with babies and toddlers singing and clapping from the first moment — and the Sync or Swim circus show on Saturdays, which is as funny and impressive as it sounds. Sunday mornings bring a Summer Party with Tiptoe Giants. Free Kids Yoga pops up throughout the week between performances.\n\nFamilies can look forward to:\n* Wednesday 10:30–11:15am — Rhythm n Bubs music and movement for babies and toddlers\n* Saturday 10:30am and 11:30am — Sync or Swim circus show, outdoors on the lawn\n* Sunday 10:30–11:15am — Summer Party show with Tiptoe Giants for all ages\n* Free Kids Yoga sessions running throughout the week alongside performances\n* Roving performers appearing across the precinct each day without warning\n* All events free with no bookings required — arrive a few minutes early for a spot\n* Darling Harbour playground and waterfront right next door for play before and after",
     "seoSlug": "school-holiday-performances-darling-harbour",
     "seoTitle": "Free School Holiday Shows & Workshops at Darling Harbour 2026 | Little Discoveries",
-    "seoDescription": "Free live performances every week of the April school holidays at Darling Harbour Playground Lawn — circus, music classes, Kids Yoga and more."
+    "seoDescription": "Free live performances every week of the April school holidays at Darling Harbour Playground Lawn — circus, music classes, Kids Yoga and more.",
+    "expired": true
   },
   {
     "id": 25,
@@ -616,7 +625,8 @@
     "longDescription": "There's something special about a storytime session that feels genuinely warm and unhurried — where little ones can wriggle, listen, sing along and just be themselves. Storytime with Josh, running at Maybanke Community Centre in Pyrmont during the April school holidays, is exactly that kind of session.\n\nJosh from the City of Sydney community team brings picture books, songs and rhymes to life in a relaxed, welcoming setting that's perfect for children aged 1–5. The session is free with no bookings needed, making it a lovely low-pressure morning outing during the school break — whether you're a local or just exploring Pyrmont for the day.\n\nFamilies can look forward to:\n* Free storytime with picture books, songs and nursery rhymes — no bookings needed\n* A warm, relaxed atmosphere designed for babies, toddlers and pre-schoolers\n* Led by Josh from the City of Sydney's community team — experienced and engaging\n* Sessions running throughout the school holidays — check the website for times\n* Located at Maybanke Community Centre, 1 Bowman Street, Pyrmont\n* Easy to combine with a walk along the Pyrmont waterfront or a visit to Darling Harbour\n* Suitable for children aged 1–5 — parents, carers and siblings all welcome",
     "seoSlug": "storytime-josh-pyrmont",
     "seoTitle": "Storytime with Josh – Free School Holiday Storytime at Pyrmont 2026 | Little Discoveries",
-    "seoDescription": "Free storytime with songs and stories for kids aged 1–5 at Maybanke Community Centre, Pyrmont during the April 2026 school holidays. No bookings needed."
+    "seoDescription": "Free storytime with songs and stories for kids aged 1–5 at Maybanke Community Centre, Pyrmont during the April 2026 school holidays. No bookings needed.",
+    "expired": true
   },
   {
     "id": 27,
@@ -778,7 +788,8 @@
       "festival"
     ],
     "category": "Music",
-    "editorsChoice": true
+    "editorsChoice": true,
+    "expired": true
   },
   {
     "id": 35,
@@ -824,7 +835,8 @@
       "active"
     ],
     "category": "Sports",
-    "editorsChoice": true
+    "editorsChoice": true,
+    "expired": true
   },
   {
     "id": 36,
@@ -867,7 +879,8 @@
       "Circular Quay"
     ],
     "category": "Arts & Crafts",
-    "editorsChoice": true
+    "editorsChoice": true,
+    "expired": true
   },
   {
     "id": 37,
@@ -915,7 +928,8 @@
       "dinosaurs"
     ],
     "category": "Science",
-    "editorsChoice": true
+    "editorsChoice": true,
+    "expired": true
   },
   {
     "id": 38,
@@ -956,7 +970,8 @@
       "heritage"
     ],
     "category": "Storytime",
-    "editorsChoice": true
+    "editorsChoice": true,
+    "expired": true
   },
   {
     "id": 39,
@@ -996,7 +1011,8 @@
       "CBD",
       "heritage"
     ],
-    "category": "STEM"
+    "category": "STEM",
+    "expired": true
   },
   {
     "id": 40,
@@ -1036,7 +1052,8 @@
       "free",
       "science"
     ],
-    "category": "STEM"
+    "category": "STEM",
+    "expired": true
   },
   {
     "id": 41,
@@ -1077,7 +1094,8 @@
       "Aboriginal",
       "school holidays"
     ],
-    "category": "Outdoor Adventures"
+    "category": "Outdoor Adventures",
+    "expired": true
   },
   {
     "id": 42,
@@ -1120,7 +1138,8 @@
       "gallery"
     ],
     "category": "Arts & Crafts",
-    "editorsChoice": true
+    "editorsChoice": true,
+    "expired": true
   },
   {
     "id": 43,
@@ -1165,7 +1184,8 @@
       "fitness"
     ],
     "category": "Sports",
-    "editorsChoice": true
+    "editorsChoice": true,
+    "expired": true
   },
   {
     "id": 44,
@@ -1210,7 +1230,8 @@
       "Ashfield",
       "drop-in"
     ],
-    "category": "Arts & Crafts"
+    "category": "Arts & Crafts",
+    "expired": true
   },
   {
     "id": 45,
@@ -1257,7 +1278,8 @@
       "free",
       "Inner West"
     ],
-    "category": "Storytime"
+    "category": "Storytime",
+    "expired": true
   },
   {
     "id": 46,
@@ -1298,7 +1320,8 @@
       "CBD",
       "creative"
     ],
-    "category": "Arts & Crafts"
+    "category": "Arts & Crafts",
+    "expired": true
   },
   {
     "id": 47,
@@ -1344,6 +1367,430 @@
       "mindfulness",
       "kids"
     ],
-    "category": "Sports"
+    "category": "Sports",
+    "expired": true
+  },
+  {
+    "id": 48,
+    "title": "ANZAC Day Dawn Service at Martin Place",
+    "website": "https://www.anzacday.org.au/dawn-service/",
+    "imageUrl": "https://images.pexels.com/photos/1486428/pexels-photo-1486428.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "description": "Sydney's most moving commemoration — the ANZAC Day Dawn Service at Martin Place Cenotaph begins at 4:20am on Saturday 25 April. Free, open to all, and a profound experience for families with older children.",
+    "longDescription": "There is something about standing in the dark at 4:20am, surrounded by thousands of Sydneysiders in respectful silence, that stays with children for life. The ANZAC Day Dawn Service at the Martin Place Cenotaph is Australia's most powerful act of community remembrance — and it is completely free and open to everyone.\n\nIn 2026, ANZAC Day falls on Saturday 25 April, which means the whole family can attend without worrying about a school night. Crowds begin gathering at the Cenotaph from around 3:30am. The service is brief, solemn and deeply moving — with the Last Post, a minute's silence, and the Rouse. Many families make it an annual tradition, followed by a warm breakfast nearby.\n\nFamilies can look forward to:\n* A profound, moving experience children will remember into adulthood\n* The haunting sound of the Last Post echoing through a silent Martin Place\n* The first light of dawn breaking over the city during the Rouse\n* Free public transport runs through the night for commuters\n* Crowds begin gathering from 3:30am — arrive early for a good vantage point\n* Combine with a pre-dawn family breakfast afterwards at a nearby cafe\n* Broadcast live on free-to-air TV and radio for those who prefer to watch from home",
+    "address": "Cenotaph, Martin Place, Sydney CBD NSW 2000",
+    "venue": "Martin Place Cenotaph",
+    "age": [
+      "School Kids (5–13 years)"
+    ],
+    "neighborhood": "CBD",
+    "day": [
+      "Saturday"
+    ],
+    "cost": "Free",
+    "costLabel": "free entry, open to all",
+    "startDate": "2026-04-25",
+    "endDate": "2026-04-25",
+    "time": "4:20am (arrive from 3:30am)",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "anzac-day-dawn-service-martin-place-sydney-2026",
+    "seoTitle": "ANZAC Day Dawn Service Martin Place Sydney 2026 – Free Family Commemoration | Little Discoveries",
+    "seoDescription": "Sydney's ANZAC Day Dawn Service at Martin Place Cenotaph, 4:20am Saturday 25 April 2026. Free, open to all — a profound family experience.",
+    "isFeatured": false,
+    "isRecurring": true,
+    "source": "https://www.anzacday.org.au/dawn-service/",
+    "tags": [
+      "ANZAC Day",
+      "history",
+      "commemoration",
+      "free",
+      "CBD",
+      "family"
+    ],
+    "category": "Festivals",
+    "editorsChoice": true
+  },
+  {
+    "id": 49,
+    "title": "ANZAC Day March – Watch the Parade, Sydney CBD",
+    "website": "https://www.anzacday.org.au/the-march/",
+    "imageUrl": "https://images.pexels.com/photos/2376645/pexels-photo-2376645.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "description": "Over 10,000 veterans and serving members march along Elizabeth Street to Hyde Park at 9am on ANZAC Day. Free to watch from the footpath — one of the most powerful and moving spectacles Sydney has to offer.",
+    "longDescription": "The ANZAC Day March is one of Sydney's most impressive annual spectacles — more than 10,000 current and former members of the Australian Defence Force marching in formation down Elizabeth Street to Hyde Park, accompanied by military bands and cheered on by a city full of grateful spectators.\n\nOn Saturday 25 April 2026, the March steps off at 9am. Families line the footpaths along Elizabeth Street from as early as 8am to secure a spot. Seeing veterans carry their medals, watching the precision and pride of serving members, and hearing the bands — it is a genuinely moving experience that brings history to life for children far better than any classroom ever could.\n\nFamilies can look forward to:\n* Over 10,000 marchers including veterans of multiple conflicts and current ADF members\n* Military marching bands playing classic service tunes along the route\n* A powerful, emotional atmosphere that connects children to history in a real way\n* Free to watch from the footpath along Elizabeth Street — no tickets required\n* March concludes at the ANZAC Memorial in Hyde Park South for a Commemoration Service at 12:30pm\n* Easy access by train to Museum, Town Hall or Central stations\n* Broadcast live on ABC TV and iView for those watching from home",
+    "address": "Elizabeth Street, Sydney CBD (march route to Hyde Park)",
+    "venue": "Elizabeth Street, Sydney CBD",
+    "age": [
+      "Pre-schoolers (3–5 years)",
+      "School Kids (5–13 years)"
+    ],
+    "neighborhood": "CBD",
+    "day": [
+      "Saturday"
+    ],
+    "cost": "Free",
+    "costLabel": "free to watch, no tickets needed",
+    "startDate": "2026-04-25",
+    "endDate": "2026-04-25",
+    "time": "March steps off at 9:00am (arrive from 8am)",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "anzac-day-march-sydney-cbd-2026",
+    "seoTitle": "ANZAC Day March Sydney 2026 – Watch the Parade on Elizabeth Street | Little Discoveries",
+    "seoDescription": "10,000+ veterans and ADF members march along Elizabeth Street on ANZAC Day Saturday 25 April 2026. Free to watch — a powerful family experience in the Sydney CBD.",
+    "isFeatured": false,
+    "isRecurring": true,
+    "source": "https://www.anzacday.org.au/the-march/",
+    "tags": [
+      "ANZAC Day",
+      "parade",
+      "history",
+      "free",
+      "CBD",
+      "family",
+      "march"
+    ],
+    "category": "Festivals",
+    "editorsChoice": true
+  },
+  {
+    "id": 50,
+    "title": "ANZAC Memorial Hyde Park – Free Special Tours on ANZAC Day",
+    "website": "https://www.anzacmemorial.nsw.gov.au/event/special-free-anzac-day-tours",
+    "imageUrl": "https://images.pexels.com/photos/2574991/pexels-photo-2574991.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "description": "Free 30-minute guided tours of the ANZAC Memorial in Hyde Park run every half-hour from 1pm to 4pm on ANZAC Day — explore the stunning Art Deco architecture and discover the stories of those who served.",
+    "longDescription": "The ANZAC Memorial in Hyde Park South is one of Australia's most beautiful and moving buildings — a 1934 Art Deco masterpiece housing the Hall of Memory and the Hall of Service, adorned with sculptures and mosaics that honour the 226,000 NSW men and women who served in the First World War.\n\nOn ANZAC Day 2026 (Saturday 25 April), the Memorial runs free 30-minute guided tours every half-hour from 1pm to 4pm. These intimate tours take in the stunning architecture, explain the symbolism built into every detail of the building, and share the human stories of those commemorated. It's a genuinely enriching experience for school-age children and a perfect follow-up to watching the morning march.\n\nFamilies can look forward to:\n* Free 30-minute guided highlights tours — no bookings required, just turn up\n* Tours depart from the Hall of Service (Lower Ground Floor) every 30 minutes from 1pm to 4pm\n* Learn about the Art Deco design, the sculptures and the powerful symbolism throughout\n* Discover individual stories of NSW men and women who served in World War I\n* The Pool of Reflection and Hall of Memory are particularly moving spaces for children\n* Regular free guided tours also run every Sunday at 10am year-round\n* Located in Hyde Park South — easy walk from Town Hall, Museum or Central station",
+    "address": "Hyde Park South, Liverpool Street, Sydney NSW 2000",
+    "venue": "ANZAC Memorial, Hyde Park",
+    "age": [
+      "School Kids (5–13 years)"
+    ],
+    "neighborhood": "CBD",
+    "day": [
+      "Saturday"
+    ],
+    "cost": "Free",
+    "costLabel": "free entry and free guided tours",
+    "startDate": "2026-04-25",
+    "endDate": "2026-04-25",
+    "time": "Tours every 30 min from 1:00pm – 4:00pm; Memorial open 9am–5pm",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "anzac-memorial-hyde-park-free-tours-anzac-day-2026",
+    "seoTitle": "ANZAC Memorial Hyde Park Free Tours ANZAC Day 2026 Sydney | Little Discoveries",
+    "seoDescription": "Free 30-minute guided tours of the ANZAC Memorial Hyde Park on Saturday 25 April 2026, running every half-hour from 1pm. Stunning Art Deco architecture and wartime stories.",
+    "isFeatured": false,
+    "isRecurring": true,
+    "source": "https://www.anzacmemorial.nsw.gov.au/event/special-free-anzac-day-tours",
+    "tags": [
+      "ANZAC Day",
+      "history",
+      "memorial",
+      "free",
+      "CBD",
+      "Hyde Park",
+      "tours"
+    ],
+    "category": "STEM",
+    "editorsChoice": true
+  },
+  {
+    "id": 51,
+    "title": "The Rocks ANZAC Day – Free Live Music, Marching Bands & More",
+    "website": "https://www.therocks.com/whats-on/campaigns/anzac-day",
+    "imageUrl": "https://images.pexels.com/photos/1024984/pexels-photo-1024984.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "description": "The Rocks hosts a full free ANZAC Day program on Saturday 25 April — live music, military marching bands, art exhibitions and a hearty diggers breakfast in one of Sydney's most historic precincts.",
+    "longDescription": "The Rocks is Sydney's most historic neighbourhood — and on ANZAC Day it comes alive with a free program of events that honour those who served while creating a genuine community celebration. On Saturday 25 April 2026, the cobblestone lanes and sandstone buildings of The Rocks set the perfect backdrop for one of the city's most atmospheric ANZAC Day experiences.\n\nThe day's program includes live music performances, military marching bands winding through the historic streets, an ANZAC-themed art exhibition, and the beloved Diggers Breakfast — a hearty spread that continues the tradition of post-dawn service community gatherings. It's a wonderful way to spend ANZAC Day morning after the march or before the afternoon memorial tours.\n\nFamilies can look forward to:\n* Free live music performances throughout the day across The Rocks precinct\n* Military marching bands performing through the historic laneways and squares\n* An ANZAC-themed art exhibition celebrating the stories of those who served\n* The iconic Diggers Breakfast — perfect for families who've been up since dawn\n* Historic sandstone buildings and cobblestone streets create a unique atmosphere\n* Steps from Circular Quay for ferries, trains and scenic harbour walks\n* Combine with a visit to the Museum of Contemporary Art (free general entry always)",
+    "address": "The Rocks, Sydney NSW 2000",
+    "venue": "The Rocks Precinct",
+    "age": [
+      "Toddlers (2–3 years)",
+      "Pre-schoolers (3–5 years)",
+      "School Kids (5–13 years)"
+    ],
+    "neighborhood": "The Rocks",
+    "day": [
+      "Saturday"
+    ],
+    "cost": "Free",
+    "costLabel": "free entry, all events free",
+    "startDate": "2026-04-25",
+    "endDate": "2026-04-25",
+    "time": "From 9:00am throughout the day",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "the-rocks-anzac-day-celebrations-sydney-2026",
+    "seoTitle": "The Rocks ANZAC Day 2026 – Free Live Music, Marching Bands & Diggers Breakfast | Little Discoveries",
+    "seoDescription": "Free ANZAC Day events at The Rocks on Saturday 25 April 2026 — live music, marching bands, art exhibition and the iconic Diggers Breakfast in Sydney's most historic precinct.",
+    "isFeatured": false,
+    "isRecurring": true,
+    "source": "https://www.therocks.com/whats-on/campaigns/anzac-day",
+    "tags": [
+      "ANZAC Day",
+      "history",
+      "live music",
+      "free",
+      "The Rocks",
+      "family",
+      "marching bands"
+    ],
+    "category": "Festivals",
+    "editorsChoice": true
+  },
+  {
+    "id": 52,
+    "title": "Australian National Maritime Museum – Free ANZAC Day Visit",
+    "website": "https://www.sea.museum/whats-on",
+    "imageUrl": "https://images.pexels.com/photos/1295572/pexels-photo-1295572.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "description": "Explore Australia's naval and maritime ANZAC history at the Australian National Maritime Museum on ANZAC Day — free access to the main galleries, ships and special ANZAC exhibitions at Darling Harbour.",
+    "longDescription": "Right on the waterfront at Darling Harbour, the Australian National Maritime Museum tells the remarkable story of Australia's relationship with the sea — and on ANZAC Day, that story is particularly poignant. The museum holds significant naval history from Gallipoli to the Pacific, from Kokoda to the present day, and ANZAC Day brings special programming that brings these stories to life.\n\nThe main museum galleries are free to enter, covering everything from Indigenous sea voyaging to the First Fleet, convict transportation, naval warfare and modern maritime adventure. Outside on the water, you can walk the decks of historic vessels including HMAS Vampire, a retired Australian Navy destroyer, and HMAS Ovens, a submarine. These vessels carry an entry fee but the museum itself is free — making this an outstanding family day out.\n\nFamilies can look forward to:\n* Free entry to the main museum galleries — no ticket required\n* ANZAC-themed naval exhibitions and interactive displays on ANZAC Day\n* Walk the decks of real historic Navy ships moored at the wharf (small extra fee)\n* Special ANZAC Day programming including talks and demonstrations\n* Stunning Darling Harbour waterfront location — great for a post-visit stroll\n* Located next to the Darling Harbour playground, Tumbalong Park and cafes\n* Easy access from Town Hall or Darling Harbour ferry",
+    "address": "2 Murray Street, Darling Harbour NSW 2000",
+    "venue": "Australian National Maritime Museum",
+    "age": [
+      "Pre-schoolers (3–5 years)",
+      "School Kids (5–13 years)"
+    ],
+    "neighborhood": "Darling Harbour",
+    "day": [
+      "Saturday"
+    ],
+    "cost": "Free",
+    "costLabel": "free main galleries; ships extra",
+    "startDate": "2026-04-25",
+    "endDate": "2026-04-25",
+    "time": "9:30am – 5:00pm",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "maritime-museum-anzac-day-darling-harbour-2026",
+    "seoTitle": "Australian National Maritime Museum Free ANZAC Day Visit 2026 | Little Discoveries",
+    "seoDescription": "Free main gallery access at the Australian National Maritime Museum, Darling Harbour on ANZAC Day Saturday 25 April 2026. Naval history, real ships and special ANZAC programming.",
+    "isFeatured": false,
+    "isRecurring": true,
+    "source": "https://www.sea.museum/whats-on",
+    "tags": [
+      "ANZAC Day",
+      "museum",
+      "maritime",
+      "history",
+      "free",
+      "Darling Harbour",
+      "navy"
+    ],
+    "category": "Science",
+    "editorsChoice": true
+  },
+  {
+    "id": 53,
+    "title": "Bunnings Free Kids DIY Workshop – Every Weekend",
+    "website": "https://www.bunnings.com.au/services/in-store/kids-activities",
+    "imageUrl": "https://images.pexels.com/photos/4149356/pexels-photo-4149356.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "description": "Every Saturday and Sunday, Bunnings runs free hands-on DIY workshops for children aged 3–12 — build a toolbox, plant a garden, paint a keepsake and more. Check your local Sydney store for this week's project.",
+    "longDescription": "Not every great family activity needs to be planned weeks in advance. Bunnings' free kids DIY workshops run every single weekend at stores across Sydney, which makes them one of the most reliably excellent last-minute family outings you'll find. Each week brings a new project — from building a mini toolbox or planter box to painting a keepsake, making a mosaic or constructing a toy truck — and kids get to take home what they make.\n\nThe workshops are designed for children aged 3–12 and take around 30–45 minutes. Children must be accompanied by a parent or guardian. Projects are tailored for small hands and simple enough to be genuinely achievable — which means kids leave feeling proud, not frustrated. Check the Bunnings website or your local store to see this week's project and book a spot.\n\nFamilies can look forward to:\n* Free DIY project every Saturday and Sunday at all Sydney Bunnings stores\n* A new theme each week — toolboxes, planters, mosaics, paintings, toy vehicles and more\n* Suitable for children aged 3–12 with a parent or guardian alongside\n* Each project takes around 30–45 minutes and children take home what they make\n* No prior experience or tools needed — everything is provided\n* Multiple Sydney locations — find your closest store on the Bunnings website\n* Book a spot online or check in-store on the day (walk-ins often available)",
+    "address": "Various Sydney Bunnings Warehouse locations — check bunnings.com.au",
+    "venue": "Bunnings Warehouse (various Sydney stores)",
+    "age": [
+      "Pre-schoolers (3–5 years)",
+      "School Kids (5–13 years)"
+    ],
+    "neighborhood": "CBD",
+    "day": [
+      "Saturday",
+      "Sunday"
+    ],
+    "cost": "Free",
+    "costLabel": "free, all materials provided",
+    "startDate": "2026-04-25",
+    "endDate": "2026-04-26",
+    "time": "Saturday and Sunday — check your local store for session times",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "bunnings-free-kids-diy-workshop-sydney",
+    "seoTitle": "Bunnings Free Kids DIY Workshop Sydney – Every Weekend | Little Discoveries",
+    "seoDescription": "Free kids DIY workshops every Saturday and Sunday at Bunnings stores across Sydney. Ages 3–12 build a new project each week and take it home. No bookings needed.",
+    "isFeatured": false,
+    "isRecurring": true,
+    "source": "https://www.bunnings.com.au/services/in-store/kids-activities",
+    "tags": [
+      "DIY",
+      "craft",
+      "workshop",
+      "free",
+      "weekend",
+      "building",
+      "hands-on"
+    ],
+    "category": "Arts & Crafts",
+    "editorsChoice": true
+  },
+  {
+    "id": 54,
+    "title": "Youth Week Young Makers Market at Sydney Town Hall",
+    "website": "https://whatson.cityofsydney.nsw.gov.au/programs/youth-week-in-the-city",
+    "imageUrl": "https://images.pexels.com/photos/3184423/pexels-photo-3184423.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "description": "Young people design, stock and run their own market at Sydney's Lower Town Hall as part of NSW Youth Week — free to visit, with unique handmade goods and a vibrant community atmosphere.",
+    "longDescription": "NSW Youth Week 2026 runs from 16–26 April under the theme 'Dream. Dare. Do.' — and Sydney's contribution includes one of its most charming events: a market entirely designed, stocked and run by young people at the iconic Lower Town Hall on George Street.\n\nThis is not your average market. Every stall is operated by a young person who has made, curated or created what they're selling. For families with older children and teenagers, it's both a great browse and an inspiring look at what young people are capable of when given the space. Entry is completely free, and the Town Hall itself is a stunning heritage venue worth seeing.\n\nFamilies can look forward to:\n* Free entry to a vibrant youth-run market in the iconic Lower Town Hall\n* Stalls entirely designed and operated by young people aged under 25\n* Unique handmade, vintage and creative goods across a range of categories\n* Inspiring for older kids and teenagers to see their peers running businesses\n* Part of NSW Youth Week 2026 'Dream. Dare. Do.' program\n* Located on George Street — easy walk from Town Hall station\n* Running through to Saturday 25 April, including ANZAC Day long weekend",
+    "address": "Lower Town Hall, 483 George Street, Sydney NSW 2000",
+    "venue": "Lower Town Hall, Sydney",
+    "age": [
+      "School Kids (5–13 years)"
+    ],
+    "neighborhood": "CBD",
+    "day": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "cost": "Free",
+    "costLabel": "free entry, no tickets needed",
+    "startDate": "2026-04-20",
+    "endDate": "2026-04-25",
+    "time": "Check City of Sydney What's On for opening hours",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "youth-week-young-makers-market-sydney-town-hall-2026",
+    "seoTitle": "Youth Week Young Makers Market Sydney Town Hall April 2026 | Little Discoveries",
+    "seoDescription": "Free youth-run market at Lower Town Hall, Sydney during NSW Youth Week 2026. Young people design and stock every stall — 20–25 April. Free entry.",
+    "isFeatured": false,
+    "isRecurring": false,
+    "source": "https://whatson.cityofsydney.nsw.gov.au/programs/youth-week-in-the-city",
+    "tags": [
+      "youth week",
+      "market",
+      "free",
+      "CBD",
+      "teens",
+      "handmade",
+      "community"
+    ],
+    "category": "Festivals"
+  },
+  {
+    "id": 55,
+    "title": "Youth Week: Junk Journaling & Creative Workshops for Teens",
+    "website": "https://whatson.cityofsydney.nsw.gov.au/programs/youth-week-in-the-city",
+    "imageUrl": "https://images.pexels.com/photos/3823082/pexels-photo-3823082.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "description": "Free creative workshops for teens aged 12–17 at Pine Street Creative Arts Centre, Chippendale — junk journaling, mixed media art and more, as part of NSW Youth Week 2026.",
+    "longDescription": "Pine Street Creative Arts Centre in Chippendale is one of Sydney's best-kept creative secrets — and during NSW Youth Week 2026, it's running free creative workshops for teenagers that are genuinely worth a visit.\n\nThe Junk Journaling workshop is a particular standout: teens aged 12–17 learn to create their own handmade journals from recycled materials, layering paper, fabric, photographs and found objects into something unique and personal. It's tactile, meditative and surprisingly absorbing — even for kids who don't usually think of themselves as 'creative'. Sessions are run by experienced arts educators in a professional studio environment.\n\nFamilies can look forward to:\n* Free creative workshops for teens aged 12–17 — no experience needed\n* Junk journaling: create a handmade journal from recycled and found materials\n* Mixed media art sessions exploring different creative techniques\n* Professional studio environment run by experienced arts educators\n* Part of NSW Youth Week 2026 — running 20–25 April\n* Located at Pine Street Creative Arts Centre, Chippendale — close to Central station\n* Check the City of Sydney What's On page for specific session dates and times",
+    "address": "Pine Street Creative Arts Centre, 60 Pine Street, Chippendale NSW 2008",
+    "venue": "Pine Street Creative Arts Centre",
+    "age": [
+      "School Kids (5–13 years)"
+    ],
+    "neighborhood": "Inner West",
+    "day": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "cost": "Free",
+    "costLabel": "free, bookings recommended",
+    "startDate": "2026-04-20",
+    "endDate": "2026-04-25",
+    "time": "Check City of Sydney What's On for session times",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "youth-week-junk-journaling-pine-street-chippendale-2026",
+    "seoTitle": "Youth Week Junk Journaling Workshop Teens – Pine Street Chippendale April 2026 | Little Discoveries",
+    "seoDescription": "Free creative workshops for teens 12–17 at Pine Street Creative Arts Centre, Chippendale during NSW Youth Week 2026. Junk journaling and mixed media art.",
+    "isFeatured": false,
+    "isRecurring": false,
+    "source": "https://whatson.cityofsydney.nsw.gov.au/programs/youth-week-in-the-city",
+    "tags": [
+      "youth week",
+      "creative",
+      "teens",
+      "free",
+      "Inner West",
+      "journaling",
+      "art"
+    ],
+    "category": "Arts & Crafts"
+  },
+  {
+    "id": 56,
+    "title": "ANZAC Memorial Hyde Park – Free Sunday Guided Tour",
+    "website": "https://www.anzacmemorial.nsw.gov.au/event/guided-tours",
+    "imageUrl": "https://images.pexels.com/photos/1573612/pexels-photo-1573612.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "description": "A free one-hour guided tour of the ANZAC Memorial in Hyde Park every Sunday at 10am — explore the stunning 1934 Art Deco architecture and hear the moving stories behind one of Sydney's most significant buildings.",
+    "longDescription": "If your family missed the ANZAC Day special tours on Saturday, the ANZAC Memorial offers its regular free guided tours every Sunday at 10am — and they are just as worthwhile any week of the year.\n\nThe memorial is a 1934 Art Deco masterpiece that honours the 226,000 men and women of NSW who served in the First World War. The hour-long highlights tour takes in the Hall of Memory and Hall of Service, explains the extraordinary symbolism built into the architecture, the sculptures by Rayner Hoff, and the thousands of names inscribed throughout the building. It is quietly magnificent — and children who've just watched the ANZAC Day march the day before will find the stories particularly resonant.\n\nFamilies can look forward to:\n* Free one-hour guided highlights tour every Sunday at 10am — no bookings needed\n* Explore the stunning Art Deco architecture of one of Australia's finest memorials\n* Discover the stories of NSW men and women commemorated within the building\n* The Hall of Memory's domed ceiling and the Pool of Reflection are breathtaking\n* Sculptures by renowned Australian artist Rayner Hoff throughout the building\n* Open 9am–5pm daily with free entry — worth exploring independently too\n* Located in Hyde Park South — combine with a picnic in the park afterwards",
+    "address": "Hyde Park South, Liverpool Street, Sydney NSW 2000",
+    "venue": "ANZAC Memorial, Hyde Park",
+    "age": [
+      "School Kids (5–13 years)"
+    ],
+    "neighborhood": "CBD",
+    "day": [
+      "Sunday"
+    ],
+    "cost": "Free",
+    "costLabel": "free entry and free guided tour",
+    "startDate": "2026-04-26",
+    "endDate": "2026-04-26",
+    "time": "10:00am (tour duration 1 hour)",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "anzac-memorial-hyde-park-sunday-guided-tour",
+    "seoTitle": "ANZAC Memorial Hyde Park Free Sunday Guided Tour Sydney | Little Discoveries",
+    "seoDescription": "Free 1-hour guided tour of the ANZAC Memorial Hyde Park every Sunday at 10am. Explore the Art Deco architecture and wartime stories — no bookings needed.",
+    "isFeatured": false,
+    "isRecurring": true,
+    "source": "https://www.anzacmemorial.nsw.gov.au/event/guided-tours",
+    "tags": [
+      "ANZAC",
+      "memorial",
+      "history",
+      "free",
+      "CBD",
+      "Hyde Park",
+      "architecture"
+    ],
+    "category": "STEM"
+  },
+  {
+    "id": 57,
+    "title": "Art Gallery NSW – Free Family Sunday Visit",
+    "website": "https://www.artgallery.nsw.gov.au/whats-on/",
+    "imageUrl": "https://images.pexels.com/photos/3933213/pexels-photo-3933213.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "description": "The Art Gallery of NSW is free to visit every day — on Sunday 26 April, combine free general admission with weekend family art-making activities, roving gallery educators and a picnic in the Domain.",
+    "longDescription": "The Art Gallery of New South Wales is one of Australia's finest cultural institutions — and one of its most generous, with free general admission always. Sunday 26 April is the perfect day to visit: the post-ANZAC-Day long weekend means the city is quieter than usual, and the gallery's weekend family programs are in full swing.\n\nAcross the two buildings — the classical heritage wing and the spectacular new Sydney Modern building — families can explore everything from Aboriginal and Torres Strait Islander art to European masters, contemporary Australian works and striking photography. Weekend roving activities see gallery educators pop up with art-making materials inspired by works on display. The Domain parkland outside is perfect for a post-gallery picnic.\n\nFamilies can look forward to:\n* Free general admission to both the heritage building and Sydney Modern — always\n* Weekend family art-making activities with roving gallery educators\n* The stunning Sydney Modern building with spectacular harbour views from the roof terrace\n* Aboriginal and Torres Strait Islander galleries — one of the finest collections in Australia\n* The Domain parkland right outside — perfect for a family picnic after the gallery\n* Café and restaurant in both buildings for a relaxed family lunch\n* Easy access via St James, Museum or Martin Place train stations",
+    "address": "Art Gallery Road, The Domain, Sydney NSW 2000",
+    "venue": "Art Gallery of New South Wales",
+    "age": [
+      "Toddlers (2–3 years)",
+      "Pre-schoolers (3–5 years)",
+      "School Kids (5–13 years)"
+    ],
+    "neighborhood": "CBD",
+    "day": [
+      "Sunday"
+    ],
+    "cost": "Free",
+    "costLabel": "free general admission always",
+    "startDate": "2026-04-26",
+    "endDate": "2026-04-26",
+    "time": "10:00am – 5:00pm",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "art-gallery-nsw-free-family-sunday-april-2026",
+    "seoTitle": "Art Gallery NSW Free Family Sunday 26 April 2026 – Sydney Modern & Heritage Building | Little Discoveries",
+    "seoDescription": "Free admission to the Art Gallery of NSW on Sunday 26 April 2026. Weekend family art-making, Sydney Modern rooftop views and a picnic in the Domain.",
+    "isFeatured": false,
+    "isRecurring": false,
+    "source": "https://www.artgallery.nsw.gov.au/whats-on/",
+    "tags": [
+      "art",
+      "gallery",
+      "museum",
+      "free",
+      "CBD",
+      "family",
+      "Sunday"
+    ],
+    "category": "Arts & Crafts"
   }
 ]
