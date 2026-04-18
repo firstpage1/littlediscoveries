@@ -274,7 +274,7 @@
       "outdoor"
     ],
     "category": "Outdoor Adventures",
-    "editorsChoice": true
+    "editorsChoice": false
   },
   {
     "id": 18,
@@ -322,7 +322,7 @@
       "Milsons Point"
     ],
     "category": "Festivals",
-    "editorsChoice": true
+    "editorsChoice": false
   },
   {
     "id": 19,
@@ -372,7 +372,7 @@
       "cycling"
     ],
     "category": "Outdoor Adventures",
-    "editorsChoice": true
+    "editorsChoice": false
   },
   {
     "id": 20,
@@ -457,7 +457,7 @@
     "seoSlug": "april-school-holidays-darling-harbour",
     "seoTitle": "April School Holidays in Darling Harbour 2026 – Free Family Fun | Little Discoveries",
     "seoDescription": "Free school holiday activities at Darling Harbour 4–19 April 2026: Easter disco, Kids Yoga, circus shows, roving performers and more.",
-    "editorsChoice": true,
+    "editorsChoice": false,
     "expired": true
   },
   {
@@ -835,7 +835,7 @@
       "active"
     ],
     "category": "Sports",
-    "editorsChoice": true,
+    "editorsChoice": false,
     "expired": true
   },
   {
@@ -928,7 +928,7 @@
       "dinosaurs"
     ],
     "category": "Science",
-    "editorsChoice": true,
+    "editorsChoice": false,
     "expired": true
   },
   {
@@ -1619,7 +1619,7 @@
       "hands-on"
     ],
     "category": "Arts & Crafts",
-    "editorsChoice": true
+    "editorsChoice": false
   },
   {
     "id": 54,
@@ -1827,7 +1827,7 @@
     "seoTitle": "Biennale of Sydney 2026 – Free Family Art at White Bay Power Station | Little Discoveries",
     "seoDescription": "Free entry to the 25th Biennale of Sydney at White Bay Power Station. Immersive art, hands-on family workshops and interactive installations — open Tue–Sun until June 2026.",
     "isFeatured": false,
-    "editorsChoice": true,
+    "editorsChoice": false,
     "isRecurring": false,
     "source": "https://www.biennaleofsydney.art/",
     "tags": [
@@ -2037,7 +2037,7 @@
     "seoTitle": "Australian Museum Sydney – Free Family Visit | Dinosaurs, Wildlife & Kids Play Space | Little Discoveries",
     "seoDescription": "Free general admission to the Australian Museum in Sydney CBD. Dinosaur gallery, Wild Planet, Kids Learning & Play Space and live animal presentations — free for all.",
     "isFeatured": false,
-    "editorsChoice": true,
+    "editorsChoice": false,
     "isRecurring": true,
     "source": "https://australian.museum/",
     "tags": [
