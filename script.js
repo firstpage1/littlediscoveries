@@ -370,7 +370,6 @@ loadActivities();
       msg.textContent = 'Thank you for subscribing! On Sunday we\'ll send you the best of next week\'s activities. 🎉';
       msg.style.color = '#fff';
       msg.style.display = 'block';
-      document.getElementById('newsletter')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
   }
 }());
