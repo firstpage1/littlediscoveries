@@ -30,7 +30,6 @@
     "seoTitle": "School Holidays Maker and Creator Darling Square | Free Kids STEM Workshop Sydney | Little Discoveries",
     "seoDescription": "Free school holiday maker workshop for kids 8–12 at Darling Square Library. Robots, Spheros, Ozobots, wind tubes and LEDs - a hands-on STEM adventure.",
     "isFeatured": true,
-    "isRecurring": false,
     "source": "https://whatson.cityofsydney.nsw.gov.au/events/school-holiday-maker-and-creator-8-12-years",
     "tags": [
       "school holidays",
@@ -75,7 +74,6 @@
     "seoTitle": "School Holidays Creative Coding Darling Square | Free Kids Coding Workshop Sydney | Little Discoveries",
     "seoDescription": "Free beginner coding workshop for kids 8–12 at Darling Square Library. Use code to create printable artwork - led by creative coder Jared Berghold.",
     "isFeatured": false,
-    "isRecurring": false,
     "source": "https://whatson.cityofsydney.nsw.gov.au/events/school-holidays-creative-coding-for-kids-8-12yrs",
     "tags": [
       "school holidays",
@@ -121,7 +119,6 @@
     "seoTitle": "PCYC School Holiday Activities Woolloomooloo | Kids Holiday Program Sydney | Little Discoveries",
     "seoDescription": "Full and half-day school holiday programs at PCYC Woolloomooloo - sport, arts, coding and more for school-aged kids. Active & Creative Kids vouchers accepted.",
     "isFeatured": false,
-    "isRecurring": true,
     "source": "https://whatson.cityofsydney.nsw.gov.au/events/pcyc-school-holiday-activities",
     "tags": [
       "school holidays",
@@ -166,7 +163,6 @@
     "seoTitle": "Tech & Creative Holiday Camps Sydney | Code Camp Ages 5–12 | Little Discoveries",
     "seoDescription": "Week-long holiday camps for kids 5–12 covering coding, robotics, Minecraft, Roblox and more at Sydney locations. Use code WOS25 to save $25.",
     "isFeatured": false,
-    "isRecurring": true,
     "source": "https://whatson.cityofsydney.nsw.gov.au/events/tech-and-creative-holiday-camps-for-ages-5-12",
     "tags": [
       "school holidays",
@@ -212,7 +208,6 @@
     "seoTitle": "Ashfield Mall Kids Science Workshops – School Holiday Science Fun Sydney",
     "seoDescription": "Kids make bath bombs, slime, perfumes and lava lamps at Ashfield Mall these school holidays. Ages 4+, just $5 per child. Book now on Eventbrite.",
     "isFeatured": false,
-    "isRecurring": false,
     "source": "https://www.eventbrite.com.au/e/ashfield-mall-kids-science-workshops-tickets-1984734644750",
     "tags": [
       "science",
@@ -263,7 +258,6 @@
     "seoTitle": "Featherdale Wildlife Park Sydney – Meet Kangaroos, Koalas & More",
     "seoDescription": "Hand-feed kangaroos, meet koalas and spot wombats at Featherdale Wildlife Park in Western Sydney. Open daily, great for all ages.",
     "isFeatured": false,
-    "isRecurring": true,
     "source": "https://www.featherdale.com.au",
     "tags": [
       "wildlife",
@@ -310,7 +304,6 @@
     "seoTitle": "Luna Park Sydney – Iconic Rides & Harbour Views for the Whole Family",
     "seoDescription": "Rides, fairy floss and Sydney Harbour views at Luna Park Milsons Point. Fun for toddlers to teens, open school holidays and weekends.",
     "isFeatured": false,
-    "isRecurring": true,
     "source": "https://www.lunaparksydney.com",
     "tags": [
       "rides",
@@ -358,7 +351,6 @@
     "seoTitle": "Centennial Parklands Sydney – Free Family Day Out in the Eastern Suburbs",
     "seoDescription": "Free playgrounds, duck ponds, cycling and wide open spaces at Centennial Parklands in Sydney's Eastern Suburbs. Perfect for all ages.",
     "isFeatured": false,
-    "isRecurring": true,
     "source": "https://www.centennialparklands.com.au",
     "tags": [
       "park",
@@ -407,7 +399,6 @@
     "seoTitle": "Sydney Zoo Western Sydney – Giraffes, Gorillas & More at Bungarribee Park",
     "seoDescription": "Meet giraffes, gorillas, hippos and over 100 species at Sydney Zoo in Blacktown. A world-class wildlife experience for the whole family.",
     "isFeatured": false,
-    "isRecurring": true,
     "source": "https://sydneyzoo.com",
     "tags": [
       "zoo",
@@ -774,7 +765,6 @@
     "seoTitle": "Move Groove Darling – Free Dance Festival Darling Harbour April 2026 | Little Discoveries",
     "seoDescription": "Free dance and movement festival at Tumbalong Park, Darling Harbour 13–17 April 2026. Drop-in workshops, live music and performances for all ages.",
     "isFeatured": false,
-    "isRecurring": false,
     "source": "https://www.darlingharbour.com/whats-on/",
     "tags": [
       "dance",
@@ -821,7 +811,6 @@
     "seoTitle": "Parkoursome – Free Parkour Workshops Darling Harbour April 2026 | Little Discoveries",
     "seoDescription": "Free coached parkour sessions for kids at Tumbalong Park, Darling Harbour during April 2026 school holidays. No bookings, all abilities welcome.",
     "isFeatured": false,
-    "isRecurring": false,
     "source": "https://www.darlingharbour.com/whats-on/",
     "tags": [
       "parkour",
@@ -865,7 +854,6 @@
     "seoTitle": "MCA Telstra Free Day April 2026 – Free Entry Museum of Contemporary Art Sydney | Little Discoveries",
     "seoDescription": "Free entry to the Museum of Contemporary Art, Sydney on Wednesday 15 April 2026. Family art trails, drop-in kids' activities and Circular Quay harbour views.",
     "isFeatured": false,
-    "isRecurring": false,
     "source": "https://www.mca.com.au/",
     "tags": [
       "art",
@@ -913,7 +901,6 @@
     "seoTitle": "Australian Museum Free School Holiday Workshops April 2026 Sydney | Little Discoveries",
     "seoDescription": "Free drop-in science and discovery workshops for kids at the Australian Museum, Sydney during April 2026 school holidays. Dinosaurs, fossils and more.",
     "isFeatured": false,
-    "isRecurring": false,
     "source": "https://australian.museum/whats-on/",
     "tags": [
       "museum",
@@ -956,7 +943,6 @@
     "seoTitle": "State Library NSW 200th Anniversary Free Family Open Day 19 April 2026 | Little Discoveries",
     "seoDescription": "The State Library of NSW celebrates 200 years with a free family open day on Sunday 19 April 2026. Rare books, heritage tours and kids' activities.",
     "isFeatured": false,
-    "isRecurring": false,
     "source": "https://www.sl.nsw.gov.au/",
     "tags": [
       "library",
@@ -997,7 +983,6 @@
     "seoTitle": "Festival of Democracy NSW Parliament – Free Family Visit April 2026 | Little Discoveries",
     "seoDescription": "Free guided tours and democracy activities at NSW Parliament House on Friday 17 April 2026. School-age kids discover how parliament works.",
     "isFeatured": false,
-    "isRecurring": false,
     "source": "https://www.parliament.nsw.gov.au/",
     "tags": [
       "parliament",
@@ -1038,7 +1023,6 @@
     "seoTitle": "Build & Race a Solar Car at Coal Loader North Sydney – Free Eco STEM School Holidays | Little Discoveries",
     "seoDescription": "Free eco STEM workshop for kids 9–12 at Coal Loader, Waverton on Wed 15 April 2026. Build and race solar-powered toy cars. Bookings essential.",
     "isFeatured": false,
-    "isRecurring": false,
     "source": "https://www.northsydney.nsw.gov.au/",
     "tags": [
       "STEM",
@@ -1080,7 +1064,6 @@
     "seoTitle": "Free Family Bush Walk at Berry Island Reserve Wollstonecraft April 2026 | Little Discoveries",
     "seoDescription": "Free guided family bush walk at Berry Island Reserve, Wollstonecraft on Tuesday 14 April 2026. Aboriginal engravings, harbour views and native wildlife.",
     "isFeatured": false,
-    "isRecurring": false,
     "source": "https://www.northsydney.nsw.gov.au/",
     "tags": [
       "bush walk",
@@ -1123,7 +1106,6 @@
     "seoTitle": "Connect with Nature – Free Family Art Workshops at Art Gallery NSW April 2026 | Little Discoveries",
     "seoDescription": "Free drop-in nature-themed art workshops at the Art Gallery of NSW on Tuesday 14 and Thursday 16 April 2026. Guided by gallery educators, all ages welcome.",
     "isFeatured": false,
-    "isRecurring": false,
     "source": "https://www.artgallery.nsw.gov.au/whats-on/",
     "tags": [
       "art",
@@ -1169,7 +1151,6 @@
     "seoTitle": "City of Parramatta Free Active Holiday Program April 2026 – Kids Sports | Little Discoveries",
     "seoDescription": "Free sports and fitness school holiday program across Parramatta 13–17 April 2026. Swimming, basketball, tennis, circus skills and more for kids.",
     "isFeatured": false,
-    "isRecurring": false,
     "source": "https://www.cityofparramatta.nsw.gov.au/",
     "tags": [
       "sport",
@@ -1216,7 +1197,6 @@
     "seoTitle": "Ashfield Mall Free Kids Craft School Holidays April 2026 | Little Discoveries",
     "seoDescription": "Free drop-in craft activities for kids at Ashfield Mall every day 13–17 April 2026. No bookings — just come and create at this Inner West school holiday favourite.",
     "isFeatured": false,
-    "isRecurring": false,
     "source": "https://www.ashfieldmall.com.au/",
     "tags": [
       "craft",
@@ -1264,7 +1244,6 @@
     "seoTitle": "Inner West Libraries Free School Holiday Programs April 2026 | Little Discoveries",
     "seoDescription": "Free school holiday programs at Inner West libraries — Balmain, Leichhardt, Marrickville, Ashfield. Storytime, LEGO, craft and coding 13–17 April 2026.",
     "isFeatured": false,
-    "isRecurring": false,
     "source": "https://www.innerwest.nsw.gov.au/explore/libraries",
     "tags": [
       "library",
@@ -1306,7 +1285,6 @@
     "seoTitle": "Roving Art-Making at Art Gallery NSW – Free Family Sunday 19 April 2026 | Little Discoveries",
     "seoDescription": "Free drop-in roving art-making sessions at the Art Gallery of NSW on Sunday 19 April 2026. Join gallery educators in the galleries and create your own artwork.",
     "isFeatured": false,
-    "isRecurring": false,
     "source": "https://www.artgallery.nsw.gov.au/whats-on/",
     "tags": [
       "art",
@@ -1353,7 +1331,6 @@
     "seoTitle": "Free Kids Yoga at Darling Quarter School Holidays April 2026 | Little Discoveries",
     "seoDescription": "Free kids' yoga sessions at Darling Quarter every weekday morning 13–17 April 2026. Ages 3+, qualified instructor, no bookings needed.",
     "isFeatured": false,
-    "isRecurring": false,
     "source": "https://www.darlingharbour.com/whats-on/",
     "tags": [
       "yoga",
@@ -1394,7 +1371,6 @@
     "seoTitle": "ANZAC Day Dawn Service Martin Place Sydney 2026 – Free Family Commemoration | Little Discoveries",
     "seoDescription": "Sydney's ANZAC Day Dawn Service at Martin Place Cenotaph, 4:20am Saturday 25 April 2026. Free, open to all — a profound family experience.",
     "isFeatured": false,
-    "isRecurring": true,
     "source": "https://www.anzacday.org.au/dawn-service/",
     "tags": [
       "ANZAC Day",
@@ -1436,7 +1412,6 @@
     "seoTitle": "ANZAC Day March Sydney 2026 – Watch the Parade on Elizabeth Street | Little Discoveries",
     "seoDescription": "10,000+ veterans and ADF members march along Elizabeth Street on ANZAC Day Saturday 25 April 2026. Free to watch — a powerful family experience in the Sydney CBD.",
     "isFeatured": false,
-    "isRecurring": true,
     "source": "https://www.anzacday.org.au/the-march/",
     "tags": [
       "ANZAC Day",
@@ -1478,7 +1453,6 @@
     "seoTitle": "ANZAC Memorial Hyde Park Free Tours ANZAC Day 2026 Sydney | Little Discoveries",
     "seoDescription": "Free 30-minute guided tours of the ANZAC Memorial Hyde Park on Saturday 25 April 2026, running every half-hour from 1pm. Stunning Art Deco architecture and wartime stories.",
     "isFeatured": false,
-    "isRecurring": true,
     "source": "https://www.anzacmemorial.nsw.gov.au/event/special-free-anzac-day-tours",
     "tags": [
       "ANZAC Day",
@@ -1522,7 +1496,6 @@
     "seoTitle": "The Rocks ANZAC Day 2026 – Free Live Music, Marching Bands & Diggers Breakfast | Little Discoveries",
     "seoDescription": "Free ANZAC Day events at The Rocks on Saturday 25 April 2026 — live music, marching bands, art exhibition and the iconic Diggers Breakfast in Sydney's most historic precinct.",
     "isFeatured": false,
-    "isRecurring": true,
     "source": "https://www.therocks.com/whats-on/campaigns/anzac-day",
     "tags": [
       "ANZAC Day",
@@ -1565,7 +1538,6 @@
     "seoTitle": "Australian National Maritime Museum Free ANZAC Day Visit 2026 | Little Discoveries",
     "seoDescription": "Free main gallery access at the Australian National Maritime Museum, Darling Harbour on ANZAC Day Saturday 25 April 2026. Naval history, real ships and special ANZAC programming.",
     "isFeatured": false,
-    "isRecurring": true,
     "source": "https://www.sea.museum/whats-on",
     "tags": [
       "ANZAC Day",
@@ -1609,7 +1581,6 @@
     "seoTitle": "Bunnings Free Kids DIY Workshop Sydney – Every Weekend | Little Discoveries",
     "seoDescription": "Free kids DIY workshops every Saturday and Sunday at Bunnings stores across Sydney. Ages 3–12 build a new project each week and take it home. No bookings needed.",
     "isFeatured": false,
-    "isRecurring": true,
     "source": "https://www.bunnings.com.au/services/in-store/kids-activities",
     "tags": [
       "DIY",
@@ -1655,7 +1626,6 @@
     "seoTitle": "Youth Week Young Makers Market Sydney Town Hall April 2026 | Little Discoveries",
     "seoDescription": "Free youth-run market at Lower Town Hall, Sydney during NSW Youth Week 2026. Young people design and stock every stall — 20–25 April. Free entry.",
     "isFeatured": false,
-    "isRecurring": false,
     "source": "https://whatson.cityofsydney.nsw.gov.au/programs/youth-week-in-the-city",
     "tags": [
       "youth week",
@@ -1701,7 +1671,6 @@
     "seoTitle": "Youth Week Junk Journaling Workshop Teens – Pine Street Chippendale April 2026 | Little Discoveries",
     "seoDescription": "Free creative workshops for teens 12–17 at Pine Street Creative Arts Centre, Chippendale during NSW Youth Week 2026. Junk journaling and mixed media art.",
     "isFeatured": false,
-    "isRecurring": false,
     "source": "https://whatson.cityofsydney.nsw.gov.au/programs/youth-week-in-the-city",
     "tags": [
       "youth week",
@@ -1742,7 +1711,6 @@
     "seoTitle": "ANZAC Memorial Hyde Park Free Sunday Guided Tour Sydney | Little Discoveries",
     "seoDescription": "Free 1-hour guided tour of the ANZAC Memorial Hyde Park every Sunday at 10am. Explore the Art Deco architecture and wartime stories — no bookings needed.",
     "isFeatured": false,
-    "isRecurring": true,
     "source": "https://www.anzacmemorial.nsw.gov.au/event/guided-tours",
     "tags": [
       "ANZAC",
@@ -1785,7 +1753,6 @@
     "seoTitle": "Art Gallery NSW Free Family Sunday 26 April 2026 – Sydney Modern & Heritage Building | Little Discoveries",
     "seoDescription": "Free admission to the Art Gallery of NSW on Sunday 26 April 2026. Weekend family art-making, Sydney Modern rooftop views and a picnic in the Domain.",
     "isFeatured": false,
-    "isRecurring": false,
     "source": "https://www.artgallery.nsw.gov.au/whats-on/",
     "tags": [
       "art",
@@ -1833,7 +1800,6 @@
     "seoTitle": "Biennale of Sydney 2026 – Free Family Art at White Bay Power Station | Little Discoveries",
     "seoDescription": "Free entry to the 25th Biennale of Sydney at White Bay Power Station. Immersive art, hands-on family workshops and interactive installations — open Tue–Sun until June 2026.",
     "isFeatured": false,
-    "isRecurring": false,
     "source": "https://www.biennaleofsydney.art/",
     "tags": [
       "art",
@@ -1872,7 +1838,6 @@
     "seoDescription": "Free Youth Week Block Party at Coral Sea Park, Randwick on Wednesday 24 April 2026. Live entertainment, food, activities and games for young people and families.",
     "isFeatured": false,
     "editorsChoice": false,
-    "isRecurring": false,
     "source": "https://www.randwick.nsw.gov.au/community/whats-on/major-events",
     "tags": [
       "outdoor",
@@ -1914,7 +1879,6 @@
     "seoDescription": "Free ANZAC Day dawn service at Coogee Beach on 25 April 2026. An intimate community gathering with the ocean as a backdrop — a beautiful family experience.",
     "isFeatured": false,
     "editorsChoice": false,
-    "isRecurring": false,
     "source": "https://easternsuburbsmums.com.au/anzac-day-coogee-dawn-service-2026/",
     "tags": [
       "outdoor",
@@ -1956,7 +1920,6 @@
     "seoDescription": "Free ANZAC Day memorial service at Waverley Memorial Gardens on 25 April 2026, starting 7:45am. Wreath-laying, refreshments — a family-friendly local commemoration.",
     "isFeatured": false,
     "editorsChoice": false,
-    "isRecurring": false,
     "source": "https://www.waverley.nsw.gov.au/recreation/events/events/anzac_day",
     "tags": [
       "outdoor",
@@ -1998,7 +1961,6 @@
     "seoDescription": "Free Sunday markets at Little Bayside Park, Manly on 26 April 2026. Artisan stalls, live music and harbour views — a perfect Northern Beaches family outing.",
     "isFeatured": false,
     "editorsChoice": false,
-    "isRecurring": true,
     "source": "https://www.manlyharbourvillage.com/whats-on",
     "tags": [
       "outdoor",
@@ -2046,7 +2008,6 @@
     "seoTitle": "Australian Museum Sydney – Free Family Visit | Dinosaurs, Wildlife & Kids Play Space | Little Discoveries",
     "seoDescription": "Free general admission to the Australian Museum in Sydney CBD. Dinosaur gallery, Wild Planet, Kids Learning & Play Space and live animal presentations — free for all.",
     "isFeatured": false,
-    "isRecurring": true,
     "source": "https://australian.museum/",
     "tags": [
       "museum",
@@ -2092,7 +2053,6 @@
     "seoTitle": "MCA Sydney – Free Entry for Kids & Families | Museum of Contemporary Art | Little Discoveries",
     "seoDescription": "The MCA at Circular Quay is free for all under-18s. World-class contemporary art, rooftop harbour views, family art trails and drop-in studio workshops.",
     "isFeatured": false,
-    "isRecurring": true,
     "source": "https://www.mca.com.au/",
     "tags": [
       "museum",
@@ -2139,7 +2099,6 @@
     "seoTitle": "Blaxland Riverside Park – Free Water Play & Nature Playground | Sydney Olympic Park | Little Discoveries",
     "seoDescription": "NSW's largest free outdoor water play at Blaxland Riverside Park, Sydney Olympic Park. Water jets, splash pads, climbing structures — free for all ages.",
     "isFeatured": false,
-    "isRecurring": true,
     "source": "https://www.sydneyolympicpark.com.au/things-to-see-and-do/parks-and-open-spaces/blaxland-riverside-park",
     "tags": [
       "outdoor",
@@ -2186,7 +2145,6 @@
     "seoDescription": "Explore convict tunnels, dockyard history and harbour views on Cockatoo Island — free entry, just pay the ferry from Circular Quay.",
     "isFeatured": false,
     "editorsChoice": true,
-    "isRecurring": true,
     "source": "https://www.cockatooisland.gov.au/",
     "tags": [
       "outdoor",
@@ -2232,7 +2190,6 @@
     "seoTitle": "Sydney Park – Free Nature Playground & Wetlands | St Peters | Little Discoveries",
     "seoDescription": "Free nature playground, wetlands walks and cycling tracks at Sydney Park in St Peters. 44 hectares of Inner West green space for all ages.",
     "isFeatured": false,
-    "isRecurring": true,
     "source": "https://www.cityofsydney.nsw.gov.au/parks-and-public-spaces/sydney-park",
     "tags": [
       "outdoor",
@@ -2276,7 +2233,6 @@
     "seoTitle": "Hyde Park Barracks Museum – Free Entry | UNESCO Heritage | Sydney CBD | Little Discoveries",
     "seoDescription": "Free entry to the Hyde Park Barracks, a UNESCO World Heritage site. Convict history, hands-on kids programs and the famous hammock room — free daily.",
     "isFeatured": false,
-    "isRecurring": true,
     "source": "https://www.sydneylivingmuseums.com.au/hyde-park-barracks",
     "tags": [
       "museum",
@@ -2319,7 +2275,6 @@
     "seoTitle": "Museum of Sydney – Free Entry for Families | Sydney CBD | Little Discoveries",
     "seoDescription": "Free entry to the Museum of Sydney. Built over the first Government House ruins, with First Nations history and the interactive Story of Sydney exhibition.",
     "isFeatured": false,
-    "isRecurring": true,
     "source": "https://www.sydneylivingmuseums.com.au/museum-of-sydney",
     "tags": [
       "museum",
@@ -2363,7 +2318,6 @@
     "seoTitle": "The Rocks Discovery Museum – Free Entry | The Rocks Sydney | Little Discoveries",
     "seoDescription": "Free entry to The Rocks Discovery Museum — 10,000 years of Gadigal history in a restored 1850s sandstone warehouse. Perfect for families.",
     "isFeatured": false,
-    "isRecurring": true,
     "source": "https://www.therocks.com/see-and-do/the-rocks-discovery-museum",
     "tags": [
       "museum",
@@ -2405,7 +2359,6 @@
     "seoTitle": "Chau Chak Wing Museum – Free Family Visit | Egyptian Mummies & Antiquities | Little Discoveries",
     "seoDescription": "Free entry to Sydney University's Chau Chak Wing Museum. Egyptian mummies, ancient Greek pottery, Pacific and First Nations collections — open Tue–Sun.",
     "isFeatured": false,
-    "isRecurring": true,
     "source": "https://www.sydney.edu.au/museum/",
     "tags": [
       "museum",
@@ -2443,7 +2396,6 @@
     "seoTitle": "Justice & Police Museum – Free Weekends | Sydney CBD | Little Discoveries",
     "seoDescription": "Free entry on weekends at the Justice & Police Museum — Sydney's original Water Police Court with mugshots, crime history and fascinating exhibits for curious kids.",
     "isFeatured": false,
-    "isRecurring": true,
     "source": "https://www.sydneylivingmuseums.com.au/justice-police-museum",
     "tags": [
       "museum",
@@ -2488,7 +2440,6 @@
     "seoDescription": "Free picnic areas and rainforest walks at Bobbin Head in Ku-ring-gai Chase National Park. Kayak hire, mangroves and stunning waterways 45 mins from Sydney CBD.",
     "isFeatured": false,
     "editorsChoice": true,
-    "isRecurring": true,
     "source": "https://www.nationalparks.nsw.gov.au/visit-a-park/parks/ku-ring-gai-chase-national-park/bobbin-head",
     "tags": [
       "outdoor",
@@ -2531,7 +2482,6 @@
     "seoTitle": "Powerhouse Castle Hill – Free Discovery Museum | Hills District | Little Discoveries",
     "seoDescription": "Free discovery museum in the Hills District — Powerhouse Castle Hill with interactive science, technology and heritage exhibits. Open Tue–Sun.",
     "isFeatured": false,
-    "isRecurring": true,
     "source": "https://powerhouse.com.au/castle-hill",
     "tags": [
       "museum",
@@ -2573,7 +2523,6 @@
     "seoTitle": "Ku-ring-gai Heritage Festival – Free Guided Walks & Events | April–May 2026 | Little Discoveries",
     "seoDescription": "Free guided heritage walks and open historic homes across Ku-ring-gai this week — part of the NSW Heritage Festival (18 Apr – 4 May 2026).",
     "isFeatured": false,
-    "isRecurring": false,
     "source": "https://www.krg.nsw.gov.au/Community-and-culture/Heritage/Heritage-Festival",
     "tags": [
       "outdoor",
@@ -2618,7 +2567,6 @@
     "seoTitle": "Cronulla Beach & Rock Pools – Free Family Day Out | Sutherland Shire | Little Discoveries",
     "seoDescription": "Sydney's most accessible beach by train — Cronulla Beach with calm rock pools for young kids, long sandy beaches and a great beachside strip.",
     "isFeatured": false,
-    "isRecurring": true,
     "source": "https://www.sutherland.nsw.gov.au/Recreation/parks-and-reserves",
     "tags": [
       "outdoor",
@@ -2664,7 +2612,6 @@
     "seoTitle": "Bicentennial Park – Free Wetlands & Cycling | Sydney Olympic Park | Little Discoveries",
     "seoDescription": "40 hectares of wetlands, native bird habitat and cycling tracks at Bicentennial Park, Sydney Olympic Park. Free BBQs and picnic areas.",
     "isFeatured": false,
-    "isRecurring": true,
     "source": "https://www.sydneyolympicpark.com.au/things-to-see-and-do/parks-and-open-spaces/bicentennial-park",
     "tags": [
       "outdoor",
@@ -2710,7 +2657,6 @@
     "seoTitle": "Royal Botanic Garden Sydney – Free Family Visit & Guided Walks | Little Discoveries",
     "seoDescription": "Free entry to Sydney's Royal Botanic Garden — 30 acres of harbourside gardens with free guided walks, sensory garden and Opera House views.",
     "isFeatured": false,
-    "isRecurring": true,
     "source": "https://www.botanicgardens.org.au/royal-botanic-garden-sydney",
     "tags": [
       "outdoor",
@@ -2755,7 +2701,6 @@
     "seoTitle": "Parramatta Park – Free Heritage Parklands & Playground | Western Sydney | Little Discoveries",
     "seoDescription": "Free entry to UNESCO World Heritage listed Parramatta Park — 85 hectares of walking tracks, playground and river surrounds around Old Government House.",
     "isFeatured": false,
-    "isRecurring": true,
     "source": "https://www.parramattapark.com.au/",
     "tags": [
       "outdoor",
@@ -2800,7 +2745,6 @@
     "seoTitle": "Darling Quarter Playground – Sydney's Best Free Urban Playground | Darling Harbour | Little Discoveries",
     "seoDescription": "Sydney's best free urban playground at Darling Harbour — multi-level climbing, water play, flying foxes and swings in a stunning harbourside setting.",
     "isFeatured": false,
-    "isRecurring": true,
     "source": "https://www.darlingharbour.com/things-to-do/darling-quarter",
     "tags": [
       "outdoor",
@@ -2839,7 +2783,8 @@
       "toddlers"
     ],
     "imageUrl": "https://images.pexels.com/photos/1741231/pexels-photo-1741231.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "expired": false
+    "expired": false,
+    "isRecurring": true
   },
   {
     "id": 82,
@@ -2869,7 +2814,8 @@
       "pre-schoolers"
     ],
     "imageUrl": "https://images.pexels.com/photos/4968168/pexels-photo-4968168.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "expired": false
+    "expired": false,
+    "isRecurring": true
   },
   {
     "id": 83,
@@ -2902,7 +2848,8 @@
       "pre-schoolers"
     ],
     "imageUrl": "https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "expired": false
+    "expired": false,
+    "isRecurring": true
   },
   {
     "id": 84,
@@ -3012,7 +2959,8 @@
       "nature"
     ],
     "imageUrl": "https://images.pexels.com/photos/5469042/pexels-photo-5469042.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "expired": false
+    "expired": false,
+    "isRecurring": true
   },
   {
     "id": 87,
@@ -3042,7 +2990,8 @@
       "pre-schoolers"
     ],
     "imageUrl": "https://images.pexels.com/photos/10638213/pexels-photo-10638213.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "expired": false
+    "expired": false,
+    "isRecurring": true
   },
   {
     "id": 88,
@@ -3072,7 +3021,8 @@
       "toddlers"
     ],
     "imageUrl": "https://images.pexels.com/photos/4513218/pexels-photo-4513218.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "expired": false
+    "expired": false,
+    "isRecurring": true
   },
   {
     "id": 89,
@@ -3102,7 +3052,8 @@
       "pre-schoolers"
     ],
     "imageUrl": "https://images.pexels.com/photos/12719346/pexels-photo-12719346.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "expired": false
+    "expired": false,
+    "isRecurring": true
   },
   {
     "id": 90,
@@ -3133,7 +3084,8 @@
       "pre-schoolers"
     ],
     "imageUrl": "https://images.pexels.com/photos/8382373/pexels-photo-8382373.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "expired": false
+    "expired": false,
+    "isRecurring": true
   },
   {
     "id": 91,
@@ -3225,7 +3177,8 @@
       "toddlers"
     ],
     "imageUrl": "https://images.pexels.com/photos/4513218/pexels-photo-4513218.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "expired": false
+    "expired": false,
+    "isRecurring": true
   },
   {
     "id": 94,
@@ -3255,7 +3208,8 @@
       "toddlers"
     ],
     "imageUrl": "https://images.pexels.com/photos/6393169/pexels-photo-6393169.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "expired": false
+    "expired": false,
+    "isRecurring": true
   },
   {
     "id": 95,
@@ -3286,7 +3240,8 @@
       "pre-schoolers"
     ],
     "imageUrl": "https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "expired": false
+    "expired": false,
+    "isRecurring": true
   },
   {
     "id": 96,
@@ -3349,7 +3304,8 @@
       "nature"
     ],
     "imageUrl": "https://images.pexels.com/photos/8034021/pexels-photo-8034021.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "expired": false
+    "expired": false,
+    "isRecurring": true
   },
   {
     "id": 98,
@@ -3377,7 +3333,8 @@
       "babies"
     ],
     "imageUrl": "https://images.pexels.com/photos/4091199/pexels-photo-4091199.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "expired": false
+    "expired": false,
+    "isRecurring": true
   },
   {
     "id": 99,
@@ -3407,7 +3364,8 @@
       "babies"
     ],
     "imageUrl": "https://images.pexels.com/photos/8813504/pexels-photo-8813504.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "expired": false
+    "expired": false,
+    "isRecurring": true
   },
   {
     "id": 100,
@@ -3437,7 +3395,8 @@
       "pre-schoolers"
     ],
     "imageUrl": "https://images.pexels.com/photos/1895114/pexels-photo-1895114.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "expired": false
+    "expired": false,
+    "isRecurring": true
   },
   {
     "id": 101,
@@ -3472,7 +3431,8 @@
       "pre-schoolers"
     ],
     "imageUrl": "https://images.pexels.com/photos/8612967/pexels-photo-8612967.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "expired": false
+    "expired": false,
+    "isRecurring": true
   },
   {
     "id": 102,
@@ -3506,7 +3466,8 @@
       "pre-schoolers"
     ],
     "imageUrl": "https://images.pexels.com/photos/8466915/pexels-photo-8466915.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "expired": false
+    "expired": false,
+    "isRecurring": true
   },
   {
     "id": 103,
@@ -3540,6 +3501,7 @@
       "pre-schoolers"
     ],
     "imageUrl": "https://images.pexels.com/photos/14025659/pexels-photo-14025659.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "expired": false
+    "expired": false,
+    "isRecurring": true
   }
 ]

@@ -4,7 +4,7 @@
 let activities = [];
 
 async function loadActivities() {
-  const res = await fetch('activities.json?v=d19b76f5');
+  const res = await fetch('activities.json?v=190ad4c5');
   activities = await res.json();
   init();
 }
@@ -137,7 +137,7 @@ function renderCards(list) {
 
   noResults.classList.add("hidden");
 
-  // Sort: EC first, then short-term free, then ongoing (>30 days), then paid
+  // Sort: EC → non-recurring short-term free → non-recurring ongoing free → non-recurring paid → recurring free → recurring paid
   const isFreeAct = a => (a.cost === "Free" || a.cost === "free" || (a.costLabel || "").toLowerCase().startsWith("free"));
   const isOngoing = a => {
     if (!a.endDate) return false;
@@ -145,10 +145,15 @@ function renderCards(list) {
     return diff > 30;
   };
   const CATEGORY_CYCLE = ["Festivals","STEM","Arts & Crafts","Science","Music","Storytime","Technology","Outdoor Adventures","Sports","Cooking"];
-  const ecItems       = list.filter(a => a.editorsChoice);
-  const shortFree     = list.filter(a => !a.editorsChoice && isFreeAct(a) && !isOngoing(a));
-  const ongoingFree   = list.filter(a => !a.editorsChoice && isFreeAct(a) &&  isOngoing(a));
-  const paidItems     = list.filter(a => !a.editorsChoice && !isFreeAct(a));
+  const ecItems      = list.filter(a => a.editorsChoice);
+  const nonEC        = list.filter(a => !a.editorsChoice);
+  const recurring    = nonEC.filter(a => a.isRecurring);
+  const nonRecurring = nonEC.filter(a => !a.isRecurring);
+  const shortFree    = nonRecurring.filter(a => isFreeAct(a) && !isOngoing(a));
+  const ongoingFree  = nonRecurring.filter(a => isFreeAct(a) &&  isOngoing(a));
+  const paidItems    = nonRecurring.filter(a => !isFreeAct(a));
+  const recurringFree = recurring.filter(a => isFreeAct(a));
+  const recurringPaid = recurring.filter(a => !isFreeAct(a));
 
   function interleave(items) {
     const catGroups = {};
@@ -172,7 +177,14 @@ function renderCards(list) {
     return mixed;
   }
 
-  const sorted = [...ecItems, ...interleave(shortFree), ...interleave(ongoingFree), ...paidItems];
+  const sorted = [
+    ...ecItems,
+    ...interleave(shortFree),
+    ...interleave(ongoingFree),
+    ...paidItems,
+    ...interleave(recurringFree),
+    ...recurringPaid,
+  ];
 
   const visible = sorted.slice(0, state.visibleCount);
   const hasMore = sorted.length > state.visibleCount;
