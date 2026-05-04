@@ -84,7 +84,24 @@
 
     /* THUMBNAIL */
     .hero-img { width: 100%; max-height: 320px; object-fit: cover; display: block; }
-  </style>
+  
+.nav__links{display:flex;align-items:center;gap:28px;font-weight:700;font-size:.9rem;color:var(--mid);}
+.nav__links a:hover{color:var(--orange);}
+.btn--nav{background:var(--orange);color:#fff;padding:8px 20px;font-size:.875rem;}
+.btn--nav:hover{background:var(--orange-light);}
+.nav__hamburger{display:none;flex-direction:column;justify-content:center;gap:5px;width:40px;height:40px;background:none;border:none;cursor:pointer;padding:8px;border-radius:8px;transition:background .15s;}
+.nav__hamburger:hover{background:var(--border);}
+.nav__hamburger span{display:block;width:22px;height:2px;background:var(--dark);border-radius:2px;transition:all .25s ease;}
+.nav__hamburger.open span:nth-child(1){transform:translateY(7px) rotate(45deg);}
+.nav__hamburger.open span:nth-child(2){opacity:0;}
+.nav__hamburger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+.nav__mobile-menu{display:none;flex-direction:column;background:#fff;border-top:1px solid var(--border);padding:8px 24px 16px;gap:4px;}
+.nav__mobile-menu.open{display:flex;}
+.nav__mobile-menu a{padding:12px 0;font-size:.95rem;font-weight:700;color:var(--dark);border-bottom:1px solid var(--border);}
+.nav__mobile-menu a:last-child{border-bottom:none;}
+.nav__mobile-menu .btn--primary{margin-top:8px;text-align:center;justify-content:center;border-bottom:none;border-radius:50px;}
+@media(max-width:700px){.nav__links{display:none;}.nav__hamburger{display:flex;}}
+</style>
 </head>
 <body>
 
@@ -168,5 +185,6 @@
     <p><a href="/">← Back to Little Discoveries</a> &nbsp;|&nbsp; Always verify event details before visiting.</p>
   </footer>
 
+  <script src="/script.js?v=d83b9f30"></script>
 </body>
 </html>

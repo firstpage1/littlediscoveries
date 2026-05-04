@@ -56,7 +56,24 @@
     .expired-banner{background:#FF6B35;color:#fff;text-align:center;padding:14px 24px;font-family:'Nunito',sans-serif;font-weight:800;font-size:1rem;letter-spacing:.02em;position:relative;z-index:200;}
     .expired-banner__icon{font-size:1.2em;margin-right:6px;}
     .expired-banner a{color:#fff;text-decoration:underline;margin-left:8px;font-weight:700;}
-  </style>
+  
+.nav__links{display:flex;align-items:center;gap:28px;font-weight:700;font-size:.9rem;color:var(--mid);}
+.nav__links a:hover{color:var(--orange);}
+.btn--nav{background:var(--orange);color:#fff;padding:8px 20px;font-size:.875rem;}
+.btn--nav:hover{background:var(--orange-light);}
+.nav__hamburger{display:none;flex-direction:column;justify-content:center;gap:5px;width:40px;height:40px;background:none;border:none;cursor:pointer;padding:8px;border-radius:8px;transition:background .15s;}
+.nav__hamburger:hover{background:var(--border);}
+.nav__hamburger span{display:block;width:22px;height:2px;background:var(--dark);border-radius:2px;transition:all .25s ease;}
+.nav__hamburger.open span:nth-child(1){transform:translateY(7px) rotate(45deg);}
+.nav__hamburger.open span:nth-child(2){opacity:0;}
+.nav__hamburger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+.nav__mobile-menu{display:none;flex-direction:column;background:#fff;border-top:1px solid var(--border);padding:8px 24px 16px;gap:4px;}
+.nav__mobile-menu.open{display:flex;}
+.nav__mobile-menu a{padding:12px 0;font-size:.95rem;font-weight:700;color:var(--dark);border-bottom:1px solid var(--border);}
+.nav__mobile-menu a:last-child{border-bottom:none;}
+.nav__mobile-menu .btn--primary{margin-top:8px;text-align:center;justify-content:center;border-bottom:none;border-radius:50px;}
+@media(max-width:700px){.nav__links{display:none;}.nav__hamburger{display:flex;}}
+</style>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -95,10 +112,22 @@
 </head>
 <body>
   <div class="geo-summary" aria-hidden="true">Festival of Democracy – Free Family Visit to NSW Parliament. Location: NSW Parliament House, 6 Macquarie Street, Sydney NSW 2000. Neighbourhood: CBD. Ages: School Kids (5–13 years). Time: 10:00am – 4:00pm (guided tours run throughout the day). Cost: Free — free, bookings recommended. Category: STEM.</div>
-  <header class="nav"><div class="nav__inner container">
-    <a href="/" class="nav__logo"><img src="/images/logo.png" alt="Little Discoveries" class="nav__logo-img" /></a>
-    <a href="/" class="nav__back">← Back to all activities</a>
-  </div></header>
+  <header class="nav">
+    <div class="nav__inner container">
+      <a href="/" class="nav__logo"><img src="/images/logo.png" alt="Little Discoveries" class="nav__logo-img" /></a>
+      <nav class="nav__links">
+        <a href="/#activities">Activities</a>
+        <a href="/#newsletter" class="btn btn--nav">📧 Get Weekly Tips</a>
+      </nav>
+      <button class="nav__hamburger" id="nav-hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile-menu" id="nav-mobile-menu" aria-hidden="true">
+      <a href="/#activities">🗺️ Activities</a>
+      <a href="/#newsletter" class="btn btn--primary">📧 Get Weekly Tips</a>
+    </div>
+  </header>
   <div class="activity-hero" style="background:linear-gradient(135deg,#a1c4fd 0%,#c2e9fb 100%);"><img src="https://images.pexels.com/photos/2816472/pexels-photo-2816472.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=800" alt="Festival of Democracy – Free Family Visit to NSW Parliament" style="width:100%;height:100%;object-fit:cover;" onerror="this.parentElement.innerHTML='<span style=&quot;font-size:6rem;&quot;>🎪</span>'" /></div>
     <div class="expired-banner">
     <span class="expired-banner__icon">⏰</span>This event has already taken place and is no longer on.
@@ -137,4 +166,5 @@
     <div class="footer__links"><a href="/#founder">About</a><a href="mailto:hello@patriciahaueiss.com">Contact</a></div>
     <p class="footer__copy">© 2026 Little Discoveries. Made with ❤️ in Sydney.</p>
   </div></footer>
+  <script src="/script.js?v=d83b9f30"></script>
 </body></html>
