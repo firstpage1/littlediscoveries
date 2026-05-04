@@ -3504,5 +3504,72 @@
     "imageUrl": "https://images.pexels.com/photos/14025659/pexels-photo-14025659.jpeg?auto=compress&cs=tinysrgb&w=800",
     "expired": false,
     "isRecurring": true
+  },
+  {
+    "id": 104,
+    "title": "Little Things by Roma Lestal \u2013 Free Exhibition at RPA Museum",
+    "description": "Explore a moving free exhibition at the RPA Museum by Sydney artist Roma Lestal \u2014 a collection of small, meaningful objects shared by hospital patients about the things that brought them comfort and healing. Includes a free Amazing History Treasure Hunt activity booklet perfect for curious kids. A gentle, thoughtful outing that sparks big conversations about care, kindness and what matters most.",
+    "category": "Arts & Crafts",
+    "age": [
+      "Pre-schoolers (3\u20135 years)",
+      "School Kids (5\u201313 years)"
+    ],
+    "neighborhood": "Inner West",
+    "day": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free admission",
+    "venue": "RPA Museum Art Heritage Gallery, Royal Prince Alfred Hospital, Camperdown",
+    "time": "Mon\u2013Fri, museum hours",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-30",
+    "source": "https://whatson.cityofsydney.nsw.gov.au/events/little-things-by-roma-lestal",
+    "imageUrl": "https://images.pexels.com/photos/15086258/pexels-photo-15086258.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "tags": [
+      "art",
+      "museum",
+      "exhibition"
+    ],
+    "isRecurring": false,
+    "editorsChoice": false
+  },
+  {
+    "id": 105,
+    "title": "Broken Glass & Blue Bottles \u2013 Free Surf Photography at Bondi Pavilion",
+    "description": "Step inside a free photographic exhibition capturing the raw spirit of Sydney surf culture \u2014 from Bondi to Bronte. Photographer Luke Kennedy of Tracks Magazine documents the characters, waves and moments that define Australian surfing. Displayed in the stunning art gallery inside the iconic Bondi Pavilion, it's a brilliant free outing for surf-loving families and school-age kids.",
+    "category": "Arts & Crafts",
+    "age": [
+      "School Kids (5\u201313 years)"
+    ],
+    "neighborhood": "Eastern Suburbs",
+    "day": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free admission",
+    "venue": "Bondi Pavilion Art Gallery, Queen Elizabeth Drive, Bondi Beach",
+    "time": "Gallery hours, daily",
+    "startDate": "2026-04-25",
+    "endDate": "2026-06-28",
+    "source": "https://www.bondipavilion.com.au/whats_on/event/bondi_pavilion_2026_artistic_program",
+    "imageUrl": "https://images.pexels.com/photos/390051/surfer-wave-sunset-the-sea-390051.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "tags": [
+      "art",
+      "photography",
+      "surf"
+    ],
+    "isRecurring": false,
+    "editorsChoice": false
   }
 ]
