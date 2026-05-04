@@ -3214,5 +3214,349 @@
     ],
     "imageUrl": "https://images.pexels.com/photos/7263782/pexels-photo-7263782.jpeg?auto=compress&cs=tinysrgb&w=800",
     "expired": false
+  },
+  {
+    "id": 93,
+    "title": "Baby Storytime at Lindfield Library – Ku-ring-gai (Tuesdays)",
+    "description": "Free weekly baby storytime at Ku-ring-gai's Lindfield Library every Tuesday during school term — songs, rhymes and stories for babies and young toddlers and their carers.",
+    "category": "Storytime",
+    "age": [
+      "Babies (1–2 years)",
+      "Toddlers (2–3 years)"
+    ],
+    "neighborhood": "North Shore",
+    "day": [
+      "Tuesday"
+    ],
+    "cost": "Free",
+    "costLabel": "free, check library for bookings",
+    "time": "Check library for time",
+    "venue": "Lindfield Library",
+    "startDate": "2026-05-05",
+    "endDate": "2026-12-31",
+    "isOnline": false,
+    "source": "https://www.krg.nsw.gov.au/Things-to-do/Whats-on/Baby-storytime-Lindfield-Library-Tuesdays-2026",
+    "tags": [
+      "library",
+      "rhymetime",
+      "babies",
+      "toddlers"
+    ],
+    "imageUrl": "",
+    "expired": false
+  },
+  {
+    "id": 94,
+    "title": "Baby Storytime at Turramurra Library – Ku-ring-gai (Thursdays)",
+    "description": "Free weekly baby storytime at Ku-ring-gai's Turramurra Library every Thursday during school term — songs, rhymes and stories for babies and young toddlers.",
+    "category": "Storytime",
+    "age": [
+      "Babies (1–2 years)",
+      "Toddlers (2–3 years)"
+    ],
+    "neighborhood": "North Shore",
+    "day": [
+      "Thursday"
+    ],
+    "cost": "Free",
+    "costLabel": "free, check library for bookings",
+    "time": "Check library for time",
+    "venue": "Turramurra Library",
+    "startDate": "2026-05-07",
+    "endDate": "2026-12-31",
+    "isOnline": false,
+    "source": "https://www.krg.nsw.gov.au/Things-to-do/Whats-on/Baby-storytime-Turramurra-Library-Thursdays-2026",
+    "tags": [
+      "library",
+      "rhymetime",
+      "babies",
+      "toddlers"
+    ],
+    "imageUrl": "",
+    "expired": false
+  },
+  {
+    "id": 95,
+    "title": "Storytime at Mosman Library – 3 to 5 Years (Tue & Thu)",
+    "description": "Free drop-in storytime at Mosman Library every Tuesday and Thursday at 10:30am during school term. Interactive stories, songs and activities for pre-schoolers — no bookings needed.",
+    "category": "Storytime",
+    "age": [
+      "Toddlers (2–3 years)",
+      "Pre-schoolers (3–5 years)"
+    ],
+    "neighborhood": "North Shore",
+    "day": [
+      "Tuesday",
+      "Thursday"
+    ],
+    "cost": "Free",
+    "costLabel": "free, no bookings needed",
+    "time": "10:30am",
+    "venue": "Mosman Library",
+    "startDate": "2026-05-05",
+    "endDate": "2026-12-31",
+    "isOnline": false,
+    "source": "https://events.mosman.nsw.gov.au/events/storytime-ages-3-5yrs",
+    "tags": [
+      "library",
+      "storytime",
+      "toddlers",
+      "pre-schoolers"
+    ],
+    "imageUrl": "",
+    "expired": false
+  },
+  {
+    "id": 96,
+    "title": "Heritage Day at Parramatta North – Free Family Day",
+    "description": "Free family day at the historic Parramatta North precinct — guided tours of heritage buildings, historical talks, live music, food, market stalls and children's activities. Perfect for Mother's Day weekend.",
+    "category": "Festivals",
+    "age": [
+      "Toddlers (2–3 years)",
+      "Pre-schoolers (3–5 years)",
+      "School Kids (5–13 years)"
+    ],
+    "neighborhood": "Western Sydney",
+    "day": [
+      "Saturday"
+    ],
+    "cost": "Free",
+    "costLabel": "free entry",
+    "time": "9:00am – 3:00pm",
+    "venue": "Parramatta North Heritage Precinct, 5 Fleet St",
+    "startDate": "2026-05-09",
+    "endDate": "2026-05-09",
+    "isOnline": false,
+    "source": "https://www.cityofparramatta.nsw.gov.au/community/events/upcoming-events/heritage-day-at-parramatta-north",
+    "tags": [
+      "workshop",
+      "inclusive",
+      "nature"
+    ],
+    "imageUrl": "",
+    "expired": false
+  },
+  {
+    "id": 97,
+    "title": "Mobile Playvan – Free Outdoor Playgroup at Burwood (Tue & Thu)",
+    "description": "Burwood Council's free outdoor playgroup in the park for children 0–6 years. Games, storytelling, arts and craft. Tuesdays at Wangal Park and Thursdays at Burwood Park during school term.",
+    "category": "Festivals",
+    "age": [
+      "Babies (1–2 years)",
+      "Toddlers (2–3 years)",
+      "Pre-schoolers (3–5 years)"
+    ],
+    "neighborhood": "Inner West",
+    "day": [
+      "Tuesday",
+      "Thursday"
+    ],
+    "cost": "Free",
+    "costLabel": "free, no bookings needed",
+    "time": "Check Burwood Council website for time",
+    "venue": "Wangal Park (Tue) / Burwood Park (Thu)",
+    "startDate": "2026-05-05",
+    "endDate": "2026-12-31",
+    "isOnline": false,
+    "source": "https://www.burwood.nsw.gov.au/For-Residents/Our-Community/Children-and-Families/Mobile-Playvan",
+    "tags": [
+      "toddlers",
+      "babies",
+      "pre-schoolers",
+      "nature"
+    ],
+    "imageUrl": "",
+    "expired": false
+  },
+  {
+    "id": 98,
+    "title": "Baby Rhymetime at Eastgardens Library – Bayside (Wednesdays)",
+    "description": "Free baby rhymetime at Bayside Council's Eastgardens Library every Wednesday at 10:30am — 30 minutes of songs and rhymes for babies 0 to 18 months and their carers. Bookings required.",
+    "category": "Storytime",
+    "age": [
+      "Babies (1–2 years)"
+    ],
+    "neighborhood": "Eastern Suburbs",
+    "day": [
+      "Wednesday"
+    ],
+    "cost": "Free",
+    "costLabel": "free, bookings required",
+    "time": "10:30am",
+    "venue": "Eastgardens Library",
+    "startDate": "2026-05-06",
+    "endDate": "2026-12-31",
+    "isOnline": false,
+    "source": "https://www.bayside.nsw.gov.au/whats-on/baby-rhymetime-eastgardens-library-term-2",
+    "tags": [
+      "library",
+      "rhymetime",
+      "babies"
+    ],
+    "imageUrl": "",
+    "expired": false
+  },
+  {
+    "id": 99,
+    "title": "Toddlertime at Rockdale Library – Bayside (Thursdays)",
+    "description": "Free toddlertime at Bayside Council's Rockdale Library every Thursday at 10:30am — 30 minutes of songs, games and stories for children up to 3 years. Bookings required.",
+    "category": "Storytime",
+    "age": [
+      "Babies (1–2 years)",
+      "Toddlers (2–3 years)"
+    ],
+    "neighborhood": "Eastern Suburbs",
+    "day": [
+      "Thursday"
+    ],
+    "cost": "Free",
+    "costLabel": "free, bookings required",
+    "time": "10:30am",
+    "venue": "Rockdale Library",
+    "startDate": "2026-05-07",
+    "endDate": "2026-12-31",
+    "isOnline": false,
+    "source": "https://www.bayside.nsw.gov.au/whats-on/toddlertime-rockdale-library-term-2",
+    "tags": [
+      "library",
+      "rhymetime",
+      "toddlers",
+      "babies"
+    ],
+    "imageUrl": "",
+    "expired": false
+  },
+  {
+    "id": 100,
+    "title": "Storytime at Rockdale Library – Bayside (Tuesdays)",
+    "description": "Free storytime at Bayside Council's Rockdale Library every Tuesday at 10:30am — 45 minutes of stories, songs and craft for pre-schoolers aged 3 to 5 years. Bookings required.",
+    "category": "Storytime",
+    "age": [
+      "Toddlers (2–3 years)",
+      "Pre-schoolers (3–5 years)"
+    ],
+    "neighborhood": "Eastern Suburbs",
+    "day": [
+      "Tuesday"
+    ],
+    "cost": "Free",
+    "costLabel": "free, bookings required",
+    "time": "10:30am – 11:15am",
+    "venue": "Rockdale Library",
+    "startDate": "2026-05-05",
+    "endDate": "2026-12-31",
+    "isOnline": false,
+    "source": "https://www.bayside.nsw.gov.au/whats-on/storytime-rockdale-library-term-2",
+    "tags": [
+      "library",
+      "storytime",
+      "toddlers",
+      "pre-schoolers"
+    ],
+    "imageUrl": "",
+    "expired": false
+  },
+  {
+    "id": 101,
+    "title": "Little Art Makers – Sutherland Shire Library",
+    "description": "A free weekly art workshop for children aged 3 to 5 at Sutherland Shire libraries — creative learning through storytime and hands-on art activities. Check library for which branch and day.",
+    "category": "Arts & Crafts",
+    "age": [
+      "Toddlers (2–3 years)",
+      "Pre-schoolers (3–5 years)"
+    ],
+    "neighborhood": "Sutherland Shire",
+    "day": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "cost": "Free",
+    "costLabel": "free",
+    "time": "Check library for time",
+    "venue": "Sutherland Shire Library (various branches)",
+    "startDate": "2026-05-04",
+    "endDate": "2026-12-31",
+    "isOnline": false,
+    "source": "https://www.sutherlandshire.nsw.gov.au/subsites/libraries/whats-on/kids-and-families",
+    "tags": [
+      "library",
+      "art",
+      "craft",
+      "toddlers",
+      "pre-schoolers"
+    ],
+    "imageUrl": "",
+    "expired": false
+  },
+  {
+    "id": 102,
+    "title": "Storytime at Marrickville Library – Inner West",
+    "description": "Free weekly storytime at Marrickville Library during school term — stories, songs and activities for children aged 3 to 5 years and their carers. Check Inner West Council website for current schedule.",
+    "category": "Storytime",
+    "age": [
+      "Toddlers (2–3 years)",
+      "Pre-schoolers (3–5 years)"
+    ],
+    "neighborhood": "Inner West",
+    "day": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "cost": "Free",
+    "costLabel": "free",
+    "time": "Check library for time",
+    "venue": "Marrickville Library",
+    "startDate": "2026-05-04",
+    "endDate": "2026-12-31",
+    "isOnline": false,
+    "source": "https://www.innerwest.nsw.gov.au/whats-on/storytime-marrickville-library",
+    "tags": [
+      "library",
+      "storytime",
+      "toddlers",
+      "pre-schoolers"
+    ],
+    "imageUrl": "",
+    "expired": false
+  },
+  {
+    "id": 103,
+    "title": "Preschool Storytime at Bankstown Library – Canterbury-Bankstown",
+    "description": "Free preschool storytime at Bankstown Library for children aged 3 to 5 — stories, songs and fun activities to build a love of books and language. Check CB City for schedule and bookings.",
+    "category": "Storytime",
+    "age": [
+      "Toddlers (2–3 years)",
+      "Pre-schoolers (3–5 years)"
+    ],
+    "neighborhood": "Western Sydney",
+    "day": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "cost": "Free",
+    "costLabel": "free",
+    "time": "Check library for time",
+    "venue": "Bankstown Library",
+    "startDate": "2026-05-04",
+    "endDate": "2026-12-31",
+    "isOnline": false,
+    "source": "https://www.cbcity.nsw.gov.au/whats-on/preschool-story-time-bankstown",
+    "tags": [
+      "library",
+      "storytime",
+      "toddlers",
+      "pre-schoolers"
+    ],
+    "imageUrl": "",
+    "expired": false
   }
 ]
