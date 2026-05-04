@@ -3536,7 +3536,8 @@
       "exhibition"
     ],
     "isRecurring": false,
-    "editorsChoice": false
+    "editorsChoice": false,
+    "expired": true
   },
   {
     "id": 105,
