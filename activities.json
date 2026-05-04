@@ -3572,5 +3572,95 @@
     ],
     "isRecurring": false,
     "editorsChoice": false
+  },
+  {
+    "id": 106,
+    "title": "Spark in the Park \u2013 Free Outdoor Stories & Songs for Under 5s",
+    "description": "Head to Broadarrow Reserve in Maroubra for this free drop-in outdoor storytime run by Randwick City Library. Look for the colourful Spark truck \u2014 there'll be stories, songs and play for little ones aged 0\u20135 years. No bookings needed, just turn up and enjoy a fun morning in the park. Part of Randwick's 2026 Year of Kindness program. Weather permitting.",
+    "category": "Storytime",
+    "age": [
+      "Babies (1\u20132 years)",
+      "Toddlers (2\u20133 years)",
+      "Pre-schoolers (3\u20135 years)"
+    ],
+    "neighborhood": "Eastern Suburbs",
+    "day": [
+      "Wednesday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free, no bookings needed",
+    "venue": "Broadarrow Reserve, Fitzgerald Avenue, Maroubra",
+    "time": "10:30am",
+    "startDate": "2026-05-06",
+    "endDate": "2026-05-06",
+    "source": "https://www.randwick.nsw.gov.au/library/kids/babies-and-toddlers",
+    "imageUrl": "https://images.pexels.com/photos/8035137/pexels-photo-8035137.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "tags": [
+      "storytime",
+      "nature",
+      "toddlers"
+    ],
+    "isRecurring": false,
+    "editorsChoice": false
+  },
+  {
+    "id": 107,
+    "title": "Plant with Us \u2013 Free Mother's Day Tree Planting at Heffron Park",
+    "description": "Celebrate Mother's Day by getting your hands in the earth together! Randwick City Council hosts this free family tree-planting morning at Heffron Park, Maroubra \u2014 helping create wildlife habitat for future generations. Two sessions available. Wear sturdy shoes and bring gloves, a hat and a water bottle. Bookings via Humanitix are required.",
+    "category": "Outdoor Adventures",
+    "age": [
+      "Babies (1\u20132 years)",
+      "Toddlers (2\u20133 years)",
+      "Pre-schoolers (3\u20135 years)",
+      "School Kids (5\u201313 years)"
+    ],
+    "neighborhood": "Eastern Suburbs",
+    "day": [
+      "Sunday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free, bookings required",
+    "venue": "Heffron Park, Maroubra",
+    "time": "8:30\u201310am or 10:30am\u201312pm",
+    "startDate": "2026-05-10",
+    "endDate": "2026-05-10",
+    "source": "https://events.humanitix.com/plant-with-us-mother-s-day-celebration-10-05-26",
+    "imageUrl": "https://images.pexels.com/photos/1301585/pexels-photo-1301585.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "tags": [
+      "nature",
+      "outdoor"
+    ],
+    "isRecurring": false,
+    "editorsChoice": false
+  },
+  {
+    "id": 108,
+    "title": "The Saturday Circle \u2013 Free Family Morning at Randwick Sustainability Hub",
+    "description": "A free monthly community gathering at Randwick's Sustainability Hub with something for everyone \u2014 outdoor storytime for little ones, Lego building, toy swaps, community birding, learning to grow food and more. A hands-on, nature-connected morning for families of all ages on the second Saturday of each month.",
+    "category": "Outdoor Adventures",
+    "age": [
+      "Babies (1\u20132 years)",
+      "Toddlers (2\u20133 years)",
+      "Pre-schoolers (3\u20135 years)",
+      "School Kids (5\u201313 years)"
+    ],
+    "neighborhood": "Eastern Suburbs",
+    "day": [
+      "Saturday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free",
+    "venue": "Randwick Sustainability Hub, 27 Munda Street, Randwick",
+    "time": "10am\u201312pm",
+    "startDate": "2026-05-09",
+    "endDate": "2026-05-09",
+    "source": "https://www.randwick.nsw.gov.au/environment-and-sustainability/environmental-whats-on/the-saturday-circle",
+    "imageUrl": "https://images.pexels.com/photos/301977/pexels-photo-301977.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "tags": [
+      "nature",
+      "outdoor"
+    ],
+    "isRecurring": false,
+    "editorsChoice": false
   }
 ]
