@@ -3662,5 +3662,33 @@
     ],
     "isRecurring": false,
     "editorsChoice": false
+  },
+  {
+    "id": 109,
+    "title": "Code Club \u2013 Free After-School Coding for Ages 8\u201313 at Double Bay Library",
+    "description": "A free weekly coding club at Woollahra Library at Double Bay, run by volunteer industry experts. Beginners start with Scratch, then level up to Python via the Ozaria adventure game \u2014 no experience needed. All skill levels welcome. Children under 10 must be accompanied by an adult. Bring a fully charged device. Bookings via the library website are required.",
+    "category": "STEM",
+    "age": [
+      "School Kids (5\u201313 years)"
+    ],
+    "neighborhood": "Eastern Suburbs",
+    "day": [
+      "Tuesday",
+      "Wednesday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free, bookings required",
+    "venue": "Woollahra Library at Double Bay, 451 New South Head Road, Double Bay",
+    "time": "After school hours",
+    "startDate": "2026-05-05",
+    "endDate": "2026-12-31",
+    "source": "https://www.woollahra.nsw.gov.au/Events/Eventbrite/Code-Club-Scratch-for-Beginners-ages-8-13-867072385847",
+    "imageUrl": "https://images.pexels.com/photos/4145153/pexels-photo-4145153.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "tags": [
+      "coding",
+      "STEM"
+    ],
+    "isRecurring": true,
+    "editorsChoice": false
   }
 ]
