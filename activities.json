@@ -1408,7 +1408,8 @@
       "family"
     ],
     "category": "Festivals",
-    "editorsChoice": true
+    "editorsChoice": true,
+    "expired": true
   },
   {
     "id": 49,
@@ -1450,7 +1451,8 @@
       "march"
     ],
     "category": "Festivals",
-    "editorsChoice": true
+    "editorsChoice": true,
+    "expired": true
   },
   {
     "id": 50,
@@ -1491,7 +1493,8 @@
       "tours"
     ],
     "category": "STEM",
-    "editorsChoice": true
+    "editorsChoice": true,
+    "expired": true
   },
   {
     "id": 51,
@@ -1534,7 +1537,8 @@
       "marching bands"
     ],
     "category": "Festivals",
-    "editorsChoice": true
+    "editorsChoice": true,
+    "expired": true
   },
   {
     "id": 52,
@@ -1576,7 +1580,8 @@
       "navy"
     ],
     "category": "Science",
-    "editorsChoice": true
+    "editorsChoice": true,
+    "expired": true
   },
   {
     "id": 53,
@@ -1664,7 +1669,8 @@
       "handmade",
       "community"
     ],
-    "category": "Festivals"
+    "category": "Festivals",
+    "expired": true
   },
   {
     "id": 55,
@@ -1709,7 +1715,8 @@
       "journaling",
       "art"
     ],
-    "category": "Arts & Crafts"
+    "category": "Arts & Crafts",
+    "expired": true
   },
   {
     "id": 56,
@@ -1749,7 +1756,8 @@
       "Hyde Park",
       "architecture"
     ],
-    "category": "STEM"
+    "category": "STEM",
+    "expired": true
   },
   {
     "id": 57,
@@ -1791,7 +1799,8 @@
       "family",
       "Sunday"
     ],
-    "category": "Arts & Crafts"
+    "category": "Arts & Crafts",
+    "expired": true
   },
   {
     "id": 58,
@@ -1876,7 +1885,8 @@
       "family",
       "free"
     ],
-    "category": "Outdoor Adventures"
+    "category": "Outdoor Adventures",
+    "expired": true
   },
   {
     "id": 60,
@@ -1917,7 +1927,8 @@
       "family",
       "free"
     ],
-    "category": "Outdoor Adventures"
+    "category": "Outdoor Adventures",
+    "expired": true
   },
   {
     "id": 61,
@@ -1957,7 +1968,8 @@
       "family",
       "free"
     ],
-    "category": "Outdoor Adventures"
+    "category": "Outdoor Adventures",
+    "expired": true
   },
   {
     "id": 62,
@@ -1999,7 +2011,8 @@
       "family",
       "free"
     ],
-    "category": "Outdoor Adventures"
+    "category": "Outdoor Adventures",
+    "expired": true
   },
   {
     "id": 63,
@@ -2817,5 +2830,389 @@
       "free"
     ],
     "category": "Outdoor Adventures"
+  },
+  {
+    "id": 81,
+    "title": "Rhymetime at Darling Square Library – 0 to 2 Years",
+    "description": "A fun free storytelling program combining rhymes, singing and stories — perfect for babies and toddlers and their carers, every Monday morning at Darling Square Library.",
+    "category": "Storytime",
+    "age": [
+      "Babies (1–2 years)",
+      "Toddlers (2–3 years)"
+    ],
+    "neighborhood": "CBD",
+    "day": [
+      "Monday"
+    ],
+    "cost": "Free",
+    "costLabel": "free, no bookings needed",
+    "time": "10:30am – 10:50am",
+    "venue": "Darling Square Library",
+    "startDate": "2026-05-04",
+    "endDate": "2026-05-10",
+    "isOnline": false,
+    "source": "https://whatson.cityofsydney.nsw.gov.au/events/rhymetime-at-darling-square-library-0-2-years",
+    "tags": [
+      "library",
+      "rhymetime",
+      "babies",
+      "toddlers"
+    ],
+    "imageUrl": "",
+    "expired": false
+  },
+  {
+    "id": 82,
+    "title": "Storytime at Darling Square Library – 3 to 5 Years",
+    "description": "A free storytelling program combining stories, rhymes and singing at Darling Square Library every Monday. Great for pre-schoolers ready to explore books together.",
+    "category": "Storytime",
+    "age": [
+      "Toddlers (2–3 years)",
+      "Pre-schoolers (3–5 years)"
+    ],
+    "neighborhood": "CBD",
+    "day": [
+      "Monday"
+    ],
+    "cost": "Free",
+    "costLabel": "free, no bookings needed",
+    "time": "11:30am – 12:00pm",
+    "venue": "Darling Square Library",
+    "startDate": "2026-05-04",
+    "endDate": "2026-05-10",
+    "isOnline": false,
+    "source": "https://whatson.cityofsydney.nsw.gov.au/events/storytime-darling-square-3-5-years",
+    "tags": [
+      "library",
+      "storytime",
+      "toddlers",
+      "pre-schoolers"
+    ],
+    "imageUrl": "",
+    "expired": false
+  },
+  {
+    "id": 83,
+    "title": "Singing and Stories at Kings Cross Library – 0 to 5 Years",
+    "description": "Come join a fun free storytelling program combining rhymes, singing and stories at Kings Cross Library — welcoming babies through to pre-schoolers and their carers.",
+    "category": "Storytime",
+    "age": [
+      "Babies (1–2 years)",
+      "Toddlers (2–3 years)",
+      "Pre-schoolers (3–5 years)"
+    ],
+    "neighborhood": "Eastern Suburbs",
+    "day": [
+      "Monday"
+    ],
+    "cost": "Free",
+    "costLabel": "free, no bookings needed",
+    "time": "10:30am – 11:15am",
+    "venue": "Kings Cross Library",
+    "startDate": "2026-05-04",
+    "endDate": "2026-05-10",
+    "isOnline": false,
+    "source": "https://whatson.cityofsydney.nsw.gov.au/events/singing-and-stories-at-kings-cross-library-0-to-5-years",
+    "tags": [
+      "library",
+      "storytime",
+      "rhymetime",
+      "babies",
+      "toddlers",
+      "pre-schoolers"
+    ],
+    "imageUrl": "",
+    "expired": false
+  },
+  {
+    "id": 84,
+    "title": "Mike Hewson: The Key's Under the Mat – Free at Art Gallery of NSW",
+    "description": "Make yourself at home in an underground art park at the Art Gallery of NSW. A playful, free installation designed for families to explore together.",
+    "category": "Arts & Crafts",
+    "age": [
+      "Toddlers (2–3 years)",
+      "Pre-schoolers (3–5 years)",
+      "School Kids (5–13 years)"
+    ],
+    "neighborhood": "CBD",
+    "day": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "cost": "Free",
+    "costLabel": "free general admission",
+    "time": "10:00am – 5:00pm",
+    "venue": "Art Gallery of NSW",
+    "startDate": "2026-05-04",
+    "endDate": "2026-12-31",
+    "isOnline": false,
+    "source": "https://whatson.cityofsydney.nsw.gov.au/events/mike-hewson-the-keys-under-the-mat",
+    "tags": [
+      "art",
+      "gallery",
+      "inclusive",
+      "free"
+    ],
+    "imageUrl": "",
+    "expired": false
+  },
+  {
+    "id": 85,
+    "title": "Alchemy of a Rainforest Exhibition – Free at Royal Botanic Garden",
+    "description": "Explore a vibrant tapestry of life in this free exhibition at the Royal Botanic Garden Sydney. A beautiful immersive experience for curious kids and their families.",
+    "category": "Nature",
+    "age": [
+      "Toddlers (2–3 years)",
+      "Pre-schoolers (3–5 years)",
+      "School Kids (5–13 years)"
+    ],
+    "neighborhood": "CBD",
+    "day": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "cost": "Free",
+    "costLabel": "free entry",
+    "time": "10:00am – 4:00pm",
+    "venue": "Royal Botanic Garden Sydney",
+    "startDate": "2026-05-04",
+    "endDate": "2026-12-31",
+    "isOnline": false,
+    "source": "https://whatson.cityofsydney.nsw.gov.au/events/alchemy-of-a-rainforest-exhibition",
+    "tags": [
+      "nature",
+      "art",
+      "inclusive"
+    ],
+    "imageUrl": "",
+    "expired": false
+  },
+  {
+    "id": 86,
+    "title": "Free Candy Making Show at Sticky – The Rocks (Daily)",
+    "description": "The world-famous candy-makers at Sticky host a free candy-making demonstration every day at The Rocks. Watch colourful candy being pulled and shaped by hand — kids love it.",
+    "category": "Festivals",
+    "age": [
+      "Toddlers (2–3 years)",
+      "Pre-schoolers (3–5 years)",
+      "School Kids (5–13 years)"
+    ],
+    "neighborhood": "The Rocks",
+    "day": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "cost": "Free",
+    "costLabel": "free to watch, candy available to buy",
+    "time": "9:00am – 5:30pm",
+    "venue": "Sticky, The Rocks",
+    "startDate": "2026-05-04",
+    "endDate": "2026-12-31",
+    "isOnline": false,
+    "source": "https://whatson.cityofsydney.nsw.gov.au/events/free-traditional-candy-making-demonstration",
+    "tags": [
+      "craft",
+      "inclusive",
+      "nature"
+    ],
+    "imageUrl": "",
+    "expired": false
+  },
+  {
+    "id": 87,
+    "title": "Storytime at Surry Hills Library – 3 to 5 Years",
+    "description": "A free storytelling program combining stories, rhymes and singing at Surry Hills Library every Tuesday. A warm, welcoming session for pre-schoolers and their carers.",
+    "category": "Storytime",
+    "age": [
+      "Toddlers (2–3 years)",
+      "Pre-schoolers (3–5 years)"
+    ],
+    "neighborhood": "CBD",
+    "day": [
+      "Tuesday"
+    ],
+    "cost": "Free",
+    "costLabel": "free, no bookings needed",
+    "time": "Check library for session time",
+    "venue": "Surry Hills Library",
+    "startDate": "2026-05-05",
+    "endDate": "2026-05-10",
+    "isOnline": false,
+    "source": "https://whatson.cityofsydney.nsw.gov.au/events/storytime-surry-hills-library-3-5-years",
+    "tags": [
+      "library",
+      "storytime",
+      "toddlers",
+      "pre-schoolers"
+    ],
+    "imageUrl": "",
+    "expired": false
+  },
+  {
+    "id": 88,
+    "title": "Rhymetime at Newtown Library – 0 to 2 Years",
+    "description": "A free storytelling program combining rhymes, singing and stories at Newtown Library every Tuesday. Ideal for babies, young toddlers and their carers.",
+    "category": "Storytime",
+    "age": [
+      "Babies (1–2 years)",
+      "Toddlers (2–3 years)"
+    ],
+    "neighborhood": "Inner West",
+    "day": [
+      "Tuesday"
+    ],
+    "cost": "Free",
+    "costLabel": "free, no bookings needed",
+    "time": "Check library for session time",
+    "venue": "Newtown Library",
+    "startDate": "2026-05-05",
+    "endDate": "2026-05-10",
+    "isOnline": false,
+    "source": "https://whatson.cityofsydney.nsw.gov.au/events/rhymetime-at-newtown-library-0-to-2-years",
+    "tags": [
+      "library",
+      "rhymetime",
+      "babies",
+      "toddlers"
+    ],
+    "imageUrl": "",
+    "expired": false
+  },
+  {
+    "id": 89,
+    "title": "Storytime at Green Square Library – 3 to 5 Years",
+    "description": "A free storytelling program combining stories, rhymes and singing at Green Square Library every Wednesday. A lovely weekly ritual for pre-schoolers and their carers.",
+    "category": "Storytime",
+    "age": [
+      "Toddlers (2–3 years)",
+      "Pre-schoolers (3–5 years)"
+    ],
+    "neighborhood": "CBD",
+    "day": [
+      "Wednesday"
+    ],
+    "cost": "Free",
+    "costLabel": "free, no bookings needed",
+    "time": "Check library for session time",
+    "venue": "Green Square Library",
+    "startDate": "2026-05-07",
+    "endDate": "2026-05-10",
+    "isOnline": false,
+    "source": "https://whatson.cityofsydney.nsw.gov.au/events/storytime-green-square-library",
+    "tags": [
+      "library",
+      "storytime",
+      "toddlers",
+      "pre-schoolers"
+    ],
+    "imageUrl": "",
+    "expired": false
+  },
+  {
+    "id": 90,
+    "title": "Little Artists at Green Square Library – Ages 2 to 5",
+    "description": "Encouraging early art and fostering creativity, one craft at a time! A free Wednesday session at Green Square Library for children aged 2 to 5 years.",
+    "category": "Arts & Crafts",
+    "age": [
+      "Toddlers (2–3 years)",
+      "Pre-schoolers (3–5 years)"
+    ],
+    "neighborhood": "CBD",
+    "day": [
+      "Wednesday"
+    ],
+    "cost": "Free",
+    "costLabel": "free, no bookings needed",
+    "time": "Check library for session time",
+    "venue": "Green Square Library",
+    "startDate": "2026-05-07",
+    "endDate": "2026-05-10",
+    "isOnline": false,
+    "source": "https://whatson.cityofsydney.nsw.gov.au/events/little-artists-at-green-square-library",
+    "tags": [
+      "library",
+      "craft",
+      "art",
+      "toddlers",
+      "pre-schoolers"
+    ],
+    "imageUrl": "",
+    "expired": false
+  },
+  {
+    "id": 91,
+    "title": "Biennale of Sydney Family Day – Free at White Bay Power Station",
+    "description": "Explore, play and make art together with An.Other Collective at this free Family Day at the spectacular White Bay Power Station. Part of the 25th Biennale of Sydney.",
+    "category": "Arts & Crafts",
+    "age": [
+      "Toddlers (2–3 years)",
+      "Pre-schoolers (3–5 years)",
+      "School Kids (5–13 years)"
+    ],
+    "neighborhood": "Inner West",
+    "day": [
+      "Saturday"
+    ],
+    "cost": "Free",
+    "costLabel": "free entry",
+    "time": "Check website for times",
+    "venue": "White Bay Power Station",
+    "startDate": "2026-05-09",
+    "endDate": "2026-05-09",
+    "isOnline": false,
+    "source": "https://whatson.cityofsydney.nsw.gov.au/events/25th-biennale-of-sydney-family-day-with-an-other-collective",
+    "tags": [
+      "art",
+      "workshop",
+      "inclusive",
+      "craft"
+    ],
+    "imageUrl": "",
+    "expired": false
+  },
+  {
+    "id": 92,
+    "title": "Mother's Day Sculpture Walk – Free at Royal Botanic Garden",
+    "description": "Join expert volunteer guides for a special Mother's Day guided walk through the Royal Botanic Garden's open-air sculpture collection. Free and beautiful for the whole family.",
+    "category": "Nature",
+    "age": [
+      "Toddlers (2–3 years)",
+      "Pre-schoolers (3–5 years)",
+      "School Kids (5–13 years)"
+    ],
+    "neighborhood": "CBD",
+    "day": [
+      "Sunday"
+    ],
+    "cost": "Free",
+    "costLabel": "free guided walk",
+    "time": "Check website for time",
+    "venue": "Royal Botanic Garden Sydney",
+    "startDate": "2026-05-10",
+    "endDate": "2026-05-10",
+    "isOnline": false,
+    "source": "https://whatson.cityofsydney.nsw.gov.au/events/mothers-day-sculpture-walk",
+    "tags": [
+      "nature",
+      "art",
+      "inclusive"
+    ],
+    "imageUrl": "",
+    "expired": false
   }
 ]
