@@ -2531,7 +2531,8 @@
       "family",
       "free"
     ],
-    "category": "Outdoor Adventures"
+    "category": "Outdoor Adventures",
+    "expired": true
   },
   {
     "id": 76,
@@ -2784,7 +2785,7 @@
       "toddlers"
     ],
     "imageUrl": "https://images.pexels.com/photos/1741231/pexels-photo-1741231.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "expired": false,
+    "expired": true,
     "isRecurring": true
   },
   {
@@ -2815,7 +2816,7 @@
       "pre-schoolers"
     ],
     "imageUrl": "https://images.pexels.com/photos/4968168/pexels-photo-4968168.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "expired": false,
+    "expired": true,
     "isRecurring": true
   },
   {
@@ -2849,7 +2850,7 @@
       "pre-schoolers"
     ],
     "imageUrl": "https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "expired": false,
+    "expired": true,
     "isRecurring": true
   },
   {
@@ -2991,7 +2992,7 @@
       "pre-schoolers"
     ],
     "imageUrl": "https://images.pexels.com/photos/10638213/pexels-photo-10638213.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "expired": false,
+    "expired": true,
     "isRecurring": true
   },
   {
@@ -3022,7 +3023,7 @@
       "toddlers"
     ],
     "imageUrl": "https://images.pexels.com/photos/4513218/pexels-photo-4513218.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "expired": false,
+    "expired": true,
     "isRecurring": true
   },
   {
@@ -3053,7 +3054,7 @@
       "pre-schoolers"
     ],
     "imageUrl": "https://images.pexels.com/photos/12719346/pexels-photo-12719346.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "expired": false,
+    "expired": true,
     "isRecurring": true
   },
   {
@@ -3085,7 +3086,7 @@
       "pre-schoolers"
     ],
     "imageUrl": "https://images.pexels.com/photos/8382373/pexels-photo-8382373.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "expired": false,
+    "expired": true,
     "isRecurring": true
   },
   {
@@ -3117,7 +3118,7 @@
       "craft"
     ],
     "imageUrl": "https://images.pexels.com/photos/30545411/pexels-photo-30545411.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "expired": false,
+    "expired": true,
     "editorsChoice": true
   },
   {
@@ -3148,7 +3149,7 @@
       "inclusive"
     ],
     "imageUrl": "https://images.pexels.com/photos/7263782/pexels-photo-7263782.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "expired": false
+    "expired": true
   },
   {
     "id": 93,
@@ -3272,7 +3273,7 @@
       "nature"
     ],
     "imageUrl": "https://images.pexels.com/photos/30572410/pexels-photo-30572410.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "expired": false,
+    "expired": true,
     "editorsChoice": true
   },
   {
@@ -3601,7 +3602,8 @@
       "toddlers"
     ],
     "isRecurring": false,
-    "editorsChoice": false
+    "editorsChoice": false,
+    "expired": true
   },
   {
     "id": 107,
@@ -3631,7 +3633,8 @@
       "outdoor"
     ],
     "isRecurring": false,
-    "editorsChoice": false
+    "editorsChoice": false,
+    "expired": true
   },
   {
     "id": 108,
@@ -3661,7 +3664,8 @@
       "outdoor"
     ],
     "isRecurring": false,
-    "editorsChoice": false
+    "editorsChoice": false,
+    "expired": true
   },
   {
     "id": 109,
@@ -3687,6 +3691,236 @@
     "tags": [
       "coding",
       "STEM"
+    ],
+    "isRecurring": true,
+    "editorsChoice": false
+  },
+  {
+    "id": 110,
+    "title": "Sydney Writers' Festival Family Day \u2013 Free at Carriageworks",
+    "description": "A full day of free storytelling, creativity and imagination for families at Sydney's most beloved literary festival. Drop in any time for live storytimes, author sessions, badge-making, a poetry planting station, cartoon portraits, an interactive story bus loaded with books, and a kids' dance party. Most activities are completely free with no bookings needed \u2014 just turn up and explore.",
+    "category": "Arts & Crafts",
+    "age": [
+      "Pre-schoolers (3\u20135 years)",
+      "School Kids (5\u201313 years)"
+    ],
+    "neighborhood": "Inner West",
+    "day": [
+      "Sunday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry (some ticketed sessions from $29)",
+    "venue": "Carriageworks, Bays 22-24, 245 Wilson Street, Eveleigh",
+    "time": "10am \u2013 3:30pm",
+    "startDate": "2026-05-24",
+    "endDate": "2026-05-24",
+    "source": "https://www.swf.org.au/program/festival-2026/free-kids-activities",
+    "imageUrl": "https://images.pexels.com/photos/8617941/pexels-photo-8617941.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "tags": [
+      "storytime",
+      "art",
+      "workshop"
+    ],
+    "isRecurring": false,
+    "editorsChoice": false,
+    "seoSlug": "sydney-writers-festival-family-day-2026"
+  },
+  {
+    "id": 111,
+    "title": "Vivid Sydney \u2013 Free Nightly Light Walk Through the City",
+    "description": "Walk through a 6.5km trail of more than 43 dazzling light installations across Circular Quay, The Rocks, Barangaroo and Darling Harbour \u2014 all completely free. The highlight is the illuminated Sydney Opera House sails, transformed each night into a canvas of colour. The route is fully pram-accessible, making it perfect for families with young children. Running every night from 22 May to 13 June.",
+    "category": "Festivals",
+    "age": [
+      "Babies (1\u20132 years)",
+      "Toddlers (2\u20133 years)",
+      "Pre-schoolers (3\u20135 years)",
+      "School Kids (5\u201313 years)"
+    ],
+    "neighborhood": "CBD",
+    "day": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free, no tickets needed",
+    "venue": "Circular Quay, The Rocks, Barangaroo & Darling Harbour",
+    "time": "6pm \u2013 11pm nightly",
+    "startDate": "2026-05-22",
+    "endDate": "2026-06-13",
+    "source": "https://www.vividsydney.com/",
+    "imageUrl": "https://images.pexels.com/photos/1434608/pexels-photo-1434608.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "tags": [
+      "art"
+    ],
+    "isRecurring": false,
+    "editorsChoice": false,
+    "seoSlug": "vivid-sydney-free-light-walk-2026"
+  },
+  {
+    "id": 112,
+    "title": "Vivid Tumbalong Kids \u2013 Free Concert: The Mik Maks",
+    "description": "Start your Vivid Sydney evening early with a free one-hour kids' concert at Tumbalong Park. This Saturday, The Mik Maks \u2014 brothers Joel and Al McInnes, Joel's daughter Ava and their mate Drums the Panda \u2014 bring their high-energy, colour-drenched rock show to Darling Harbour. With over 9.2 million YouTube subscribers and a reputation for guaranteed giggles, it's the perfect warm-up before the lights switch on at 6pm. No tickets, no bookings \u2014 just show up and dance.",
+    "category": "Music",
+    "age": [
+      "Babies (1\u20132 years)",
+      "Toddlers (2\u20133 years)",
+      "Pre-schoolers (3\u20135 years)",
+      "School Kids (5\u201313 years)"
+    ],
+    "neighborhood": "Darling Harbour",
+    "day": [
+      "Saturday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free, no tickets needed",
+    "venue": "Tumbalong Park, 11 Harbour Street, Darling Harbour",
+    "time": "5pm \u2013 6pm, Saturday 23 May",
+    "startDate": "2026-05-23",
+    "endDate": "2026-05-23",
+    "source": "https://www.vividsydney.com/programs/tumbalong-kids",
+    "imageUrl": "https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "tags": [
+      "music"
+    ],
+    "isRecurring": false,
+    "editorsChoice": false,
+    "seoSlug": "vivid-sydney-tumbalong-kids-mik-maks-2026"
+  },
+  {
+    "id": 113,
+    "title": "Vivid Sydney \u2013 Star-Bound Drone Show at Darling Harbour",
+    "description": "Watch 1,000 drones light up the night sky above Darling Harbour in a choreographed display billed as an ode to universal connection. Star-Bound explores how patterns repeat across plants, animals and the solar system \u2014 from the spirals of a shell to the rings of Saturn \u2014 through breathtaking aerial formations set to music. Two shows each night (7:30pm and 9:30pm). Completely free, no tickets required. Running on Sunday\u2013Wednesday evenings through 13 June.",
+    "category": "Festivals",
+    "age": [
+      "Babies (1\u20132 years)",
+      "Toddlers (2\u20133 years)",
+      "Pre-schoolers (3\u20135 years)",
+      "School Kids (5\u201313 years)"
+    ],
+    "neighborhood": "Darling Harbour",
+    "day": [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free, no tickets needed",
+    "venue": "Darling Harbour, Sydney",
+    "time": "7:30pm & 9:30pm",
+    "startDate": "2026-05-24",
+    "endDate": "2026-06-13",
+    "source": "https://www.vividsydney.com/event/light/star-bound-vivid-sydney-drone-show",
+    "imageUrl": "https://images.pexels.com/photos/6757048/pexels-photo-6757048.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "tags": [
+      "art"
+    ],
+    "isRecurring": false,
+    "editorsChoice": false,
+    "seoSlug": "vivid-sydney-star-bound-drone-show-2026"
+  },
+  {
+    "id": 114,
+    "title": "Vivid Sydney \u2013 Laser Lightfall Show at Cockle Bay",
+    "description": "The most ambitious outdoor laser show Vivid Sydney has ever staged. Every hour from 6pm, a 7-minute choreographed display of light sweeps across the harbour sky in beams of colour set to music \u2014 building from single colour call-and-response sequences into a dazzling, dancing finale. Position yourself at Cockle Bay in Darling Harbour for the best view. Runs every night until 13 June.",
+    "category": "Festivals",
+    "age": [
+      "Babies (1\u20132 years)",
+      "Toddlers (2\u20133 years)",
+      "Pre-schoolers (3\u20135 years)",
+      "School Kids (5\u201313 years)"
+    ],
+    "neighborhood": "Darling Harbour",
+    "day": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free, no tickets needed",
+    "venue": "Cockle Bay, Darling Harbour, Sydney",
+    "time": "Hourly from 6pm \u2013 11pm nightly",
+    "startDate": "2026-05-22",
+    "endDate": "2026-06-13",
+    "source": "https://www.vividsydney.com/",
+    "imageUrl": "https://images.pexels.com/photos/3756798/pexels-photo-3756798.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "tags": [
+      "art"
+    ],
+    "isRecurring": false,
+    "editorsChoice": false,
+    "seoSlug": "vivid-sydney-laser-lightfall-cockle-bay-2026"
+  },
+  {
+    "id": 115,
+    "title": "Rhymetime at City of Sydney Libraries \u2013 0 to 2 Years (Term 2)",
+    "description": "Free weekly rhymetime sessions for babies and toddlers at City of Sydney Libraries \u2014 including Green Square, Surry Hills, Newtown, Glebe and Darling Square branches. Sessions feature singing, finger-play, rhymes and board books to nurture early literacy and social skills. No bookings needed at most branches \u2014 just arrive 5 minutes early as numbers are limited. Running through Term 2 until 3 July.",
+    "category": "Storytime",
+    "age": [
+      "Babies (1\u20132 years)",
+      "Toddlers (2\u20133 years)"
+    ],
+    "neighborhood": "CBD",
+    "day": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free, no bookings needed",
+    "venue": "Green Square, Surry Hills, Newtown, Glebe & Darling Square Libraries",
+    "time": "From 10:15am (varies by branch)",
+    "startDate": "2026-05-18",
+    "endDate": "2026-07-03",
+    "source": "https://whatson.cityofsydney.nsw.gov.au/programs/city-of-sydney-library",
+    "imageUrl": "https://images.pexels.com/photos/3819781/pexels-photo-3819781.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "tags": [
+      "library",
+      "rhymetime",
+      "babies"
+    ],
+    "isRecurring": true,
+    "editorsChoice": false
+  },
+  {
+    "id": 116,
+    "title": "Storytime at City of Sydney Libraries \u2013 3 to 5 Years (Term 2)",
+    "description": "Free weekly storytime sessions for pre-schoolers at City of Sydney Libraries \u2014 including Green Square, Surry Hills, Newtown, Glebe and Darling Square branches. Each 30-minute session explores a new theme through stories and songs to build a love of reading. No bookings needed at most branches \u2014 arrive a few minutes early as places fill quickly. Running through Term 2 until 3 July.",
+    "category": "Storytime",
+    "age": [
+      "Toddlers (2\u20133 years)",
+      "Pre-schoolers (3\u20135 years)"
+    ],
+    "neighborhood": "CBD",
+    "day": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free, no bookings needed",
+    "venue": "Green Square, Surry Hills, Newtown, Glebe & Darling Square Libraries",
+    "time": "11:30am (varies by branch)",
+    "startDate": "2026-05-18",
+    "endDate": "2026-07-03",
+    "source": "https://whatson.cityofsydney.nsw.gov.au/programs/city-of-sydney-library",
+    "imageUrl": "https://images.pexels.com/photos/4968168/pexels-photo-4968168.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "tags": [
+      "library",
+      "storytime"
     ],
     "isRecurring": true,
     "editorsChoice": false
