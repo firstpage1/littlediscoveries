@@ -3816,7 +3816,7 @@
     "startDate": "2026-05-24",
     "endDate": "2026-06-13",
     "source": "https://www.vividsydney.com/event/light/star-bound-vivid-sydney-drone-show",
-    "imageUrl": "https://images.pexels.com/photos/6757048/pexels-photo-6757048.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "https://images.pexels.com/photos/4058939/pexels-photo-4058939.jpeg?auto=compress&cs=tinysrgb&w=800",
     "tags": [
       "art"
     ],
@@ -4084,7 +4084,8 @@
     ],
     "seoSlug": "saturday-at-the-park-barracluff-bondi-2026",
     "editorsChoice": true,
-    "ecOrder": 0
+    "ecOrder": 0,
+    "imageUrl": "https://images.pexels.com/photos/5119595/pexels-photo-5119595.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
     "id": 123,
