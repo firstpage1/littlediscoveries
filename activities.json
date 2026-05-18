@@ -4060,5 +4060,259 @@
     ],
     "isRecurring": true,
     "seoSlug": "woollahra-library-double-bay-story-time"
+  },
+  {
+    "id": 122,
+    "title": "Saturday at the Park \u2013 Free Family Fun at Barracluff Park, Bondi",
+    "description": "Free family morning at Barracluff Park in Bondi with face painting, farmyard animals from Golden Ridge Animal Farm, free coffee and gelato. Organised by Waverley Council.",
+    "age": [],
+    "neighborhood": "Eastern Suburbs",
+    "day": [
+      "Saturday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry",
+    "source": "https://www.waverley.nsw.gov.au/recreation/events/events/saturday_at_the_park_2026",
+    "website": "https://www.waverley.nsw.gov.au/recreation/events/events/saturday_at_the_park_2026",
+    "venue": "Barracluff Park, Barracluff Ave, Bondi",
+    "time": "10:00am \u2013 12:00pm",
+    "startDate": "2026-05-23",
+    "endDate": "2026-05-23",
+    "category": "Outdoor Adventures",
+    "tags": [
+      "nature"
+    ],
+    "seoSlug": "saturday-at-the-park-barracluff-bondi-2026"
+  },
+  {
+    "id": 123,
+    "title": "Pyrmont Food & Wine Festival \u2013 Free Kids Zone at Pirrama Park",
+    "description": "Free entry festival at Pirrama Park, Pyrmont with a dedicated Kids Zone featuring a jumping castle, face painting, mini golf, laughing clowns and live music across two stages. Great for families.",
+    "age": [],
+    "neighborhood": "CBD",
+    "day": [
+      "Saturday",
+      "Sunday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry",
+    "source": "https://www.pyrmontfestival.com.au/",
+    "website": "https://www.pyrmontfestival.com.au/",
+    "venue": "Pirrama Park, Pyrmont",
+    "time": "11:00am \u2013 5:00pm",
+    "startDate": "2026-05-23",
+    "endDate": "2026-05-24",
+    "category": "Festivals",
+    "tags": [
+      "art"
+    ],
+    "seoSlug": "pyrmont-food-wine-festival-free-kids-zone-2026"
+  },
+  {
+    "id": 124,
+    "title": "Winnie-the-Pooh Sensory Storytime \u2013 Free at Waverley Library (Ages 3\u20135)",
+    "description": "Special themed storytime celebrating 100 years of Winnie-the-Pooh with stories, craft, slime and sensory play for children aged 3\u20135. Bookings required via Humanitix.",
+    "age": [
+      "Pre-schoolers (3-5 years)"
+    ],
+    "neighborhood": "Eastern Suburbs",
+    "day": [
+      "Wednesday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free \u2014 bookings required via Humanitix",
+    "source": "https://events.humanitix.com/storytime-and-sensory-play-winnie-the-pooh-3-5-years-waverley-library",
+    "website": "https://events.humanitix.com/storytime-and-sensory-play-winnie-the-pooh-3-5-years-waverley-library",
+    "venue": "Waverley Library, 32\u201348 Denison St, Bondi Junction",
+    "time": "10:30am \u2013 11:00am",
+    "startDate": "2026-05-20",
+    "endDate": "2026-05-20",
+    "category": "Storytime",
+    "tags": [
+      "library",
+      "storytime",
+      "pre-schoolers"
+    ],
+    "seoSlug": "winnie-the-pooh-sensory-storytime-waverley-library-2026"
+  },
+  {
+    "id": 125,
+    "title": "Tales for Tykes \u2013 Free Tuesday Storytime at Waverley Library (Ages 3\u20135)",
+    "description": "Weekly stories, rhymes and craft for children aged 3\u20135 every Tuesday at Waverley Library in Bondi Junction. Two sessions available \u2014 10:00am and 11:00am. Bookings required.",
+    "age": [
+      "Pre-schoolers (3-5 years)"
+    ],
+    "neighborhood": "Eastern Suburbs",
+    "day": [
+      "Tuesday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free \u2014 bookings required",
+    "source": "https://www.waverley.nsw.gov.au/library/programs_and_events/regular_kids_activities_and_events",
+    "website": "https://www.waverley.nsw.gov.au/library/programs_and_events/regular_kids_activities_and_events",
+    "venue": "Waverley Library, 32\u201348 Denison St, Bondi Junction",
+    "time": "10:00am or 11:00am",
+    "category": "Storytime",
+    "tags": [
+      "library",
+      "storytime",
+      "pre-schoolers"
+    ],
+    "isRecurring": true,
+    "seoSlug": "waverley-library-tales-for-tykes"
+  },
+  {
+    "id": 126,
+    "title": "Rocking Rhymetime \u2013 Free Thursday Sessions at Waverley Library (Ages 2\u20133)",
+    "description": "High-energy dancing, music, rhymes and stories for toddlers aged 2\u20133 every Thursday at Waverley Library in Bondi Junction. Two sessions \u2014 10:00am and 10:45am. Bookings required.",
+    "age": [
+      "Toddlers (1-3 years)"
+    ],
+    "neighborhood": "Eastern Suburbs",
+    "day": [
+      "Thursday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free \u2014 bookings required",
+    "source": "https://www.waverley.nsw.gov.au/library/programs_and_events/regular_kids_activities_and_events",
+    "website": "https://www.waverley.nsw.gov.au/library/programs_and_events/regular_kids_activities_and_events",
+    "venue": "Waverley Library, 32\u201348 Denison St, Bondi Junction",
+    "time": "10:00am or 10:45am",
+    "category": "Storytime",
+    "tags": [
+      "library",
+      "toddlers",
+      "rhymetime"
+    ],
+    "isRecurring": true,
+    "seoSlug": "waverley-library-rocking-rhymetime"
+  },
+  {
+    "id": 127,
+    "title": "Northern Beaches Libraries \u2013 Free Baby Bounce, Rhyme Time & Story Time",
+    "description": "Free weekly early literacy sessions across Northern Beaches libraries. Baby Bounce (infants), Rhyme Time (toddlers) and Story Time (3+) at Manly, Dee Why and Mona Vale libraries throughout school terms.",
+    "age": [
+      "Babies (0-12 months)",
+      "Toddlers (1-3 years)",
+      "Pre-schoolers (3-5 years)"
+    ],
+    "neighborhood": "Northern Beaches",
+    "day": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free \u2014 check each branch for booking requirements",
+    "source": "https://www.northernbeaches.nsw.gov.au/library/whats/story-time-and-early-literacy/baby-bounce-rhyme-time-and-story-time",
+    "website": "https://www.northernbeaches.nsw.gov.au/library/whats/story-time-and-early-literacy/baby-bounce-rhyme-time-and-story-time",
+    "venue": "Manly, Dee Why & Mona Vale Libraries",
+    "time": "Various \u2014 see website",
+    "category": "Storytime",
+    "tags": [
+      "library",
+      "babies",
+      "toddlers",
+      "storytime",
+      "rhymetime"
+    ],
+    "isRecurring": true,
+    "seoSlug": "northern-beaches-libraries-baby-bounce-rhyme-time-story-time"
+  },
+  {
+    "id": 128,
+    "title": "Stanton Library \u2013 Free Rhymetime & Storytime in North Sydney",
+    "description": "Free Rhymetime for babies and toddlers (0\u20132 years) on Mondays and Tuesdays, plus Storytime for ages 3\u20135 at Stanton Library in North Sydney. Rhymetime requires bookings via Humanitix.",
+    "age": [
+      "Babies (0-12 months)",
+      "Toddlers (1-3 years)",
+      "Pre-schoolers (3-5 years)"
+    ],
+    "neighborhood": "North Shore",
+    "day": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free \u2014 Rhymetime bookings via Humanitix",
+    "source": "https://www.northsydney.nsw.gov.au/storytime-rhymetime",
+    "website": "https://www.northsydney.nsw.gov.au/storytime-rhymetime",
+    "venue": "Stanton Library, 234 Miller St, North Sydney",
+    "time": "Various \u2014 see website",
+    "category": "Storytime",
+    "tags": [
+      "library",
+      "babies",
+      "toddlers",
+      "storytime",
+      "rhymetime"
+    ],
+    "isRecurring": true,
+    "seoSlug": "stanton-library-north-sydney-rhymetime-storytime"
+  },
+  {
+    "id": 129,
+    "title": "Inner West Libraries \u2013 Free Weekly Storytime at Ashfield & Leichhardt",
+    "description": "Free weekly storytime for ages 3\u20135 at Ashfield Library (260 Liverpool Rd) and Leichhardt Library (23 Norton St). Sessions run during school terms \u2014 no bookings required.",
+    "age": [
+      "Pre-schoolers (3-5 years)"
+    ],
+    "neighborhood": "Inner West",
+    "day": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free \u2014 no bookings required",
+    "source": "https://www.innerwest.nsw.gov.au/explore/libraries/library-programs-and-events/childrens-programs/childrens-programs-whats-on",
+    "website": "https://www.innerwest.nsw.gov.au/explore/libraries/library-programs-and-events/childrens-programs/childrens-programs-whats-on",
+    "venue": "Ashfield Library & Leichhardt Library, Inner West",
+    "time": "10:30am \u2013 see website for each branch",
+    "category": "Storytime",
+    "tags": [
+      "library",
+      "storytime",
+      "pre-schoolers"
+    ],
+    "isRecurring": true,
+    "seoSlug": "inner-west-libraries-storytime-ashfield-leichhardt"
+  },
+  {
+    "id": 130,
+    "title": "Bayside Libraries \u2013 Free Storytime & Toddlertime at Arncliffe & Bexley",
+    "description": "Free weekly children's programs at Arncliffe and Bexley North libraries. Toddlertime (Mondays 10:30am, under 3s), Baby Rhymetime at Arncliffe (Wednesdays 10am) and Storytime (ages 3\u20135). Walk-ins welcome.",
+    "age": [
+      "Babies (0-12 months)",
+      "Toddlers (1-3 years)",
+      "Pre-schoolers (3-5 years)"
+    ],
+    "neighborhood": "Eastern Suburbs",
+    "day": [
+      "Monday",
+      "Wednesday",
+      "Friday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free \u2014 walk-ins welcome",
+    "source": "https://www.bayside.nsw.gov.au/recreation/places/libraries-and-museum/locations-and-opening-hours/programs-and-events",
+    "website": "https://www.bayside.nsw.gov.au/recreation/places/libraries-and-museum/locations-and-opening-hours/programs-and-events",
+    "venue": "Arncliffe Library & Bexley North Library",
+    "time": "Various \u2014 see website",
+    "category": "Storytime",
+    "tags": [
+      "library",
+      "babies",
+      "toddlers",
+      "storytime"
+    ],
+    "isRecurring": true,
+    "seoSlug": "bayside-libraries-storytime-arncliffe-bexley"
   }
 ]
