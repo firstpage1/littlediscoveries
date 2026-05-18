@@ -4,7 +4,7 @@
 let activities = [];
 
 async function loadActivities() {
-  const res = await fetch('activities.json?v=d2877ef5');
+  const res = await fetch('activities.json?v=ad51e1c4');
   activities = await res.json();
   init();
 }
@@ -176,6 +176,8 @@ function renderCards(list) {
     }
     return mixed;
   }
+
+  ecItems.sort((a, b) => (a.ecOrder ?? 999) - (b.ecOrder ?? 999));
 
   const sorted = [
     ...ecItems,

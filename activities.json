@@ -3721,7 +3721,8 @@
     ],
     "isRecurring": false,
     "editorsChoice": true,
-    "seoSlug": "sydney-writers-festival-family-day-2026"
+    "seoSlug": "sydney-writers-festival-family-day-2026",
+    "ecOrder": 3
   },
   {
     "id": 111,
@@ -3787,7 +3788,8 @@
     ],
     "isRecurring": false,
     "editorsChoice": true,
-    "seoSlug": "vivid-sydney-tumbalong-kids-mik-maks-2026"
+    "seoSlug": "vivid-sydney-tumbalong-kids-mik-maks-2026",
+    "ecOrder": 1
   },
   {
     "id": 113,
@@ -3820,7 +3822,8 @@
     ],
     "isRecurring": false,
     "editorsChoice": true,
-    "seoSlug": "vivid-sydney-star-bound-drone-show-2026"
+    "seoSlug": "vivid-sydney-star-bound-drone-show-2026",
+    "ecOrder": 2
   },
   {
     "id": 114,
