@@ -3922,5 +3922,140 @@
     ],
     "isRecurring": true,
     "editorsChoice": false
+  },
+  {
+    "id": 117,
+    "title": "Saturday Storytime \u2013 Free at Randwick Library for Ages 0\u20135",
+    "description": "Songs, rhymes and stories every Saturday morning at Margaret Martin Library in Randwick. A great free weekly outing for babies, toddlers and pre-schoolers \u2014 no bookings required.",
+    "age": [
+      "Babies (0-12 months)",
+      "Toddlers (1-3 years)",
+      "Pre-schoolers (3-5 years)"
+    ],
+    "neighborhood": "Eastern Suburbs",
+    "day": [
+      "Saturday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free with library membership (free to join)",
+    "source": "https://www.randwick.nsw.gov.au/library/kids/babies-and-toddlers",
+    "website": "https://www.randwick.nsw.gov.au/library/kids/babies-and-toddlers",
+    "venue": "Margaret Martin Library, Royal Randwick Shopping Centre, Randwick",
+    "time": "10:30am \u2013 11:00am",
+    "category": "Storytime",
+    "tags": [
+      "library",
+      "storytime"
+    ],
+    "isRecurring": true,
+    "seoSlug": "randwick-library-saturday-storytime"
+  },
+  {
+    "id": 118,
+    "title": "Babies Love Books \u2013 Free Weekly Program at Randwick Library (0\u201312 months)",
+    "description": "Early literacy sessions for babies 0\u201312 months at Randwick City Library branches. Thursdays at Lionel Bowen Library (Maroubra) and Fridays at Margaret Martin Library (Randwick) \u2014 both at 10:30am. Bookings open one week in advance.",
+    "age": [
+      "Babies (0-12 months)"
+    ],
+    "neighborhood": "Eastern Suburbs",
+    "day": [
+      "Thursday",
+      "Friday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free with library membership (free to join)",
+    "source": "https://www.randwick.nsw.gov.au/library/kids/babies-and-toddlers",
+    "website": "https://www.randwick.nsw.gov.au/library/kids/babies-and-toddlers",
+    "venue": "Lionel Bowen Library (Maroubra) & Margaret Martin Library (Randwick)",
+    "time": "10:30am",
+    "category": "Storytime",
+    "tags": [
+      "library",
+      "babies",
+      "storytime"
+    ],
+    "isRecurring": true,
+    "seoSlug": "randwick-library-babies-love-books"
+  },
+  {
+    "id": 119,
+    "title": "Bop 2 Books \u2013 Free Wednesday Rhyme Time at Randwick Library (2\u20133 years)",
+    "description": "Weekly rhymes, music and stories for toddlers aged 24\u201336 months at Margaret Martin Library in Randwick. A gentle, fun session for little ones and their carers \u2014 runs during school terms.",
+    "age": [
+      "Toddlers (1-3 years)"
+    ],
+    "neighborhood": "Eastern Suburbs",
+    "day": [
+      "Wednesday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free with library membership (free to join)",
+    "source": "https://www.randwick.nsw.gov.au/library/kids/babies-and-toddlers",
+    "website": "https://www.randwick.nsw.gov.au/library/kids/babies-and-toddlers",
+    "venue": "Margaret Martin Library, Royal Randwick Shopping Centre, Randwick",
+    "time": "10:15am \u2013 10:45am",
+    "category": "Storytime",
+    "tags": [
+      "library",
+      "toddlers",
+      "rhymetime"
+    ],
+    "isRecurring": true,
+    "seoSlug": "randwick-library-bop-2-books"
+  },
+  {
+    "id": 120,
+    "title": "Double Bay Rhyme Time \u2013 Free Sessions at Woollahra Library (0\u20132 years)",
+    "description": "Rhymes, singing and dancing for babies and toddlers aged 0\u20132 at Woollahra Library in Double Bay. Sessions run Tuesdays at 3:30pm and Wednesdays at 10:30am during school terms \u2014 free with library membership.",
+    "age": [
+      "Babies (0-12 months)",
+      "Toddlers (1-3 years)"
+    ],
+    "neighborhood": "Eastern Suburbs",
+    "day": [
+      "Tuesday",
+      "Wednesday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free with library membership (free to join)",
+    "source": "https://www.woollahra.nsw.gov.au/Events/Double-Bay-Library-Rhyme-Time-0-2-yrs-3",
+    "website": "https://www.woollahra.nsw.gov.au/Events/Double-Bay-Library-Rhyme-Time-0-2-yrs-3",
+    "venue": "Woollahra Library at Double Bay, 451 New South Head Rd, Double Bay",
+    "time": "Tue 3:30pm, Wed 10:30am",
+    "category": "Storytime",
+    "tags": [
+      "library",
+      "babies",
+      "toddlers",
+      "rhymetime"
+    ],
+    "isRecurring": true,
+    "seoSlug": "woollahra-library-double-bay-rhyme-time"
+  },
+  {
+    "id": 121,
+    "title": "Double Bay Story Time \u2013 Free Weekly at Woollahra Library (Ages 3\u20135)",
+    "description": "A themed weekly story time for pre-schoolers aged 3\u20135 at Woollahra Library in Double Bay. Each session explores a new theme with songs, stories, rhymes and a craft activity \u2014 no bookings required, just a library card.",
+    "age": [
+      "Pre-schoolers (3-5 years)"
+    ],
+    "neighborhood": "Eastern Suburbs",
+    "day": [
+      "Wednesday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free with library membership (free to join)",
+    "source": "https://www.woollahra.nsw.gov.au/Events/Double-Bay-Story-Time-3-5-yrs-1",
+    "website": "https://www.woollahra.nsw.gov.au/Events/Double-Bay-Story-Time-3-5-yrs-1",
+    "venue": "Woollahra Library at Double Bay, 451 New South Head Rd, Double Bay",
+    "time": "10:30am \u2013 11:30am",
+    "category": "Storytime",
+    "tags": [
+      "library",
+      "storytime",
+      "pre-schoolers"
+    ],
+    "isRecurring": true,
+    "seoSlug": "woollahra-library-double-bay-story-time"
   }
 ]
