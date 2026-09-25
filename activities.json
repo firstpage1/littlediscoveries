@@ -10,10 +10,11 @@
       "All Ages"
     ],
     "day": [
-      "Monday"
+      "Monday",
+      "Tuesday"
     ],
     "startDate": "2026-09-28",
-    "endDate": "2026-09-28",
+    "endDate": "2026-09-29",
     "time": "10:30am–1:30pm",
     "venue": "Oxford Street Mall, Bondi Junction",
     "address": "Oxford Street Mall, Bondi Junction",
@@ -26,9 +27,9 @@
       "It is free and easy to combine with other Bondi Junction plans."
     ],
     "editorsChoice": true,
-    "ecOrder": 3,
+    "ecOrder": 4,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/5621934/pexels-photo-5621934.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "",
     "tags": [
       "festivals",
       "school holidays"
@@ -37,7 +38,10 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "Family Fun Days – Oxford Street Mall | Little Discoveries",
-    "seoDescription": "A big free school-holiday family day in Bondi Junction with hands-on activities and entertainment."
+    "seoDescription": "A big free school-holiday family day in Bondi Junction with hands-on activities and entertainment.",
+    "isFeatured": true,
+    "imageSourceUrl": "https://www.waverley.nsw.gov.au/recreation/events/events/family_fun_days/family_fun_days",
+    "imageSourceName": "Waverley Council"
   },
   {
     "id": 2,
@@ -68,7 +72,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/5119595/pexels-photo-5119595.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "https://www.randwick.nsw.gov.au/__data/assets/image/0006/443697/Spark-in-the-Park-Police-Community-Kindness_400px-X-300px-no-AI-statement-to-be-used-in-newsletter.png",
     "tags": [
       "outdoor adventures",
       "school holidays"
@@ -77,7 +81,10 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "Spark in the Park: Cops, Community & Kindness | Little Discoveries",
-    "seoDescription": "A free community school-holiday event with games and family activities in Maroubra."
+    "seoDescription": "A free community school-holiday event with games and family activities in Maroubra.",
+    "isFeatured": false,
+    "imageSourceUrl": "https://www.randwick.nsw.gov.au/library/library-events/library-calendar/events/home/spark-in-the-park-cops%2C-community-and-kindness-for-all",
+    "imageSourceName": "Randwick City Council"
   },
   {
     "id": 3,
@@ -108,7 +115,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/8612992/pexels-photo-8612992.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "https://www.randwick.nsw.gov.au/__data/assets/image/0004/412987/Claymation_400px-X-300px.jpg",
     "tags": [
       "technology",
       "school holidays"
@@ -117,7 +124,10 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "Kids’ Claymation Workshop – Lionel Bowen Library | Little Discoveries",
-    "seoDescription": "A hands-on stop-motion workshop where children create characters, scenes and their own clay animation."
+    "seoDescription": "A hands-on stop-motion workshop where children create characters, scenes and their own clay animation.",
+    "isFeatured": false,
+    "imageSourceUrl": "https://www.randwick.nsw.gov.au/library/library-events/library-calendar/events/2026/september/kids-school-holiday-event-claymation%21-school-years-3-6",
+    "imageSourceName": "Randwick City Council"
   },
   {
     "id": 4,
@@ -148,7 +158,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "https://www.woollahra.nsw.gov.au/files/content/public/v/2/events/eventbrite/school-holiday-fun-friday-flicks-1999826102707/mainimage.jpg?w=1200",
     "tags": [
       "movies",
       "school holidays"
@@ -157,7 +167,10 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "Friday Flicks – Woollahra Library Double Bay | Little Discoveries",
-    "seoDescription": "A relaxed free school-holiday movie session with popcorn and refreshments for children aged 5–12."
+    "seoDescription": "A relaxed free school-holiday movie session with popcorn and refreshments for children aged 5–12.",
+    "isFeatured": false,
+    "imageSourceUrl": "https://www.woollahra.nsw.gov.au/Events/Eventbrite/School-Holiday-Fun-Friday-Flicks-1999826102707",
+    "imageSourceName": "Woollahra Municipal Council"
   },
   {
     "id": 5,
@@ -191,7 +204,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "ticketed — see organiser",
-    "imageUrl": "https://images.pexels.com/photos/1260522/pexels-photo-1260522.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "",
     "tags": [
       "arts & crafts",
       "school holidays"
@@ -200,55 +213,13 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "I See You Like This – Bondi Pavilion | Little Discoveries",
-    "seoDescription": "An interactive parent-and-child art experience that turns portrait-making into playful creative collaboration."
+    "seoDescription": "An interactive parent-and-child art experience that turns portrait-making into playful creative collaboration.",
+    "isFeatured": false,
+    "imageSourceUrl": "https://www.bondipavilion.com.au/whats_on/event/i_see_you_like_this",
+    "imageSourceName": "Bondi Pavilion"
   },
   {
     "id": 6,
-    "title": "Once Upon a Time… en Español",
-    "seoSlug": "once-upon-a-time-en-espanol-2026",
-    "source": "https://whatson.cityofsydney.nsw.gov.au/events/once-upon-a-time-en-espanol",
-    "website": "https://whatson.cityofsydney.nsw.gov.au/events/once-upon-a-time-en-espanol",
-    "neighborhood": "City Center/ CBD",
-    "age": [
-      "Pre-schoolers (3–5)",
-      "School Kids (5–13)"
-    ],
-    "day": [
-      "Monday",
-      "Tuesday",
-      "Wednesday",
-      "Thursday",
-      "Friday"
-    ],
-    "startDate": "2026-09-28",
-    "endDate": "2026-10-02",
-    "time": "1:00pm–2:00pm",
-    "venue": "Sydney CBD",
-    "address": "Sydney CBD",
-    "cost": "Free",
-    "category": "Storytime",
-    "description": "Interactive Spanish-language storytelling for children during the school holidays.",
-    "whyGo": [
-      "It combines storytelling with another language and culture.",
-      "It is more distinctive than a standard storytime.",
-      "Multiple weekday sessions make it easier to attend."
-    ],
-    "editorsChoice": false,
-    "ecOrder": null,
-    "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/8466915/pexels-photo-8466915.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "tags": [
-      "storytime",
-      "school holidays"
-    ],
-    "isOnline": false,
-    "expired": false,
-    "seoIndex": true,
-    "seoTitle": "Once Upon a Time… en Español | Little Discoveries",
-    "seoDescription": "Interactive Spanish-language storytelling for children during the school holidays."
-  },
-  {
-    "id": 7,
     "title": "Darling Square Moon Festival",
     "seoSlug": "darling-square-moon-festival-2026",
     "source": "https://www.darlingharbour.com/whats-on/campaigns/darling-square-moon-festival",
@@ -282,7 +253,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/3972177/pexels-photo-3972177.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "https://www.darlingharbour.com/getmedia/034db33f-8b07-4301-a63e-4a948fcb8872/darling-square-moon-festival-2022.jpg?width=1920",
     "tags": [
       "festivals",
       "school holidays"
@@ -291,10 +262,13 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "Darling Square Moon Festival | Little Discoveries",
-    "seoDescription": "A colourful Moon Festival celebration with lanterns, cultural performances and family activities."
+    "seoDescription": "A colourful Moon Festival celebration with lanterns, cultural performances and family activities.",
+    "isFeatured": false,
+    "imageSourceUrl": "https://www.darlingharbour.com/whats-on/campaigns/darling-square-moon-festival",
+    "imageSourceName": "Darling Harbour"
   },
   {
-    "id": 8,
+    "id": 7,
     "title": "Big Ideas Factory – Tumbalong Park",
     "seoSlug": "big-ideas-factory-tumbalong-park-2026",
     "source": "https://www.darlingharbour.com/whats-on/events/big-ideas-factory",
@@ -322,9 +296,9 @@
       "Tumbalong Park makes it easy to stay longer and make a day of it."
     ],
     "editorsChoice": true,
-    "ecOrder": 2,
+    "ecOrder": 3,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/1128776/pexels-photo-1128776.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "https://www.darlingharbour.com/getmedia/e9043ee4-2a21-4138-b911-805eb1d6d21e/Darling-Harbour-AutumnSchoolHolidays-Family-2025-126.jpg",
     "tags": [
       "stem",
       "school holidays"
@@ -333,10 +307,13 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "Big Ideas Factory – Tumbalong Park | Little Discoveries",
-    "seoDescription": "A free weekend of hands-on science, robotics, engineering and creative problem-solving."
+    "seoDescription": "A free weekend of hands-on science, robotics, engineering and creative problem-solving.",
+    "isFeatured": true,
+    "imageSourceUrl": "https://www.darlingharbour.com/whats-on/events/big-ideas-factory",
+    "imageSourceName": "Darling Harbour"
   },
   {
-    "id": 9,
+    "id": 8,
     "title": "Little Chef – Darling Quarter",
     "seoSlug": "little-chef-darling-quarter-2026",
     "source": "https://www.darlingharbour.com/whats-on/events/little-chef",
@@ -363,9 +340,9 @@
       "Free cooking experiences in central Sydney are relatively rare."
     ],
     "editorsChoice": true,
-    "ecOrder": 4,
+    "ecOrder": 5,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/5621934/pexels-photo-5621934.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "https://www.darlingharbour.com/getmedia/9b9d2f14-06d7-49d8-8366-7384899aa924/01-Little-Chef-2.png",
     "tags": [
       "cooking",
       "school holidays"
@@ -374,10 +351,13 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "Little Chef – Darling Quarter | Little Discoveries",
-    "seoDescription": "A free hands-on cooking experience for children aged 6–12 with age-grouped weekend sessions."
+    "seoDescription": "A free hands-on cooking experience for children aged 6–12 with age-grouped weekend sessions.",
+    "isFeatured": true,
+    "imageSourceUrl": "https://www.darlingharbour.com/whats-on/events/little-chef",
+    "imageSourceName": "Darling Harbour"
   },
   {
-    "id": 10,
+    "id": 9,
     "title": "Animal Tales Writing Workshop – Balmain",
     "seoSlug": "animal-tales-writing-workshop-balmain-2026",
     "source": "https://www.innerwest.nsw.gov.au/whats-on/school-holidays-animal-tales-writing-workshop",
@@ -405,7 +385,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/5119595/pexels-photo-5119595.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "https://www.innerwest.nsw.gov.au/sites/default/files/styles/max_2600x2600/public/2025-10/IWC---AOC.jpg.webp?itok=337tHcDN",
     "tags": [
       "storytime",
       "school holidays"
@@ -414,10 +394,13 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "Animal Tales Writing Workshop – Balmain | Little Discoveries",
-    "seoDescription": "A free creative writing workshop with children’s author Lisa Nicol for ages 8–12."
+    "seoDescription": "A free creative writing workshop with children’s author Lisa Nicol for ages 8–12.",
+    "isFeatured": false,
+    "imageSourceUrl": "https://www.innerwest.nsw.gov.au/whats-on/school-holidays-animal-tales-writing-workshop",
+    "imageSourceName": "Inner West Council"
   },
   {
-    "id": 11,
+    "id": 10,
     "title": "Design Your Own Library Bag – Glebe",
     "seoSlug": "design-your-own-library-bag-glebe-2026",
     "source": "https://whatson.cityofsydney.nsw.gov.au/events/school-holidays-create-your-first-library-bag",
@@ -445,7 +428,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/8612992/pexels-photo-8612992.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "https://res.cloudinary.com/cityofsydney/image/upload/f_auto/c_fill,h_960,w_2560/v1786073500/k7h9gk6i1z6d/5kC92utYPZ0SJ0qXusHR2j/71d17340-9210-11f1-9ea0-a59f70365ec4--School-Holidays--Create-your-first-Library-Bag-hero.jpg",
     "tags": [
       "arts & crafts",
       "school holidays"
@@ -454,10 +437,13 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "Design Your Own Library Bag – Glebe | Little Discoveries",
-    "seoDescription": "A two-hour free creative workshop where children decorate and personalise a library bag to take home."
+    "seoDescription": "A two-hour free creative workshop where children decorate and personalise a library bag to take home.",
+    "isFeatured": false,
+    "imageSourceUrl": "https://whatson.cityofsydney.nsw.gov.au/events/school-holidays-create-your-first-library-bag",
+    "imageSourceName": "City of Sydney What's On"
   },
   {
-    "id": 12,
+    "id": 11,
     "title": "I Spy Book Challenge – Mosman Library",
     "seoSlug": "i-spy-book-challenge-mosman-library-2026",
     "source": "https://events.mosman.nsw.gov.au/events/i-spy-book-challenge",
@@ -491,7 +477,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "https://events.mosman.nsw.gov.au/sites/default/files/img/events-mosman-image-11_0.jpg",
     "tags": [
       "storytime",
       "school holidays"
@@ -500,10 +486,13 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "I Spy Book Challenge – Mosman Library | Little Discoveries",
-    "seoDescription": "A flexible school-holiday book challenge where primary-school children can search, solve and earn a prize."
+    "seoDescription": "A flexible school-holiday book challenge where primary-school children can search, solve and earn a prize.",
+    "isFeatured": false,
+    "imageSourceUrl": "https://events.mosman.nsw.gov.au/events/i-spy-book-challenge",
+    "imageSourceName": "Mosman Council"
   },
   {
-    "id": 13,
+    "id": 12,
     "title": "Library Scavenger Hunt – Northern Beaches",
     "seoSlug": "library-scavenger-hunt-northern-beaches-2026",
     "source": "https://www.northernbeaches.nsw.gov.au/library/whats-on/all-library-events/library-scavenger-hunt",
@@ -537,7 +526,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/1260522/pexels-photo-1260522.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "https://files.northernbeaches.nsw.gov.au/nbc-prod-files/images/2026-08/Girl%20in%20library%20on%20scavenger%20hunt%20school%20holiday%20fun.png",
     "tags": [
       "storytime",
       "school holidays"
@@ -546,10 +535,13 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "Library Scavenger Hunt – Northern Beaches | Little Discoveries",
-    "seoDescription": "A free self-guided school-holiday scavenger hunt available across Northern Beaches library branches."
+    "seoDescription": "A free self-guided school-holiday scavenger hunt available across Northern Beaches library branches.",
+    "isFeatured": false,
+    "imageSourceUrl": "https://www.northernbeaches.nsw.gov.au/library/whats-on/all-library-events/library-scavenger-hunt",
+    "imageSourceName": "Northern Beaches Council"
   },
   {
-    "id": 14,
+    "id": 13,
     "title": "Skate Jam – Miranda",
     "seoSlug": "skate-jam-miranda-2026",
     "source": "https://www.sutherlandshire.nsw.gov.au/play-and-explore/whats-on/skate-jam-for-skaters-aged-6-18",
@@ -577,9 +569,9 @@
       "The long program and prizes make it feel like a real event."
     ],
     "editorsChoice": true,
-    "ecOrder": 5,
+    "ecOrder": 6,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/8466915/pexels-photo-8466915.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "",
     "tags": [
       "sports",
       "school holidays"
@@ -588,10 +580,13 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "Skate Jam – Miranda | Little Discoveries",
-    "seoDescription": "A free five-hour skate event with workshops, an open jam, prizes and giveaways."
+    "seoDescription": "A free five-hour skate event with workshops, an open jam, prizes and giveaways.",
+    "isFeatured": true,
+    "imageSourceUrl": "https://www.sutherlandshire.nsw.gov.au/play-and-explore/whats-on/skate-jam-for-skaters-aged-6-18",
+    "imageSourceName": "Sutherland Shire Council"
   },
   {
-    "id": 15,
+    "id": 14,
     "title": "Parramatta Moon Festival Market",
     "seoSlug": "parramatta-moon-festival-market-2026",
     "source": "https://atparramatta.com/whats-on/parramatta-moon-festival-market",
@@ -616,10 +611,10 @@
       "Lanterns and cultural programming appeal to children and adults.",
       "It is a strong Western Sydney family option."
     ],
-    "editorsChoice": true,
-    "ecOrder": 6,
+    "editorsChoice": false,
+    "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/3972177/pexels-photo-3972177.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "https://atparramatta.com/sites/discoverparra/files/header-images/20250201_Parramatta_LNY_PRINTRES-167.webp",
     "tags": [
       "festivals",
       "school holidays"
@@ -628,10 +623,13 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "Parramatta Moon Festival Market | Little Discoveries",
-    "seoDescription": "A free Moon Festival market with lanterns, food and cultural atmosphere from late morning into the evening."
+    "seoDescription": "A free Moon Festival market with lanterns, food and cultural atmosphere from late morning into the evening.",
+    "isFeatured": false,
+    "imageSourceUrl": "https://atparramatta.com/whats-on/parramatta-moon-festival-market",
+    "imageSourceName": "City of Parramatta"
   },
   {
-    "id": 16,
+    "id": 15,
     "title": "Sensory Storytime – Margaret Martin Library",
     "seoSlug": "sensory-storytime-margaret-martin-library-sep-2026",
     "source": "https://www.randwick.nsw.gov.au/library/library-events/library-calendar/events/2026/recurring-events/children-and-toys/sensory-storytime-2-5-years%2C-2026-margaret-martin-library",
@@ -660,7 +658,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/1128776/pexels-photo-1128776.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "https://www.randwick.nsw.gov.au/__data/assets/image/0019/430651/Sensory-Storytime-at-Randwick_400px-X-300px.png",
     "tags": [
       "storytime",
       "school holidays"
@@ -669,10 +667,13 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "Sensory Storytime – Margaret Martin Library | Little Discoveries",
-    "seoDescription": "A gentle sensory storytime designed for children aged 2–5."
+    "seoDescription": "A gentle sensory storytime designed for children aged 2–5.",
+    "isFeatured": false,
+    "imageSourceUrl": "https://www.randwick.nsw.gov.au/library/library-events/library-calendar/events/2026/recurring-events/children-and-toys/sensory-storytime-2-5-years%2C-2026-margaret-martin-library",
+    "imageSourceName": "Randwick City Council"
   },
   {
-    "id": 17,
+    "id": 16,
     "title": "Get Hooked Knitting Workshop – Kings Cross Library",
     "seoSlug": "get-hooked-knitting-kings-cross-library-2026",
     "source": "https://whatson.cityofsydney.nsw.gov.au/events/get-hooked-knitting-workshop",
@@ -700,7 +701,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/5621934/pexels-photo-5621934.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "https://res.cloudinary.com/cityofsydney/image/upload/f_auto/c_fill,h_960,w_2560/v1786061683/k7h9gk6i1z6d/1jQ5MC8ZeQyikx7xDKtXpn/ef983980-91f2-11f1-81b7-a75784e8f1bc--Get-hooked-on-a-new-creative-adventure-hero.jpg",
     "tags": [
       "arts & crafts",
       "school holidays"
@@ -709,10 +710,13 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "Get Hooked Knitting Workshop – Kings Cross Library | Little Discoveries",
-    "seoDescription": "A free two-hour knitting workshop for older primary-school children with materials supplied."
+    "seoDescription": "A free two-hour knitting workshop for older primary-school children with materials supplied.",
+    "isFeatured": false,
+    "imageSourceUrl": "https://whatson.cityofsydney.nsw.gov.au/events/get-hooked-knitting-workshop",
+    "imageSourceName": "City of Sydney What's On"
   },
   {
-    "id": 18,
+    "id": 17,
     "title": "Explorers Play – Marrickville",
     "seoSlug": "explorers-play-marrickville-2026",
     "source": "https://www.innerwest.nsw.gov.au/whats-on/explorers-play-free-playgroup",
@@ -741,7 +745,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/5119595/pexels-photo-5119595.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "https://www.innerwest.nsw.gov.au/sites/default/files/styles/max_2600x2600/public/2025-10/IWC---AOC.jpg.webp?itok=337tHcDN",
     "tags": [
       "playgroup",
       "school holidays"
@@ -750,10 +754,13 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "Explorers Play – Marrickville | Little Discoveries",
-    "seoDescription": "A free playgroup-style session for babies and toddlers focused on movement, exploration and social play."
+    "seoDescription": "A free playgroup-style session for babies and toddlers focused on movement, exploration and social play.",
+    "isFeatured": false,
+    "imageSourceUrl": "https://www.innerwest.nsw.gov.au/whats-on/explorers-play-free-playgroup",
+    "imageSourceName": "Inner West Council"
   },
   {
-    "id": 19,
+    "id": 18,
     "title": "Sensory Play – Marrickville Metro",
     "seoSlug": "sensory-play-marrickville-metro-2026",
     "source": "https://www.innerwest.nsw.gov.au/whats-on/sensory-play",
@@ -782,7 +789,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/8612992/pexels-photo-8612992.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "https://www.innerwest.nsw.gov.au/sites/default/files/styles/max_2600x2600/public/2025-10/IWC---AOC.jpg.webp?itok=337tHcDN",
     "tags": [
       "playgroup",
       "school holidays"
@@ -791,10 +798,13 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "Sensory Play – Marrickville Metro | Little Discoveries",
-    "seoDescription": "A free sensory play session for younger children with hands-on exploration."
+    "seoDescription": "A free sensory play session for younger children with hands-on exploration.",
+    "isFeatured": false,
+    "imageSourceUrl": "https://www.innerwest.nsw.gov.au/whats-on/sensory-play",
+    "imageSourceName": "Inner West Council"
   },
   {
-    "id": 20,
+    "id": 19,
     "title": "Garden Adventures for Kids – Summer Hill",
     "seoSlug": "garden-adventures-kids-summer-hill-2026",
     "source": "https://www.innerwest.nsw.gov.au/whats-on/garden-adventures-kids-0",
@@ -822,7 +832,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "https://www.innerwest.nsw.gov.au/sites/default/files/styles/max_2600x2600/public/2025-10/IWC---AOC.jpg.webp?itok=337tHcDN",
     "tags": [
       "nature",
       "school holidays"
@@ -831,10 +841,13 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "Garden Adventures for Kids – Summer Hill | Little Discoveries",
-    "seoDescription": "A free gardening and sustainability workshop with hands-on activities and take-home making."
+    "seoDescription": "A free gardening and sustainability workshop with hands-on activities and take-home making.",
+    "isFeatured": false,
+    "imageSourceUrl": "https://www.innerwest.nsw.gov.au/whats-on/garden-adventures-kids-0",
+    "imageSourceName": "Inner West Council"
   },
   {
-    "id": 21,
+    "id": 20,
     "title": "Storytime – Marrickville Library",
     "seoSlug": "storytime-marrickville-library-sep-2026",
     "source": "https://www.innerwest.nsw.gov.au/whats-on/storytime-marrickville-library",
@@ -862,7 +875,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/1260522/pexels-photo-1260522.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "https://www.innerwest.nsw.gov.au/sites/default/files/styles/max_2600x2600/public/2025-10/IWC---AOC.jpg.webp?itok=337tHcDN",
     "tags": [
       "storytime",
       "school holidays"
@@ -871,10 +884,13 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "Storytime – Marrickville Library | Little Discoveries",
-    "seoDescription": "A free preschool storytime with books and songs in a familiar library setting."
+    "seoDescription": "A free preschool storytime with books and songs in a familiar library setting.",
+    "isFeatured": false,
+    "imageSourceUrl": "https://www.innerwest.nsw.gov.au/whats-on/storytime-marrickville-library",
+    "imageSourceName": "Inner West Council"
   },
   {
-    "id": 22,
+    "id": 21,
     "title": "Drop in and Discover – Hornsby Library",
     "seoSlug": "drop-in-discover-hornsby-library-2026",
     "source": "https://www.hornsby.nsw.gov.au/Community/Events/Library-events-folder/Drop-in-and-Discover-Hornsby-Sep",
@@ -903,7 +919,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/8466915/pexels-photo-8466915.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "https://www.hornsby.nsw.gov.au/files/assets/public/v/1/community/events/library-events/istock-1172681503-1.jpg?w=1200",
     "tags": [
       "arts & crafts",
       "school holidays"
@@ -912,10 +928,13 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "Drop in and Discover – Hornsby Library | Little Discoveries",
-    "seoDescription": "A free drop-in holiday session with craft and construction activities."
+    "seoDescription": "A free drop-in holiday session with craft and construction activities.",
+    "isFeatured": false,
+    "imageSourceUrl": "https://www.hornsby.nsw.gov.au/Community/Events/Library-events-folder/Drop-in-and-Discover-Hornsby-Sep",
+    "imageSourceName": "Hornsby Shire Council"
   },
   {
-    "id": 23,
+    "id": 22,
     "title": "Drop in and Discover – Berowra Library",
     "seoSlug": "drop-in-discover-berowra-library-2026",
     "source": "https://www.hornsby.nsw.gov.au/Community/Events/Library-events-folder/Drop-in-and-Discover-Berowra-Oct",
@@ -943,7 +962,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/3972177/pexels-photo-3972177.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "https://www.hornsby.nsw.gov.au/files/assets/public/v/1/community/events/library-events/istock-1172681503-1.jpg?w=1200",
     "tags": [
       "arts & crafts",
       "school holidays"
@@ -952,10 +971,13 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "Drop in and Discover – Berowra Library | Little Discoveries",
-    "seoDescription": "A free Friday morning drop-in with holiday craft and construction activities."
+    "seoDescription": "A free Friday morning drop-in with holiday craft and construction activities.",
+    "isFeatured": false,
+    "imageSourceUrl": "https://www.hornsby.nsw.gov.au/Community/Events/Library-events-folder/Drop-in-and-Discover-Berowra-Oct",
+    "imageSourceName": "Hornsby Shire Council"
   },
   {
-    "id": 24,
+    "id": 23,
     "title": "Winnie-the-Pooh 100th Anniversary Storytime – West Ryde",
     "seoSlug": "winnie-the-pooh-storytime-west-ryde-2026",
     "source": "https://www.ryde.nsw.gov.au/Events/Listing/Eventbrite/Winnie-the-Pooh-100th-Anniversary-Storytime-Ages-3yrs-West-Ryde-1990830401322",
@@ -984,7 +1006,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/1128776/pexels-photo-1128776.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "https://www.ryde.nsw.gov.au/files/content/public/v/2/events/listing/eventbrite/winnie-the-pooh-100th-anniversary-storytime-ages-3yrs-west-ryde-1990830401322/mainimage.jpg?w=1200",
     "tags": [
       "storytime",
       "school holidays"
@@ -993,10 +1015,13 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "Winnie-the-Pooh 100th Anniversary Storytime – West Ryde | Little Discoveries",
-    "seoDescription": "A special Winnie-the-Pooh centenary storytime for children aged 3 and over."
+    "seoDescription": "A special Winnie-the-Pooh centenary storytime for children aged 3 and over.",
+    "isFeatured": false,
+    "imageSourceUrl": "https://www.ryde.nsw.gov.au/Events/Listing/Eventbrite/Winnie-the-Pooh-100th-Anniversary-Storytime-Ages-3yrs-West-Ryde-1990830401322",
+    "imageSourceName": "City of Ryde"
   },
   {
-    "id": 25,
+    "id": 24,
     "title": "Drop-in Virtual Reality Experience – North Ryde Library",
     "seoSlug": "virtual-reality-north-ryde-library-2026",
     "source": "https://www.ryde.nsw.gov.au/Events/Listing/Drop-in-Virtual-Reality-VR-Experience-Ages-8yrs-North-Ryde-Library",
@@ -1025,7 +1050,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/5621934/pexels-photo-5621934.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "https://www.ryde.nsw.gov.au/files/assets/public/v/1/events/library/2026-sep-shp-drop-in-vr.jpg?w=1200",
     "tags": [
       "technology",
       "school holidays"
@@ -1034,10 +1059,13 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "Drop-in Virtual Reality Experience – North Ryde Library | Little Discoveries",
-    "seoDescription": "A free drop-in virtual reality experience for children aged 8 and over."
+    "seoDescription": "A free drop-in virtual reality experience for children aged 8 and over.",
+    "isFeatured": false,
+    "imageSourceUrl": "https://www.ryde.nsw.gov.au/Events/Listing/Drop-in-Virtual-Reality-VR-Experience-Ages-8yrs-North-Ryde-Library",
+    "imageSourceName": "City of Ryde"
   },
   {
-    "id": 26,
+    "id": 25,
     "title": "Drop-in Virtual Reality Experience – Eastwood Library",
     "seoSlug": "virtual-reality-eastwood-library-2026",
     "source": "https://www.ryde.nsw.gov.au/Events/Listing/Drop-in-Virtual-Reality-VR-Experience-Ages-8yrs-Eastwood-Library",
@@ -1066,7 +1094,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/5119595/pexels-photo-5119595.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "https://www.ryde.nsw.gov.au/files/assets/public/v/1/events/library/2026-sep-shp-drop-in-vr.jpg?w=1200",
     "tags": [
       "technology",
       "school holidays"
@@ -1075,10 +1103,13 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "Drop-in Virtual Reality Experience – Eastwood Library | Little Discoveries",
-    "seoDescription": "A free Friday drop-in VR session for children aged 8 and over."
+    "seoDescription": "A free Friday drop-in VR session for children aged 8 and over.",
+    "isFeatured": false,
+    "imageSourceUrl": "https://www.ryde.nsw.gov.au/Events/Listing/Drop-in-Virtual-Reality-VR-Experience-Ages-8yrs-Eastwood-Library",
+    "imageSourceName": "City of Ryde"
   },
   {
-    "id": 27,
+    "id": 26,
     "title": "School Holiday Crafternoon – Manly Library",
     "seoSlug": "school-holiday-crafternoon-manly-2026",
     "source": "https://www.northernbeaches.nsw.gov.au/library/whats-on/all-library-events/school-holiday-crafternoons-manly-0",
@@ -1106,7 +1137,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/8612992/pexels-photo-8612992.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "https://files.northernbeaches.nsw.gov.au/nbc-prod-files/media/images/2024-03/holiday%20crafternoons%20-%2024LSC0339_-_Kids_Autumn_School_Holidays_at_the_Library_-_webtiles5.jpg",
     "tags": [
       "arts & crafts",
       "school holidays"
@@ -1115,10 +1146,13 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "School Holiday Crafternoon – Manly Library | Little Discoveries",
-    "seoDescription": "A free afternoon craft session at Manly Library during the school holidays."
+    "seoDescription": "A free afternoon craft session at Manly Library during the school holidays.",
+    "isFeatured": false,
+    "imageSourceUrl": "https://www.northernbeaches.nsw.gov.au/library/whats-on/all-library-events/school-holiday-crafternoons-manly-0",
+    "imageSourceName": "Northern Beaches Council"
   },
   {
-    "id": 28,
+    "id": 27,
     "title": "School Holiday Crafternoon – Dee Why Library",
     "seoSlug": "school-holiday-crafternoon-dee-why-2026",
     "source": "https://www.northernbeaches.nsw.gov.au/library/whats/events-calendar",
@@ -1146,7 +1180,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "https://files.northernbeaches.nsw.gov.au/nbc-prod-files/images/general-information/events-calendar/shutterstock409991398.jpg",
     "tags": [
       "arts & crafts",
       "school holidays"
@@ -1155,10 +1189,13 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "School Holiday Crafternoon – Dee Why Library | Little Discoveries",
-    "seoDescription": "A free midweek school-holiday craft session at Dee Why Library."
+    "seoDescription": "A free midweek school-holiday craft session at Dee Why Library.",
+    "isFeatured": false,
+    "imageSourceUrl": "https://www.northernbeaches.nsw.gov.au/library/whats/events-calendar",
+    "imageSourceName": "Northern Beaches Council"
   },
   {
-    "id": 29,
+    "id": 28,
     "title": "School Holiday Crafternoon – Warringah Mall",
     "seoSlug": "school-holiday-crafternoon-warringah-mall-2026",
     "source": "https://www.northernbeaches.nsw.gov.au/library/whats-on/all-library-events/school-holiday-crafternoons-warringah-mall-0",
@@ -1186,7 +1223,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/1260522/pexels-photo-1260522.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "https://files.northernbeaches.nsw.gov.au/nbc-prod-files/media/images/2024-03/holiday%20crafternoons%20-%2024LSC0339_-_Kids_Autumn_School_Holidays_at_the_Library_-_webtiles5.jpg",
     "tags": [
       "arts & crafts",
       "school holidays"
@@ -1195,10 +1232,13 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "School Holiday Crafternoon – Warringah Mall | Little Discoveries",
-    "seoDescription": "A free Thursday afternoon craft session at Warringah Mall Library."
+    "seoDescription": "A free Thursday afternoon craft session at Warringah Mall Library.",
+    "isFeatured": false,
+    "imageSourceUrl": "https://www.northernbeaches.nsw.gov.au/library/whats-on/all-library-events/school-holiday-crafternoons-warringah-mall-0",
+    "imageSourceName": "Northern Beaches Council"
   },
   {
-    "id": 30,
+    "id": 29,
     "title": "Painted Pots – Manly Library",
     "seoSlug": "painted-pots-manly-library-2026",
     "source": "https://www.northernbeaches.nsw.gov.au/library/whats-on/all-library-events/painted-pots-manly-library",
@@ -1226,7 +1266,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/8466915/pexels-photo-8466915.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "https://files.northernbeaches.nsw.gov.au/nbc-prod-files/images/2026-09/Painted%20pots%20at%20the%20library.png",
     "tags": [
       "arts & crafts",
       "school holidays"
@@ -1235,10 +1275,13 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "Painted Pots – Manly Library | Little Discoveries",
-    "seoDescription": "A free two-hour creative drop-in where children can decorate painted pots."
+    "seoDescription": "A free two-hour creative drop-in where children can decorate painted pots.",
+    "isFeatured": false,
+    "imageSourceUrl": "https://www.northernbeaches.nsw.gov.au/library/whats-on/all-library-events/painted-pots-manly-library",
+    "imageSourceName": "Northern Beaches Council"
   },
   {
-    "id": 31,
+    "id": 30,
     "title": "Inclusive Fitness Clinic – Jubilee Stadium",
     "seoSlug": "inclusive-fitness-clinic-jubilee-stadium-2026",
     "source": "https://www.georgesriver.nsw.gov.au/Community/Events/What%E2%80%99s-On-Event-Information/Inclusive-Fitness-Clinic",
@@ -1267,7 +1310,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/3972177/pexels-photo-3972177.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "",
     "tags": [
       "sports",
       "school holidays"
@@ -1276,10 +1319,13 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "Inclusive Fitness Clinic – Jubilee Stadium | Little Discoveries",
-    "seoDescription": "A free inclusive fitness clinic with a dedicated under-16 session for young people living with disability."
+    "seoDescription": "A free inclusive fitness clinic with a dedicated under-16 session for young people living with disability.",
+    "isFeatured": false,
+    "imageSourceUrl": "https://www.georgesriver.nsw.gov.au/Community/Events/What%E2%80%99s-On-Event-Information/Inclusive-Fitness-Clinic",
+    "imageSourceName": "Georges River Council"
   },
   {
-    "id": 32,
+    "id": 31,
     "title": "EmergencyRedi Workshop – Oatley Library",
     "seoSlug": "emergencyredi-workshop-oatley-library-2026",
     "source": "https://www.georgesriver.nsw.gov.au/Community/Events/What%E2%80%99s-On-Event-Information/EmergencyRedi-Workshop",
@@ -1308,7 +1354,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/1128776/pexels-photo-1128776.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "https://www.georgesriver.nsw.gov.au/StGeorge/media/Event-Thumbnails/2026-09-28-EmergenciRedi-Workshop-Thumbnail-Image.jpg?ext=.jpg",
     "tags": [
       "stem",
       "school holidays"
@@ -1317,10 +1363,13 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "EmergencyRedi Workshop – Oatley Library | Little Discoveries",
-    "seoDescription": "A practical free Red Cross preparedness workshop giving children and families useful emergency skills."
+    "seoDescription": "A practical free Red Cross preparedness workshop giving children and families useful emergency skills.",
+    "isFeatured": false,
+    "imageSourceUrl": "https://www.georgesriver.nsw.gov.au/Community/Events/What%E2%80%99s-On-Event-Information/EmergencyRedi-Workshop",
+    "imageSourceName": "Georges River Council"
   },
   {
-    "id": 33,
+    "id": 32,
     "title": "Bexley North LEGO – School Holidays",
     "seoSlug": "bexley-north-lego-school-holidays-2026",
     "source": "https://www.bayside.nsw.gov.au/your-council/latest-news/spring-school-holiday-program",
@@ -1348,7 +1397,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/5621934/pexels-photo-5621934.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "https://www.bayside.nsw.gov.au/sites/default/files/2026-09/2026_spring_school_holiday_program_whats_on.jpg",
     "tags": [
       "stem",
       "school holidays"
@@ -1357,10 +1406,13 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "Bexley North LEGO – School Holidays | Little Discoveries",
-    "seoDescription": "A free LEGO school-holiday session for children aged 6–11."
+    "seoDescription": "A free LEGO school-holiday session for children aged 6–11.",
+    "isFeatured": false,
+    "imageSourceUrl": "https://www.bayside.nsw.gov.au/your-council/latest-news/spring-school-holiday-program",
+    "imageSourceName": "Bayside Council"
   },
   {
-    "id": 34,
+    "id": 33,
     "title": "Minute to Win It: STEM Edition – Eastgardens",
     "seoSlug": "minute-to-win-it-stem-eastgardens-2026",
     "source": "https://www.bayside.nsw.gov.au/your-council/latest-news/spring-school-holiday-program",
@@ -1388,7 +1440,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/5119595/pexels-photo-5119595.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "https://www.bayside.nsw.gov.au/sites/default/files/2026-09/2026_spring_school_holiday_program_whats_on.jpg",
     "tags": [
       "stem",
       "school holidays"
@@ -1397,10 +1449,13 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "Minute to Win It: STEM Edition – Eastgardens | Little Discoveries",
-    "seoDescription": "A fast-paced free STEM challenge session for children aged 6–11."
+    "seoDescription": "A fast-paced free STEM challenge session for children aged 6–11.",
+    "isFeatured": false,
+    "imageSourceUrl": "https://www.bayside.nsw.gov.au/your-council/latest-news/spring-school-holiday-program",
+    "imageSourceName": "Bayside Council"
   },
   {
-    "id": 35,
+    "id": 34,
     "title": "Full STEAM Ahead Craft – Arncliffe",
     "seoSlug": "full-steam-ahead-arncliffe-2026",
     "source": "https://www.bayside.nsw.gov.au/your-council/latest-news/spring-school-holiday-program",
@@ -1428,7 +1483,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/8612992/pexels-photo-8612992.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "https://www.bayside.nsw.gov.au/sites/default/files/2026-09/2026_spring_school_holiday_program_whats_on.jpg",
     "tags": [
       "stem",
       "school holidays"
@@ -1437,10 +1492,13 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "Full STEAM Ahead Craft – Arncliffe | Little Discoveries",
-    "seoDescription": "A free STEAM-themed craft session combining creativity with science and making."
+    "seoDescription": "A free STEAM-themed craft session combining creativity with science and making.",
+    "isFeatured": false,
+    "imageSourceUrl": "https://www.bayside.nsw.gov.au/your-council/latest-news/spring-school-holiday-program",
+    "imageSourceName": "Bayside Council"
   },
   {
-    "id": 36,
+    "id": 35,
     "title": "Iwagumi Air Scape – Sydney Opera House",
     "seoSlug": "iwagumi-air-scape-sydney-opera-house-2026",
     "source": "https://www.sydneyoperahouse.com/wild-things/iwagumi-air-scape",
@@ -1475,7 +1533,7 @@
     "editorsChoice": true,
     "ecOrder": 1,
     "costLabel": "free",
-    "imageUrl": "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "https://www.sydneyoperahouse.com/sites/default/files/styles/360x414/public/collaborodam_assets/wild-things-2026-iwagumi-air-scape-3-1%20%281%29.jpg?itok=_RiboxW4",
     "tags": [
       "arts & crafts",
       "school holidays"
@@ -1484,6 +1542,56 @@
     "expired": false,
     "seoIndex": true,
     "seoTitle": "Iwagumi Air Scape – Sydney Opera House | Little Discoveries",
-    "seoDescription": "A monumental free interactive installation where giant inflatable rock forms respond with light and nature-inspired sound."
+    "seoDescription": "A monumental free interactive installation where giant inflatable rock forms respond with light and nature-inspired sound.",
+    "isFeatured": true,
+    "imageSourceUrl": "https://www.sydneyoperahouse.com/wild-things/iwagumi-air-scape",
+    "imageSourceName": "Sydney Opera House"
+  },
+  {
+    "id": 36,
+    "title": "Bondi Firelight – Free Family Bonfire Night",
+    "website": "https://www.waverley.nsw.gov.au/recreation/events/events/bondi_firelight",
+    "source": "https://www.waverley.nsw.gov.au/recreation/events/events/bondi_firelight",
+    "description": "A free evening gathering on South Bondi Beach with a crackling fire, seaside music and a fire-dancing performance.",
+    "longDescription": "A free evening gathering on South Bondi Beach with a crackling fire, seaside music and a fire-dancing performance.",
+    "address": "South Bondi Beach, Bondi NSW",
+    "venue": "South Bondi Beach",
+    "age": [
+      "All Ages"
+    ],
+    "neighborhood": "Eastern Suburbs",
+    "day": [
+      "Thursday"
+    ],
+    "cost": "Free",
+    "costLabel": "free; no registration required",
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-01",
+    "time": "6:00pm–8:30pm",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "bondi-firelight-2026",
+    "seoTitle": "Bondi Firelight – Free Family Bonfire Night | Little Discoveries",
+    "seoDescription": "Free Bondi Firelight at South Bondi Beach on Thursday 1 October 2026, with bonfire, seaside music and fire dancing.",
+    "isFeatured": true,
+    "tags": [
+      "bonfire",
+      "fire dancers",
+      "music",
+      "beach"
+    ],
+    "category": "Festivals",
+    "expired": false,
+    "whyGo": [
+      "A bonfire on Bondi Beach is a genuinely memorable setting for a family night out.",
+      "The event combines relaxed seaside music with a fire-dancing performance.",
+      "It works for adults as well as children, making it a true whole-family event.",
+      "No registration is needed and entry is free."
+    ],
+    "editorsChoice": true,
+    "ecOrder": 2,
+    "imageUrl": "https://www.waverley.nsw.gov.au/__data/assets/image/0003/258456/JN-00265_Bondifirelight_web.jpg",
+    "imageSourceUrl": "https://www.waverley.nsw.gov.au/recreation/events/events/bondi_firelight",
+    "imageSourceName": "Waverley Council"
   }
 ]
