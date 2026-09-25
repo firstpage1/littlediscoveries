@@ -1,163 +1,453 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex,nofollow">
-<title>Little Discoveries — v2 design preview</title>
-<link rel="icon" href="/images/favicon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700;800;900&display=swap" rel="stylesheet">
-<style>
-:root{
- --pink:#f94d85; --pink2:#ff79a8; --orange:#ff6b35; --yellow:#ffd166;
- --green:#06c980; --purple:#6c63ff; --blue:#48cae4; --ink:#202033;
- --muted:#6d6d82; --cream:#fffaf7; --soft:#f7f4f1; --line:#ebe5e1; --white:#fff;
- --shadow:0 18px 50px rgba(50,33,43,.10); --shadow2:0 8px 26px rgba(50,33,43,.09);
-}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Nunito,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
-a{text-decoration:none;color:inherit}button,select,input{font:inherit}.wrap{width:min(1180px,calc(100% - 40px));margin:auto}
-.preview{height:32px;background:#202033;color:#fff;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:900;letter-spacing:.08em;text-transform:uppercase}
-.nav{background:rgba(255,255,255,.94);backdrop-filter:blur(14px);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:30}
-.navin{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.logo{height:58px;width:auto}.navlinks{display:flex;align-items:center;gap:28px;font-size:14px;font-weight:800;color:#555568}.navlinks a:hover{color:var(--pink)}.navcta{padding:11px 18px;border-radius:999px;background:var(--ink);color:#fff!important}
-.hero{position:relative;overflow:hidden;padding:62px 0 86px;background:
- radial-gradient(circle at 12% 15%,rgba(255,209,102,.48),transparent 24%),
- radial-gradient(circle at 91% 30%,rgba(72,202,228,.26),transparent 28%),
- linear-gradient(145deg,#fff8f0 0%,#fff4f8 54%,#f5fbff 100%)}
-.hero:before{content:"";position:absolute;width:180px;height:180px;border:22px solid rgba(249,77,133,.08);border-radius:50%;left:-76px;bottom:-76px}
-.heroGrid{display:grid;grid-template-columns:1.03fr .97fr;gap:70px;align-items:center;position:relative}
-.kicker{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid rgba(249,77,133,.18);box-shadow:0 7px 18px rgba(74,54,64,.06);padding:8px 13px;border-radius:999px;color:#a82d58;font-size:13px;font-weight:900}
-.hero h1{font-size:clamp(46px,5.2vw,72px);line-height:1.01;letter-spacing:-.05em;margin:17px 0 18px;max-width:650px}.hero h1 em{font-style:normal;color:var(--pink);position:relative}.hero p{font-size:20px;line-height:1.55;color:#5f5f73;max-width:610px;margin:0 0 26px;font-weight:600}
-.proof{display:flex;gap:18px;flex-wrap:wrap;color:#555568;font-size:13px;font-weight:900}.proof span{display:flex;align-items:center;gap:7px}.dot{width:8px;height:8px;border-radius:50%}.d1{background:var(--green)}.d2{background:var(--yellow)}.d3{background:var(--blue)}
-.heroArt{position:relative;height:450px}.blob{position:absolute;border-radius:38% 62% 59% 41% / 45% 39% 61% 55%;overflow:hidden;box-shadow:var(--shadow)}
-.blob img{width:100%;height:100%;object-fit:cover}.blob.one{width:295px;height:330px;right:78px;top:14px;transform:rotate(3deg)}.blob.two{width:190px;height:220px;left:4px;bottom:18px;transform:rotate(-6deg);border:8px solid #fff}.blob.three{width:160px;height:176px;right:0;bottom:5px;transform:rotate(7deg);border:7px solid #fff}
-.mascotSticker{position:absolute;width:138px;left:3px;top:18px;transform:rotate(-7deg);filter:drop-shadow(0 10px 10px rgba(39,28,34,.13));z-index:3}.star{position:absolute;font-size:40px;right:22px;top:2px;transform:rotate(12deg)}.squiggle{position:absolute;left:128px;top:12px;width:82px;height:24px;border-top:6px solid var(--green);border-radius:50%;transform:rotate(-17deg)}
-.searchbox{position:relative;margin-top:-39px;z-index:8}.searchpanel{background:#fff;border:1px solid var(--line);border-radius:24px;padding:14px;box-shadow:0 20px 60px rgba(47,30,40,.13);display:grid;grid-template-columns:1fr 1.15fr 1fr auto;gap:8px}
-.control{padding:10px 14px;border-right:1px solid var(--line)}.control:last-of-type{border-right:0}.control label{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#9493a3;font-weight:900;margin-bottom:3px}.control select{width:100%;border:0;background:transparent;outline:0;color:#333346;font-weight:900;font-size:15px;appearance:auto}.searchbtn{border:0;border-radius:17px;background:var(--pink);color:#fff;padding:0 24px;font-weight:900;cursor:pointer;min-height:62px}.searchbtn:hover{background:#e84278}
-.quick{display:flex;gap:9px;align-items:center;justify-content:center;flex-wrap:wrap;margin-top:15px;font-size:13px;font-weight:800;color:#727184}.quick button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 13px;color:#626176;cursor:pointer}.quick button:hover{border-color:#f3a0bd;color:#b83162}
-section{padding:76px 0}.eyebrow{color:var(--pink);font-weight:900;letter-spacing:.08em;text-transform:uppercase;font-size:12px}.sectionHead{display:flex;align-items:end;justify-content:space-between;gap:28px;margin-bottom:28px}.sectionHead h2{font-size:clamp(30px,3.3vw,44px);line-height:1.06;letter-spacing:-.035em;margin:6px 0 6px}.sectionHead p{margin:0;color:var(--muted);font-weight:600}.textlink{font-weight:900;color:var(--pink);font-size:14px;white-space:nowrap}
-.editorial{background:#fff}.editorGrid{display:grid;grid-template-columns:1.12fr .88fr;gap:22px}.leadCard{min-height:510px;border-radius:28px;overflow:hidden;position:relative;box-shadow:var(--shadow2);background:#222}.leadCard img{position:absolute;width:100%;height:100%;object-fit:cover;inset:0}.leadCard:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 28%,rgba(16,16,28,.83) 100%)}.choice{position:absolute;z-index:2;left:20px;top:20px;background:var(--yellow);padding:8px 12px;border-radius:999px;font-size:11px;font-weight:900;letter-spacing:.04em}.leadCopy{position:absolute;z-index:2;left:28px;right:28px;bottom:28px;color:#fff}.leadCopy .where{font-size:13px;font-weight:800;opacity:.82}.leadCopy h3{font-size:32px;line-height:1.08;margin:7px 0 10px;letter-spacing:-.03em}.leadCopy p{margin:0;color:#f0eff4;font-size:15px;line-height:1.5}.sideGrid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.miniCard{background:var(--cream);border:1px solid var(--line);border-radius:22px;overflow:hidden;min-width:0;box-shadow:0 5px 14px rgba(47,33,40,.05)}.miniImg{height:142px;position:relative;overflow:hidden}.miniImg img{width:100%;height:100%;object-fit:cover}.freeBadge{position:absolute;top:10px;right:10px;background:#fff;color:#047b4e;padding:6px 9px;border-radius:999px;font-size:10px;font-weight:900}.miniBody{padding:14px}.miniMeta{font-size:11px;font-weight:900;color:var(--pink);text-transform:uppercase;letter-spacing:.04em}.miniCard h4{font-size:16px;line-height:1.22;margin:5px 0 0}
-.discovery{background:var(--cream)}.discoveryTop{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-bottom:24px}.count{font-weight:800;color:#767589;font-size:14px}.activityGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.activity{background:#fff;border:1px solid var(--line);border-radius:22px;overflow:hidden;box-shadow:0 5px 16px rgba(48,32,40,.05);transition:.2s}.activity:hover{transform:translateY(-4px);box-shadow:var(--shadow2)}.activityPic{height:190px;position:relative;overflow:hidden}.activityPic img{width:100%;height:100%;object-fit:cover;transition:.35s}.activity:hover .activityPic img{transform:scale(1.025)}.cost{position:absolute;left:12px;top:12px;background:#fff;color:#067b4f;border-radius:999px;padding:6px 10px;font-weight:900;font-size:10px}.activityBody{padding:18px}.chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:9px}.chip{font-size:10px;font-weight:900;border-radius:999px;padding:5px 9px;background:#f4f2f1;color:#646377}.chip.area{background:#edf8fc;color:#20768a}.activity h3{margin:0 0 7px;font-size:18px;line-height:1.25}.activity p{margin:0;color:#757487;font-size:13px;line-height:1.5}.activityFoot{display:flex;align-items:center;justify-content:space-between;margin-top:15px;padding-top:13px;border-top:1px solid #f0ecea;font-size:12px;font-weight:800;color:#626175}.arrow{color:var(--pink);font-weight:900}
-.noResults{display:none;border:2px dashed #ded6d2;border-radius:22px;padding:34px;text-align:center;background:#fff;color:#68677a;font-weight:800}
-.ageSection{background:#fff}.ageGrid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.ageCard{border-radius:24px;min-height:220px;padding:22px;position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end}.ageCard img{position:absolute;width:95px;height:95px;object-fit:contain;right:14px;top:15px;filter:drop-shadow(0 6px 6px rgba(0,0,0,.08))}.ageCard h3{margin:0;font-size:21px}.ageCard p{margin:4px 0 0;font-size:13px;font-weight:700;color:#555568;max-width:150px}.age1{background:#fff0f5}.age2{background:#eefafa}.age3{background:#fff8dc}.age4{background:#f2efff}
-.areas{background:#202033;color:white}.areas .eyebrow{color:#ff9ebe}.areas .sectionHead p{color:#bdbccc}.areaGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.areaTile{border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.055);border-radius:16px;padding:17px 18px;display:flex;justify-content:space-between;align-items:center;font-weight:900;transition:.2s}.areaTile:hover{background:rgba(255,255,255,.10);border-color:rgba(255,255,255,.24)}.areaTile span:last-child{opacity:.45}.priority{border-color:rgba(249,77,133,.45);background:rgba(249,77,133,.10)}
-.note{padding:54px 0;background:#fff}.noteBox{display:grid;grid-template-columns:auto 1fr auto;gap:22px;align-items:center;background:#fff7d8;border:1px solid #f1df9a;border-radius:26px;padding:24px 28px}.noteBox img{width:82px;height:92px;object-fit:contain}.noteBox h3{margin:0 0 4px;font-size:21px}.noteBox p{margin:0;color:#696677;font-size:14px}.noteBox a{font-weight:900;color:#a22b58}
-.newsletter{padding:64px 0}.news{position:relative;overflow:hidden;background:linear-gradient(120deg,#f94d85,#ff7ca8);border-radius:30px;color:#fff;padding:42px 46px;display:grid;grid-template-columns:1fr auto;align-items:center;gap:30px}.news:after{content:"";position:absolute;width:220px;height:220px;border:32px solid rgba(255,255,255,.09);border-radius:50%;right:-85px;top:-80px}.news h2{font-size:34px;margin:0 0 7px;line-height:1.05}.news p{margin:0;color:#fff4f8;font-weight:600}.signup{display:flex;background:#fff;padding:6px;border-radius:15px;position:relative;z-index:2}.signup input{border:0;outline:0;padding:10px 12px;width:235px;color:#333}.signup button{border:0;border-radius:11px;background:#202033;color:#fff;padding:11px 15px;font-weight:900}
-footer{background:#fff;border-top:1px solid var(--line);padding:35px 0}.footerin{display:flex;justify-content:space-between;align-items:center;color:#777589;font-size:12px;font-weight:700}.footerin img{height:46px}
-@media(max-width:980px){.heroGrid{grid-template-columns:1fr}.heroArt{height:350px;max-width:590px;margin:auto;width:100%}.searchpanel{grid-template-columns:1fr 1fr}.searchbtn{grid-column:1/-1}.editorGrid{grid-template-columns:1fr}.activityGrid{grid-template-columns:repeat(2,1fr)}.ageGrid{grid-template-columns:repeat(2,1fr)}.navlinks a:not(.navcta){display:none}}
-@media(max-width:650px){.wrap{width:min(100% - 28px,1180px)}.preview{font-size:10px}.navin{height:65px}.logo{height:48px}.hero{padding:46px 0 72px}.hero p{font-size:17px}.heroArt{height:290px}.blob.one{width:220px;height:250px;right:25px}.blob.two{width:135px;height:160px}.blob.three{width:118px;height:130px}.mascotSticker{width:94px}.searchpanel{grid-template-columns:1fr}.control{border-right:0;border-bottom:1px solid var(--line)}.searchbtn{min-height:52px}.editorial,section{padding:58px 0}.sideGrid{grid-template-columns:1fr}.leadCard{min-height:430px}.activityGrid,.ageGrid,.areaGrid{grid-template-columns:1fr}.sectionHead{display:block}.textlink{display:inline-block;margin-top:10px}.news{grid-template-columns:1fr;padding:32px 24px}.signup{display:block}.signup input{width:100%}.signup button{width:100%;margin-top:6px}.noteBox{grid-template-columns:auto 1fr}.noteBox>a{grid-column:1/-1;margin-left:104px}.footerin{display:block}.footerin img{margin-bottom:10px}}
-</style>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/images/favicon.png" />
+  <link rel="apple-touch-icon" href="/images/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Little Discoveries - Sydney Family Activities | Free and Paid Kids Events in Sydney</title>
+  <meta name="description" content="Sydney's #1 guide to family activities for babies, toddlers and school kids. Discover free and low-cost events, school holiday programs, wildlife parks, outdoor adventures and workshops across all Sydney neighbourhoods." />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="canonical" href="https://www.littlediscoveries.com.au/" />
+  <link rel="sitemap" type="application/xml" href="https://www.littlediscoveries.com.au/sitemap.xml" />
+  <!-- Geo -->
+  <meta name="geo.region" content="AU-NSW" />
+  <meta name="geo.placename" content="Sydney, New South Wales, Australia" />
+  <meta name="geo.position" content="-33.8688;151.2093" />
+  <meta name="ICBM" content="-33.8688, 151.2093" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Little Discoveries – Sydney Family Activities & Kids Events" />
+  <meta property="og:description" content="Find free and paid family activities across Sydney — school holiday programs, wildlife parks, outdoor adventures, arts workshops and more. Filter by age, suburb and day." />
+  <meta property="og:url" content="https://www.littlediscoveries.com.au/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Little Discoveries" />
+  <meta property="og:image" content="https://images.pexels.com/photos/5621934/pexels-photo-5621934.jpeg?auto=compress&cs=tinysrgb&w=1200" />
+  <meta property="og:locale" content="en_AU" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Little Discoveries – Sydney Family Activities & Kids Events" />
+  <meta name="twitter:description" content="Free and paid family activities across Sydney — school holiday programs, wildlife parks, outdoor adventures and workshops. Filter by age, suburb and day." />
+  <meta name="twitter:image" content="https://images.pexels.com/photos/5621934/pexels-photo-5621934.jpeg?auto=compress&cs=tinysrgb&w=1200" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://www.littlediscoveries.com.au/#website",
+        "name": "Little Discoveries",
+        "url": "https://www.littlediscoveries.com.au/",
+        "description": "Sydney's guide to the best free and paid family activities for babies, toddlers, pre-schoolers and school kids. Filter by age, neighbourhood and day of the week.",
+        "inLanguage": "en-AU",
+        "publisher": {"@id": "https://www.littlediscoveries.com.au/#organization"}
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://www.littlediscoveries.com.au/#organization",
+        "name": "Little Discoveries",
+        "url": "https://www.littlediscoveries.com.au/",
+        "logo": "https://www.littlediscoveries.com.au/images/logo.png",
+        "description": "Sydney's curated guide to family activities — free and paid events for babies, toddlers, pre-schoolers and school kids across all Sydney neighbourhoods.",
+        "areaServed": {
+          "@type": "City",
+          "name": "Sydney",
+          "addressRegion": "NSW",
+          "addressCountry": "AU"
+        },
+        "knowsAbout": ["Sydney family activities","kids events Sydney","school holiday programs Sydney","free activities for kids Sydney","toddler activities Sydney","baby activities Sydney"]
+      },
+      {
+        "@type": "ItemList",
+        "name": "Editor's Choice – Top Sydney Family Activities ANZAC Day Week 2026",
+        "description": "Curated selection of the best family activities in Sydney this week, chosen by the Little Discoveries team.",
+        "numberOfItems": 6,
+        "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"ANZAC Day Dawn Service at Martin Place","url":"https://www.littlediscoveries.com.au/anzac-day-dawn-service-martin-place-sydney-2026/"},
+    {"@type":"ListItem","position":2,"name":"ANZAC Day March – Watch the Parade, Sydney CBD","url":"https://www.littlediscoveries.com.au/anzac-day-march-sydney-cbd-2026/"},
+    {"@type":"ListItem","position":3,"name":"ANZAC Memorial Hyde Park – Free Special Tours on ANZAC Day","url":"https://www.littlediscoveries.com.au/anzac-memorial-hyde-park-free-tours-anzac-day-2026/"},
+    {"@type":"ListItem","position":4,"name":"The Rocks ANZAC Day – Free Live Music, Marching Bands & More","url":"https://www.littlediscoveries.com.au/the-rocks-anzac-day-celebrations-sydney-2026/"},
+    {"@type":"ListItem","position":5,"name":"Australian National Maritime Museum – Free ANZAC Day Visit","url":"https://www.littlediscoveries.com.au/maritime-museum-anzac-day-darling-harbour-2026/"},
+    {"@type":"ListItem","position":6,"name":"Bunnings Free Kids DIY Workshop – Every Weekend","url":"https://www.littlediscoveries.com.au/bunnings-free-kids-diy-workshop-sydney/"}
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What are the best free activities for kids in Sydney during ANZAC Day week 2026?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sydney has plenty of free family activities during ANZAC Day week (20–26 April 2026). Highlights include the ANZAC Day Dawn Service at Martin Place, the ANZAC Day March through the CBD, free special guided tours at the ANZAC Memorial in Hyde Park, free live music and marching bands at The Rocks, free entry to the Australian National Maritime Museum on ANZAC Day, and Bunnings free kids DIY workshops every weekend."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is happening for families on ANZAC Day 2026 in Sydney?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ANZAC Day 2026 (Saturday 25 April) is packed with free family experiences across Sydney. The Dawn Service begins at 4:20am at Martin Place, followed by the Grand Parade at 9am. Free special guided tours run at the ANZAC Memorial in Hyde Park from 1pm–4pm. The Rocks hosts free live music, marching bands and ANZAC-themed activities. The Australian National Maritime Museum offers free entry all day. It is a wonderful opportunity for families to learn about Australia's history together."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What activities are available in Sydney for toddlers and babies?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sydney has excellent free activities for babies and toddlers year-round, including council-run storytime and rhymetime at public libraries, sensory family sessions at Centennial Parklands, and wildlife experiences at Featherdale Wildlife Park in Western Sydney and Sydney Zoo. Bunnings also runs free kids DIY workshops every Saturday and Sunday morning that are fun for young children."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are the best family activities in Sydney's CBD and Darling Harbour?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The CBD and Darling Harbour area has great family options this week. The ANZAC Memorial in Hyde Park offers free guided tours on ANZAC Day and free regular Sunday tours. The Art Gallery of NSW runs free family activities every Sunday. The Australian National Maritime Museum in Darling Harbour is free on ANZAC Day and has interactive exhibits for kids. The Youth Week Young Makers Market at Sydney Town Hall showcases young creators and is free to attend."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are there any free family activities in Western Sydney?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes — Featherdale Wildlife Park in Doonside offers world-class wildlife encounters with koalas, wombats and native Australian animals. Sydney Zoo in Bungarribee is another great Western Sydney option for families. Bunnings stores across Western Sydney run free kids DIY workshops every weekend morning where children aged 5–12 can build something to take home."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <link rel="stylesheet" href="/v2-preview/styles.css?v=08e59809" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
 </head>
 <body>
-<div class="preview">V2 design preview · sample activities · not indexed</div>
-<nav class="nav"><div class="wrap navin">
- <a href="/"><img class="logo" src="/images/logo.svg" alt="Little Discoveries"></a>
- <div class="navlinks"><a href="#editors">This week</a><a href="#ages">By age</a><a href="#areas">By area</a><a href="#all">All activities</a><a class="navcta" href="#newsletter">Get weekly picks</a></div>
-</div></nav>
 
-<header class="hero"><div class="wrap heroGrid">
- <div>
-  <div class="kicker">Fresh picks every Monday</div>
-  <h1>Sydney adventures, <em>sorted.</em></h1>
-  <p>Great things to do with kids, without the endless searching. Mostly free, carefully chosen, and easy to filter by age, area and day.</p>
-  <div class="proof"><span><i class="dot d1"></i>Mostly free</span><span><i class="dot d2"></i>6 Editor's Choice picks</span><span><i class="dot d3"></i>Across Sydney</span></div>
- </div>
- <div class="heroArt" aria-hidden="true">
-  <div class="squiggle"></div><div class="star">✦</div>
-  <img class="mascotSticker" src="/images/mascot.svg" alt="">
-  <div class="blob one"><img src="https://images.pexels.com/photos/8617941/pexels-photo-8617941.jpeg?auto=compress&cs=tinysrgb&w=900" alt=""></div>
-  <div class="blob two"><img src="https://images.pexels.com/photos/1128776/pexels-photo-1128776.jpeg?auto=compress&cs=tinysrgb&w=600" alt=""></div>
-  <div class="blob three"><img src="https://images.pexels.com/photos/5119595/pexels-photo-5119595.jpeg?auto=compress&cs=tinysrgb&w=500" alt=""></div>
- </div>
-</div></header>
+  <!-- NAV -->
+  <header class="nav">
+    <div class="nav__inner container">
+      <a href="/" class="nav__logo">
+        <img src="/images/logo.png" alt="Little Discoveries" class="nav__logo-img" />
+      </a>
+      <nav class="nav__links">
+        <a href="#activities">Activities</a>
+        <a href="#newsletter" class="btn btn--nav">📧 Get Weekly Tips</a>
+      </nav>
+      <button class="nav__hamburger" id="nav-hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile-menu" id="nav-mobile-menu" aria-hidden="true">
+      <a href="#activities">🗺️ Activities</a>
+      <a href="#about">ℹ️ About</a>
+      <a href="#newsletter" class="btn btn--primary">📧 Get Weekly Tips</a>
+    </div>
+  </header>
 
-<div class="searchbox"><div class="wrap">
- <div class="searchpanel">
-  <div class="control"><label>Who's going?</label><select id="age"><option value="">Any age</option><option>Babies</option><option>Toddlers</option><option>Pre-schoolers</option><option>School Kids</option></select></div>
-  <div class="control"><label>Where?</label><select id="area"><option value="">Anywhere in Sydney</option><option>CBD</option><option>Darling Harbour</option><option>The Rocks</option><option>Eastern Suburbs</option><option>Inner West</option><option>North Shore</option><option>Northern Beaches</option><option>Western Sydney</option><option>Sutherland Shire</option></select></div>
-  <div class="control"><label>When?</label><select id="day"><option value="">Any day</option><option>Monday</option><option>Tuesday</option><option>Wednesday</option><option>Thursday</option><option>Friday</option><option>Saturday</option><option>Sunday</option></select></div>
-  <button class="searchbtn" id="searchBtn">Find something</button>
- </div>
- <div class="quick">Quick picks: <button data-quick="free">Free this week</button><button data-quick="weekend">This weekend</button><button data-quick="rainy">Rainy-day ideas</button></div>
-</div></div>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__bg-shapes">
+      <div class="shape shape--1"></div>
+      <div class="shape shape--2"></div>
+      <div class="shape shape--3"></div>
+    </div>
+    <div class="container hero__inner">
+      <div class="hero__badge">✨ Sydney's #1 Family Activity Guide</div>
+      <div class="hero__title-row">
+        <h1 class="hero__title">Little Discoveries</h1>
+        <img src="/images/little%20monster%20with%20heart%281000%20x%201200%20px%29.png" alt="Little Discoveries mascot" class="hero__mascot" />
+      </div>
+      <p class="hero__subtitle">Turning weekends in Sydney into adventures!</p>
+      <a href="#activities" class="btn btn--primary btn--lg">Find Activities →</a>
+    </div>
+  </section>
 
-<section class="editorial" id="editors"><div class="wrap">
- <div class="sectionHead"><div><div class="eyebrow">Editor's Choice</div><h2>Six we'd actually make plans for.</h2><p>Your shortcut to the week's best discoveries.</p></div><a class="textlink" href="#all">See everything this week →</a></div>
- <div class="editorGrid">
-  <article class="leadCard"><img src="https://images.pexels.com/photos/1619854/pexels-photo-1619854.jpeg?auto=compress&cs=tinysrgb&w=1200" alt=""><span class="choice">★ EDITOR'S CHOICE</span><div class="leadCopy"><div class="where">SYDNEY HARBOUR · FREE</div><h3>A family day that feels like a proper adventure</h3><p>Big views, room to explore and enough novelty to make it worth leaving the house.</p></div></article>
-  <div class="sideGrid">
-   <article class="miniCard"><div class="miniImg"><img src="https://images.pexels.com/photos/8612992/pexels-photo-8612992.jpeg?auto=compress&cs=tinysrgb&w=650" alt=""><span class="freeBadge">FREE</span></div><div class="miniBody"><div class="miniMeta">CBD · School Kids</div><h4>Hands-on maker morning</h4></div></article>
-   <article class="miniCard"><div class="miniImg"><img src="https://images.pexels.com/photos/5621934/pexels-photo-5621934.jpeg?auto=compress&cs=tinysrgb&w=650" alt=""><span class="freeBadge">FREE</span></div><div class="miniBody"><div class="miniMeta">Eastern Suburbs · 3–8</div><h4>Creative workshop by the coast</h4></div></article>
-   <article class="miniCard"><div class="miniImg"><img src="https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=650" alt=""><span class="freeBadge">FREE</span></div><div class="miniBody"><div class="miniMeta">Darling Harbour · All ages</div><h4>Music for little movers</h4></div></article>
-   <article class="miniCard"><div class="miniImg"><img src="https://images.pexels.com/photos/4058939/pexels-photo-4058939.jpeg?auto=compress&cs=tinysrgb&w=650" alt=""><span class="freeBadge">FREE</span></div><div class="miniBody"><div class="miniMeta">CBD · All ages</div><h4>After-dark city spectacle</h4></div></article>
-   <article class="miniCard"><div class="miniImg"><img src="https://images.pexels.com/photos/5119595/pexels-photo-5119595.jpeg?auto=compress&cs=tinysrgb&w=650" alt=""><span class="freeBadge">FREE</span></div><div class="miniBody"><div class="miniMeta">North Shore · 2–13</div><h4>Nature play without the fuss</h4></div></article>
+  <!-- USPs -->
+  <section class="usps">
+    <div class="container usps__grid">
+      <div class="usp-card">
+        <div class="usp-card__icon">🎯</div>
+        <div class="usp-card__body">
+          <strong>Over 300 Activities</strong>
+          <span>Across Sydney</span>
+        </div>
+      </div>
+      <div class="usp-card">
+        <div class="usp-card__icon">⭐</div>
+        <div class="usp-card__body">
+          <strong>Local Experts</strong>
+          <span>Sydney's Best Picks</span>
+        </div>
+      </div>
+      <div class="usp-card">
+        <div class="usp-card__icon">👨‍👩‍👧‍👦</div>
+        <div class="usp-card__body">
+          <strong>1,500+ Families</strong>
+          <span>Trust Little Discoveries</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACTIVITIES -->
+  <section class="activities" id="activities">
+    <div class="container">
+      <h2 class="section-title">Find Your Next Adventure</h2>
+      <p class="section-subtitle">Filter by what works for your family</p>
+
+      <!-- FILTERS -->
+      <div class="filters" id="filters">
+        <!-- Age -->
+        <div class="filter-group">
+          <label class="filter-group__label">🧒 Age</label>
+          <div class="filter-chips" data-filter="age">
+            <button class="chip chip--active" data-value="">All Ages</button>
+            <button class="chip" data-value="Babies (1–2 years)">Babies (1–2)</button>
+            <button class="chip" data-value="Toddlers (2–3 years)">Toddlers (2–3)</button>
+            <button class="chip" data-value="Pre-schoolers (3–5 years)">Pre-schoolers (3–5)</button>
+            <button class="chip" data-value="School Kids (5–13 years)">School Kids (5–13)</button>
+          </div>
+        </div>
+
+        <!-- Neighborhood -->
+        <div class="filter-group">
+          <label class="filter-group__label">📍 Neighbourhood</label>
+          <div class="filter-chips" data-filter="neighborhood">
+            <button class="chip chip--active" data-value="">All Areas</button>
+            <button class="chip" data-value="CBD">CBD</button>
+            <button class="chip" data-value="Darling Harbour">Darling Harbour</button>
+            <button class="chip" data-value="The Rocks">The Rocks</button>
+            <button class="chip" data-value="Eastern Suburbs">Eastern Suburbs</button>
+            <button class="chip" data-value="Inner West">Inner West</button>
+            <button class="chip" data-value="North Shore">North Shore</button>
+            <button class="chip" data-value="Northern Beaches">Northern Beaches</button>
+            <button class="chip" data-value="Western Sydney">Western Sydney</button>
+            <button class="chip" data-value="Sutherland Shire">Sutherland Shire</button>
+          </div>
+        </div>
+
+        <!-- Day of Week (multi-select) -->
+        <div class="filter-group">
+          <label class="filter-group__label">📅 Day</label>
+          <div class="filter-chips" data-filter="day">
+            <button class="chip chip--active" data-value="">Any Day</button>
+            <button class="chip" data-value="Monday">Mon</button>
+            <button class="chip" data-value="Tuesday">Tue</button>
+            <button class="chip" data-value="Wednesday">Wed</button>
+            <button class="chip" data-value="Thursday">Thu</button>
+            <button class="chip" data-value="Friday">Fri</button>
+            <button class="chip" data-value="Saturday">Sat</button>
+            <button class="chip" data-value="Sunday">Sun</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- RESULTS COUNT -->
+      <div class="results-bar">
+        <span id="results-count">Showing 15 activities</span>
+        <button class="btn btn--ghost btn--sm" id="clear-filters">Clear filters</button>
+      </div>
+
+      <!-- ACTIVITY GRID -->
+      <div class="activity-grid" id="activity-grid">
+        <!-- Populated by JS -->
+      </div>
+
+      <!-- NO RESULTS -->
+      <div class="no-results hidden" id="no-results">
+        <div class="no-results__icon">🔍</div>
+        <h3>No activities found</h3>
+        <p>Try adjusting your filters to find more adventures.</p>
+        <button class="btn btn--primary" id="no-results-clear">Clear filters</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter" id="newsletter">
+    <div class="container newsletter__inner">
+      <img src="/images/email-image.png" alt="" class="newsletter__monster" aria-hidden="true" />
+      <div class="newsletter__text">
+        <h2>What's On This Weekend?</h2>
+        <p>Join 1,200+ Sydney parents who get the best events in their inbox ♡</p>
+      </div>
+      <form class="newsletter__form" id="newsletter-form" method="POST" action="https://formsubmit.co/patricia.haueiss@gmail.com">
+        <input type="hidden" name="_subject" value="New Newsletter Signup – Little Discoveries" />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_next" value="https://www.littlediscoveries.com.au/?subscribed=1#newsletter" />
+        <input type="email" name="email" placeholder="Your email" class="newsletter__input" aria-label="Your email address" required />
+        <button type="submit" class="btn btn--primary">Join Now</button>
+      </form>
+      <p id="newsletter-msg" style="display:none;margin-top:0.75rem;font-size:0.85rem;color:#fff;"></p>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews" id="reviews">
+    <div class="container">
+      <p class="reviews__label">Why families love Little Discoveries</p>
+      <h2 class="section-title">It's Made Family Time Easy (And Fun)</h2>
+      <div class="reviews__grid">
+        <div class="review-card">
+          <div class="review-card__author">
+            <img src="/images/nicole.png" alt="Nicole Sokol" class="review-card__photo" />
+            <div><strong>Nicole Sokol</strong><span>Mum of 2 kids</span></div>
+          </div>
+          <p class="review-card__label">IT'S MADE FAMILY TIME EASY (AND FUN)</p>
+          <p class="review-card__quote">"We've lived here for years, but through Little Discoveries I've found new parks, activities, and even storytime events nearby. I love that I don't have to scroll through five different websites. It's all in one place, easy to use, and perfect when I'm out and about with the kids."</p>
+          <div class="review-card__stars">⭐⭐⭐⭐⭐</div>
+        </div>
+        <div class="review-card">
+          <div class="review-card__author">
+            <img src="/images/hayley.png" alt="Hayley Jay" class="review-card__photo" />
+            <div><strong>Hayley Jay</strong><span>Aunty of 2 kids</span></div>
+          </div>
+          <p class="review-card__label">KEEPS ME IN THE KNOW (AND IN FAVOURITE AUNT STATUS)</p>
+          <p class="review-card__quote">"Little Discoveries helps me find fun things to do with the kids like beach festivals or craft mornings. It's an easy way to stay in the loop and keep up my fun aunt status 😊"</p>
+          <div class="review-card__stars">⭐⭐⭐⭐⭐</div>
+        </div>
+        <div class="review-card">
+          <div class="review-card__author">
+            <img src="/images/priscilla.png" alt="Priscilla Koukoui" class="review-card__photo" />
+            <div><strong>Priscilla Koukoui</strong><span>Mum of twins</span></div>
+          </div>
+          <p class="review-card__label">EVERY WEEKEND SORTED</p>
+          <p class="review-card__quote">"I used to spend so much time scrolling trying to figure out what to do with the kids. Now I just check Little Discoveries and boom: events, places, and activities all in one spot. It's our weekend go-to."</p>
+          <div class="review-card__stars">⭐⭐⭐⭐⭐</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOUNDER -->
+  <section class="founder" id="founder">
+    <div class="container founder__inner">
+      <img src="/images/patricia.png" alt="Patricia Haueiss, Founder of Little Discoveries" class="founder__photo" />
+      <div class="founder__content">
+        <p class="founder__label">Built by a Sydney Mum, for Sydney Families</p>
+        <h2 class="founder__title">I Was That Parent Googling 10 Tabs.</h2>
+        <blockquote class="founder__quote">"Hi, I'm a mum from Bondi who got tired of Googling 10 tabs every weekend. So I built the site I wish existed."</blockquote>
+        <p class="founder__attribution">Patricia Haueiss | Founder of Little Discoveries</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY -->
+  <section class="why">
+    <div class="container">
+      <h2 class="section-title">Where Great Days Begin</h2>
+      <p class="section-subtitle">Created by parents, for parents. With ideas that spark joy, not stress.</p>
+      <div class="why__grid">
+        <div class="why-card">
+          <img src="/images/monster-closeup.png" alt="" class="why-card__monster" />
+          <h3>Discover Cool Kids Friendly Places</h3>
+          <p>Uncover hidden gems and parent-approved spots that turn an ordinary afternoon into a "can we go again?" kind of day, without the endless Googling.</p>
+        </div>
+        <div class="why-card">
+          <img src="/images/monster-hoola.png" alt="" class="why-card__monster" />
+          <h3>Make It a Real-Life Adventure</h3>
+          <p>Step away from the screen and into a hands-on experience. Think crafty workshops, festivals or play zones. You might even bump into other awesome families while you're at it.</p>
+        </div>
+        <div class="why-card">
+          <img src="/images/monster-rain.png" alt="" class="why-card__monster" />
+          <h3>Year-Round Kid-Approved Ideas</h3>
+          <p>From rainy-day rescues to sunny park days, discover age-appropriate picks whether you're parenting a toddler tornado or a cool tween.</p>
+        </div>
+        <div class="why-card">
+          <img src="/images/monster-star.png" alt="" class="why-card__monster" />
+          <h3>Real Tips from Real Families</h3>
+          <p>No tourist traps or fluff, just honest advice from fellow parents who've tested the waters (and the playgrounds) before you.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section class="categories">
+    <div class="container">
+      <h2 class="section-title">Activities We Feature</h2>
+      <p class="section-subtitle">Activities to suit every interest and energy level.</p>
+      <div class="categories__grid">
+        <div class="category-pill"><img src="/images/art.png" alt="" />Arts &amp; Crafts</div>
+        <div class="category-pill"><img src="/images/ball.png" alt="" />Sports</div>
+        <div class="category-pill"><img src="/images/note.png" alt="" />Music</div>
+        <div class="category-pill"><img src="/images/dance.png" alt="" />Festivals</div>
+        <div class="category-pill"><img src="/images/microscope.png" alt="" />STEM</div>
+        <div class="category-pill"><img src="/images/tree.png" alt="" />Outdoor Adventures</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUSTED SOURCES -->
+  <section class="trusted">
+    <div class="container">
+      <h2 class="trusted__title">Discover events from trusted sources</h2>
+      <div class="trusted__logos">
+        <div class="trusted-logo"><img src="/images/nsw.png" alt="NSW Government" /></div>
+        <div class="trusted-logo"><img src="/images/waverley.jpeg" alt="Waverley Council" /></div>
+        <div class="trusted-logo"><img src="/images/randwick.png" alt="Randwick City Council" /></div>
+        <div class="trusted-logo"><img src="/images/city%20of%20sydney.png" alt="City of Sydney" /></div>
+        <div class="trusted-logo"><img src="/images/georges-river.png" alt="Georges River Council" /></div>
+        <div class="trusted-logo"><img src="/images/inner-west.png" alt="Inner West Council" /></div>
+        <div class="trusted-logo"><img src="/images/strathfield.png" alt="Strathfield Council" /></div>
+        <div class="trusted-logo"><img src="/images/woollahra.png" alt="Woollahra Municipal Council" /></div>
+        <div class="trusted-logo"><img src="/images/bayside.svg" alt="Bayside Council" /></div>
+        <div class="trusted-logo"><img src="/images/canterbury.png" alt="Canterbury-Bankstown Council" /></div>
+        <div class="trusted-logo"><img src="/images/cumberland.png" alt="Cumberland Council" /></div>
+        <div class="trusted-logo"><img src="/images/paramatta.png" alt="City of Parramatta Council" /></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container about__inner">
+      <div class="about__text">
+        <h2>Sydney's Favourite Family Guide</h2>
+        <p>Little Discoveries was born out of a simple idea - every Sydney family deserves an easy way to find amazing activities for their kids. We handpick the best experiences, test them ourselves, and bring them straight to you.</p>
+        <p>From rainy-day museums to sun-soaked beach adventures, we cover it all - sorted by age, neighbourhood, and day so you can stop searching and start exploring.</p>
+        <a href="#activities" class="btn btn--primary">Explore Activities</a>
+      </div>
+      <div class="about__stats">
+        <div class="stat-card">
+          <span class="stat-card__num">300+</span>
+          <span class="stat-card__label">Curated Activities</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-card__num">30+</span>
+          <span class="stat-card__label">Sydney Suburbs</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-card__num">1,500+</span>
+          <span class="stat-card__label">Happy Families</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-card__num">5⭐</span>
+          <span class="stat-card__label">Avg. Rating</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <p>Turning weekends in Sydney into adventures!</p>
+      </div>
+      <div class="footer__links">
+        <a href="#founder">About</a>
+        <a href="mailto:hello@patriciahaueiss.com">Contact</a>
+      </div>
+      <p class="footer__copy">© 2026 Little Discoveries. Made with ❤️ in Sydney.</p>
+    </div>
+  </footer>
+
+  <script src="/v2-preview/script.js?v=14197415"></script>
+  <div class="geo-summary" aria-hidden="true" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;">
+Little Discoveries is Sydney's curated family activity guide covering all suburbs including CBD, Eastern Suburbs, Inner West, North Shore, Northern Beaches and Western Sydney. Activities are available for babies (0–2), toddlers (2–3), pre-schoolers (3–5), school kids (5–13) and teens. Categories include free events, school holiday programs, wildlife parks, outdoor adventures, arts and crafts workshops, STEM activities, music, dance, sport and festivals. Updated weekly. All activities are located in Sydney, New South Wales, Australia.
   </div>
- </div>
-</div></section>
-
-<section class="discovery" id="all"><div class="wrap">
- <div class="sectionHead"><div><div class="eyebrow">This week in Sydney</div><h2>More good things to do.</h2><p>Use the filters above to make this list yours.</p></div><div class="count" id="count">6 sample activities</div></div>
- <div class="activityGrid" id="activityGrid"></div>
- <div class="noResults" id="noResults">Nothing in this sample matches those filters. In the live v2, the coverage checks happen before Monday so empty combinations are minimised.</div>
-</div></section>
-
-<section class="ageSection" id="ages"><div class="wrap">
- <div class="sectionHead"><div><div class="eyebrow">Browse by age</div><h2>Start with the child, not the calendar.</h2><p>Age-first shortcuts for tired parents who just want a good option.</p></div></div>
- <div class="ageGrid">
-  <a class="ageCard age1" href="#all"><img src="/images/note.png" alt=""><h3>Babies</h3><p>Gentle, sensory and parent-friendly.</p></a>
-  <a class="ageCard age2" href="#all"><img src="/images/ball.png" alt=""><h3>Toddlers</h3><p>Move, touch, explore, repeat.</p></a>
-  <a class="ageCard age3" href="#all"><img src="/images/art.png" alt=""><h3>Pre-schoolers</h3><p>Creative, curious and hands-on.</p></a>
-  <a class="ageCard age4" href="#all"><img src="/images/microscope.png" alt=""><h3>School kids</h3><p>More challenge, more independence.</p></a>
- </div>
-</div></section>
-
-<section class="areas" id="areas"><div class="wrap">
- <div class="sectionHead"><div><div class="eyebrow">Explore Sydney</div><h2>Stay local or make a day of it.</h2><p>We keep the areas broad so finding something nearby stays simple.</p></div></div>
- <div class="areaGrid">
-  <a class="areaTile priority" href="#all"><span>Eastern Suburbs</span><span>→</span></a><a class="areaTile priority" href="#all"><span>CBD</span><span>→</span></a><a class="areaTile priority" href="#all"><span>Inner West</span><span>→</span></a>
-  <a class="areaTile" href="#all"><span>Darling Harbour</span><span>→</span></a><a class="areaTile" href="#all"><span>The Rocks</span><span>→</span></a><a class="areaTile" href="#all"><span>North Shore</span><span>→</span></a>
-  <a class="areaTile" href="#all"><span>Northern Beaches</span><span>→</span></a><a class="areaTile" href="#all"><span>Western Sydney</span><span>→</span></a><a class="areaTile" href="#all"><span>Sutherland Shire</span><span>→</span></a>
- </div>
-</div></section>
-
-<section class="note"><div class="wrap"><div class="noteBox">
- <img src="/images/mascot.svg" alt="">
- <div><h3>Curated, not cluttered.</h3><p>Little Discoveries isn't trying to list everything in Sydney. The goal is a strong set of choices across ages and areas, refreshed every week.</p></div>
- <a href="#newsletter">Send me the six best →</a>
-</div></div></section>
-
-<section class="newsletter" id="newsletter"><div class="wrap"><div class="news">
- <div><h2>The six best, in your inbox.</h2><p>One useful email. Fresh picks after the Monday update.</p></div>
- <div class="signup"><input type="email" placeholder="Your email"><button type="button">Join free</button></div>
-</div></div></section>
-
-<footer><div class="wrap footerin"><img src="/images/logo.svg" alt="Little Discoveries"><span>Private v2 design preview · sample content only</span></div></footer>
-
-<script>
-const data=[
- {title:"Free family science lab",area:"CBD",ages:["Pre-schoolers","School Kids"],days:["Saturday"],img:"https://images.pexels.com/photos/8612992/pexels-photo-8612992.jpeg?auto=compress&cs=tinysrgb&w=800",desc:"Hands-on experiments and an easy city outing.",date:"Sat · 10am"},
- {title:"Beachside creative workshop",area:"Eastern Suburbs",ages:["Toddlers","Pre-schoolers","School Kids"],days:["Sunday"],img:"https://images.pexels.com/photos/5621934/pexels-photo-5621934.jpeg?auto=compress&cs=tinysrgb&w=800",desc:"Make something, get messy, then head for the beach.",date:"Sun · 11am"},
- {title:"Family art drop-in",area:"Inner West",ages:["Pre-schoolers","School Kids"],days:["Saturday","Sunday"],img:"https://images.pexels.com/photos/8617941/pexels-photo-8617941.jpeg?auto=compress&cs=tinysrgb&w=800",desc:"Low-pressure art making for the whole family.",date:"Weekend"},
- {title:"Harbour explorer day",area:"The Rocks",ages:["Toddlers","Pre-schoolers","School Kids"],days:["Sunday"],img:"https://images.pexels.com/photos/1619854/pexels-photo-1619854.jpeg?auto=compress&cs=tinysrgb&w=800",desc:"History, views and plenty of space to wander.",date:"Sun · all day"},
- {title:"Music for little movers",area:"Darling Harbour",ages:["Babies","Toddlers","Pre-schoolers"],days:["Saturday"],img:"https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=800",desc:"A lively session built for small kids who don't sit still.",date:"Sat · 10:30am"},
- {title:"Nature play adventure",area:"North Shore",ages:["Toddlers","Pre-schoolers","School Kids"],days:["Sunday"],img:"https://images.pexels.com/photos/5119595/pexels-photo-5119595.jpeg?auto=compress&cs=tinysrgb&w=800",desc:"Fresh air, climbing and simple outdoor fun.",date:"Sun · morning"}
-];
-function render(){
- const age=document.getElementById("age").value,area=document.getElementById("area").value,day=document.getElementById("day").value;
- const list=data.filter(x=>(!age||x.ages.includes(age))&&(!area||x.area===area)&&(!day||x.days.includes(day)));
- const grid=document.getElementById("activityGrid"),empty=document.getElementById("noResults");
- grid.innerHTML=list.map(x=>`<article class="activity"><div class="activityPic"><img src="${x.img}" alt=""><span class="cost">FREE</span></div><div class="activityBody"><div class="chips"><span class="chip area">${x.area}</span><span class="chip">${x.ages.slice(0,2).join(" · ")}</span></div><h3>${x.title}</h3><p>${x.desc}</p><div class="activityFoot"><span>${x.date}</span><span class="arrow">View →</span></div></div></article>`).join("");
- empty.style.display=list.length?"none":"block";
- document.getElementById("count").textContent=`${list.length} sample ${list.length===1?"activity":"activities"}`;
-}
-document.getElementById("searchBtn").addEventListener("click",()=>{render();document.getElementById("all").scrollIntoView({behavior:"smooth"})});
-["age","area","day"].forEach(id=>document.getElementById(id).addEventListener("change",render));
-document.querySelectorAll("[data-quick]").forEach(btn=>btn.addEventListener("click",()=>{
- if(btn.dataset.quick==="weekend"){document.getElementById("day").value="Saturday"}else{document.getElementById("day").value=""}
- render();document.getElementById("all").scrollIntoView({behavior:"smooth"});
-}));
-render();
-</script>
 </body>
 </html>
