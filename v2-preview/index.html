@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="robots" content="noindex,nofollow" />
+  <title>Little Discoveries v2 — Private Preview</title>
+  <link rel="icon" href="/images/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Nunito,system-ui,sans-serif;background:#fffaf6;color:#1c1c2e}
+    :root{--pink:#f94d85;--pink2:#ff6b9d;--yellow:#ffd166;--green:#06c980;--purple:#6c63ff;--blue:#48cae4;--ink:#1c1c2e;--muted:#6e6e86;--line:#ece7e2;--cream:#fff9f5}
+    a{text-decoration:none;color:inherit}.wrap{max-width:1180px;margin:auto;padding:0 24px}
+    .previewbar{background:#1c1c2e;color:#fff;text-align:center;padding:8px 16px;font-weight:800;font-size:13px;letter-spacing:.02em}
+    .nav{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}.navin{height:72px;display:flex;align-items:center;justify-content:space-between}.logo{height:54px}.navright{display:flex;gap:24px;align-items:center;font-weight:800;color:#55556d}.pill{background:var(--pink);color:#fff;padding:10px 18px;border-radius:999px}
+    .hero{position:relative;overflow:hidden;padding:78px 0 68px;background:linear-gradient(135deg,#fff0f5,#fff9f5 52%,#effaff)}.hero:after{content:"";position:absolute;width:460px;height:460px;border-radius:50%;background:radial-gradient(circle,#ffd16688,transparent 68%);right:-130px;top:-170px}.heroGrid{display:grid;grid-template-columns:1.25fr .75fr;gap:44px;align-items:center;position:relative;z-index:2}.eyebrow{display:inline-flex;gap:8px;align-items:center;background:#fff;border:1px solid #f3dce4;padding:8px 14px;border-radius:999px;color:#a1325a;font-weight:900;font-size:13px}.hero h1{font-size:clamp(44px,6vw,76px);line-height:.98;margin:18px 0 20px;letter-spacing:-.045em}.hero h1 span{color:var(--pink)}.hero p{font-size:20px;line-height:1.55;color:#55556d;max-width:690px}.heroMeta{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.mini{background:#fff;border:1px solid var(--line);padding:9px 13px;border-radius:12px;font-weight:800;font-size:14px}.monster{max-width:340px;width:100%;justify-self:end;filter:drop-shadow(0 20px 25px rgba(46,29,39,.15))}
+    .filtersWrap{margin-top:-28px;position:relative;z-index:4}.filters{background:#fff;border:1px solid var(--line);border-radius:22px;box-shadow:0 12px 40px rgba(46,29,39,.10);padding:20px}.filterRow{display:grid;grid-template-columns:1fr 1fr 1fr auto;gap:14px;align-items:end}.field label{font-weight:900;font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:#77778e;display:block;margin:0 0 7px}.select{width:100%;border:1px solid #ded8d4;border-radius:13px;background:#fff;padding:13px 14px;font:700 15px Nunito;color:#333349}.go{border:0;background:var(--pink);color:white;border-radius:13px;padding:14px 23px;font:900 15px Nunito;cursor:pointer}.go:hover{background:var(--pink2)}
+    section{padding:64px 0}.sectionHead{display:flex;justify-content:space-between;gap:20px;align-items:end;margin-bottom:24px}.sectionHead h2{font-size:34px;margin:0 0 4px;letter-spacing:-.025em}.sectionHead p{margin:0;color:var(--muted)}.editorBadge{display:inline-block;background:var(--yellow);padding:6px 11px;border-radius:9px;font-weight:900;font-size:12px;margin-bottom:9px}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:0 5px 18px rgba(31,25,28,.06);transition:.2s}.card:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(31,25,28,.11)}.photo{height:190px;background:#eee;position:relative;overflow:hidden}.photo img{width:100%;height:100%;object-fit:cover}.ribbon{position:absolute;top:12px;left:12px;background:var(--yellow);padding:6px 10px;border-radius:9px;font-weight:900;font-size:11px}.free{position:absolute;top:12px;right:12px;background:#fff;color:#08744d;padding:6px 10px;border-radius:9px;font-weight:900;font-size:11px}.body{padding:17px}.tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:9px}.tag{background:#f7f4f2;border-radius:8px;padding:5px 8px;font-size:11px;font-weight:800;color:#66667c}.card h3{font-size:18px;line-height:1.25;margin:5px 0 8px}.desc{color:#707083;font-size:14px;line-height:1.45;margin-bottom:14px}.meta{border-top:1px solid #f0ece9;padding-top:12px;color:#55556d;font-size:13px;font-weight:700;display:flex;justify-content:space-between;gap:10px}
+    .coverage{background:#1c1c2e;color:white}.coverageGrid{display:grid;grid-template-columns:.85fr 1.15fr;gap:42px;align-items:center}.coverage h2{font-size:38px;margin:0 0 12px}.coverage p{color:#cfcfde;line-height:1.6}.areaChips{display:flex;gap:10px;flex-wrap:wrap}.areaChip{background:#ffffff10;border:1px solid #ffffff25;padding:10px 13px;border-radius:999px;font-weight:800}.areaChip.priority{background:#f94d8520;border-color:#f94d8570;color:#ffb3ca}.coverStats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px}.stat{background:#ffffff0d;border:1px solid #ffffff17;border-radius:15px;padding:16px}.stat strong{display:block;font-size:26px}.stat span{font-size:12px;color:#bdbdca}
+    .week{background:#fff}.weekGrid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.smallCard{border:1px solid var(--line);border-radius:15px;padding:16px;background:#fff}.smallCard .icon{font-size:28px}.smallCard h4{margin:8px 0 4px}.smallCard p{margin:0;color:#77778e;font-size:13px}
+    .newsletter{padding:58px 0}.newsbox{border-radius:25px;background:linear-gradient(135deg,#ffe6ef,#fff5d8);padding:38px;display:grid;grid-template-columns:1fr auto;align-items:center;gap:24px}.newsbox h2{margin:0 0 8px;font-size:32px}.newsbox p{margin:0;color:#66667a}.email{display:flex;gap:8px;background:#fff;border-radius:14px;padding:7px}.email input{border:0;outline:0;padding:10px;font:700 14px Nunito;min-width:220px}.email button{border:0;background:var(--pink);color:white;border-radius:10px;padding:11px 16px;font:900 14px Nunito}
+    footer{border-top:1px solid var(--line);padding:30px 0 45px;color:#77778e;font-size:13px}.foot{display:flex;justify-content:space-between;align-items:center;gap:20px}.foot img{height:42px}
+    .empty{display:none;padding:28px;background:#fff;border:1px dashed #d9d2ce;border-radius:16px;text-align:center;color:#77778e;font-weight:800}
+    @media(max-width:900px){.heroGrid,.coverageGrid,.newsbox{grid-template-columns:1fr}.monster{display:none}.filterRow{grid-template-columns:1fr 1fr}.cards{grid-template-columns:repeat(2,1fr)}.weekGrid{grid-template-columns:repeat(2,1fr)}.navright a:not(.pill){display:none}}
+    @media(max-width:620px){.hero{padding-top:50px}.hero h1{font-size:46px}.filterRow,.cards,.weekGrid{grid-template-columns:1fr}.filtersWrap{margin-top:-16px}.sectionHead{display:block}.navin{height:64px}.logo{height:45px}.newsbox{padding:26px}.email{display:block}.email input{width:100%;min-width:0}.email button{width:100%;margin-top:6px}.foot{display:block}.foot img{margin-bottom:12px}}
+  </style>
+</head>
+<body>
+<div class="previewbar">PRIVATE V2 PREVIEW — sample content only, not indexed by Google</div>
+<nav class="nav"><div class="wrap navin">
+  <a href="/"><img class="logo" src="/images/logo.svg" alt="Little Discoveries"></a>
+  <div class="navright"><a href="#editors">Editor's Choice</a><a href="#coverage">Explore Sydney</a><a class="pill" href="#activities">Find activities</a></div>
+</div></nav>
+
+<header class="hero"><div class="wrap heroGrid">
+  <div>
+    <div class="eyebrow">✨ Curated in Sydney, every week</div>
+    <h1>Find something <span>brilliant</span> to do with your kids.</h1>
+    <p>The best family activities across Sydney — mostly free, carefully curated, and refreshed every Monday.</p>
+    <div class="heroMeta"><span class="mini">✓ Mostly free</span><span class="mini">✓ Every age</span><span class="mini">✓ Across Sydney</span></div>
+  </div>
+  <img class="monster" src="/images/mascot.svg" alt="" />
+</div></header>
+
+<div class="wrap filtersWrap" id="activities"><div class="filters">
+  <div class="filterRow">
+    <div class="field"><label>Child's age</label><select class="select" id="age"><option value="">Any age</option><option>Babies</option><option>Toddlers</option><option>Pre-schoolers</option><option>School Kids</option></select></div>
+    <div class="field"><label>Area</label><select class="select" id="area"><option value="">Anywhere in Sydney</option><option>CBD</option><option>Darling Harbour</option><option>The Rocks</option><option>Eastern Suburbs</option><option>Inner West</option><option>North Shore</option><option>Northern Beaches</option><option>Western Sydney</option><option>Sutherland Shire</option></select></div>
+    <div class="field"><label>Day</label><select class="select" id="day"><option value="">Any day</option><option>Monday</option><option>Tuesday</option><option>Wednesday</option><option>Thursday</option><option>Friday</option><option>Saturday</option><option>Sunday</option></select></div>
+    <button class="go" id="find">Show me →</button>
+  </div>
+</div></div>
+
+<section id="editors"><div class="wrap">
+  <div class="sectionHead"><div><span class="editorBadge">⭐ EDITOR'S CHOICE</span><h2>Six worth making plans for</h2><p>Our favourite discoveries this week — chosen by a human, not an algorithm.</p></div><strong style="color:var(--pink)">Week preview →</strong></div>
+  <div class="cards" id="grid"></div><div class="empty" id="empty">No sample cards match that combination yet — in v2 the coverage engine flags this before the week publishes.</div>
+</div></section>
+
+<section class="coverage" id="coverage"><div class="wrap coverageGrid">
+  <div><h2>Something for every family.</h2><p>Behind the scenes, the new coverage engine checks every broad Sydney area against every age group before the week goes live — so empty searches become the exception, not the norm.</p>
+    <div class="coverStats"><div class="stat"><strong>9</strong><span>broad Sydney areas</span></div><div class="stat"><strong>4</strong><span>age groups</span></div><div class="stat"><strong>~50</strong><span>weekly candidates</span></div></div>
+  </div>
+  <div class="areaChips">
+    <span class="areaChip priority">Eastern Suburbs ★</span><span class="areaChip priority">CBD ★</span><span class="areaChip priority">Inner West ★</span><span class="areaChip">Darling Harbour</span><span class="areaChip">The Rocks</span><span class="areaChip">North Shore</span><span class="areaChip">Northern Beaches</span><span class="areaChip">Western Sydney</span><span class="areaChip">Sutherland Shire</span>
+  </div>
+</div></section>
+
+<section class="week"><div class="wrap">
+  <div class="sectionHead"><div><h2>Built around your week</h2><p>Fast ways into the activities parents are most likely to need.</p></div></div>
+  <div class="weekGrid"><div class="smallCard"><div class="icon">☀️</div><h4>This weekend</h4><p>The strongest picks for Saturday and Sunday.</p></div><div class="smallCard"><div class="icon">🎟️</div><h4>Free this week</h4><p>Great outings without the ticket price.</p></div><div class="smallCard"><div class="icon">🌧️</div><h4>Rainy day</h4><p>Indoor ideas when Sydney weather turns.</p></div><div class="smallCard"><div class="icon">🎨</div><h4>Something different</h4><p>Workshops, culture, science and surprises.</p></div></div>
+</div></section>
+
+<section class="newsletter"><div class="wrap"><div class="newsbox"><div><h2>The good stuff, once a week.</h2><p>Six Editor's Choice picks plus new free activities, delivered after Monday's refresh.</p></div><div class="email"><input type="email" placeholder="Your email"><button type="button">Join the list</button></div></div></div></section>
+
+<footer><div class="wrap foot"><img src="/images/logo.svg" alt="Little Discoveries"><div>V2 design preview · Little Discoveries Sydney</div></div></footer>
+
+<script>
+const samples=[
+ {title:"Free family science morning",area:"CBD",age:["Pre-schoolers","School Kids"],day:["Saturday"],img:"https://images.pexels.com/photos/8612992/pexels-photo-8612992.jpeg?auto=compress&cs=tinysrgb&w=900",desc:"Hands-on experiments, curious minds and an easy city outing.",where:"Sydney CBD · Sat"},
+ {title:"Beachside kids creative workshop",area:"Eastern Suburbs",age:["Toddlers","Pre-schoolers","School Kids"],day:["Sunday"],img:"https://images.pexels.com/photos/5621934/pexels-photo-5621934.jpeg?auto=compress&cs=tinysrgb&w=900",desc:"A relaxed free creative session close to the coast.",where:"Eastern Suburbs · Sun"},
+ {title:"Family art day",area:"Inner West",age:["Pre-schoolers","School Kids"],day:["Saturday","Sunday"],img:"https://images.pexels.com/photos/8617941/pexels-photo-8617941.jpeg?auto=compress&cs=tinysrgb&w=900",desc:"Drop in, make something together and explore local art.",where:"Inner West · Weekend"},
+ {title:"Harbour discovery walk",area:"The Rocks",age:["Toddlers","Pre-schoolers","School Kids"],day:["Sunday"],img:"https://images.pexels.com/photos/1619854/pexels-photo-1619854.jpeg?auto=compress&cs=tinysrgb&w=900",desc:"A free family wander with history, views and room to explore.",where:"The Rocks · Sun"},
+ {title:"Music for little movers",area:"Darling Harbour",age:["Babies","Toddlers","Pre-schoolers"],day:["Saturday"],img:"https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=900",desc:"A lively free session for small kids who don't sit still.",where:"Darling Harbour · Sat"},
+ {title:"Nature play adventure",area:"North Shore",age:["Toddlers","Pre-schoolers","School Kids"],day:["Sunday"],img:"https://images.pexels.com/photos/5119595/pexels-photo-5119595.jpeg?auto=compress&cs=tinysrgb&w=900",desc:"Fresh air, nature play and a genuinely easy family day out.",where:"North Shore · Sun"}
+];
+function render(){
+ const age=document.getElementById("age").value,area=document.getElementById("area").value,day=document.getElementById("day").value;
+ const list=samples.filter(x=>(!age||x.age.includes(age))&&(!area||x.area===area)&&(!day||x.day.includes(day)));
+ document.getElementById("grid").innerHTML=list.map(x=>`<article class="card"><div class="photo"><img src="${x.img}" alt=""><span class="ribbon">⭐ Editor's Choice</span><span class="free">FREE</span></div><div class="body"><div class="tags"><span class="tag">${x.area}</span><span class="tag">${x.age.slice(0,2).join(" · ")}</span></div><h3>${x.title}</h3><div class="desc">${x.desc}</div><div class="meta"><span>${x.where}</span><span>View →</span></div></div></article>`).join("");
+ document.getElementById("empty").style.display=list.length?"none":"block";
+}
+["age","area","day"].forEach(id=>document.getElementById(id).addEventListener("change",render));
+document.getElementById("find").addEventListener("click",render);
+render();
+</script>
+</body>
+</html>
