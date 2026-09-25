@@ -74,12 +74,16 @@ validateCollection("next.candidates", next.candidates || []);
 const approved = (next.candidates || []).filter(a => a.status === "approved");
 const paidApproved = approved.filter(a => !a.isFree);
 const editorChoices = approved.filter(a => a.editorsChoice);
+const onlineApproved = approved.filter(a => (a.areas || []).includes("online"));
 
 if (paidApproved.length > 2) {
   fail(`next candidates: ${paidApproved.length} approved paid activities; default maximum is 2`);
 }
 if (editorChoices.length > 6) {
   fail(`next candidates: ${editorChoices.length} Editor's Choice items; maximum is 6`);
+}
+if (onlineApproved.length > 2) {
+  fail(`next candidates: ${onlineApproved.length} approved online activities; maximum is 2`);
 }
 
 if (!process.exitCode) {
