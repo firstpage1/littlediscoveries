@@ -1,0 +1,88 @@
+{
+  "areas": [
+    {
+      "id": "cbd",
+      "label": "CBD",
+      "priorityDepth": true
+    },
+    {
+      "id": "darling-harbour",
+      "label": "Darling Harbour",
+      "priorityDepth": false
+    },
+    {
+      "id": "the-rocks",
+      "label": "The Rocks",
+      "priorityDepth": false
+    },
+    {
+      "id": "eastern-suburbs",
+      "label": "Eastern Suburbs",
+      "priorityDepth": true
+    },
+    {
+      "id": "inner-west",
+      "label": "Inner West",
+      "priorityDepth": true
+    },
+    {
+      "id": "north-shore",
+      "label": "North Shore",
+      "priorityDepth": false
+    },
+    {
+      "id": "northern-beaches",
+      "label": "Northern Beaches",
+      "priorityDepth": false
+    },
+    {
+      "id": "western-sydney",
+      "label": "Western Sydney",
+      "priorityDepth": false
+    },
+    {
+      "id": "sutherland-shire",
+      "label": "Sutherland Shire",
+      "priorityDepth": false
+    }
+  ],
+  "ageGroups": [
+    {
+      "id": "babies",
+      "label": "Babies (1-2 years)"
+    },
+    {
+      "id": "toddlers",
+      "label": "Toddlers (2-3 years)"
+    },
+    {
+      "id": "preschool",
+      "label": "Pre-schoolers (3-5 years)"
+    },
+    {
+      "id": "school-kids",
+      "label": "School Kids (5-13 years)"
+    }
+  ],
+  "legacyAreaMapping": {
+    "Haymarket": "CBD",
+    "Green Square": "CBD",
+    "Pyrmont": "CBD",
+    "Baulkham Hills": "Western Sydney",
+    "Ryde": "North Shore"
+  },
+  "legacyAgeMapping": {
+    "Babies (0-2 years)": [
+      "Babies (1-2 years)"
+    ],
+    "Babies (0-12 months)": [
+      "Babies (1-2 years)"
+    ],
+    "Toddlers (1-3 years)": [
+      "Toddlers (2-3 years)"
+    ],
+    "Pre-schoolers (3-5 years)": [
+      "Pre-schoolers (3-5 years)"
+    ]
+  }
+}
