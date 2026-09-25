@@ -1,21 +1,6 @@
 {
   "areas": [
     {
-      "id": "cbd",
-      "label": "CBD",
-      "priorityDepth": true
-    },
-    {
-      "id": "darling-harbour",
-      "label": "Darling Harbour",
-      "priorityDepth": false
-    },
-    {
-      "id": "the-rocks",
-      "label": "The Rocks",
-      "priorityDepth": false
-    },
-    {
       "id": "eastern-suburbs",
       "label": "Eastern Suburbs",
       "priorityDepth": true
@@ -26,13 +11,13 @@
       "priorityDepth": true
     },
     {
-      "id": "north-shore",
-      "label": "North Shore",
-      "priorityDepth": false
+      "id": "city-center-cbd",
+      "label": "City Center/CBD",
+      "priorityDepth": true
     },
     {
-      "id": "northern-beaches",
-      "label": "Northern Beaches",
+      "id": "south-sydney",
+      "label": "South Sydney",
       "priorityDepth": false
     },
     {
@@ -41,9 +26,26 @@
       "priorityDepth": false
     },
     {
-      "id": "sutherland-shire",
-      "label": "Sutherland Shire",
+      "id": "lower-north-shore",
+      "label": "Lower North Shore",
       "priorityDepth": false
+    },
+    {
+      "id": "upper-north-shore",
+      "label": "Upper North Shore",
+      "priorityDepth": false
+    },
+    {
+      "id": "northern-beaches",
+      "label": "Northern Beaches",
+      "priorityDepth": false
+    },
+    {
+      "id": "online",
+      "label": "Online",
+      "priorityDepth": false,
+      "weeklyMaximum": 2,
+      "strongOnly": true
     }
   ],
   "ageGroups": [
@@ -65,20 +67,29 @@
     }
   ],
   "legacyAreaMapping": {
-    "CBD": "cbd",
-    "Darling Harbour": "darling-harbour",
-    "The Rocks": "the-rocks",
     "Eastern Suburbs": "eastern-suburbs",
     "Inner West": "inner-west",
-    "North Shore": "north-shore",
-    "Northern Beaches": "northern-beaches",
+    "CBD": "city-center-cbd",
+    "Darling Harbour": "city-center-cbd",
+    "The Rocks": "city-center-cbd",
+    "Haymarket": "city-center-cbd",
+    "Pyrmont": "city-center-cbd",
+    "Green Square": "south-sydney",
+    "Bayside": "south-sydney",
+    "St George": "south-sydney",
+    "Sutherland Shire": "south-sydney",
     "Western Sydney": "western-sydney",
-    "Sutherland Shire": "sutherland-shire",
-    "Haymarket": "cbd",
-    "Green Square": "cbd",
-    "Pyrmont": "cbd",
     "Baulkham Hills": "western-sydney",
-    "Ryde": "north-shore"
+    "North Shore": "lower-north-shore",
+    "Mosman": "lower-north-shore",
+    "North Sydney": "lower-north-shore",
+    "Lane Cove": "lower-north-shore",
+    "Hunters Hill": "lower-north-shore",
+    "Willoughby": "lower-north-shore",
+    "Ku-ring-gai": "upper-north-shore",
+    "Hornsby": "upper-north-shore",
+    "Northern Beaches": "northern-beaches",
+    "Online": "online"
   },
   "legacyAgeMapping": {
     "Babies (1–2 years)": [
