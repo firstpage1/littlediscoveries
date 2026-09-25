@@ -21,28 +21,36 @@ Coverage exists so parents do not select an age group and broad area and receive
 
 Canonical broad areas use stable IDs internally and human labels in the UI.
 
-- CBD
-- Darling Harbour
-- The Rocks
 - Eastern Suburbs
 - Inner West
-- North Shore
-- Northern Beaches
+- City Center/CBD
+- South Sydney
 - Western Sydney
-- Sutherland Shire
+- Lower North Shore
+- Upper North Shore
+- Northern Beaches
+- Online
 
-Eastern Suburbs, CBD and Inner West should receive additional depth, while representation across all Sydney areas remains important.
+Do not optimise for every suburb or micro-area. Eastern Suburbs, Inner West and City Center/CBD may receive additional depth.
+
+Online is capped at 2 published recommendations per week and should include only unusually strong options.
 
 Canonical age groups:
-- Babies (1-2 years)
-- Toddlers (2-3 years)
-- Pre-schoolers (3-5 years)
-- School Kids (5-13 years)
+- Babies (0–1)
+- Toddlers (2–3)
+- Pre-schoolers (3–5)
+- School Kids (5–13)
+- Teens (13–16)
+- Young Adults (16–18)
+- Adults (18+)
+- All Ages
+
+Adults (18+) is primarily a suitability indicator; do not proactively search for adult-only activities. Young Adults (16–18) may be included when strong but do not require neighbourhood-by-neighbourhood coverage. All Ages is a suitability label and contributes to relevant child/teen coverage rather than creating a separate coverage quota.
 
 A single activity may cover multiple age groups. Content files store stable IDs (`eastern-suburbs`, `preschool`) rather than presentation labels.
 
 The coverage engine should:
-1. Build an area x age matrix.
+1. Build an area x age matrix only for proactive coverage-target age bands (Babies through Teens).
 2. Count current or approved activities in each cell.
 3. Flag empty cells as red, thin cells as amber, healthy cells as green.
 4. Boost high-quality candidates that fill coverage gaps.
