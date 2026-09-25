@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "name": "City of Sydney What's On",
+      "url": "https://whatson.cityofsydney.nsw.gov.au/",
+      "enabled": true,
+      "trustScore": 5
+    },
+    {
+      "name": "Australian Museum",
+      "url": "https://australian.museum/",
+      "enabled": true,
+      "trustScore": 5
+    },
+    {
+      "name": "Art Gallery of NSW",
+      "url": "https://www.artgallery.nsw.gov.au/",
+      "enabled": true,
+      "trustScore": 5
+    },
+    {
+      "name": "Sydney Olympic Park",
+      "url": "https://www.sydneyolympicpark.com.au/",
+      "enabled": true,
+      "trustScore": 5
+    }
+  ]
+}
