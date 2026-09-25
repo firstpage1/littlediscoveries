@@ -19,7 +19,8 @@ Coverage and editorial quality are separate systems.
 
 Coverage exists so parents do not select an age group and broad area and receive an empty result.
 
-Canonical broad areas:
+Canonical broad areas use stable IDs internally and human labels in the UI.
+
 - CBD
 - Darling Harbour
 - The Rocks
@@ -38,7 +39,7 @@ Canonical age groups:
 - Pre-schoolers (3-5 years)
 - School Kids (5-13 years)
 
-A single activity may cover multiple age groups.
+A single activity may cover multiple age groups. Content files store stable IDs (`eastern-suburbs`, `preschool`) rather than presentation labels.
 
 The coverage engine should:
 1. Build an area x age matrix.
