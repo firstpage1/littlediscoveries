@@ -56,15 +56,15 @@
       "items": {
         "type": "string",
         "enum": [
-          "cbd",
-          "darling-harbour",
-          "the-rocks",
           "eastern-suburbs",
           "inner-west",
-          "north-shore",
-          "northern-beaches",
+          "city-center-cbd",
+          "south-sydney",
           "western-sydney",
-          "sutherland-shire"
+          "lower-north-shore",
+          "upper-north-shore",
+          "northern-beaches",
+          "online"
         ]
       }
     },
