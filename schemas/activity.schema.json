@@ -56,15 +56,15 @@
       "items": {
         "type": "string",
         "enum": [
-          "CBD",
-          "Darling Harbour",
-          "The Rocks",
-          "Eastern Suburbs",
-          "Inner West",
-          "North Shore",
-          "Northern Beaches",
-          "Western Sydney",
-          "Sutherland Shire"
+          "cbd",
+          "darling-harbour",
+          "the-rocks",
+          "eastern-suburbs",
+          "inner-west",
+          "north-shore",
+          "northern-beaches",
+          "western-sydney",
+          "sutherland-shire"
         ]
       }
     },
@@ -84,10 +84,10 @@
       "items": {
         "type": "string",
         "enum": [
-          "Babies (1-2 years)",
-          "Toddlers (2-3 years)",
-          "Pre-schoolers (3-5 years)",
-          "School Kids (5-13 years)"
+          "babies",
+          "toddlers",
+          "preschool",
+          "school-kids"
         ]
       }
     },
