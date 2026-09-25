@@ -219,6 +219,22 @@
       "enabled": true,
       "trustScore": 5,
       "sourceType": "official"
+    },
+    {
+      "name": "Sydney Opera House Kids & Families",
+      "url": "https://www.sydneyoperahouse.com/kids-families",
+      "enabled": true,
+      "trustScore": 5,
+      "sourceType": "official",
+      "priority": "must-check-weekly"
+    },
+    {
+      "name": "City of Sydney Leisure News & Events",
+      "url": "https://cityofsydneyleisure.com.au/news-and-events",
+      "enabled": true,
+      "trustScore": 5,
+      "sourceType": "official",
+      "priority": "must-check-weekly"
     }
   ]
 }
