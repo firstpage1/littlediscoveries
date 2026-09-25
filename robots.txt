@@ -1,17 +1,4 @@
 User-agent: *
 Allow: /
 
-# AI crawlers — welcome
-User-agent: GPTBot
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: GoogleOther
-Allow: /
-
-Sitemap: https://firstpage1.github.io/littlediscoveries/sitemap.xml
+Sitemap: https://www.littlediscoveries.com.au/sitemap.xml

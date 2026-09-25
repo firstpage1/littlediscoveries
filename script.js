@@ -4,7 +4,7 @@
 let activities = [];
 
 async function loadActivities() {
-  const res = await fetch('activities.json?v=fc67ae67');
+  const res = await fetch('activities.json?v=20260928');
   activities = await res.json();
   init();
 }
@@ -24,12 +24,7 @@ const state = {
 /* ===========================
    HELPERS
 =========================== */
-function ageLabel(ageArr) {
-  if (!ageArr || ageArr.length === 0) return "All Ages";
-  if (ageArr.length >= 4) return "All Ages";
-  // Shorten the new verbose labels for the card tags
-  return ageArr.map(a => a.replace(" years)", ")")).join(", ");
-}
+function ageLabel(ageArr) { if (!ageArr || ageArr.length===0 || ageArr.includes("All Ages")) return "All Ages"; return ageArr.join(", "); }
 
 function dayLabel(dayArr) {
   if (!dayArr || dayArr.length === 0) return "Any Day";
@@ -297,7 +292,7 @@ function applyFilters() {
 
   const filtered = activities.filter(act => {
     if (act.expired) return false;
-    const ageMatch = !age || (act.age && act.age.includes(age));
+    const ageMatch = !age || (act.age && (act.age.includes(age) || (age !== "All Ages" && act.age.includes("All Ages"))));
     const neighborhoodMatch = !neighborhood || act.neighborhood === neighborhood;
     const dayMatch = days.length === 0 || (act.day && days.some(d => act.day.includes(d)));
     return ageMatch && neighborhoodMatch && dayMatch;
