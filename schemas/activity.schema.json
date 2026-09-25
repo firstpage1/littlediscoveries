@@ -87,7 +87,11 @@
           "babies",
           "toddlers",
           "preschool",
-          "school-kids"
+          "school-kids",
+          "teens",
+          "young-adults",
+          "adults",
+          "all-ages"
         ]
       }
     },
