@@ -1,0 +1,204 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Little Discoveries Activity",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "title",
+    "status",
+    "areas",
+    "ageGroups",
+    "category",
+    "isFree",
+    "sourceUrl",
+    "startDate",
+    "endDate",
+    "lastVerifiedAt"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 3
+    },
+    "summary": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "candidate",
+        "approved",
+        "rejected",
+        "published",
+        "expired"
+      ]
+    },
+    "editorsChoice": {
+      "type": "boolean",
+      "default": false
+    },
+    "areas": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "CBD",
+          "Darling Harbour",
+          "The Rocks",
+          "Eastern Suburbs",
+          "Inner West",
+          "North Shore",
+          "Northern Beaches",
+          "Western Sydney",
+          "Sutherland Shire"
+        ]
+      }
+    },
+    "locality": {
+      "type": "string"
+    },
+    "venue": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "ageGroups": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "Babies (1-2 years)",
+          "Toddlers (2-3 years)",
+          "Pre-schoolers (3-5 years)",
+          "School Kids (5-13 years)"
+        ]
+      }
+    },
+    "category": {
+      "type": "string"
+    },
+    "days": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ]
+      }
+    },
+    "startDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "endDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "timeText": {
+      "type": "string"
+    },
+    "isFree": {
+      "type": "boolean"
+    },
+    "priceText": {
+      "type": "string"
+    },
+    "sourceName": {
+      "type": "string"
+    },
+    "sourceUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+    "imageUrl": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "imageUsageApproved": {
+      "type": "boolean",
+      "default": false
+    },
+    "discoveredAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "lastVerifiedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publishAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "expiredAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "recommendationReason": {
+      "type": "string"
+    },
+    "coverageTags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "seo": {
+      "type": "object",
+      "properties": {
+        "metaTitle": {
+          "type": "string"
+        },
+        "metaDescription": {
+          "type": "string"
+        },
+        "canonicalUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+        "retainAfterExpiry": {
+          "type": "boolean",
+          "default": true
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
