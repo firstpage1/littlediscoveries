@@ -1,0 +1,45 @@
+name: Sync organiser images to live site
+
+on:
+  push:
+    branches:
+      - claude/create-website-YTnOF
+    paths:
+      - ".github/workflows/source-images.yml"
+      - ".github/scripts/sync_source_images.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out automation
+        uses: actions/checkout@v4
+        with:
+          path: automation
+
+      - name: Check out live site
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: site
+          fetch-depth: 0
+
+      - name: Sync images and regenerate detail pages
+        run: python3 automation/.github/scripts/sync_source_images.py site
+
+      - name: Commit live updates
+        working-directory: site
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add activities.json index.html script.js sitemap.xml */index.html
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Use organiser images and refresh detail pages"
+            git push origin HEAD:gh-pages
+          fi
