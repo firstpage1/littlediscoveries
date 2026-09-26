@@ -84,7 +84,8 @@
     "seoDescription": "A free community school-holiday event with games and family activities in Maroubra.",
     "isFeatured": false,
     "imageSourceUrl": "https://www.randwick.nsw.gov.au/library/library-events/library-calendar/events/home/spark-in-the-park-cops%2C-community-and-kindness-for-all",
-    "imageSourceName": "Randwick City Council"
+    "imageSourceName": "Randwick City Council",
+    "imageVerifiedFromSource": true
   },
   {
     "id": 3,
@@ -127,7 +128,8 @@
     "seoDescription": "A hands-on stop-motion workshop where children create characters, scenes and their own clay animation.",
     "isFeatured": false,
     "imageSourceUrl": "https://www.randwick.nsw.gov.au/library/library-events/library-calendar/events/2026/september/kids-school-holiday-event-claymation%21-school-years-3-6",
-    "imageSourceName": "Randwick City Council"
+    "imageSourceName": "Randwick City Council",
+    "imageVerifiedFromSource": true
   },
   {
     "id": 4,
@@ -170,7 +172,8 @@
     "seoDescription": "A relaxed free school-holiday movie session with popcorn and refreshments for children aged 5–12.",
     "isFeatured": false,
     "imageSourceUrl": "https://www.woollahra.nsw.gov.au/Events/Eventbrite/School-Holiday-Fun-Friday-Flicks-1999826102707",
-    "imageSourceName": "Woollahra Municipal Council"
+    "imageSourceName": "Woollahra Municipal Council",
+    "imageVerifiedFromSource": true
   },
   {
     "id": 5,
@@ -265,7 +268,8 @@
     "seoDescription": "A colourful Moon Festival celebration with lanterns, cultural performances and family activities.",
     "isFeatured": false,
     "imageSourceUrl": "https://www.darlingharbour.com/whats-on/campaigns/darling-square-moon-festival",
-    "imageSourceName": "Darling Harbour"
+    "imageSourceName": "Darling Harbour",
+    "imageVerifiedFromSource": true
   },
   {
     "id": 7,
@@ -310,7 +314,8 @@
     "seoDescription": "A free weekend of hands-on science, robotics, engineering and creative problem-solving.",
     "isFeatured": true,
     "imageSourceUrl": "https://www.darlingharbour.com/whats-on/events/big-ideas-factory",
-    "imageSourceName": "Darling Harbour"
+    "imageSourceName": "Darling Harbour",
+    "imageVerifiedFromSource": true
   },
   {
     "id": 8,
@@ -354,7 +359,8 @@
     "seoDescription": "A free hands-on cooking experience for children aged 6–12 with age-grouped weekend sessions.",
     "isFeatured": true,
     "imageSourceUrl": "https://www.darlingharbour.com/whats-on/events/little-chef",
-    "imageSourceName": "Darling Harbour"
+    "imageSourceName": "Darling Harbour",
+    "imageVerifiedFromSource": true
   },
   {
     "id": 9,
@@ -397,7 +403,8 @@
     "seoDescription": "A free creative writing workshop with children’s author Lisa Nicol for ages 8–12.",
     "isFeatured": false,
     "imageSourceUrl": "https://www.innerwest.nsw.gov.au/whats-on/school-holidays-animal-tales-writing-workshop",
-    "imageSourceName": "Inner West Council"
+    "imageSourceName": "Inner West Council",
+    "imageVerifiedFromSource": true
   },
   {
     "id": 10,
@@ -440,7 +447,8 @@
     "seoDescription": "A two-hour free creative workshop where children decorate and personalise a library bag to take home.",
     "isFeatured": false,
     "imageSourceUrl": "https://whatson.cityofsydney.nsw.gov.au/events/school-holidays-create-your-first-library-bag",
-    "imageSourceName": "City of Sydney What's On"
+    "imageSourceName": "City of Sydney What's On",
+    "imageVerifiedFromSource": true
   },
   {
     "id": 11,
@@ -489,7 +497,8 @@
     "seoDescription": "A flexible school-holiday book challenge where primary-school children can search, solve and earn a prize.",
     "isFeatured": false,
     "imageSourceUrl": "https://events.mosman.nsw.gov.au/events/i-spy-book-challenge",
-    "imageSourceName": "Mosman Council"
+    "imageSourceName": "Mosman Council",
+    "imageVerifiedFromSource": true
   },
   {
     "id": 12,
@@ -538,7 +547,8 @@
     "seoDescription": "A free self-guided school-holiday scavenger hunt available across Northern Beaches library branches.",
     "isFeatured": false,
     "imageSourceUrl": "https://www.northernbeaches.nsw.gov.au/library/whats-on/all-library-events/library-scavenger-hunt",
-    "imageSourceName": "Northern Beaches Council"
+    "imageSourceName": "Northern Beaches Council",
+    "imageVerifiedFromSource": true
   },
   {
     "id": 13,
@@ -626,7 +636,8 @@
     "seoDescription": "A free Moon Festival market with lanterns, food and cultural atmosphere from late morning into the evening.",
     "isFeatured": false,
     "imageSourceUrl": "https://atparramatta.com/whats-on/parramatta-moon-festival-market",
-    "imageSourceName": "City of Parramatta"
+    "imageSourceName": "City of Parramatta",
+    "imageVerifiedFromSource": true
   },
   {
     "id": 15,
@@ -670,7 +681,8 @@
     "seoDescription": "A gentle sensory storytime designed for children aged 2–5.",
     "isFeatured": false,
     "imageSourceUrl": "https://www.randwick.nsw.gov.au/library/library-events/library-calendar/events/2026/recurring-events/children-and-toys/sensory-storytime-2-5-years%2C-2026-margaret-martin-library",
-    "imageSourceName": "Randwick City Council"
+    "imageSourceName": "Randwick City Council",
+    "imageVerifiedFromSource": true
   },
   {
     "id": 16,
@@ -713,7 +725,8 @@
     "seoDescription": "A free two-hour knitting workshop for older primary-school children with materials supplied.",
     "isFeatured": false,
     "imageSourceUrl": "https://whatson.cityofsydney.nsw.gov.au/events/get-hooked-knitting-workshop",
-    "imageSourceName": "City of Sydney What's On"
+    "imageSourceName": "City of Sydney What's On",
+    "imageVerifiedFromSource": true
   },
   {
     "id": 17,
@@ -757,7 +770,8 @@
     "seoDescription": "A free playgroup-style session for babies and toddlers focused on movement, exploration and social play.",
     "isFeatured": false,
     "imageSourceUrl": "https://www.innerwest.nsw.gov.au/whats-on/explorers-play-free-playgroup",
-    "imageSourceName": "Inner West Council"
+    "imageSourceName": "Inner West Council",
+    "imageVerifiedFromSource": true
   },
   {
     "id": 18,
@@ -801,7 +815,8 @@
     "seoDescription": "A free sensory play session for younger children with hands-on exploration.",
     "isFeatured": false,
     "imageSourceUrl": "https://www.innerwest.nsw.gov.au/whats-on/sensory-play",
-    "imageSourceName": "Inner West Council"
+    "imageSourceName": "Inner West Council",
+    "imageVerifiedFromSource": true
   },
   {
     "id": 19,
@@ -844,7 +859,8 @@
     "seoDescription": "A free gardening and sustainability workshop with hands-on activities and take-home making.",
     "isFeatured": false,
     "imageSourceUrl": "https://www.innerwest.nsw.gov.au/whats-on/garden-adventures-kids-0",
-    "imageSourceName": "Inner West Council"
+    "imageSourceName": "Inner West Council",
+    "imageVerifiedFromSource": true
   },
   {
     "id": 20,
@@ -887,7 +903,8 @@
     "seoDescription": "A free preschool storytime with books and songs in a familiar library setting.",
     "isFeatured": false,
     "imageSourceUrl": "https://www.innerwest.nsw.gov.au/whats-on/storytime-marrickville-library",
-    "imageSourceName": "Inner West Council"
+    "imageSourceName": "Inner West Council",
+    "imageVerifiedFromSource": true
   },
   {
     "id": 21,
@@ -931,7 +948,8 @@
     "seoDescription": "A free drop-in holiday session with craft and construction activities.",
     "isFeatured": false,
     "imageSourceUrl": "https://www.hornsby.nsw.gov.au/Community/Events/Library-events-folder/Drop-in-and-Discover-Hornsby-Sep",
-    "imageSourceName": "Hornsby Shire Council"
+    "imageSourceName": "Hornsby Shire Council",
+    "imageVerifiedFromSource": true
   },
   {
     "id": 22,
@@ -974,7 +992,8 @@
     "seoDescription": "A free Friday morning drop-in with holiday craft and construction activities.",
     "isFeatured": false,
     "imageSourceUrl": "https://www.hornsby.nsw.gov.au/Community/Events/Library-events-folder/Drop-in-and-Discover-Berowra-Oct",
-    "imageSourceName": "Hornsby Shire Council"
+    "imageSourceName": "Hornsby Shire Council",
+    "imageVerifiedFromSource": true
   },
   {
     "id": 23,
@@ -1018,7 +1037,8 @@
     "seoDescription": "A special Winnie-the-Pooh centenary storytime for children aged 3 and over.",
     "isFeatured": false,
     "imageSourceUrl": "https://www.ryde.nsw.gov.au/Events/Listing/Eventbrite/Winnie-the-Pooh-100th-Anniversary-Storytime-Ages-3yrs-West-Ryde-1990830401322",
-    "imageSourceName": "City of Ryde"
+    "imageSourceName": "City of Ryde",
+    "imageVerifiedFromSource": true
   },
   {
     "id": 24,
@@ -1062,7 +1082,8 @@
     "seoDescription": "A free drop-in virtual reality experience for children aged 8 and over.",
     "isFeatured": false,
     "imageSourceUrl": "https://www.ryde.nsw.gov.au/Events/Listing/Drop-in-Virtual-Reality-VR-Experience-Ages-8yrs-North-Ryde-Library",
-    "imageSourceName": "City of Ryde"
+    "imageSourceName": "City of Ryde",
+    "imageVerifiedFromSource": true
   },
   {
     "id": 25,
@@ -1106,7 +1127,8 @@
     "seoDescription": "A free Friday drop-in VR session for children aged 8 and over.",
     "isFeatured": false,
     "imageSourceUrl": "https://www.ryde.nsw.gov.au/Events/Listing/Drop-in-Virtual-Reality-VR-Experience-Ages-8yrs-Eastwood-Library",
-    "imageSourceName": "City of Ryde"
+    "imageSourceName": "City of Ryde",
+    "imageVerifiedFromSource": true
   },
   {
     "id": 26,
@@ -1149,7 +1171,8 @@
     "seoDescription": "A free afternoon craft session at Manly Library during the school holidays.",
     "isFeatured": false,
     "imageSourceUrl": "https://www.northernbeaches.nsw.gov.au/library/whats-on/all-library-events/school-holiday-crafternoons-manly-0",
-    "imageSourceName": "Northern Beaches Council"
+    "imageSourceName": "Northern Beaches Council",
+    "imageVerifiedFromSource": true
   },
   {
     "id": 27,
@@ -1192,7 +1215,8 @@
     "seoDescription": "A free midweek school-holiday craft session at Dee Why Library.",
     "isFeatured": false,
     "imageSourceUrl": "https://www.northernbeaches.nsw.gov.au/library/whats/events-calendar",
-    "imageSourceName": "Northern Beaches Council"
+    "imageSourceName": "Northern Beaches Council",
+    "imageVerifiedFromSource": true
   },
   {
     "id": 28,
@@ -1235,7 +1259,8 @@
     "seoDescription": "A free Thursday afternoon craft session at Warringah Mall Library.",
     "isFeatured": false,
     "imageSourceUrl": "https://www.northernbeaches.nsw.gov.au/library/whats-on/all-library-events/school-holiday-crafternoons-warringah-mall-0",
-    "imageSourceName": "Northern Beaches Council"
+    "imageSourceName": "Northern Beaches Council",
+    "imageVerifiedFromSource": true
   },
   {
     "id": 29,
@@ -1278,7 +1303,8 @@
     "seoDescription": "A free two-hour creative drop-in where children can decorate painted pots.",
     "isFeatured": false,
     "imageSourceUrl": "https://www.northernbeaches.nsw.gov.au/library/whats-on/all-library-events/painted-pots-manly-library",
-    "imageSourceName": "Northern Beaches Council"
+    "imageSourceName": "Northern Beaches Council",
+    "imageVerifiedFromSource": true
   },
   {
     "id": 30,
@@ -1366,7 +1392,8 @@
     "seoDescription": "A practical free Red Cross preparedness workshop giving children and families useful emergency skills.",
     "isFeatured": false,
     "imageSourceUrl": "https://www.georgesriver.nsw.gov.au/Community/Events/What%E2%80%99s-On-Event-Information/EmergencyRedi-Workshop",
-    "imageSourceName": "Georges River Council"
+    "imageSourceName": "Georges River Council",
+    "imageVerifiedFromSource": true
   },
   {
     "id": 32,
@@ -1409,7 +1436,8 @@
     "seoDescription": "A free LEGO school-holiday session for children aged 6–11.",
     "isFeatured": false,
     "imageSourceUrl": "https://www.bayside.nsw.gov.au/your-council/latest-news/spring-school-holiday-program",
-    "imageSourceName": "Bayside Council"
+    "imageSourceName": "Bayside Council",
+    "imageVerifiedFromSource": true
   },
   {
     "id": 33,
@@ -1452,7 +1480,8 @@
     "seoDescription": "A fast-paced free STEM challenge session for children aged 6–11.",
     "isFeatured": false,
     "imageSourceUrl": "https://www.bayside.nsw.gov.au/your-council/latest-news/spring-school-holiday-program",
-    "imageSourceName": "Bayside Council"
+    "imageSourceName": "Bayside Council",
+    "imageVerifiedFromSource": true
   },
   {
     "id": 34,
@@ -1495,7 +1524,8 @@
     "seoDescription": "A free STEAM-themed craft session combining creativity with science and making.",
     "isFeatured": false,
     "imageSourceUrl": "https://www.bayside.nsw.gov.au/your-council/latest-news/spring-school-holiday-program",
-    "imageSourceName": "Bayside Council"
+    "imageSourceName": "Bayside Council",
+    "imageVerifiedFromSource": true
   },
   {
     "id": 35,
@@ -1545,7 +1575,8 @@
     "seoDescription": "A monumental free interactive installation where giant inflatable rock forms respond with light and nature-inspired sound.",
     "isFeatured": true,
     "imageSourceUrl": "https://www.sydneyoperahouse.com/wild-things/iwagumi-air-scape",
-    "imageSourceName": "Sydney Opera House"
+    "imageSourceName": "Sydney Opera House",
+    "imageVerifiedFromSource": true
   },
   {
     "id": 36,
@@ -1592,6 +1623,7 @@
     "ecOrder": 2,
     "imageUrl": "https://www.waverley.nsw.gov.au/__data/assets/image/0003/258456/JN-00265_Bondifirelight_web.jpg",
     "imageSourceUrl": "https://www.waverley.nsw.gov.au/recreation/events/events/bondi_firelight",
-    "imageSourceName": "Waverley Council"
+    "imageSourceName": "Waverley Council",
+    "imageVerifiedFromSource": true
   }
 ]
