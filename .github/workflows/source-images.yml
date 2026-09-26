@@ -7,6 +7,7 @@ on:
     paths:
       - ".github/workflows/source-images.yml"
       - ".github/scripts/sync_source_images.py"
+      - ".github/scripts/browser_source_images.mjs"
   workflow_dispatch:
 
 permissions:
@@ -28,7 +29,17 @@ jobs:
           path: site
           fetch-depth: 0
 
-      - name: Sync images and regenerate detail pages
+      - name: Install Playwright
+        working-directory: automation
+        run: |
+          npm init -y
+          npm install playwright
+          npx playwright install --with-deps chromium
+
+      - name: Capture exact organiser images
+        run: node automation/.github/scripts/browser_source_images.mjs site
+
+      - name: Regenerate detail pages with verified source images
         run: python3 automation/.github/scripts/sync_source_images.py site
 
       - name: Commit live updates
@@ -40,6 +51,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "Use organiser images and refresh detail pages"
+            git commit -m "Use exact organiser images and refresh detail pages"
             git push origin HEAD:gh-pages
           fi
