@@ -259,14 +259,19 @@ for a in activities:
         a["day"]=["Monday","Tuesday"]
         a["endDate"]="2026-09-29"
 
-# Original-source image sync. Never retain stock placeholders.
+# Original-source image sync. Browser-verified images take precedence.
 for a in activities:
     source=a.get("source") or a.get("website") or ""
-    img=fetch_source_image(source,a.get("title",""),a.get("seoSlug","")) if source else ""
+    if a.get("imageVerifiedFromSource") and a.get("imageUrl"):
+        img=a.get("imageUrl")
+    else:
+        img=fetch_source_image(source,a.get("title",""),a.get("seoSlug","")) if source else ""
     if img:
         a["imageUrl"]=img
+        a["imageVerifiedFromSource"]=True
     elif is_stock(a.get("imageUrl","")):
         a["imageUrl"]=""
+        a["imageVerifiedFromSource"]=False
     a["imageSourceUrl"]=source
     a["imageSourceName"]=host_name(source)
 
