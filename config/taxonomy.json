@@ -1,0 +1,211 @@
+{
+  "areas": [
+    {
+      "id": "eastern-suburbs",
+      "label": "Eastern Suburbs",
+      "priorityDepth": true
+    },
+    {
+      "id": "inner-west",
+      "label": "Inner West",
+      "priorityDepth": true
+    },
+    {
+      "id": "city-center-cbd",
+      "label": "City Center/CBD",
+      "priorityDepth": true
+    },
+    {
+      "id": "south-sydney",
+      "label": "South Sydney",
+      "priorityDepth": false
+    },
+    {
+      "id": "western-sydney",
+      "label": "Western Sydney",
+      "priorityDepth": false
+    },
+    {
+      "id": "lower-north-shore",
+      "label": "Lower North Shore",
+      "priorityDepth": false
+    },
+    {
+      "id": "upper-north-shore",
+      "label": "Upper North Shore",
+      "priorityDepth": false
+    },
+    {
+      "id": "northern-beaches",
+      "label": "Northern Beaches",
+      "priorityDepth": false
+    },
+    {
+      "id": "online",
+      "label": "Online",
+      "priorityDepth": false,
+      "weeklyMaximum": 2,
+      "strongOnly": true
+    }
+  ],
+  "ageGroups": [
+    {
+      "id": "babies",
+      "label": "Babies (0–1)",
+      "coverageTarget": true,
+      "proactiveDiscovery": true
+    },
+    {
+      "id": "toddlers",
+      "label": "Toddlers (2–3)",
+      "coverageTarget": true,
+      "proactiveDiscovery": true
+    },
+    {
+      "id": "preschool",
+      "label": "Pre-schoolers (3–5)",
+      "coverageTarget": true,
+      "proactiveDiscovery": true
+    },
+    {
+      "id": "school-kids",
+      "label": "School Kids (5–13)",
+      "coverageTarget": true,
+      "proactiveDiscovery": true
+    },
+    {
+      "id": "teens",
+      "label": "Teens (13–16)",
+      "coverageTarget": true,
+      "proactiveDiscovery": true
+    },
+    {
+      "id": "young-adults",
+      "label": "Young Adults (16–18)",
+      "coverageTarget": false,
+      "proactiveDiscovery": true
+    },
+    {
+      "id": "adults",
+      "label": "Adults (18+)",
+      "coverageTarget": false,
+      "proactiveDiscovery": false
+    },
+    {
+      "id": "all-ages",
+      "label": "All Ages",
+      "coverageTarget": false,
+      "proactiveDiscovery": true,
+      "expandsCoverage": true
+    }
+  ],
+  "legacyAreaMapping": {
+    "Eastern Suburbs": "eastern-suburbs",
+    "Inner West": "inner-west",
+    "CBD": "city-center-cbd",
+    "Darling Harbour": "city-center-cbd",
+    "The Rocks": "city-center-cbd",
+    "Haymarket": "city-center-cbd",
+    "Pyrmont": "city-center-cbd",
+    "Green Square": "south-sydney",
+    "Bayside": "south-sydney",
+    "St George": "south-sydney",
+    "Sutherland Shire": "south-sydney",
+    "Western Sydney": "western-sydney",
+    "Baulkham Hills": "western-sydney",
+    "North Shore": "lower-north-shore",
+    "Mosman": "lower-north-shore",
+    "North Sydney": "lower-north-shore",
+    "Lane Cove": "lower-north-shore",
+    "Hunters Hill": "lower-north-shore",
+    "Willoughby": "lower-north-shore",
+    "Ku-ring-gai": "upper-north-shore",
+    "Hornsby": "upper-north-shore",
+    "Northern Beaches": "northern-beaches",
+    "Online": "online"
+  },
+  "legacyAgeMapping": {
+    "Babies (0–1)": [
+      "babies"
+    ],
+    "Babies (0-1)": [
+      "babies"
+    ],
+    "Babies (0–1 years)": [
+      "babies"
+    ],
+    "Babies (0-1 years)": [
+      "babies"
+    ],
+    "Babies (1–2 years)": [
+      "babies",
+      "toddlers"
+    ],
+    "Babies (0–2 years)": [
+      "babies",
+      "toddlers"
+    ],
+    "Babies (0-2 years)": [
+      "babies",
+      "toddlers"
+    ],
+    "Babies (0-12 months)": [
+      "babies"
+    ],
+    "Toddlers (2–3)": [
+      "toddlers"
+    ],
+    "Toddlers (2-3)": [
+      "toddlers"
+    ],
+    "Toddlers (2–3 years)": [
+      "toddlers"
+    ],
+    "Toddlers (1-3 years)": [
+      "babies",
+      "toddlers"
+    ],
+    "Pre-schoolers (3–5)": [
+      "preschool"
+    ],
+    "Pre-schoolers (3-5)": [
+      "preschool"
+    ],
+    "Pre-schoolers (3–5 years)": [
+      "preschool"
+    ],
+    "Pre-schoolers (3-5 years)": [
+      "preschool"
+    ],
+    "School Kids (5–13)": [
+      "school-kids"
+    ],
+    "School Kids (5-13)": [
+      "school-kids"
+    ],
+    "School Kids (5–13 years)": [
+      "school-kids"
+    ],
+    "School Kids (5-13 years)": [
+      "school-kids"
+    ],
+    "Teens (13-16)": [
+      "teens"
+    ],
+    "Teens (13–16)": [
+      "teens"
+    ],
+    "Young Adults (16-18)": [
+      "young-adults"
+    ],
+    "Young Adults (16–18)": [
+      "young-adults"
+    ],
+    "Adults (18+)": [
+      "adults"
+    ],
+    "All Ages": [
+      "all-ages"
+    ]
+  }
+}
