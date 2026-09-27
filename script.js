@@ -391,11 +391,21 @@ loadActivities();
 =========================== */
 (function () {
   if (new URLSearchParams(window.location.search).get('subscribed') === '1') {
+    const section = document.getElementById('newsletter');
+    const form = document.getElementById('newsletter-form');
     const msg = document.getElementById('newsletter-msg');
+
+    if (form) form.style.display = 'none';
+
     if (msg) {
-      msg.textContent = 'Thank you for subscribing! On Sunday we\'ll send you the best of next week\'s activities. 🎉';
-      msg.style.color = '#fff';
+      msg.textContent = 'Thanks for subscribing to Little Discoveries! Look out for next week’s handpicked family activities in your inbox.';
       msg.style.display = 'block';
+    }
+
+    if (section) {
+      requestAnimationFrame(() => {
+        section.scrollIntoView({ block: 'start', behavior: 'auto' });
+      });
     }
   }
 }());
