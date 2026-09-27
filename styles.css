@@ -83,7 +83,7 @@ a { text-decoration: none; color: inherit; }
   padding: 8px 20px;
   font-size: .875rem;
 }
-.btn--nav:hover { background: var(--orange-light); }
+.btn--nav:hover { background: #2f66fb; }
 
 .btn--ghost {
   background: transparent;
@@ -157,7 +157,7 @@ a { text-decoration: none; color: inherit; }
   box-shadow: 0 2px 8px rgba(255,107,53,.22);
 }
 .btn--mobile-nav:hover {
-  background: var(--orange-light);
+  background: #2f66fb;
   color: var(--white);
 }
 
