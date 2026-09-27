@@ -1267,3 +1267,72 @@ canvas {
     height: 30px;
   }
 }
+
+
+/* Keep the three trust/USP cards side by side on mobile */
+@media (max-width: 640px) {
+  .usps {
+    padding: 14px 0;
+  }
+
+  .usps__grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    width: 100%;
+    gap: 0;
+  }
+
+  .usp-card {
+    min-width: 0;
+    width: auto;
+    padding: 10px 6px;
+    border-right: 1px solid var(--border);
+    border-bottom: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5px;
+    text-align: center;
+  }
+
+  .usp-card:last-child {
+    border-right: none;
+    border-bottom: none;
+  }
+
+  .usp-card__icon {
+    font-size: 1.35rem;
+  }
+
+  .usp-card__body {
+    align-items: center;
+    min-width: 0;
+  }
+
+  .usp-card__body strong {
+    font-size: .72rem;
+    line-height: 1.1;
+  }
+
+  .usp-card__body span {
+    font-size: .60rem;
+    line-height: 1.15;
+  }
+}
+
+@media (max-width: 360px) {
+  .usp-card {
+    padding: 9px 4px;
+  }
+
+  .usp-card__icon {
+    font-size: 1.2rem;
+  }
+
+  .usp-card__body strong {
+    font-size: .66rem;
+  }
+
+  .usp-card__body span {
+    font-size: .55rem;
+  }
+}
