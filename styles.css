@@ -1140,3 +1140,130 @@ a { text-decoration: none; color: inherit; }
   .nav__hamburger { width: 32px; height: 32px; padding: 5px; }
   .nav__hamburger span { width: 19px; }
 }
+
+
+/* ===========================
+   MOBILE OVERFLOW SAFETY
+=========================== */
+html,
+body {
+  max-width: 100%;
+  overflow-x: clip;
+}
+
+img,
+svg,
+video,
+canvas {
+  max-width: 100%;
+}
+
+.container,
+.activities,
+.activities .container,
+.filters,
+.filter-group,
+.filter-chips,
+.nav__inner,
+.nav__logo,
+.nav__mobile-actions {
+  min-width: 0;
+}
+
+.filters,
+.filter-group {
+  max-width: 100%;
+}
+
+@media (max-width: 640px) {
+  .container {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .activities,
+  .activities .container,
+  .filters,
+  .filter-group {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .filters {
+    overflow: hidden;
+  }
+
+  .filter-group {
+    overflow: hidden;
+  }
+
+  .filter-chips {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    flex: 0 1 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    overscroll-behavior-x: contain;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 3px;
+  }
+
+  .filter-chips::-webkit-scrollbar {
+    display: none;
+  }
+
+  .chip {
+    flex: 0 0 auto;
+    white-space: nowrap;
+    max-width: none;
+  }
+
+  .nav__inner {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .nav__logo {
+    min-width: 0;
+    flex: 0 1 auto;
+  }
+
+  .nav__logo-img {
+    max-width: 100%;
+    object-fit: contain;
+  }
+
+  .nav__mobile-actions {
+    min-width: 0;
+    flex: 0 1 auto;
+  }
+
+  .btn--mobile-nav {
+    flex: 0 1 auto;
+  }
+}
+
+@media (max-width: 360px) {
+  .nav__logo-img {
+    height: 43px;
+  }
+
+  .btn--mobile-nav {
+    max-width: 104px;
+    padding: 5px 6px;
+    font-size: .56rem;
+  }
+
+  .nav__hamburger {
+    flex: 0 0 30px;
+    width: 30px;
+    height: 30px;
+  }
+}
