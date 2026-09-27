@@ -79,6 +79,23 @@ function formatDate(dateStr) {
   return d.toLocaleDateString("en-AU", { day: "numeric", month: "short", year: "numeric" });
 }
 
+function sydneyTodayISO() {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Australia/Sydney",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).formatToParts(new Date());
+
+  const values = Object.fromEntries(parts.map(p => [p.type, p.value]));
+  return `${values.year}-${values.month}-${values.day}`;
+}
+
+function activityHasEnded(act) {
+  if (!act.endDate) return false;
+  return act.endDate < sydneyTodayISO();
+}
+
 /* ===========================
    TAG -> EMOJI LOOKUP
 =========================== */
@@ -291,7 +308,7 @@ function applyFilters() {
   const { age, neighborhood, days } = state;
 
   const filtered = activities.filter(act => {
-    if (act.expired) return false;
+    if (act.expired || activityHasEnded(act)) return false;
     const ageMatch = !age || (act.age && (act.age.includes(age) || (age !== "All Ages" && act.age.includes("All Ages"))));
     const neighborhoodMatch = !neighborhood || act.neighborhood === neighborhood;
     const dayMatch = days.length === 0 || (act.day && days.some(d => act.day.includes(d)));
