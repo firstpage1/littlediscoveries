@@ -395,11 +395,11 @@ loadActivities();
     const form = document.getElementById('newsletter-form');
     const msg = document.getElementById('newsletter-msg');
 
-    if (form) form.style.display = 'none';
+    if (form) form.reset();
 
     if (msg) {
       msg.textContent = 'Thanks for subscribing to Little Discoveries! Look out for next week’s handpicked family activities in your inbox.';
-      msg.style.display = 'block';
+      msg.hidden = false;
     }
 
     if (section) {
