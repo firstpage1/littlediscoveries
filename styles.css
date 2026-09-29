@@ -374,6 +374,17 @@ a { text-decoration: none; color: inherit; }
   color: var(--white);
 }
 
+.chip--past,
+.chip--past:hover,
+.chip:disabled {
+  background: #F1F1F3;
+  border-color: #D9D9DE;
+  color: #A4A4AE;
+  box-shadow: none;
+  cursor: not-allowed;
+  opacity: .72;
+}
+
 /* RESULTS BAR */
 .results-bar {
   display: flex;
