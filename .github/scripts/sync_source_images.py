@@ -194,39 +194,39 @@ def render_detail(a, activities):
 <section class="related"><div class="container"><h2>You might also like</h2><div class="cards">{relhtml}</div></div></section>
 <footer class="footer"><div class="container footer__inner"><div class="footer__brand"><p>Turning weekends in Sydney into adventures!</p></div><div class="footer__links"><a href="/#founder">About</a><a href="mailto:hello@patriciahaueiss.com">Contact</a></div><p class="footer__copy">© 2026 Little Discoveries. Made with ❤️ in Sydney.</p></div></footer>
 <script>
-(function(){
+(function(){{
   const endDate={json.dumps(a.get("endDate") or "")};
   const startDate={json.dumps(a.get("startDate") or "")};
   const days={json.dumps(a.get("day") or [])};
-  const dayIndex={Monday:0,Tuesday:1,Wednesday:2,Thursday:3,Friday:4,Saturday:5,Sunday:6};
-  function ldSydneyToday(){
-    const parts=new Intl.DateTimeFormat('en-CA',{timeZone:'Australia/Sydney',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date());
+  const dayIndex={{Monday:0,Tuesday:1,Wednesday:2,Thursday:3,Friday:4,Saturday:5,Sunday:6}};
+  function ldSydneyToday(){{
+    const parts=new Intl.DateTimeFormat('en-CA',{{timeZone:'Australia/Sydney',year:'numeric',month:'2-digit',day:'2-digit'}}).formatToParts(new Date());
     const v=Object.fromEntries(parts.map(p=>[p.type,p.value]));
-    return `${v.year}-${v.month}-${v.day}`;
-  }
-  function ldSydneyWeekday(){
-    const d=new Intl.DateTimeFormat('en-AU',{timeZone:'Australia/Sydney',weekday:'long'}).format(new Date());
+    return `${{v.year}}-${{v.month}}-${{v.day}}`;
+  }}
+  function ldSydneyWeekday(){{
+    const d=new Intl.DateTimeFormat('en-AU',{{timeZone:'Australia/Sydney',weekday:'long'}}).format(new Date());
     return dayIndex[d] ?? 0;
-  }
+  }}
   const today=ldSydneyToday();
   let expired=Boolean(endDate && endDate < today);
-  if(!expired && !(startDate && startDate > today) && Array.isArray(days) && days.length){
+  if(!expired && !(startDate && startDate > today) && Array.isArray(days) && days.length){{
     const indexes=days.map(d=>dayIndex[d]).filter(Number.isInteger);
     if(indexes.length && indexes.every(i=>i < ldSydneyWeekday())) expired=true;
-  }
-  if(expired){
+  }}
+  if(expired){{
     const notice=document.getElementById('expired-notice');
     const tag=document.getElementById('activity-status-tag');
     const bookbox=document.getElementById('bookbox');
     if(notice) notice.classList.add('is-visible');
-    if(tag){tag.style.display='inline-flex';tag.classList.add('expired');}
-    if(bookbox){
+    if(tag){{tag.style.display='inline-flex';tag.classList.add('expired');}}
+    if(bookbox){{
       bookbox.classList.add('is-expired');
       const btn=bookbox.querySelector('.btn');
-      if(btn){btn.textContent='Activity expired';btn.removeAttribute('href');btn.setAttribute('aria-disabled','true');}
-    }
-  }
-})();
+      if(btn){{btn.textContent='Activity expired';btn.removeAttribute('href');btn.setAttribute('aria-disabled','true');}}
+    }}
+  }}
+}})();
 </script>
 </body></html>'''
 
