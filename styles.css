@@ -1364,3 +1364,30 @@ canvas {
     font-size: .55rem;
   }
 }
+
+
+.filter-newsletter-cta {
+  flex: 0 0 auto;
+  border: 0;
+  background: transparent;
+  padding: 7px 4px 7px 10px;
+  font-family: inherit;
+  font-size: .82rem;
+  font-weight: 800;
+  color: #2f66fb;
+  cursor: pointer;
+  white-space: nowrap;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.filter-newsletter-cta:hover,
+.filter-newsletter-cta:focus-visible {
+  color: #1f4fd1;
+}
+
+@media (max-width: 640px) {
+  .filter-newsletter-cta {
+    padding-right: 10px;
+  }
+}
