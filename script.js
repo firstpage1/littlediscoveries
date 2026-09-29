@@ -395,62 +395,56 @@ loadActivities();
   const msg = document.getElementById('newsletter-msg');
   if (!section || !form || !msg) return;
 
-  form.addEventListener('submit', async (event) => {
+  form.addEventListener('submit', (event) => {
     event.preventDefault();
 
     const button = form.querySelector('button[type="submit"]');
-    const originalText = button ? button.textContent : 'Join Now';
-
-    msg.hidden = true;
-    msg.textContent = '';
-
-    if (button) {
-      button.disabled = true;
-      button.textContent = 'Joining…';
-    }
+    const action = form.getAttribute('action');
+    const ajaxUrl = action.replace('https://formsubmit.co/', 'https://formsubmit.co/ajax/');
+    const payload = Object.fromEntries(new FormData(form).entries());
 
     const keepInView = () => {
       const top = section.getBoundingClientRect().top + window.scrollY;
       window.scrollTo({ top, behavior: 'auto' });
     };
-    keepInView();
 
-    try {
-      const action = form.getAttribute('action');
-      const ajaxUrl = action.replace('https://formsubmit.co/', 'https://formsubmit.co/ajax/');
-      const payload = Object.fromEntries(new FormData(form).entries());
+    // Give the user instant feedback and keep the newsletter section in view.
+    msg.textContent = 'Thanks for subscribing to Little Discoveries! Look out for next week’s handpicked family activities in your inbox.';
+    msg.hidden = false;
+    form.reset();
 
-      const response = await fetch(ajaxUrl, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Accept': 'application/json'
-        },
-        body: JSON.stringify(payload)
-      });
-
-      const data = await response.json().catch(() => ({}));
-      if (!response.ok || data.success === false) {
-        throw new Error('Signup failed');
-      }
-
-      form.reset();
-      msg.textContent = 'Thanks for subscribing to Little Discoveries! Look out for next week’s handpicked family activities in your inbox.';
-      msg.hidden = false;
-
-      requestAnimationFrame(() => {
-        keepInView();
-        requestAnimationFrame(keepInView);
-      });
-    } catch (error) {
-      msg.textContent = 'Something went wrong. Please try again.';
-      msg.hidden = false;
-    } finally {
-      if (button) {
-        button.disabled = false;
-        button.textContent = originalText;
-      }
+    if (button) {
+      button.disabled = false;
+      button.textContent = 'Join Now';
     }
+
+    keepInView();
+    requestAnimationFrame(() => {
+      keepInView();
+      requestAnimationFrame(keepInView);
+    });
+
+    // Complete the real subscription silently in the background.
+    fetch(ajaxUrl, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      },
+      body: JSON.stringify(payload),
+      keepalive: true
+    })
+      .then(async (response) => {
+        const data = await response.json().catch(() => ({}));
+        if (!response.ok || data.success === false) {
+          throw new Error('Signup failed');
+        }
+      })
+      .catch(() => {
+        msg.textContent = 'Something went wrong while subscribing. Please try again.';
+        msg.hidden = false;
+        keepInView();
+      });
   });
 }());
 
