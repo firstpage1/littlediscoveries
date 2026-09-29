@@ -91,9 +91,71 @@ function sydneyTodayISO() {
   return `${values.year}-${values.month}-${values.day}`;
 }
 
+const DAY_INDEX = {
+  Monday: 0,
+  Tuesday: 1,
+  Wednesday: 2,
+  Thursday: 3,
+  Friday: 4,
+  Saturday: 5,
+  Sunday: 6
+};
+
+function sydneyWeekdayIndex() {
+  const weekday = new Intl.DateTimeFormat("en-AU", {
+    timeZone: "Australia/Sydney",
+    weekday: "long"
+  }).format(new Date());
+  return DAY_INDEX[weekday] ?? 0;
+}
+
 function activityHasEnded(act) {
-  if (!act.endDate) return false;
-  return act.endDate < sydneyTodayISO();
+  const today = sydneyTodayISO();
+
+  // A dated event disappears the day after its final date.
+  if (act.endDate && act.endDate < today) return true;
+
+  // Do not hide a genuine future-dated event just because its weekday is earlier
+  // in the current Monday–Sunday sequence.
+  if (act.startDate && act.startDate > today) return false;
+
+  // Within the current weekly guide, an event also disappears once every day
+  // on which it runs has already passed this week.
+  if (Array.isArray(act.day) && act.day.length > 0) {
+    const todayIndex = sydneyWeekdayIndex();
+    const eventDayIndexes = act.day
+      .map(day => DAY_INDEX[day])
+      .filter(index => Number.isInteger(index));
+
+    if (eventDayIndexes.length > 0 &&
+        eventDayIndexes.every(index => index < todayIndex)) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
+function disablePastDayFilters() {
+  const dayGroup = document.querySelector('.filter-chips[data-filter="day"]');
+  if (!dayGroup) return;
+
+  const todayIndex = sydneyWeekdayIndex();
+
+  dayGroup.querySelectorAll('.chip[data-value]').forEach(chip => {
+    const value = chip.dataset.value;
+    if (!value) return;
+
+    const isPast = DAY_INDEX[value] < todayIndex;
+    chip.disabled = isPast;
+    chip.classList.toggle('chip--past', isPast);
+    chip.setAttribute('aria-disabled', isPast ? 'true' : 'false');
+
+    if (isPast) {
+      chip.classList.remove('chip--active');
+      state.days = state.days.filter(day => day !== value);
+    }
+  });
 }
 
 /* ===========================
@@ -380,6 +442,7 @@ function bindEvents() {
    INIT
 =========================== */
 function init() {
+  disablePastDayFilters();
   bindEvents();
   applyFilters();
 }
