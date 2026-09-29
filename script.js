@@ -536,3 +536,21 @@ loadActivities();
     });
   });
 }());
+
+
+/* ===========================
+   NEXT WEEK NEWSLETTER CTA
+=========================== */
+(function () {
+  const cta = document.getElementById('next-week-newsletter-cta');
+  const section = document.getElementById('newsletter');
+  const email = document.querySelector('#newsletter-form input[type="email"]');
+  if (!cta || !section) return;
+
+  cta.addEventListener('click', () => {
+    section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    window.setTimeout(() => {
+      if (email) email.focus({ preventScroll: true });
+    }, 450);
+  });
+}());
