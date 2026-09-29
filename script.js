@@ -390,24 +390,49 @@ loadActivities();
    NEWSLETTER SIGNUP
 =========================== */
 (function () {
-  if (new URLSearchParams(window.location.search).get('subscribed') === '1') {
-    const section = document.getElementById('newsletter');
-    const form = document.getElementById('newsletter-form');
-    const msg = document.getElementById('newsletter-msg');
+  const section = document.getElementById('newsletter');
+  const form = document.getElementById('newsletter-form');
+  const frame = document.getElementById('newsletter-submit-frame');
+  const msg = document.getElementById('newsletter-msg');
+  if (!section || !form || !frame || !msg) return;
 
-    if (form) form.reset();
+  let submitted = false;
 
-    if (msg) {
-      msg.textContent = 'Thanks for subscribing to Little Discoveries! Look out for next week’s handpicked family activities in your inbox.';
-      msg.hidden = false;
+  form.addEventListener('submit', () => {
+    submitted = true;
+    // Keep the newsletter exactly where it is while the submission happens.
+    const top = section.getBoundingClientRect().top + window.scrollY;
+    window.scrollTo({ top, behavior: 'auto' });
+
+    const button = form.querySelector('button[type="submit"]');
+    if (button) {
+      button.disabled = true;
+      button.textContent = 'Joining…';
+    }
+  });
+
+  frame.addEventListener('load', () => {
+    if (!submitted) return;
+
+    msg.textContent = 'Thanks for subscribing to Little Discoveries! Look out for next week’s handpicked family activities in your inbox.';
+    msg.hidden = false;
+
+    const button = form.querySelector('button[type="submit"]');
+    if (button) {
+      button.disabled = false;
+      button.textContent = 'Join Now';
     }
 
-    if (section) {
-      requestAnimationFrame(() => {
-        section.scrollIntoView({ block: 'start', behavior: 'auto' });
-      });
-    }
-  }
+    form.reset();
+
+    // Re-anchor after the message becomes visible so no layout shift can move the page.
+    requestAnimationFrame(() => {
+      const top = section.getBoundingClientRect().top + window.scrollY;
+      window.scrollTo({ top, behavior: 'auto' });
+    });
+
+    submitted = false;
+  });
 }());
 
 /* ===========================
