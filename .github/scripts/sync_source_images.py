@@ -183,14 +183,51 @@ def render_detail(a, activities):
         "The organiser provides current event details on the official listing."
     ]
     relhtml="".join(f'<a class="card" href="/{esc(x.get("seoSlug"))}/"><b>{esc(x.get("title"))}</b><span>{esc(x.get("neighborhood"))} · View activity →</span></a>' for x in rel)
-    return f'''<!doctype html><html lang="en-AU"><head><meta charset="utf-8"><!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-N5LK4WDBM4"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','G-N5LK4WDBM4');</script><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(a.get("title"))} | Little Discoveries</title><meta name="description" content="{esc(a.get("description"))}"><meta name="robots" content="index,follow"><link rel="canonical" href="https://www.littlediscoveries.com.au/{esc(a.get("seoSlug"))}/"><link rel="icon" href="/images/favicon.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet"><style>{DETAIL_CSS}</style></head><body>
+    return f'''<!doctype html><html lang="en-AU"><head><meta charset="utf-8"><!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-N5LK4WDBM4"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','G-N5LK4WDBM4');</script><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(a.get("title"))} | Little Discoveries</title><meta name="description" content="{esc(a.get("description"))}"><meta name="robots" content="index,follow"><link rel="canonical" href="https://www.littlediscoveries.com.au/{esc(a.get("seoSlug"))}/"><link rel="icon" href="/images/favicon.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet"><style>{DETAIL_CSS}.expired-notice{display:none;background:#F1F1F3;color:#6F6F78;border-bottom:1px solid #D9D9DE;padding:12px 20px;text-align:center;font-weight:800}.expired-notice.is-visible{display:block}.tag.expired{background:#ECECEF;color:#777780}.bookbox.is-expired{opacity:.68}.bookbox.is-expired .btn{pointer-events:none;background:#B9B9C0!important;color:#fff!important}
+</style></head><body>
+<div id="expired-notice" class="expired-notice" role="status">This activity has ended and is now expired.</div>
 <header class="nav"><div class="container navin"><a href="/"><img class="logo" src="/images/logo.png" alt="Little Discoveries"></a><a href="/#activities">← All activities</a></div></header>
-<section class="hero"><div class="container"><div class="crumb"><a href="/">Little Discoveries</a> › Activities › {esc(a.get("title"))}</div><div class="grid"><div class="copy"><div class="tags"><span class="tag">{esc(a.get("category"))}</span><span class="tag pink">{esc(", ".join(a.get("age") or ["All Ages"]))}</span><span class="tag blue">{esc(a.get("neighborhood"))}</span><span class="tag green">{esc(a.get("cost"))}</span></div><h1>{esc(a.get("title"))}</h1><p class="intro">{esc(a.get("description"))}</p></div><div class="visual"><div class="pic">{hero}{ec}</div>{credit}</div></div></div></section>
+<section class="hero"><div class="container"><div class="crumb"><a href="/">Little Discoveries</a> › Activities › {esc(a.get("title"))}</div><div class="grid"><div class="copy"><div class="tags"><span id="activity-status-tag" class="tag" style="display:none">Expired</span><span class="tag">{esc(a.get("category"))}</span><span class="tag pink">{esc(", ".join(a.get("age") or ["All Ages"]))}</span><span class="tag blue">{esc(a.get("neighborhood"))}</span><span class="tag green">{esc(a.get("cost"))}</span></div><h1>{esc(a.get("title"))}</h1><p class="intro">{esc(a.get("description"))}</p></div><div class="visual"><div class="pic">{hero}{ec}</div>{credit}</div></div></div></section>
 <div class="container facts"><div class="fact"><div class="lab">📅 Date</div><div class="val">{esc(date_display(a))}</div></div><div class="fact"><div class="lab">🕐 Time</div><div class="val">{esc(a.get("time"))}</div></div><div class="fact"><div class="lab">📍 Location</div><div class="val">{esc(a.get("venue") or a.get("address"))}</div></div><div class="fact"><div class="lab">🧒 Ages</div><div class="val">{esc(", ".join(a.get("age") or ["All Ages"]))}</div></div><div class="fact"><div class="lab">💰 Cost</div><div class="val">{esc(a.get("cost"))}</div></div></div>
 <main class="content"><div class="container cols"><article class="article"><h2>About this activity</h2><p>{esc(a.get("description"))}</p><div class="box"><h3>Why it’s worth going</h3><ul>{"".join(f"<li>{esc(x)}</li>" for x in why[:5])}</ul></div><h2>Good to know</h2><p>Event details can change. Check the organiser’s page before leaving home, particularly for booking requirements, capacity and last-minute updates.</p></article><aside class="aside"><img class="email-image" src="/images/email-image.png" alt="Little Discoveries dinosaur"><h3>At a glance</h3><p>Everything you need before deciding whether this works for your family.</p><div class="small"><b>{esc(a.get("neighborhood"))}</b><br>{esc(a.get("venue"))}<br><br><b>{esc(a.get("cost"))}</b><br>{esc(a.get("time"))}</div></aside></div></main>
-<section class="book"><div class="container"><div class="bookbox"><div><h3>Ready to book?</h3><p>You've got the key details above. Use the organiser's page only when you're ready to reserve your place or double-check the latest information.</p></div><a class="btn" href="{esc(a.get("source"))}" target="_blank" rel="noopener noreferrer">View official listing →</a></div></div></section>
+<section class="book"><div class="container"><div id="bookbox" class="bookbox"><div><h3>Ready to book?</h3><p>You've got the key details above. Use the organiser's page only when you're ready to reserve your place or double-check the latest information.</p></div><a class="btn" href="{esc(a.get("source"))}" target="_blank" rel="noopener noreferrer">View official listing →</a></div></div></section>
 <section class="related"><div class="container"><h2>You might also like</h2><div class="cards">{relhtml}</div></div></section>
 <footer class="footer"><div class="container footer__inner"><div class="footer__brand"><p>Turning weekends in Sydney into adventures!</p></div><div class="footer__links"><a href="/#founder">About</a><a href="mailto:hello@patriciahaueiss.com">Contact</a></div><p class="footer__copy">© 2026 Little Discoveries. Made with ❤️ in Sydney.</p></div></footer>
+<script>
+(function(){
+  const endDate={json.dumps(a.get("endDate") or "")};
+  const startDate={json.dumps(a.get("startDate") or "")};
+  const days={json.dumps(a.get("day") or [])};
+  const dayIndex={Monday:0,Tuesday:1,Wednesday:2,Thursday:3,Friday:4,Saturday:5,Sunday:6};
+  function ldSydneyToday(){
+    const parts=new Intl.DateTimeFormat('en-CA',{timeZone:'Australia/Sydney',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date());
+    const v=Object.fromEntries(parts.map(p=>[p.type,p.value]));
+    return `${v.year}-${v.month}-${v.day}`;
+  }
+  function ldSydneyWeekday(){
+    const d=new Intl.DateTimeFormat('en-AU',{timeZone:'Australia/Sydney',weekday:'long'}).format(new Date());
+    return dayIndex[d] ?? 0;
+  }
+  const today=ldSydneyToday();
+  let expired=Boolean(endDate && endDate < today);
+  if(!expired && !(startDate && startDate > today) && Array.isArray(days) && days.length){
+    const indexes=days.map(d=>dayIndex[d]).filter(Number.isInteger);
+    if(indexes.length && indexes.every(i=>i < ldSydneyWeekday())) expired=true;
+  }
+  if(expired){
+    const notice=document.getElementById('expired-notice');
+    const tag=document.getElementById('activity-status-tag');
+    const bookbox=document.getElementById('bookbox');
+    if(notice) notice.classList.add('is-visible');
+    if(tag){tag.style.display='inline-flex';tag.classList.add('expired');}
+    if(bookbox){
+      bookbox.classList.add('is-expired');
+      const btn=bookbox.querySelector('.btn');
+      if(btn){btn.textContent='Activity expired';btn.removeAttribute('href');btn.setAttribute('aria-disabled','true');}
+    }
+  }
+})();
+</script>
 </body></html>'''
 
 with open(ACTIVITIES, encoding="utf-8") as f:
