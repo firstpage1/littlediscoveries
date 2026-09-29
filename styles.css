@@ -83,7 +83,10 @@ a { text-decoration: none; color: inherit; }
   padding: 8px 20px;
   font-size: .875rem;
 }
-.btn--nav:hover { background: #2f66fb; }
+.nav__links .btn--nav:hover {
+  background: #2f66fb;
+  color: var(--white);
+}
 
 .btn--ghost {
   background: transparent;
@@ -156,7 +159,7 @@ a { text-decoration: none; color: inherit; }
   max-width: 132px;
   box-shadow: 0 2px 8px rgba(255,107,53,.22);
 }
-.btn--mobile-nav:hover {
+.nav__mobile-actions .btn--mobile-nav:hover {
   background: #2f66fb;
   color: var(--white);
 }
