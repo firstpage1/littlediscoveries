@@ -392,46 +392,65 @@ loadActivities();
 (function () {
   const section = document.getElementById('newsletter');
   const form = document.getElementById('newsletter-form');
-  const frame = document.getElementById('newsletter-submit-frame');
   const msg = document.getElementById('newsletter-msg');
-  if (!section || !form || !frame || !msg) return;
+  if (!section || !form || !msg) return;
 
-  let submitted = false;
-
-  form.addEventListener('submit', () => {
-    submitted = true;
-    // Keep the newsletter exactly where it is while the submission happens.
-    const top = section.getBoundingClientRect().top + window.scrollY;
-    window.scrollTo({ top, behavior: 'auto' });
+  form.addEventListener('submit', async (event) => {
+    event.preventDefault();
 
     const button = form.querySelector('button[type="submit"]');
+    const originalText = button ? button.textContent : 'Join Now';
+
+    msg.hidden = true;
+    msg.textContent = '';
+
     if (button) {
       button.disabled = true;
       button.textContent = 'Joining…';
     }
-  });
 
-  frame.addEventListener('load', () => {
-    if (!submitted) return;
-
-    msg.textContent = 'Thanks for subscribing to Little Discoveries! Look out for next week’s handpicked family activities in your inbox.';
-    msg.hidden = false;
-
-    const button = form.querySelector('button[type="submit"]');
-    if (button) {
-      button.disabled = false;
-      button.textContent = 'Join Now';
-    }
-
-    form.reset();
-
-    // Re-anchor after the message becomes visible so no layout shift can move the page.
-    requestAnimationFrame(() => {
+    const keepInView = () => {
       const top = section.getBoundingClientRect().top + window.scrollY;
       window.scrollTo({ top, behavior: 'auto' });
-    });
+    };
+    keepInView();
 
-    submitted = false;
+    try {
+      const action = form.getAttribute('action');
+      const ajaxUrl = action.replace('https://formsubmit.co/', 'https://formsubmit.co/ajax/');
+      const payload = Object.fromEntries(new FormData(form).entries());
+
+      const response = await fetch(ajaxUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify(payload)
+      });
+
+      const data = await response.json().catch(() => ({}));
+      if (!response.ok || data.success === false) {
+        throw new Error('Signup failed');
+      }
+
+      form.reset();
+      msg.textContent = 'Thanks for subscribing to Little Discoveries! Look out for next week’s handpicked family activities in your inbox.';
+      msg.hidden = false;
+
+      requestAnimationFrame(() => {
+        keepInView();
+        requestAnimationFrame(keepInView);
+      });
+    } catch (error) {
+      msg.textContent = 'Something went wrong. Please try again.';
+      msg.hidden = false;
+    } finally {
+      if (button) {
+        button.disabled = false;
+        button.textContent = originalText;
+      }
+    }
   });
 }());
 
