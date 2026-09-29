@@ -29,7 +29,7 @@
     "editorsChoice": true,
     "ecOrder": 4,
     "costLabel": "free",
-    "imageUrl": "",
+    "imageUrl": "https://www.waverley.nsw.gov.au/__data/assets/image/0019/262027/High_Res_-_Sat_in_Park_Bronte_-_Annabel_Osbonrne_Photography_18_Oct_25-7440.jpg",
     "tags": [
       "festivals",
       "school holidays"
@@ -41,7 +41,8 @@
     "seoDescription": "A big free school-holiday family day in Bondi Junction with hands-on activities and entertainment.",
     "isFeatured": true,
     "imageSourceUrl": "https://www.waverley.nsw.gov.au/recreation/events/events/family_fun_days/family_fun_days",
-    "imageSourceName": "Waverley Council"
+    "imageSourceName": "Waverley Council",
+    "imageVerifiedFromSource": true
   },
   {
     "id": 2,
@@ -160,7 +161,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://www.woollahra.nsw.gov.au/files/content/public/v/2/events/eventbrite/school-holiday-fun-friday-flicks-1999826102707/mainimage.jpg?w=1200",
+    "imageUrl": "https://www.woollahra.nsw.gov.au/files/content/public/v/2/events/eventbrite/school-holiday-fun-friday-flicks-1999826102707/mainimage.jpg?dimension=pageimagefullwidth&w=1140",
     "tags": [
       "movies",
       "school holidays"
@@ -219,7 +220,8 @@
     "seoDescription": "An interactive parent-and-child art experience that turns portrait-making into playful creative collaboration.",
     "isFeatured": false,
     "imageSourceUrl": "https://www.bondipavilion.com.au/whats_on/event/i_see_you_like_this",
-    "imageSourceName": "Bondi Pavilion"
+    "imageSourceName": "Bondi Pavilion",
+    "imageVerifiedFromSource": false
   },
   {
     "id": 6,
@@ -256,7 +258,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://www.darlingharbour.com/getmedia/034db33f-8b07-4301-a63e-4a948fcb8872/darling-square-moon-festival-2022.jpg?width=1920",
+    "imageUrl": "https://www.darlingharbour.com/getmedia/9187f5e8-5571-4bdd-a58e-0f3fc654fd9e/DSQMoonFestival_1.png?width=1920",
     "tags": [
       "festivals",
       "school holidays"
@@ -302,7 +304,7 @@
     "editorsChoice": true,
     "ecOrder": 3,
     "costLabel": "free",
-    "imageUrl": "https://www.darlingharbour.com/getmedia/e9043ee4-2a21-4138-b911-805eb1d6d21e/Darling-Harbour-AutumnSchoolHolidays-Family-2025-126.jpg",
+    "imageUrl": "https://www.darlingharbour.com/getmedia/e9043ee4-2a21-4138-b911-805eb1d6d21e/Darling-Harbour-AutumnSchoolHolidays-Family-2025-126.jpg?width=1920",
     "tags": [
       "stem",
       "school holidays"
@@ -347,7 +349,7 @@
     "editorsChoice": true,
     "ecOrder": 5,
     "costLabel": "free",
-    "imageUrl": "https://www.darlingharbour.com/getmedia/9b9d2f14-06d7-49d8-8366-7384899aa924/01-Little-Chef-2.png",
+    "imageUrl": "https://www.darlingharbour.com/getmedia/9b9d2f14-06d7-49d8-8366-7384899aa924/01-Little-Chef-2.png?width=1920",
     "tags": [
       "cooking",
       "school holidays"
@@ -485,7 +487,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://events.mosman.nsw.gov.au/sites/default/files/img/events-mosman-image-11_0.jpg",
+    "imageUrl": "https://events.mosman.nsw.gov.au/sites/default/files/styles/large/public/img/events-mosman-image-11_0.jpg?itok=NSt5Uj4M",
     "tags": [
       "storytime",
       "school holidays"
@@ -535,7 +537,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://files.northernbeaches.nsw.gov.au/nbc-prod-files/images/2026-08/Girl%20in%20library%20on%20scavenger%20hunt%20school%20holiday%20fun.png",
+    "imageUrl": "https://files.northernbeaches.nsw.gov.au/nbc-prod-files/styles/promoted_event/azblob/images/2026-08/Girl%20in%20library%20on%20scavenger%20hunt%20school%20holiday%20fun.png?itok=jPoH75bV",
     "tags": [
       "storytime",
       "school holidays"
@@ -581,7 +583,7 @@
     "editorsChoice": true,
     "ecOrder": 6,
     "costLabel": "free",
-    "imageUrl": "",
+    "imageUrl": "https://www.sutherlandshire.nsw.gov.au/__data/assets/image/0021/123726/Three-Skateboarders-at-Seymour-Shaw.jpg",
     "tags": [
       "sports",
       "school holidays"
@@ -593,7 +595,8 @@
     "seoDescription": "A free five-hour skate event with workshops, an open jam, prizes and giveaways.",
     "isFeatured": true,
     "imageSourceUrl": "https://www.sutherlandshire.nsw.gov.au/play-and-explore/whats-on/skate-jam-for-skaters-aged-6-18",
-    "imageSourceName": "Sutherland Shire Council"
+    "imageSourceName": "Sutherland Shire Council",
+    "imageVerifiedFromSource": true
   },
   {
     "id": 14,
@@ -624,7 +627,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://atparramatta.com/sites/discoverparra/files/header-images/20250201_Parramatta_LNY_PRINTRES-167.webp",
+    "imageUrl": "https://atparramatta.com/sites/discoverparra/files/styles/header_image_style/public/header-images/20250201_Parramatta_LNY_PRINTRES-167.webp?h=812a49ed&itok=jOhcVS4r",
     "tags": [
       "festivals",
       "school holidays"
@@ -669,7 +672,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://www.randwick.nsw.gov.au/__data/assets/image/0019/430651/Sensory-Storytime-at-Randwick_400px-X-300px.png",
+    "imageUrl": "https://www.randwick.nsw.gov.au/__data/assets/image/0004/3388/New-default.jpg",
     "tags": [
       "storytime",
       "school holidays"
@@ -936,7 +939,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://www.hornsby.nsw.gov.au/files/assets/public/v/1/community/events/library-events/istock-1172681503-1.jpg?w=1200",
+    "imageUrl": "https://www.hornsby.nsw.gov.au/Community/Events/Library-events-folder/Drop-in-and-Discover-Hornsby-Sep#",
     "tags": [
       "arts & crafts",
       "school holidays"
@@ -980,7 +983,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://www.hornsby.nsw.gov.au/files/assets/public/v/1/community/events/library-events/istock-1172681503-1.jpg?w=1200",
+    "imageUrl": "https://www.hornsby.nsw.gov.au/Community/Events/Library-events-folder/Drop-in-and-Discover-Berowra-Oct#",
     "tags": [
       "arts & crafts",
       "school holidays"
@@ -1025,7 +1028,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://www.ryde.nsw.gov.au/files/content/public/v/2/events/listing/eventbrite/winnie-the-pooh-100th-anniversary-storytime-ages-3yrs-west-ryde-1990830401322/mainimage.jpg?w=1200",
+    "imageUrl": "https://www.ryde.nsw.gov.au/files/content/public/v/2/events/listing/eventbrite/winnie-the-pooh-100th-anniversary-storytime-ages-3yrs-west-ryde-1990830401322/mainimage.jpg?dimension=pageimagefullwidth&w=1140",
     "tags": [
       "storytime",
       "school holidays"
@@ -1070,7 +1073,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://www.ryde.nsw.gov.au/files/assets/public/v/1/events/library/2026-sep-shp-drop-in-vr.jpg?w=1200",
+    "imageUrl": "https://www.ryde.nsw.gov.au/files/assets/public/v/1/events/library/2026-sep-shp-drop-in-vr.jpg?dimension=pageimagefullwidth&w=1140",
     "tags": [
       "technology",
       "school holidays"
@@ -1115,7 +1118,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://www.ryde.nsw.gov.au/files/assets/public/v/1/events/library/2026-sep-shp-drop-in-vr.jpg?w=1200",
+    "imageUrl": "https://www.ryde.nsw.gov.au/files/assets/public/v/1/events/library/2026-sep-shp-drop-in-vr.jpg?dimension=pageimagefullwidth&w=1140",
     "tags": [
       "technology",
       "school holidays"
@@ -1159,7 +1162,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://files.northernbeaches.nsw.gov.au/nbc-prod-files/media/images/2024-03/holiday%20crafternoons%20-%2024LSC0339_-_Kids_Autumn_School_Holidays_at_the_Library_-_webtiles5.jpg",
+    "imageUrl": "https://files.northernbeaches.nsw.gov.au/nbc-prod-files/styles/promoted_event/azblob/media/images/2024-03/holiday%20crafternoons%20-%2024LSC0339_-_Kids_Autumn_School_Holidays_at_the_Library_-_webtiles5.jpg?h=54054fee&itok=vBAN0gpe",
     "tags": [
       "arts & crafts",
       "school holidays"
@@ -1203,7 +1206,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://files.northernbeaches.nsw.gov.au/nbc-prod-files/images/general-information/events-calendar/shutterstock409991398.jpg",
+    "imageUrl": "https://files.northernbeaches.nsw.gov.au/nbc-prod-files/styles/promoted_event/azblob/media/images/2024-03/holiday%20crafternoons%20-%2024LSC0339_-_Kids_Autumn_School_Holidays_at_the_Library_-_webtiles5.jpg?h=54054fee&itok=vBAN0gpe",
     "tags": [
       "arts & crafts",
       "school holidays"
@@ -1247,7 +1250,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://files.northernbeaches.nsw.gov.au/nbc-prod-files/media/images/2024-03/holiday%20crafternoons%20-%2024LSC0339_-_Kids_Autumn_School_Holidays_at_the_Library_-_webtiles5.jpg",
+    "imageUrl": "https://files.northernbeaches.nsw.gov.au/nbc-prod-files/styles/promoted_event/azblob/media/images/2024-03/holiday%20crafternoons%20-%2024LSC0339_-_Kids_Autumn_School_Holidays_at_the_Library_-_webtiles5.jpg?h=54054fee&itok=vBAN0gpe",
     "tags": [
       "arts & crafts",
       "school holidays"
@@ -1291,7 +1294,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "free",
-    "imageUrl": "https://files.northernbeaches.nsw.gov.au/nbc-prod-files/images/2026-09/Painted%20pots%20at%20the%20library.png",
+    "imageUrl": "https://files.northernbeaches.nsw.gov.au/nbc-prod-files/styles/promoted_event/azblob/images/2026-09/Painted%20pots%20at%20the%20library.png?itok=aV4K9py-",
     "tags": [
       "arts & crafts",
       "school holidays"
@@ -1348,7 +1351,8 @@
     "seoDescription": "A free inclusive fitness clinic with a dedicated under-16 session for young people living with disability.",
     "isFeatured": false,
     "imageSourceUrl": "https://www.georgesriver.nsw.gov.au/Community/Events/What%E2%80%99s-On-Event-Information/Inclusive-Fitness-Clinic",
-    "imageSourceName": "Georges River Council"
+    "imageSourceName": "Georges River Council",
+    "imageVerifiedFromSource": false
   },
   {
     "id": 31,
