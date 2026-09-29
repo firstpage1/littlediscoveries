@@ -166,16 +166,16 @@
         <h2>What's On This Weekend?</h2>
         <p>Join 1,200+ Sydney parents who get the best events in their inbox ♡</p>
       </div>
-      <form class="newsletter__form" id="newsletter-form" method="POST" action="https://formsubmit.co/patricia.haueiss@gmail.com">
+      <form class="newsletter__form" id="newsletter-form" method="POST" action="https://formsubmit.co/patricia.haueiss@gmail.com" target="newsletter-submit-frame">
         <input type="hidden" name="_subject" value="New Newsletter Signup – Little Discoveries" />
         <input type="hidden" name="_captcha" value="false" />
-        <input type="hidden" name="_next" value="https://www.littlediscoveries.com.au/?subscribed=1#newsletter" />
         <div class="newsletter__field">
           <input type="email" name="email" placeholder="Your email" class="newsletter__input" aria-label="Your email address" required />
           <p id="newsletter-msg" class="newsletter__message" role="status" aria-live="polite" hidden></p>
         </div>
         <button type="submit" class="btn btn--primary">Join Now</button>
       </form>
+      <iframe name="newsletter-submit-frame" id="newsletter-submit-frame" title="Newsletter signup response" hidden></iframe>
     </div>
   </section>
 
