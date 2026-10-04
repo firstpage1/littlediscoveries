@@ -145,8 +145,8 @@
     "day": [
       "Friday"
     ],
-    "startDate": "2026-10-02",
-    "endDate": "2026-10-02",
+    "startDate": "2026-10-09",
+    "endDate": "2026-10-09",
     "time": "1:30pm–3:30pm",
     "venue": "Woollahra Library at Double Bay",
     "address": "Woollahra Library at Double Bay",
@@ -167,7 +167,7 @@
       "school holidays"
     ],
     "isOnline": false,
-    "expired": true,
+    "expired": false,
     "seoIndex": true,
     "seoTitle": "Friday Flicks – Woollahra Library Double Bay | Little Discoveries",
     "seoDescription": "A relaxed free school-holiday movie session with popcorn and refreshments for children aged 5–12.",
@@ -330,24 +330,29 @@
       "School Kids (5–13)"
     ],
     "day": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
       "Saturday",
       "Sunday"
     ],
-    "startDate": "2026-10-03",
-    "endDate": "2026-10-04",
-    "time": "Multiple 90-minute sessions",
-    "venue": "Darling Quarter",
-    "address": "Darling Quarter",
+    "startDate": "2026-10-05",
+    "endDate": "2026-10-11",
+    "time": "90-minute sessions; book an age-group slot",
+    "venue": "Darling Quarter North Village Green",
+    "address": "Darling Quarter North Village Green",
     "cost": "Free",
     "category": "Cooking",
-    "description": "A free hands-on cooking experience for children aged 6–12 with age-grouped weekend sessions.",
+    "description": "Free hands-on cooking for ages 6–12, with age-grouped 90-minute sessions and essential bookings.",
     "whyGo": [
       "Children actively cook rather than watch a demonstration.",
       "The 90-minute sessions feel substantial.",
       "Free cooking experiences in central Sydney are relatively rare."
     ],
-    "editorsChoice": false,
-    "ecOrder": null,
+    "editorsChoice": true,
+    "ecOrder": 1,
     "costLabel": "free",
     "imageUrl": "https://www.darlingharbour.com/getmedia/9b9d2f14-06d7-49d8-8366-7384899aa924/01-Little-Chef-2.png?width=1920",
     "tags": [
@@ -355,11 +360,11 @@
       "school holidays"
     ],
     "isOnline": false,
-    "expired": true,
+    "expired": false,
     "seoIndex": true,
     "seoTitle": "Little Chef – Darling Quarter | Little Discoveries",
-    "seoDescription": "A free hands-on cooking experience for children aged 6–12 with age-grouped weekend sessions.",
-    "isFeatured": false,
+    "seoDescription": "Free hands-on cooking for ages 6–12, with age-grouped 90-minute sessions and essential bookings.",
+    "isFeatured": true,
     "imageSourceUrl": "https://www.darlingharbour.com/whats-on/events/little-chef",
     "imageSourceName": "Darling Harbour",
     "imageVerifiedFromSource": true
@@ -463,22 +468,19 @@
       "School Kids (5–13)"
     ],
     "day": [
-      "Monday",
       "Tuesday",
       "Wednesday",
       "Thursday",
-      "Friday",
-      "Saturday",
-      "Sunday"
+      "Friday"
     ],
-    "startDate": "2026-09-28",
-    "endDate": "2026-10-04",
+    "startDate": "2026-10-06",
+    "endDate": "2026-10-09",
     "time": "During library opening hours",
     "venue": "Mosman Library",
     "address": "Mosman Library",
     "cost": "Free",
     "category": "Storytime",
-    "description": "A flexible school-holiday book challenge where primary-school children can search, solve and earn a prize.",
+    "description": "A free school-holiday book challenge for children in years K–6 at Mosman Library.",
     "whyGo": [
       "Families can fit it around other plans.",
       "No fixed session time makes it very parent-friendly.",
@@ -493,10 +495,10 @@
       "school holidays"
     ],
     "isOnline": false,
-    "expired": true,
+    "expired": false,
     "seoIndex": true,
     "seoTitle": "I Spy Book Challenge – Mosman Library | Little Discoveries",
-    "seoDescription": "A flexible school-holiday book challenge where primary-school children can search, solve and earn a prize.",
+    "seoDescription": "A free school-holiday book challenge for children in years K–6 at Mosman Library.",
     "isFeatured": false,
     "imageSourceUrl": "https://events.mosman.nsw.gov.au/events/i-spy-book-challenge",
     "imageSourceName": "Mosman Council",
@@ -521,14 +523,14 @@
       "Saturday",
       "Sunday"
     ],
-    "startDate": "2026-09-28",
-    "endDate": "2026-10-04",
+    "startDate": "2026-10-05",
+    "endDate": "2026-10-11",
     "time": "During participating library opening hours",
     "venue": "Northern Beaches libraries",
     "address": "Northern Beaches libraries",
     "cost": "Free",
     "category": "Storytime",
-    "description": "A free self-guided school-holiday scavenger hunt available across Northern Beaches library branches.",
+    "description": "A free self-guided school-holiday scavenger hunt across Northern Beaches library branches; check public-holiday opening hours.",
     "whyGo": [
       "Families can do it at a time that suits them.",
       "Multiple branches make it easier to find something local.",
@@ -543,10 +545,10 @@
       "school holidays"
     ],
     "isOnline": false,
-    "expired": true,
+    "expired": false,
     "seoIndex": true,
     "seoTitle": "Library Scavenger Hunt – Northern Beaches | Little Discoveries",
-    "seoDescription": "A free self-guided school-holiday scavenger hunt available across Northern Beaches library branches.",
+    "seoDescription": "A free self-guided school-holiday scavenger hunt across Northern Beaches library branches; check public-holiday opening hours.",
     "isFeatured": false,
     "imageSourceUrl": "https://www.northernbeaches.nsw.gov.au/library/whats-on/all-library-events/library-scavenger-hunt",
     "imageSourceName": "Northern Beaches Council",
@@ -745,14 +747,14 @@
     "day": [
       "Tuesday"
     ],
-    "startDate": "2026-09-29",
-    "endDate": "2026-09-29",
+    "startDate": "2026-10-06",
+    "endDate": "2026-10-06",
     "time": "9:30am–11:00am",
     "venue": "Marrickville",
     "address": "Marrickville",
     "cost": "Free",
     "category": "Playgroup",
-    "description": "A free playgroup-style session for babies and toddlers focused on movement, exploration and social play.",
+    "description": "A free weekly playgroup for families with babies and children up to age three.",
     "whyGo": [
       "It gives babies and toddlers a genuine holiday option.",
       "The playgroup format is relaxed and parent-friendly.",
@@ -767,10 +769,10 @@
       "school holidays"
     ],
     "isOnline": false,
-    "expired": true,
+    "expired": false,
     "seoIndex": true,
     "seoTitle": "Explorers Play – Marrickville | Little Discoveries",
-    "seoDescription": "A free playgroup-style session for babies and toddlers focused on movement, exploration and social play.",
+    "seoDescription": "A free weekly playgroup for families with babies and children up to age three.",
     "isFeatured": false,
     "imageSourceUrl": "https://www.innerwest.nsw.gov.au/whats-on/explorers-play-free-playgroup",
     "imageSourceName": "Inner West Council",
@@ -1146,14 +1148,14 @@
     "day": [
       "Tuesday"
     ],
-    "startDate": "2026-09-29",
-    "endDate": "2026-09-29",
+    "startDate": "2026-10-06",
+    "endDate": "2026-10-06",
     "time": "3:30pm–4:30pm",
     "venue": "Manly Library",
     "address": "Manly Library",
     "cost": "Free",
     "category": "Arts & Crafts",
-    "description": "A free afternoon craft session at Manly Library during the school holidays.",
+    "description": "A free drop-in school-holiday craft session at Manly Library.",
     "whyGo": [
       "The afternoon time works well as a second activity for the day.",
       "No-booking craft is easy to use spontaneously.",
@@ -1168,10 +1170,10 @@
       "school holidays"
     ],
     "isOnline": false,
-    "expired": true,
+    "expired": false,
     "seoIndex": true,
     "seoTitle": "School Holiday Crafternoon – Manly Library | Little Discoveries",
-    "seoDescription": "A free afternoon craft session at Manly Library during the school holidays.",
+    "seoDescription": "A free drop-in school-holiday craft session at Manly Library.",
     "isFeatured": false,
     "imageSourceUrl": "https://www.northernbeaches.nsw.gov.au/library/whats-on/all-library-events/school-holiday-crafternoons-manly-0",
     "imageSourceName": "Northern Beaches Council",
@@ -1181,8 +1183,8 @@
     "id": 27,
     "title": "School Holiday Crafternoon – Dee Why Library",
     "seoSlug": "school-holiday-crafternoon-dee-why-2026",
-    "source": "https://www.northernbeaches.nsw.gov.au/library/whats/events-calendar",
-    "website": "https://www.northernbeaches.nsw.gov.au/library/whats/events-calendar",
+    "source": "https://www.northernbeaches.nsw.gov.au/library/whats-on/all-library-events/school-holiday-crafternoons-dee-why-0",
+    "website": "https://www.northernbeaches.nsw.gov.au/library/whats-on/all-library-events/school-holiday-crafternoons-dee-why-0",
     "neighborhood": "Northern Beaches",
     "age": [
       "School Kids (5–13)"
@@ -1190,14 +1192,14 @@
     "day": [
       "Wednesday"
     ],
-    "startDate": "2026-09-30",
-    "endDate": "2026-09-30",
+    "startDate": "2026-10-07",
+    "endDate": "2026-10-07",
     "time": "3:30pm–4:30pm",
     "venue": "Dee Why Library",
     "address": "Dee Why Library",
     "cost": "Free",
     "category": "Arts & Crafts",
-    "description": "A free midweek school-holiday craft session at Dee Why Library.",
+    "description": "A free drop-in school-holiday craft session at Dee Why Library.",
     "whyGo": [
       "It gives Northern Beaches families a simple free midweek option.",
       "The one-hour format is easy to combine with another outing.",
@@ -1212,10 +1214,10 @@
       "school holidays"
     ],
     "isOnline": false,
-    "expired": true,
+    "expired": false,
     "seoIndex": true,
     "seoTitle": "School Holiday Crafternoon – Dee Why Library | Little Discoveries",
-    "seoDescription": "A free midweek school-holiday craft session at Dee Why Library.",
+    "seoDescription": "A free drop-in school-holiday craft session at Dee Why Library.",
     "isFeatured": false,
     "imageSourceUrl": "https://www.northernbeaches.nsw.gov.au/library/whats/events-calendar",
     "imageSourceName": "Northern Beaches Council",
@@ -1234,14 +1236,14 @@
     "day": [
       "Thursday"
     ],
-    "startDate": "2026-10-01",
-    "endDate": "2026-10-01",
+    "startDate": "2026-10-08",
+    "endDate": "2026-10-08",
     "time": "3:30pm–4:30pm",
     "venue": "Warringah Mall Library",
     "address": "Warringah Mall Library",
     "cost": "Free",
     "category": "Arts & Crafts",
-    "description": "A free Thursday afternoon craft session at Warringah Mall Library.",
+    "description": "A free drop-in school-holiday craft session at Warringah Mall Library.",
     "whyGo": [
       "It is easy to combine with errands or another outing.",
       "The one-hour format is low commitment.",
@@ -1256,10 +1258,10 @@
       "school holidays"
     ],
     "isOnline": false,
-    "expired": true,
+    "expired": false,
     "seoIndex": true,
     "seoTitle": "School Holiday Crafternoon – Warringah Mall | Little Discoveries",
-    "seoDescription": "A free Thursday afternoon craft session at Warringah Mall Library.",
+    "seoDescription": "A free drop-in school-holiday craft session at Warringah Mall Library.",
     "isFeatured": false,
     "imageSourceUrl": "https://www.northernbeaches.nsw.gov.au/library/whats-on/all-library-events/school-holiday-crafternoons-warringah-mall-0",
     "imageSourceName": "Northern Beaches Council",
@@ -1550,14 +1552,14 @@
       "Saturday",
       "Sunday"
     ],
-    "startDate": "2026-09-28",
-    "endDate": "2026-10-04",
-    "time": "11:00am–10:00pm",
+    "startDate": "2026-10-05",
+    "endDate": "2026-10-11",
+    "time": "11am–10pm; Sun to 4pm",
     "venue": "Sydney Opera House Forecourt",
     "address": "Sydney Opera House Forecourt",
     "cost": "Free",
     "category": "Arts & Crafts",
-    "description": "A monumental free interactive installation where giant inflatable rock forms respond with light and nature-inspired sound.",
+    "description": "A free interactive installation where giant inflatable rocks respond with light and nature-inspired sound.",
     "whyGo": [
       "The scale makes it feel like a destination, not a small activity.",
       "Children can physically explore the work and trigger its soundscape.",
@@ -1573,10 +1575,10 @@
       "school holidays"
     ],
     "isOnline": false,
-    "expired": true,
+    "expired": false,
     "seoIndex": true,
     "seoTitle": "Iwagumi Air Scape – Sydney Opera House | Little Discoveries",
-    "seoDescription": "A monumental free interactive installation where giant inflatable rock forms respond with light and nature-inspired sound.",
+    "seoDescription": "A free interactive installation where giant inflatable rocks respond with light and nature-inspired sound.",
     "isFeatured": false,
     "imageSourceUrl": "https://www.sydneyoperahouse.com/wild-things/iwagumi-air-scape",
     "imageSourceName": "Sydney Opera House",
@@ -1628,54 +1630,6 @@
     "imageUrl": "https://www.waverley.nsw.gov.au/__data/assets/image/0003/258456/JN-00265_Bondifirelight_web.jpg",
     "imageSourceUrl": "https://www.waverley.nsw.gov.au/recreation/events/events/bondi_firelight",
     "imageSourceName": "Waverley Council",
-    "imageVerifiedFromSource": true
-  },
-  {
-    "id": 37,
-    "title": "Iwagumi Air Scape",
-    "seoSlug": null,
-    "source": "https://www.sydneyoperahouse.com/wild-things/iwagumi-air-scape",
-    "website": "https://www.sydneyoperahouse.com/wild-things/iwagumi-air-scape",
-    "neighborhood": "City Center/ CBD",
-    "age": [
-      "All Ages"
-    ],
-    "day": [
-      "Monday",
-      "Tuesday",
-      "Wednesday",
-      "Thursday",
-      "Friday",
-      "Saturday",
-      "Sunday"
-    ],
-    "startDate": "2026-10-05",
-    "endDate": "2026-10-11",
-    "time": "11am–10pm; Sun to 4pm",
-    "venue": "Sydney Opera House Forecourt",
-    "address": "Sydney Opera House Forecourt",
-    "cost": "Free",
-    "category": "Arts & Crafts",
-    "description": "Explore a monumental interactive inflatable rock installation with sound and evening lights.",
-    "whyGo": [
-      "Explore a monumental interactive inflatable rock installation with sound and evening lights."
-    ],
-    "editorsChoice": false,
-    "ecOrder": null,
-    "costLabel": "free",
-    "imageUrl": "https://www.sydneyoperahouse.com/sites/default/files/styles/360x414/public/collaborodam_assets/wild-things-2026-iwagumi-air-scape-3-1%20%281%29.jpg?itok=_RiboxW4",
-    "tags": [
-      "school holidays",
-      "arts & crafts"
-    ],
-    "isOnline": false,
-    "expired": false,
-    "seoIndex": false,
-    "seoTitle": "Iwagumi Air Scape | Little Discoveries",
-    "seoDescription": "Explore a monumental interactive inflatable rock installation with sound and evening lights.",
-    "isFeatured": false,
-    "imageSourceUrl": "https://www.sydneyoperahouse.com/wild-things/iwagumi-air-scape",
-    "imageSourceName": "www.sydneyoperahouse.com",
     "imageVerifiedFromSource": true
   },
   {
@@ -1762,54 +1716,6 @@
     "isFeatured": false,
     "imageSourceUrl": "https://www.sydneyoperahouse.com/wild-things/erths-wild-rumpus",
     "imageSourceName": "www.sydneyoperahouse.com",
-    "imageVerifiedFromSource": true
-  },
-  {
-    "id": 40,
-    "title": "Little Chef at Darling Quarter",
-    "seoSlug": null,
-    "source": "https://www.darlingharbour.com/whats-on/events/little-chef",
-    "website": "https://www.darlingharbour.com/whats-on/events/little-chef",
-    "neighborhood": "City Center/ CBD",
-    "age": [
-      "School Kids (5–13)"
-    ],
-    "day": [
-      "Monday",
-      "Tuesday",
-      "Wednesday",
-      "Thursday",
-      "Friday",
-      "Saturday",
-      "Sunday"
-    ],
-    "startDate": "2026-10-05",
-    "endDate": "2026-10-11",
-    "time": "90-minute sessions; book an age-group slot",
-    "venue": "Darling Quarter North Village Green",
-    "address": "Darling Quarter North Village Green",
-    "cost": "Free",
-    "category": "Cooking",
-    "description": "Cook and plate a dish in a free school holiday session. Bookings are essential. Ages 6–12.",
-    "whyGo": [
-      "Cook and plate a dish in a free school holiday session. Bookings are essential."
-    ],
-    "editorsChoice": true,
-    "ecOrder": 1,
-    "costLabel": "free",
-    "imageUrl": "https://www.darlingharbour.com/getmedia/9b9d2f14-06d7-49d8-8366-7384899aa924/01-Little-Chef-2.png",
-    "tags": [
-      "school holidays",
-      "cooking"
-    ],
-    "isOnline": false,
-    "expired": false,
-    "seoIndex": false,
-    "seoTitle": "Little Chef at Darling Quarter | Little Discoveries",
-    "seoDescription": "Cook and plate a dish in a free school holiday session. Bookings are essential.",
-    "isFeatured": true,
-    "imageSourceUrl": "https://www.darlingharbour.com/whats-on/events/little-chef",
-    "imageSourceName": "www.darlingharbour.com",
     "imageVerifiedFromSource": true
   },
   {
@@ -2033,55 +1939,6 @@
     "imageVerifiedFromSource": true
   },
   {
-    "id": 46,
-    "title": "Northern Beaches Library Scavenger Hunt",
-    "seoSlug": null,
-    "source": "https://www.northernbeaches.nsw.gov.au/library/whats-on/all-library-events/library-scavenger-hunt",
-    "website": "https://www.northernbeaches.nsw.gov.au/library/whats-on/all-library-events/library-scavenger-hunt",
-    "neighborhood": "Northern Beaches",
-    "age": [
-      "Pre-schoolers (3–5)",
-      "School Kids (5–13)"
-    ],
-    "day": [
-      "Monday",
-      "Tuesday",
-      "Wednesday",
-      "Thursday",
-      "Friday",
-      "Saturday",
-      "Sunday"
-    ],
-    "startDate": "2026-10-05",
-    "endDate": "2026-10-11",
-    "time": "During library opening hours",
-    "venue": "Northern Beaches libraries",
-    "address": "Northern Beaches libraries",
-    "cost": "Free",
-    "category": "STEM",
-    "description": "Follow the clues on a library scavenger hunt over the school holidays. Ages 5–12.",
-    "whyGo": [
-      "Follow the clues on a library scavenger hunt over the school holidays."
-    ],
-    "editorsChoice": false,
-    "ecOrder": null,
-    "costLabel": "free",
-    "imageUrl": "https://files.northernbeaches.nsw.gov.au/nbc-prod-files/images/2026-08/Girl%20in%20library%20on%20scavenger%20hunt%20school%20holiday%20fun.png",
-    "tags": [
-      "school holidays",
-      "stem"
-    ],
-    "isOnline": false,
-    "expired": false,
-    "seoIndex": false,
-    "seoTitle": "Northern Beaches Library Scavenger Hunt | Little Discoveries",
-    "seoDescription": "Follow the clues on a library scavenger hunt over the school holidays.",
-    "isFeatured": false,
-    "imageSourceUrl": "https://www.northernbeaches.nsw.gov.au/library/whats-on/all-library-events/library-scavenger-hunt",
-    "imageSourceName": "www.northernbeaches.nsw.gov.au",
-    "imageVerifiedFromSource": true
-  },
-  {
     "id": 47,
     "title": "Youth basketball pop-up in Glebe",
     "seoSlug": null,
@@ -2170,48 +2027,6 @@
     "imageVerifiedFromSource": true
   },
   {
-    "id": 49,
-    "title": "School holiday crafternoon at Manly Library",
-    "seoSlug": null,
-    "source": "https://www.northernbeaches.nsw.gov.au/library/whats-on/all-library-events/school-holiday-crafternoons-manly-0",
-    "website": "https://www.northernbeaches.nsw.gov.au/library/whats-on/all-library-events/school-holiday-crafternoons-manly-0",
-    "neighborhood": "Northern Beaches",
-    "age": [
-      "School Kids (5–13)"
-    ],
-    "day": [
-      "Tuesday"
-    ],
-    "startDate": "2026-10-06",
-    "endDate": "2026-10-06",
-    "time": "3:30–4:30pm",
-    "venue": "Manly Library",
-    "address": "Manly Library",
-    "cost": "Free",
-    "category": "Arts & Crafts",
-    "description": "Drop in for themed hands-on craft; children need a parent or guardian.",
-    "whyGo": [
-      "Drop in for themed hands-on craft; children need a parent or guardian."
-    ],
-    "editorsChoice": false,
-    "ecOrder": null,
-    "costLabel": "free",
-    "imageUrl": "https://files.northernbeaches.nsw.gov.au/nbc-prod-files/media/images/2024-03/holiday%20crafternoons%20-%2024LSC0339_-_Kids_Autumn_School_Holidays_at_the_Library_-_webtiles5.jpg",
-    "tags": [
-      "school holidays",
-      "arts & crafts"
-    ],
-    "isOnline": false,
-    "expired": false,
-    "seoIndex": false,
-    "seoTitle": "School holiday crafternoon at Manly Library | Little Discoveries",
-    "seoDescription": "Drop in for themed hands-on craft; children need a parent or guardian.",
-    "isFeatured": false,
-    "imageSourceUrl": "https://www.northernbeaches.nsw.gov.au/library/whats-on/all-library-events/school-holiday-crafternoons-manly-0",
-    "imageSourceName": "www.northernbeaches.nsw.gov.au",
-    "imageVerifiedFromSource": true
-  },
-  {
     "id": 50,
     "title": "School holiday crafternoon at Glen Street Library",
     "seoSlug": null,
@@ -2254,48 +2069,6 @@
     "imageVerifiedFromSource": true
   },
   {
-    "id": 51,
-    "title": "School holiday crafternoon at Dee Why Library",
-    "seoSlug": null,
-    "source": "https://www.northernbeaches.nsw.gov.au/library/whats-on/all-library-events/school-holiday-crafternoons-dee-why-0",
-    "website": "https://www.northernbeaches.nsw.gov.au/library/whats-on/all-library-events/school-holiday-crafternoons-dee-why-0",
-    "neighborhood": "Northern Beaches",
-    "age": [
-      "School Kids (5–13)"
-    ],
-    "day": [
-      "Wednesday"
-    ],
-    "startDate": "2026-10-07",
-    "endDate": "2026-10-07",
-    "time": "3:30–4:30pm",
-    "venue": "Dee Why Library",
-    "address": "Dee Why Library",
-    "cost": "Free",
-    "category": "Arts & Crafts",
-    "description": "Drop in for themed hands-on craft; children need a parent or guardian.",
-    "whyGo": [
-      "Drop in for themed hands-on craft; children need a parent or guardian."
-    ],
-    "editorsChoice": false,
-    "ecOrder": null,
-    "costLabel": "free",
-    "imageUrl": "https://files.northernbeaches.nsw.gov.au/nbc-prod-files/media/images/2024-03/holiday%20crafternoons%20-%2024LSC0339_-_Kids_Autumn_School_Holidays_at_the_Library_-_webtiles5.jpg",
-    "tags": [
-      "school holidays",
-      "arts & crafts"
-    ],
-    "isOnline": false,
-    "expired": false,
-    "seoIndex": false,
-    "seoTitle": "School holiday crafternoon at Dee Why Library | Little Discoveries",
-    "seoDescription": "Drop in for themed hands-on craft; children need a parent or guardian.",
-    "isFeatured": false,
-    "imageSourceUrl": "https://www.northernbeaches.nsw.gov.au/library/whats-on/all-library-events/school-holiday-crafternoons-dee-why-0",
-    "imageSourceName": "www.northernbeaches.nsw.gov.au",
-    "imageVerifiedFromSource": true
-  },
-  {
     "id": 52,
     "title": "School holiday crafternoon at Mona Vale Library",
     "seoSlug": null,
@@ -2334,48 +2107,6 @@
     "seoDescription": "Drop in for themed hands-on craft; children need a parent or guardian.",
     "isFeatured": false,
     "imageSourceUrl": "https://www.northernbeaches.nsw.gov.au/library/whats-on/all-library-events/school-holiday-crafternoons-mona-vale-0",
-    "imageSourceName": "www.northernbeaches.nsw.gov.au",
-    "imageVerifiedFromSource": true
-  },
-  {
-    "id": 53,
-    "title": "School holiday crafternoon at Warringah Mall Library",
-    "seoSlug": null,
-    "source": "https://www.northernbeaches.nsw.gov.au/library/whats-on/all-library-events/school-holiday-crafternoons-warringah-mall-0",
-    "website": "https://www.northernbeaches.nsw.gov.au/library/whats-on/all-library-events/school-holiday-crafternoons-warringah-mall-0",
-    "neighborhood": "Northern Beaches",
-    "age": [
-      "School Kids (5–13)"
-    ],
-    "day": [
-      "Thursday"
-    ],
-    "startDate": "2026-10-08",
-    "endDate": "2026-10-08",
-    "time": "3:30–4:30pm",
-    "venue": "Warringah Mall Library",
-    "address": "Warringah Mall Library",
-    "cost": "Free",
-    "category": "Arts & Crafts",
-    "description": "Drop in for themed hands-on craft; children need a parent or guardian.",
-    "whyGo": [
-      "Drop in for themed hands-on craft; children need a parent or guardian."
-    ],
-    "editorsChoice": false,
-    "ecOrder": null,
-    "costLabel": "free",
-    "imageUrl": "https://files.northernbeaches.nsw.gov.au/nbc-prod-files/media/images/2024-03/holiday%20crafternoons%20-%2024LSC0339_-_Kids_Autumn_School_Holidays_at_the_Library_-_webtiles5.jpg",
-    "tags": [
-      "school holidays",
-      "arts & crafts"
-    ],
-    "isOnline": false,
-    "expired": false,
-    "seoIndex": false,
-    "seoTitle": "School holiday crafternoon at Warringah Mall Library | Little Discoveries",
-    "seoDescription": "Drop in for themed hands-on craft; children need a parent or guardian.",
-    "isFeatured": false,
-    "imageSourceUrl": "https://www.northernbeaches.nsw.gov.au/library/whats-on/all-library-events/school-holiday-crafternoons-warringah-mall-0",
     "imageSourceName": "www.northernbeaches.nsw.gov.au",
     "imageVerifiedFromSource": true
   },
@@ -3143,6 +2874,51 @@
     "isFeatured": false,
     "imageSourceUrl": "https://whatson.cityofsydney.nsw.gov.au/events/school-holidays-ozobot-robot-maze-8-12yrs",
     "imageSourceName": "whatson.cityofsydney.nsw.gov.au",
+    "imageVerifiedFromSource": true
+  },
+  {
+    "id": 72,
+    "title": "Farm Animals: Meet your furry friends",
+    "seoSlug": null,
+    "source": "https://www.greatersydneyparklands.nsw.gov.au/whats-on/farm-animals",
+    "website": "https://www.greatersydneyparklands.nsw.gov.au/whats-on/farm-animals",
+    "neighborhood": "Eastern Suburbs",
+    "age": [
+      "All Ages"
+    ],
+    "day": [
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "startDate": "2026-10-06",
+    "endDate": "2026-10-09",
+    "time": "10–11am",
+    "venue": "Moore Park South, off Dacey Avenue",
+    "address": "Moore Park South, off Dacey Avenue",
+    "cost": "Free",
+    "category": "Nature",
+    "description": "Meet and gently pat farm animals at a free pop-up petting zoo. Children need adult supervision and enclosed shoes; check booking availability.",
+    "whyGo": [
+      "A hands-on animal encounter close to the city."
+    ],
+    "editorsChoice": true,
+    "ecOrder": 4,
+    "costLabel": "free",
+    "imageUrl": "https://res.cloudinary.com/cityofsydney/image/upload/f_auto/c_fill,h_960,w_2560/v1788328606/k7h9gk6i1z6d/4Dpr0NdNBl7ekvRZwtQwiM/a8c2f0e0-a692-11f1-9b92-e113ee92af77--Farm-Animals--Meet-your-furry-friends-hero.jpg",
+    "tags": [
+      "animals",
+      "school holidays"
+    ],
+    "isOnline": false,
+    "expired": false,
+    "seoIndex": false,
+    "seoTitle": "Farm Animals: Meet your furry friends | Little Discoveries",
+    "seoDescription": "Meet farm animals at a free pop-up petting zoo in Moore Park South, 6–9 October.",
+    "isFeatured": true,
+    "imageSourceUrl": "https://whatson.cityofsydney.nsw.gov.au/events/farm-animals-meet-your-furry-friends",
+    "imageSourceName": "City of Sydney / Greater Sydney Parklands",
     "imageVerifiedFromSource": true
   }
 ]
