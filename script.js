@@ -4,7 +4,7 @@
 let activities = [];
 
 async function loadActivities() {
-  const res = await fetch('activities.json?v=20260928c');
+  const res = await fetch('activities.json?v=20261005a');
   activities = await res.json();
   init();
 }
@@ -303,7 +303,7 @@ function renderCards(list) {
       cardUrl = `/${act.seoSlug}/`;
       websiteBtn = `<a href="${cardUrl}" class="activity-card__cta">View Details →</a>`;
     } else {
-      const sourceUrl = act.source || act.website;
+      const sourceUrl = act.website || act.source;
       cardUrl = sourceUrl || "#";
       websiteBtn = sourceUrl
         ? `<a href="${escapeHtml(sourceUrl)}" target="_blank" rel="noopener noreferrer" class="activity-card__cta">View Details →</a>`
@@ -311,7 +311,7 @@ function renderCards(list) {
     }
 
     return `
-    <article class="activity-card${act.editorsChoice ? " activity-card--editors-choice" : ""}" onclick="location.href='${act.seoSlug ? `/${act.seoSlug}/` : (act.source || act.website || '#')}'" style="cursor:pointer;">
+    <article class="activity-card${act.editorsChoice ? " activity-card--editors-choice" : ""}" onclick="location.href='${act.seoSlug ? `/${act.seoSlug}/` : (act.website || act.source || '#')}'" style="cursor:pointer;">
       <div class="activity-card__thumb" style="${thumbStyle}">
         ${thumbContent}
         ${featuredBadge}
