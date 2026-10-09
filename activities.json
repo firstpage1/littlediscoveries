@@ -2920,5 +2920,47 @@
     "imageSourceUrl": "https://whatson.cityofsydney.nsw.gov.au/events/farm-animals-meet-your-furry-friends",
     "imageSourceName": "City of Sydney / Greater Sydney Parklands",
     "imageVerifiedFromSource": true
+  },
+  {
+    "id": 73,
+    "title": "Glenayr Avenue Street Party 2026",
+    "seoSlug": null,
+    "source": "https://www.waverley.nsw.gov.au/recreation/events/events/glenayr_avenue_street_party_2026",
+    "website": "https://www.waverley.nsw.gov.au/recreation/events/events/glenayr_avenue_street_party_2026",
+    "neighborhood": "Eastern Suburbs",
+    "age": [
+      "All Ages"
+    ],
+    "day": [
+      "Saturday"
+    ],
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-10",
+    "time": "11am–8pm",
+    "venue": "Glenayr Avenue, Bondi",
+    "address": "Glenayr Avenue, Bondi",
+    "cost": "Free",
+    "category": "Festivals",
+    "description": "Celebrate spring with live music, street food and kids’ entertainment on Glenayr Avenue. Free entry; no booking required.",
+    "whyGo": [
+      "A free family street party with music, food and activities in Bondi."
+    ],
+    "editorsChoice": false,
+    "ecOrder": null,
+    "costLabel": "free",
+    "imageUrl": "https://www.waverley.nsw.gov.au/__data/assets/image/0004/262336/THUMB_EVENTS_Glenayr_Ave.png",
+    "tags": [
+      "festivals",
+      "outdoor adventures"
+    ],
+    "isOnline": false,
+    "expired": false,
+    "seoIndex": false,
+    "seoTitle": "Glenayr Avenue Street Party 2026 | Little Discoveries",
+    "seoDescription": "Free Bondi street party with kids’ entertainment, live music and street food, Saturday 10 October 2026.",
+    "isFeatured": false,
+    "imageSourceUrl": "https://www.waverley.nsw.gov.au/recreation/events/events/glenayr_avenue_street_party_2026",
+    "imageSourceName": "Waverley Council",
+    "imageVerifiedFromSource": true
   }
 ]
