@@ -208,7 +208,7 @@
     "editorsChoice": false,
     "ecOrder": null,
     "costLabel": "ticketed — see organiser",
-    "imageUrl": "",
+    "imageUrl": "https://www.bondipavilion.com.au/__data/assets/image/0005/251726/Web_Image-_ISYLT-_new.jpg",
     "tags": [
       "arts & crafts",
       "school holidays"
@@ -221,7 +221,7 @@
     "isFeatured": false,
     "imageSourceUrl": "https://www.bondipavilion.com.au/whats_on/event/i_see_you_like_this",
     "imageSourceName": "Bondi Pavilion",
-    "imageVerifiedFromSource": false
+    "imageVerifiedFromSource": true
   },
   {
     "id": 6,
@@ -2924,7 +2924,7 @@
   {
     "id": 73,
     "title": "Glenayr Avenue Street Party 2026",
-    "seoSlug": "glenayr-avenue-street-party-2026-2026",
+    "seoSlug": "glenayr-avenue-street-party-2026",
     "source": "https://www.waverley.nsw.gov.au/recreation/events/events/glenayr_avenue_street_party_2026",
     "website": "https://www.waverley.nsw.gov.au/recreation/events/events/glenayr_avenue_street_party_2026",
     "neighborhood": "Eastern Suburbs",
