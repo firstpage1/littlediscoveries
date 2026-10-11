@@ -179,13 +179,17 @@ function renderCards(list) {
 
   ecItems.sort((a, b) => (a.ecOrder ?? 999) - (b.ecOrder ?? 999));
 
+  // Approved October editorial order: strongest, good, then coverage-useful.
+  const approved = list.filter(a => a.editorialPriority);
+  approved.sort((a, b) => a.editorialPriority - b.editorialPriority || a.id - b.id);
   const sorted = [
-    ...ecItems,
-    ...interleave(shortFree),
-    ...interleave(ongoingFree),
-    ...paidItems,
-    ...interleave(recurringFree),
-    ...recurringPaid,
+    ...approved,
+    ...ecItems.filter(a => !a.editorialPriority),
+    ...interleave(shortFree).filter(a => !a.editorialPriority),
+    ...interleave(ongoingFree).filter(a => !a.editorialPriority),
+    ...paidItems.filter(a => !a.editorialPriority),
+    ...interleave(recurringFree).filter(a => !a.editorialPriority),
+    ...recurringPaid.filter(a => !a.editorialPriority),
   ];
 
   const visible = sorted.slice(0, state.visibleCount);
