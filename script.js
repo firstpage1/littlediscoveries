@@ -4,7 +4,7 @@
 let activities = [];
 
 async function loadActivities() {
-  const res = await fetch('activities.json?v=fc67ae67');
+  const res = await fetch('activities.json?v=oct12-approved-26-v2');
   activities = await res.json();
   init();
 }
@@ -300,6 +300,9 @@ function applyFilters() {
   const { age, neighborhood, days } = state;
 
   const filtered = activities.filter(act => {
+    // Editorial preview: display the complete approved Monday 12 October week.
+    // The 26 approved activities remain visible regardless of today's date.
+    if (act.editorialPriority) return true;
     if (act.expired) return false;
     // Sydney-local dates: automatically hide activities that have ended,
     // and avoid showing a single-day activity after its scheduled day.
