@@ -4,7 +4,7 @@
 let activities = [];
 
 async function loadActivities() {
-  const res = await fetch('activities.json?v=20261010-detail2');
+  const res = await fetch('activities.json?v=oct12-approved-26-v2');
   activities = await res.json();
   init();
 }
@@ -24,7 +24,12 @@ const state = {
 /* ===========================
    HELPERS
 =========================== */
-function ageLabel(ageArr) { if (!ageArr || ageArr.length===0 || ageArr.includes("All Ages")) return "All Ages"; return ageArr.join(", "); }
+function ageLabel(ageArr) {
+  if (!ageArr || ageArr.length === 0) return "All Ages";
+  if (ageArr.length >= 4) return "All Ages";
+  // Shorten the new verbose labels for the card tags
+  return ageArr.map(a => a.replace(" years)", ")")).join(", ");
+}
 
 function dayLabel(dayArr) {
   if (!dayArr || dayArr.length === 0) return "Any Day";
@@ -77,85 +82,6 @@ function formatDate(dateStr) {
   const d = new Date(dateStr);
   if (isNaN(d)) return null;
   return d.toLocaleDateString("en-AU", { day: "numeric", month: "short", year: "numeric" });
-}
-
-function sydneyTodayISO() {
-  const parts = new Intl.DateTimeFormat("en-CA", {
-    timeZone: "Australia/Sydney",
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit"
-  }).formatToParts(new Date());
-
-  const values = Object.fromEntries(parts.map(p => [p.type, p.value]));
-  return `${values.year}-${values.month}-${values.day}`;
-}
-
-const DAY_INDEX = {
-  Monday: 0,
-  Tuesday: 1,
-  Wednesday: 2,
-  Thursday: 3,
-  Friday: 4,
-  Saturday: 5,
-  Sunday: 6
-};
-
-function sydneyWeekdayIndex() {
-  const weekday = new Intl.DateTimeFormat("en-AU", {
-    timeZone: "Australia/Sydney",
-    weekday: "long"
-  }).format(new Date());
-  return DAY_INDEX[weekday] ?? 0;
-}
-
-function activityHasEnded(act) {
-  const today = sydneyTodayISO();
-
-  // A dated event disappears the day after its final date.
-  if (act.endDate && act.endDate < today) return true;
-
-  // Do not hide a genuine future-dated event just because its weekday is earlier
-  // in the current Monday–Sunday sequence.
-  if (act.startDate && act.startDate > today) return false;
-
-  // Within the current weekly guide, an event also disappears once every day
-  // on which it runs has already passed this week.
-  if (Array.isArray(act.day) && act.day.length > 0) {
-    const todayIndex = sydneyWeekdayIndex();
-    const eventDayIndexes = act.day
-      .map(day => DAY_INDEX[day])
-      .filter(index => Number.isInteger(index));
-
-    if (eventDayIndexes.length > 0 &&
-        eventDayIndexes.every(index => index < todayIndex)) {
-      return true;
-    }
-  }
-
-  return false;
-}
-
-function disablePastDayFilters() {
-  const dayGroup = document.querySelector('.filter-chips[data-filter="day"]');
-  if (!dayGroup) return;
-
-  const todayIndex = sydneyWeekdayIndex();
-
-  dayGroup.querySelectorAll('.chip[data-value]').forEach(chip => {
-    const value = chip.dataset.value;
-    if (!value) return;
-
-    const isPast = DAY_INDEX[value] < todayIndex;
-    chip.disabled = isPast;
-    chip.classList.toggle('chip--past', isPast);
-    chip.setAttribute('aria-disabled', isPast ? 'true' : 'false');
-
-    if (isPast) {
-      chip.classList.remove('chip--active');
-      state.days = state.days.filter(day => day !== value);
-    }
-  });
 }
 
 /* ===========================
@@ -253,13 +179,17 @@ function renderCards(list) {
 
   ecItems.sort((a, b) => (a.ecOrder ?? 999) - (b.ecOrder ?? 999));
 
+  // Approved October editorial order: strongest, good, then coverage-useful.
+  const approved = list.filter(a => a.editorialPriority);
+  approved.sort((a, b) => a.editorialPriority - b.editorialPriority || a.id - b.id);
   const sorted = [
-    ...ecItems,
-    ...interleave(shortFree),
-    ...interleave(ongoingFree),
-    ...paidItems,
-    ...interleave(recurringFree),
-    ...recurringPaid,
+    ...approved,
+    ...ecItems.filter(a => !a.editorialPriority),
+    ...interleave(shortFree).filter(a => !a.editorialPriority),
+    ...interleave(ongoingFree).filter(a => !a.editorialPriority),
+    ...paidItems.filter(a => !a.editorialPriority),
+    ...interleave(recurringFree).filter(a => !a.editorialPriority),
+    ...recurringPaid.filter(a => !a.editorialPriority),
   ];
 
   const visible = sorted.slice(0, state.visibleCount);
@@ -303,7 +233,7 @@ function renderCards(list) {
       cardUrl = `/${act.seoSlug}/`;
       websiteBtn = `<a href="${cardUrl}" class="activity-card__cta">View Details →</a>`;
     } else {
-      const sourceUrl = act.website || act.source;
+      const sourceUrl = act.source || act.website;
       cardUrl = sourceUrl || "#";
       websiteBtn = sourceUrl
         ? `<a href="${escapeHtml(sourceUrl)}" target="_blank" rel="noopener noreferrer" class="activity-card__cta">View Details →</a>`
@@ -311,7 +241,7 @@ function renderCards(list) {
     }
 
     return `
-    <article class="activity-card${act.editorsChoice ? " activity-card--editors-choice" : ""}" onclick="location.href='${act.seoSlug ? `/${act.seoSlug}/` : (act.website || act.source || '#')}'" style="cursor:pointer;">
+    <article class="activity-card${act.editorsChoice ? " activity-card--editors-choice" : ""}" onclick="location.href='${act.seoSlug ? `/${act.seoSlug}/` : (act.source || act.website || '#')}'" style="cursor:pointer;">
       <div class="activity-card__thumb" style="${thumbStyle}">
         ${thumbContent}
         ${featuredBadge}
@@ -370,8 +300,18 @@ function applyFilters() {
   const { age, neighborhood, days } = state;
 
   const filtered = activities.filter(act => {
-    if (act.expired || activityHasEnded(act)) return false;
-    const ageMatch = !age || (act.age && (act.age.includes(age) || (age !== "All Ages" && act.age.includes("All Ages"))));
+    // Editorial preview: display the complete approved Monday 12 October week.
+    // The 26 approved activities remain visible regardless of today's date.
+    if (act.editorialPriority) return true;
+    if (act.expired) return false;
+    // Sydney-local dates: automatically hide activities that have ended,
+    // and avoid showing a single-day activity after its scheduled day.
+    const today = new Intl.DateTimeFormat('en-CA', {
+      timeZone: 'Australia/Sydney', year: 'numeric', month: '2-digit', day: '2-digit'
+    }).format(new Date());
+    if (act.endDate && act.endDate < today) return false;
+    if (!act.endDate && act.startDate && act.startDate < today) return false;
+    const ageMatch = !age || (act.age && act.age.includes(age));
     const neighborhoodMatch = !neighborhood || act.neighborhood === neighborhood;
     const dayMatch = days.length === 0 || (act.day && days.some(d => act.day.includes(d)));
     return ageMatch && neighborhoodMatch && dayMatch;
@@ -442,7 +382,6 @@ function bindEvents() {
    INIT
 =========================== */
 function init() {
-  disablePastDayFilters();
   bindEvents();
   applyFilters();
 }
@@ -453,62 +392,14 @@ loadActivities();
    NEWSLETTER SIGNUP
 =========================== */
 (function () {
-  const section = document.getElementById('newsletter');
-  const form = document.getElementById('newsletter-form');
-  const msg = document.getElementById('newsletter-msg');
-  if (!section || !form || !msg) return;
-
-  form.addEventListener('submit', (event) => {
-    event.preventDefault();
-
-    const button = form.querySelector('button[type="submit"]');
-    const action = form.getAttribute('action');
-    const ajaxUrl = action.replace('https://formsubmit.co/', 'https://formsubmit.co/ajax/');
-    const payload = Object.fromEntries(new FormData(form).entries());
-
-    const keepInView = () => {
-      const top = section.getBoundingClientRect().top + window.scrollY;
-      window.scrollTo({ top, behavior: 'auto' });
-    };
-
-    // Give the user instant feedback and keep the newsletter section in view.
-    msg.textContent = 'Thanks for subscribing to Little Discoveries! Look out for next week’s handpicked family activities in your inbox.';
-    msg.hidden = false;
-    form.reset();
-
-    if (button) {
-      button.disabled = false;
-      button.textContent = 'Join Now';
+  if (new URLSearchParams(window.location.search).get('subscribed') === '1') {
+    const msg = document.getElementById('newsletter-msg');
+    if (msg) {
+      msg.textContent = 'Thank you for subscribing! On Sunday we\'ll send you the best of next week\'s activities. 🎉';
+      msg.style.color = '#fff';
+      msg.style.display = 'block';
     }
-
-    keepInView();
-    requestAnimationFrame(() => {
-      keepInView();
-      requestAnimationFrame(keepInView);
-    });
-
-    // Complete the real subscription silently in the background.
-    fetch(ajaxUrl, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Accept': 'application/json'
-      },
-      body: JSON.stringify(payload),
-      keepalive: true
-    })
-      .then(async (response) => {
-        const data = await response.json().catch(() => ({}));
-        if (!response.ok || data.success === false) {
-          throw new Error('Signup failed');
-        }
-      })
-      .catch(() => {
-        msg.textContent = 'Something went wrong while subscribing. Please try again.';
-        msg.hidden = false;
-        keepInView();
-      });
-  });
+  }
 }());
 
 /* ===========================
@@ -534,23 +425,5 @@ loadActivities();
       btn.setAttribute('aria-expanded', 'false');
       menu.setAttribute('aria-hidden', 'true');
     });
-  });
-}());
-
-
-/* ===========================
-   NEXT WEEK NEWSLETTER CTA
-=========================== */
-(function () {
-  const cta = document.getElementById('next-week-newsletter-cta');
-  const section = document.getElementById('newsletter');
-  const email = document.querySelector('#newsletter-form input[type="email"]');
-  if (!cta || !section) return;
-
-  cta.addEventListener('click', () => {
-    section.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    window.setTimeout(() => {
-      if (email) email.focus({ preventScroll: true });
-    }, 450);
   });
 }());
