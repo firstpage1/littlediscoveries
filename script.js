@@ -297,6 +297,13 @@ function applyFilters() {
 
   const filtered = activities.filter(act => {
     if (act.expired) return false;
+    // Sydney-local dates: automatically hide activities that have ended,
+    // and avoid showing a single-day activity after its scheduled day.
+    const today = new Intl.DateTimeFormat('en-CA', {
+      timeZone: 'Australia/Sydney', year: 'numeric', month: '2-digit', day: '2-digit'
+    }).format(new Date());
+    if (act.endDate && act.endDate < today) return false;
+    if (!act.endDate && act.startDate && act.startDate < today) return false;
     const ageMatch = !age || (act.age && act.age.includes(age));
     const neighborhoodMatch = !neighborhood || act.neighborhood === neighborhood;
     const dayMatch = days.length === 0 || (act.day && days.some(d => act.day.includes(d)));
