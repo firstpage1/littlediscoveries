@@ -4,7 +4,7 @@
 let activities = [];
 
 async function loadActivities() {
-  const res = await fetch('activities.json?v=oct12-approved-26-v2');
+  const res = await fetch('activities.json?v=oct13-weekday-fix');
   activities = await res.json();
   init();
 }
@@ -294,29 +294,78 @@ function renderCards(list) {
 }
 
 /* ===========================
-   FILTER
+   WEEK / DAY FILTER
+   Use Sydney time and Monday–Sunday as the editorial week.
 =========================== */
-function applyFilters() {
-  const { age, neighborhood, days } = state;
+const WEEK_DAYS = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
 
+function sydneyToday() {
+  const parts = Object.fromEntries(new Intl.DateTimeFormat("en-AU", {
+    timeZone: "Australia/Sydney", year: "numeric", month: "2-digit", day: "2-digit",
+    weekday: "long"
+  }).formatToParts(new Date()).map(p => [p.type, p.value]));
+  return {
+    date: `${parts.year}-${parts.month}-${parts.day}`,
+    dayIndex: WEEK_DAYS.indexOf(parts.weekday)
+  };
+}
+
+function datePlusDays(dateString, days) {
+  const date = new Date(dateString + "T12:00:00Z");
+  date.setUTCDate(date.getUTCDate() + days);
+  return date.toISOString().slice(0, 10);
+}
+
+function weekWindow() {
+  const today = sydneyToday();
+  const monday = datePlusDays(today.date, -today.dayIndex);
+  const sunday = datePlusDays(monday, 6);
+  return { ...today, monday, sunday };
+}
+
+function updateDayChips() {
+  const group = document.querySelector('.filter-chips[data-filter="day"]');
+  if (!group) return;
+  const { dayIndex } = weekWindow();
+  const remainingSelection = [];
+  group.querySelectorAll(".chip").forEach(chip => {
+    if (!chip.dataset.value) return;
+    const past = WEEK_DAYS.indexOf(chip.dataset.value) < dayIndex;
+    chip.disabled = past;
+    chip.classList.toggle("chip--past", past);
+    chip.setAttribute("aria-disabled", String(past));
+    if (past) chip.classList.remove("chip--active");
+    else if (state.days.includes(chip.dataset.value)) remainingSelection.push(chip.dataset.value);
+  });
+  state.days = remainingSelection;
+  const anyDay = group.querySelector('[data-value=""]');
+  if (anyDay) anyDay.classList.toggle("chip--active", state.days.length === 0);
+}
+
+function applyFilters() {
+  updateDayChips();
+  const { age, neighborhood, days } = state;
+  const { date: today, monday, sunday, dayIndex } = weekWindow();
   const filtered = activities.filter(act => {
-    // Editorial preview: display the complete approved Monday 12 October week.
-    // The 26 approved activities remain visible regardless of today's date.
-    if (act.editorialPriority) return true;
     if (act.expired) return false;
-    // Sydney-local dates: automatically hide activities that have ended,
-    // and avoid showing a single-day activity after its scheduled day.
-    const today = new Intl.DateTimeFormat('en-CA', {
-      timeZone: 'Australia/Sydney', year: 'numeric', month: '2-digit', day: '2-digit'
-    }).format(new Date());
-    if (act.endDate && act.endDate < today) return false;
-    if (!act.endDate && act.startDate && act.startDate < today) return false;
+    // An event may span several dates. Do not show last week's finished
+    // events, or activities scheduled only for already-passed days.
+    const start = act.startDate || monday;
+    const end = act.endDate || act.startDate || sunday;
+    if (end < today || start > sunday) return false;
     const ageMatch = !age || (act.age && act.age.includes(age));
     const neighborhoodMatch = !neighborhood || act.neighborhood === neighborhood;
-    const dayMatch = days.length === 0 || (act.day && days.some(d => act.day.includes(d)));
-    return ageMatch && neighborhoodMatch && dayMatch;
-  });
+    if (!ageMatch || !neighborhoodMatch) return false;
 
+    // Only consider days in the remainder of the current Sydney week.
+    const eligibleDays = WEEK_DAYS.slice(dayIndex).filter((day, index) => {
+      const dayDate = datePlusDays(monday, dayIndex + index);
+      const scheduledDay = !act.day || !act.day.length || act.day.includes(day);
+      return scheduledDay && start <= dayDate && end >= dayDate;
+    });
+    if (!eligibleDays.length) return false;
+    return days.length === 0 || days.some(day => eligibleDays.includes(day));
+  });
   renderCards(filtered);
 }
 
@@ -325,13 +374,11 @@ function resetFilters() {
   state.neighborhood = "";
   state.days = [];
   state.visibleCount = PAGE_SIZE;
-
   document.querySelectorAll(".filter-chips").forEach(group => {
     group.querySelectorAll(".chip").forEach(chip => {
       chip.classList.toggle("chip--active", chip.dataset.value === "");
     });
   });
-
   applyFilters();
 }
 
@@ -343,6 +390,7 @@ function bindEvents() {
     const filterKey = group.dataset.filter;
     group.querySelectorAll(".chip").forEach(chip => {
       chip.addEventListener("click", () => {
+        if (chip.disabled) return;
         state.visibleCount = PAGE_SIZE;
         if (filterKey === "day") {
           const val = chip.dataset.value;
