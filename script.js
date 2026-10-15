@@ -4,7 +4,7 @@
 let activities = [];
 
 async function loadActivities() {
-  const res = await fetch('activities.json?v=oct13-weekday-fix');
+  const res = await fetch('activities.json?v=oct15-filter-fix');
   activities = await res.json();
   init();
 }
@@ -129,6 +129,8 @@ function renderCards(list) {
   const countEl = document.getElementById("results-count");
 
   if (list.length === 0) {
+    const showMoreBtn = document.getElementById("show-more-btn");
+    if (showMoreBtn) showMoreBtn.style.display = "none";
     grid.innerHTML = "";
     noResults.classList.remove("hidden");
     countEl.textContent = "No activities found";
@@ -342,6 +344,38 @@ function updateDayChips() {
   if (anyDay) anyDay.classList.toggle("chip--active", state.days.length === 0);
 }
 
+const AREA_GROUPS = {
+  "City Center/ CBD": ["CBD", "Darling Harbour", "The Rocks", "Haymarket", "Pyrmont"],
+  "South Sydney": ["South Sydney", "Sutherland Shire", "Green Square"],
+  "Western Sydney": ["Western Sydney", "Baulkham Hills"],
+  "Lower North Shore": ["Lower North Shore", "North Shore", "Ryde"],
+  "Upper North Shore": ["Upper North Shore", "North Shore"]
+};
+
+// Match age categories rather than literal text: the data includes labels
+// such as "Babies (0–2 years)" while filter chips use "Babies (0–1)".
+function matchesAgeFilter(act, selectedAge) {
+  if (!selectedAge) return true;
+  const labels = Array.isArray(act.age) ? act.age : [];
+  if (selectedAge === "All Ages") {
+    return labels.some(label => label.trim().toLowerCase() === "all ages");
+  }
+  const category = selectedAge.split(" (")[0].toLowerCase();
+  return labels.some(label => {
+    const normalized = label.trim().toLowerCase();
+    return normalized === "all ages" || normalized.startsWith(category + " (");
+  });
+}
+
+// The area chips are broader regions than the values on some activities.
+function matchesAreaFilter(act, selectedArea) {
+  if (!selectedArea) return true;
+  if (selectedArea === "Online") {
+    return Boolean(act.isOnline) || act.neighborhood === "Online";
+  }
+  return (AREA_GROUPS[selectedArea] || [selectedArea]).includes(act.neighborhood);
+}
+
 function applyFilters() {
   updateDayChips();
   const { age, neighborhood, days } = state;
@@ -353,8 +387,8 @@ function applyFilters() {
     const start = act.startDate || monday;
     const end = act.endDate || act.startDate || sunday;
     if (end < today || start > sunday) return false;
-    const ageMatch = !age || (act.age && act.age.includes(age));
-    const neighborhoodMatch = !neighborhood || act.neighborhood === neighborhood;
+    const ageMatch = matchesAgeFilter(act, age);
+    const neighborhoodMatch = matchesAreaFilter(act, neighborhood);
     if (!ageMatch || !neighborhoodMatch) return false;
 
     // Only consider days in the remainder of the current Sydney week.
@@ -424,6 +458,10 @@ function bindEvents() {
 
   document.getElementById("clear-filters").addEventListener("click", resetFilters);
   document.getElementById("no-results-clear").addEventListener("click", resetFilters);
+  // The newsletter link at the end of the day filter should work as a CTA.
+  document.getElementById("next-week-newsletter-cta")?.addEventListener("click", () => {
+    document.getElementById("newsletter")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
 }
 
 /* ===========================
