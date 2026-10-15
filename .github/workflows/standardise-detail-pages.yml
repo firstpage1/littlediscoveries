@@ -1,0 +1,57 @@
+name: Standardise all activity detail page designs
+on:
+  push:
+    branches: [claude/create-website-YTnOF]
+    paths:
+      - ".github/workflows/standardise-detail-pages.yml"
+      - ".github/scripts/standardize_details.py"
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  standardise:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - name: Allow organiser image update to finish first
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for i in $(seq 1 90); do
+            state=$(gh api repos/${{ github.repository }}/actions/runs/38684250085 --jq '.status' 2>/dev/null || echo completed)
+            echo "Organiser image run status: $state"
+            if [ "$state" = "completed" ]; then break; fi
+            sleep 25
+          done
+          if [ "$state" != "completed" ]; then
+            echo "Image sync is still running; stopping to avoid simultaneous edits."
+            exit 1
+          fi
+      - name: Check out transformation
+        uses: actions/checkout@v4
+        with:
+          ref: claude/create-website-YTnOF
+          path: automation
+      - name: Check out published pages
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: site
+          fetch-depth: 0
+      - name: Install HTML parser
+        run: python3 -m pip install --break-system-packages beautifulsoup4
+      - name: Standardise all detail pages to LEGO Challenge template
+        run: python3 automation/.github/scripts/standardize_details.py site
+      - name: Publish page updates
+        working-directory: site
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- '*/index.html'
+          if git diff --cached --quiet; then
+            echo "All detail pages already match reference"
+          else
+            git commit -m "Standardise all event detail pages to LEGO Challenge layout"
+            git push origin HEAD:gh-pages
+          fi
