@@ -1,0 +1,45 @@
+name: Verify and sync official event images
+on:
+  push:
+    branches: [claude/create-website-YTnOF]
+    paths:
+      - ".github/workflows/verify-event-images.yml"
+      - ".github/scripts/sync_verified_event_images.mjs"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  images:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Check out image sync script
+        uses: actions/checkout@v4
+        with:
+          ref: claude/create-website-YTnOF
+          path: automation
+      - name: Check out published website
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: site
+          fetch-depth: 0
+      - name: Install Chromium
+        run: |
+          cd automation
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Retrieve official event images and update detail pages
+        run: node automation/.github/scripts/sync_verified_event_images.mjs site
+      - name: Commit image updates on published site
+        working-directory: site
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add activities.json script.js index.html images/organiser */index.html
+          if git diff --cached --quiet; then
+            echo "No verified image changes"
+          else
+            git commit -m "Use verified organiser images on cards and detail pages"
+            git push origin HEAD:gh-pages
+          fi
