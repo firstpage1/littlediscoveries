@@ -1,0 +1,51 @@
+name: Repair original event images fast
+on:
+  push:
+    branches: [claude/create-website-YTnOF]
+    paths:
+      - ".github/workflows/repair-images-fast.yml"
+      - ".github/scripts/repair_images_fast.mjs"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  images:
+    runs-on: ubuntu-latest
+    timeout-minutes: 27
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: claude/create-website-YTnOF
+          path: automation
+      - uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: site
+          fetch-depth: 0
+      - name: Install browser
+        working-directory: automation
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Fix priority event images
+        run: node automation/.github/scripts/repair_images_fast.mjs site priority
+      - name: Publish priority images
+        working-directory: site
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add activities.json index.html script.js images/organiser/ '*/index.html'
+          if ! git diff --cached --quiet; then
+            git commit -m "Replace substitute images with organiser artwork on current events"
+            git push origin HEAD:gh-pages
+          fi
+      - name: Fix other published activity images
+        run: node automation/.github/scripts/repair_images_fast.mjs site other
+      - name: Publish remaining verified images
+        working-directory: site
+        run: |
+          git add activities.json index.html script.js images/organiser/ '*/index.html'
+          if ! git diff --cached --quiet; then
+            git commit -m "Replace substitute images with organiser artwork on remaining pages"
+            git push origin HEAD:gh-pages
+          fi
