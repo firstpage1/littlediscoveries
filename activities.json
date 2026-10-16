@@ -3,8 +3,8 @@
     "id": 1000,
     "title": "Moore Park South Family Fun Day",
     "website": "https://events.humanitix.com/moore-park-south-family-fun-day",
-    "imageUrl": "https://www.parklandssports.com.au/wp-content/uploads/2023/10/MPP-Open-Day-5-optimized.jpg",
-    "imageCredit": "Illustrative photograph of an earlier Moore Park family open day, not this event.",
+    "imageUrl": "/images/organiser/moore-park-south-family-fun-day-oct-2026.webp",
+    "imageCredit": "Image sourced from the event organiser",
     "description": "Moore Park South Family Fun Day at Moore Park South, Cleveland Street on Saturday 2026-10-17. 11am–2pm. Please check the organiser for any changes and booking requirements.",
     "longDescription": "Moore Park South Family Fun Day is listed for Saturday, 2026-10-17, at Moore Park South, Cleveland Street. Scheduled time: 11am–2pm. Admission: Free. Check the organiser before travelling for changes, accessibility and booking availability. The photograph may be illustrative rather than taken at this event.",
     "venue": "Moore Park South, 1268 South Dowling Street",
@@ -34,7 +34,9 @@
     ],
     "category": "Festivals & Events",
     "expired": false,
-    "editorialPriority": 1
+    "editorialPriority": 1,
+    "imageVerifiedFromSource": true,
+    "imageSourceUrl": "https://events.humanitix.com/moore-park-south-family-fun-day"
   },
   {
     "id": 1001,
@@ -114,8 +116,8 @@
     "id": 1003,
     "title": "Nepali Culture Connection: Dashain",
     "website": "https://www.georgesriver.nsw.gov.au/Community/Events/What%E2%80%99s-On-Event-Information/Nepali-Culture-Connection-Dashain",
-    "imageUrl": "https://live-production.wcms.abc-cdn.net.au/ab4822b9cb77fc3c0fe284cea6744ec4?cropH=3333&cropW=5000&height=575&impolicy=wcms_crop_resize&width=862&xPos=0&yPos=0",
-    "imageCredit": "Illustrative photograph of an earlier Sydney Nepali Dashain celebration, not this event.",
+    "imageUrl": "/images/organiser/nepali-culture-connection-dashain-oct-2026.png",
+    "imageCredit": "Image sourced from the event organiser",
     "description": "Nepali Culture Connection: Dashain at Hurstville Library on Saturday 2026-10-17. 10am–4pm. Please check the organiser for any changes and booking requirements.",
     "longDescription": "Nepali Culture Connection: Dashain is listed for Saturday, 2026-10-17, at Hurstville Library. Scheduled time: 10am–4pm. Admission: Free. Check the organiser before travelling for changes, accessibility and booking availability. The photograph may be illustrative rather than taken at this event.",
     "venue": "Hurstville Library",
@@ -145,14 +147,16 @@
     ],
     "category": "Festivals & Events",
     "expired": false,
-    "editorialPriority": 1
+    "editorialPriority": 1,
+    "imageVerifiedFromSource": true,
+    "imageSourceUrl": "https://www.georgesriver.nsw.gov.au/Community/Events/What%E2%80%99s-On-Event-Information/Nepali-Culture-Connection-Dashain"
   },
   {
     "id": 1004,
     "title": "Georges River Chongyang Festival",
     "website": "https://www.georgesriver.nsw.gov.au/Community/Events/Event-Registration-Form/2026-Georges-River-Chongyang-Festival",
-    "imageUrl": "https://bookableblob.blob.core.windows.net/venueimages/0213a8c4-9498-4f94-932e-bfdcf792da09-9718dd03-c374-4394-9c5c-4d18d7b95b5a-DSC019911.jpg",
-    "imageCredit": "Official venue image of an earlier cultural festival at Hurstville Plaza, not this event.",
+    "imageUrl": "/images/organiser/georges-river-chongyang-festival-oct-2026.jpg",
+    "imageCredit": "Image sourced from the event organiser",
     "description": "Georges River Chongyang Festival at Hurstville Plaza on Sunday 2026-10-18. 12pm–9:30pm. Please check the organiser for any changes and booking requirements.",
     "longDescription": "Georges River Chongyang Festival is listed for Sunday, 2026-10-18, at Hurstville Plaza. Scheduled time: 12pm–9:30pm. Admission: Free. Check the organiser before travelling for changes, accessibility and booking availability. The photograph may be illustrative rather than taken at this event.",
     "venue": "Hurstville Plaza",
@@ -182,7 +186,9 @@
     ],
     "category": "Festivals & Events",
     "expired": false,
-    "editorialPriority": 1
+    "editorialPriority": 1,
+    "imageVerifiedFromSource": true,
+    "imageSourceUrl": "https://www.georgesriver.nsw.gov.au/Community/Events/Event-Registration-Form/2026-Georges-River-Chongyang-Festival"
   },
   {
     "id": 1005,
@@ -336,8 +342,8 @@
     "id": 1009,
     "title": "Kidtopia",
     "website": "https://events.mosman.nsw.gov.au/events/kidtopia-wednesday-kids",
-    "imageUrl": "https://events.mosman.nsw.gov.au/sites/default/files/img/crafternoon-kids-em.jpg",
-    "imageCredit": "Illustrative official Mosman Council image of a children's creative session, not Kidtopia.",
+    "imageUrl": "/images/organiser/kidtopia-oct-2026.jpg",
+    "imageCredit": "Image sourced from the event organiser",
     "description": "Kidtopia at Mosman Library on Wednesday 2026-10-14. 3pm–5pm. Please check the organiser for any changes and booking requirements.",
     "longDescription": "Kidtopia is listed for Wednesday, 2026-10-14, at Mosman Library. Scheduled time: 3pm–5pm. Admission: Free. Check the organiser before travelling for changes, accessibility and booking availability. The photograph may be illustrative rather than taken at this event.",
     "venue": "Mosman Library",
@@ -367,7 +373,9 @@
     ],
     "category": "Books & Stories",
     "expired": false,
-    "editorialPriority": 2
+    "editorialPriority": 2,
+    "imageVerifiedFromSource": true,
+    "imageSourceUrl": "https://events.mosman.nsw.gov.au/events/kidtopia-wednesday-kids"
   },
   {
     "id": 1010,
@@ -410,8 +418,8 @@
     "id": 1011,
     "title": "Game-a-thon",
     "website": "https://events.mosman.nsw.gov.au/events/game-thon-friday-kids",
-    "imageUrl": "https://mosman-p.schools.nsw.gov.au/media_1996a8d95254ef0013bdeafcb0e28e8a808928731.jpg?format=jpg&optimize=medium&width=750",
-    "imageCredit": "Illustrative photograph of schoolchildren playing games in Mosman, not this library event.",
+    "imageUrl": "/images/organiser/game-a-thon-oct-2026.jpg",
+    "imageCredit": "Image sourced from the event organiser",
     "description": "Game-a-thon at Mosman Library on Friday 2026-10-16. 3pm–5pm. Please check the organiser for any changes and booking requirements.",
     "longDescription": "Game-a-thon is listed for Friday, 2026-10-16, at Mosman Library. Scheduled time: 3pm–5pm. Admission: Free. Check the organiser before travelling for changes, accessibility and booking availability. The photograph may be illustrative rather than taken at this event.",
     "venue": "Mosman Library",
@@ -441,7 +449,9 @@
     ],
     "category": "Books & Stories",
     "expired": false,
-    "editorialPriority": 2
+    "editorialPriority": 2,
+    "imageVerifiedFromSource": true,
+    "imageSourceUrl": "https://events.mosman.nsw.gov.au/events/game-thon-friday-kids"
   },
   {
     "id": 1012,
@@ -484,8 +494,8 @@
     "id": 1013,
     "title": "SPARK Arts and Crafts",
     "website": "https://events.mosman.nsw.gov.au/events/spark-arts-crafts-session-0",
-    "imageUrl": "https://events.mosman.nsw.gov.au/sites/default/files/img/crafternoon-kids-em.jpg",
-    "imageCredit": "Illustrative official Mosman Council image of a children's craft session, not SPARK.",
+    "imageUrl": "/images/organiser/spark-arts-and-crafts-oct-2026.jpg",
+    "imageCredit": "Image sourced from the event organiser",
     "description": "SPARK Arts and Crafts at Mosman Youth Centre on Thursday 2026-10-15. 4:30pm–5:30pm. Please check the organiser for any changes and booking requirements.",
     "longDescription": "SPARK Arts and Crafts is listed for Thursday, 2026-10-15, at Mosman Youth Centre. Scheduled time: 4:30pm–5:30pm. Admission: Free. Check the organiser before travelling for changes, accessibility and booking availability. The photograph may be illustrative rather than taken at this event.",
     "venue": "Mosman Youth Centre",
@@ -515,14 +525,16 @@
     ],
     "category": "Festivals & Events",
     "expired": false,
-    "editorialPriority": 2
+    "editorialPriority": 2,
+    "imageVerifiedFromSource": true,
+    "imageSourceUrl": "https://events.mosman.nsw.gov.au/events/spark-arts-crafts-session-0"
   },
   {
     "id": 1014,
     "title": "Stop Motion Animation Workshop",
     "website": "https://events.mosman.nsw.gov.au/events/stop-motion-animation-workshop-0",
-    "imageUrl": "https://static.wixstatic.com/media/ef6c9d_9c407b38ea674e3b92fcb8065e58dc32~mv2.png/v1/fill/w_980%2Ch_735%2Cal_c%2Cq_90%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/IMG_6499_HEIC.png",
-    "imageCredit": "Illustrative photo of a stop-motion workshop, not this event.",
+    "imageUrl": "/images/organiser/stop-motion-animation-workshop-oct-2026.jpg",
+    "imageCredit": "Image sourced from the event organiser",
     "description": "Stop Motion Animation Workshop at Open Studio No.8, Mosman on Saturday 2026-10-17. 11am–2pm. Please check the organiser for any changes and booking requirements.",
     "longDescription": "Stop Motion Animation Workshop is listed for Saturday, 2026-10-17, at Open Studio No.8, Mosman. Scheduled time: 11am–2pm. Admission: $35. Check the organiser before travelling for changes, accessibility and booking availability. The photograph may be illustrative rather than taken at this event.",
     "venue": "Open Studio No.8, Mosman",
@@ -552,14 +564,16 @@
     ],
     "category": "Festivals & Events",
     "expired": false,
-    "editorialPriority": 2
+    "editorialPriority": 2,
+    "imageVerifiedFromSource": true,
+    "imageSourceUrl": "https://events.mosman.nsw.gov.au/events/stop-motion-animation-workshop-0"
   },
   {
     "id": 1015,
     "title": "It's Story Time at Marrickville Metro",
     "website": "https://www.innerwest.nsw.gov.au/whats-on/its-story-time",
-    "imageUrl": "https://www.innerwest.nsw.gov.au/sites/default/files/styles/teaser_image/public/2026-03/Balmain%20Library%20Firefighters%20Storytime.png.webp?h=fc5dbef0&itok=h2M8PB2R",
-    "imageCredit": "Illustrative Inner West Council storytime photo from Balmain Library, not this Marrickville Metro event.",
+    "imageUrl": "/images/organiser/it-s-story-time-at-marrickville-metro-oct-2026.webp",
+    "imageCredit": "Image sourced from the event organiser",
     "description": "It's Story Time at Marrickville Metro at Marrickville Metro on Monday 2026-10-12. 11am–12pm. Please check the organiser for any changes and booking requirements.",
     "longDescription": "It's Story Time at Marrickville Metro is listed for Monday, 2026-10-12, at Marrickville Metro. Scheduled time: 11am–12pm. Admission: Free. Check the organiser before travelling for changes, accessibility and booking availability. The photograph may be illustrative rather than taken at this event.",
     "venue": "Marrickville Metro",
@@ -589,14 +603,16 @@
     ],
     "category": "Books & Stories",
     "expired": false,
-    "editorialPriority": 2
+    "editorialPriority": 2,
+    "imageVerifiedFromSource": true,
+    "imageSourceUrl": "https://www.innerwest.nsw.gov.au/whats-on/its-story-time"
   },
   {
     "id": 1016,
     "title": "Family Tales at Balmain Library",
     "website": "https://www.innerwest.nsw.gov.au/whats-on/family-tales-balmain-library",
-    "imageUrl": "https://www.innerwest.nsw.gov.au/sites/default/files/styles/teaser_image/public/2026-03/Balmain%20Library%20Firefighters%20Storytime.png.webp?h=fc5dbef0&itok=h2M8PB2R",
-    "imageCredit": "Illustrative Inner West Council photo of an earlier Balmain Library storytime, not this session or necessarily this branch.",
+    "imageUrl": "/images/organiser/family-tales-at-balmain-library-oct-2026.webp",
+    "imageCredit": "Image sourced from the event organiser",
     "description": "Family Tales at Balmain Library at Balmain Library on Saturday 2026-10-17. 10:30am. Please check the organiser for any changes and booking requirements.",
     "longDescription": "Family Tales at Balmain Library is listed for Saturday, 2026-10-17, at Balmain Library. Scheduled time: 10:30am. Admission: Free. Check the organiser before travelling for changes, accessibility and booking availability. The photograph may be illustrative rather than taken at this event.",
     "venue": "Balmain Library",
@@ -626,14 +642,16 @@
     ],
     "category": "Books & Stories",
     "expired": false,
-    "editorialPriority": 3
+    "editorialPriority": 3,
+    "imageVerifiedFromSource": true,
+    "imageSourceUrl": "https://www.innerwest.nsw.gov.au/whats-on/family-tales-balmain-library"
   },
   {
     "id": 1017,
     "title": "Family Tales at Stanmore Library",
     "website": "https://www.innerwest.nsw.gov.au/whats-on/family-tales-stanmore-library",
-    "imageUrl": "https://www.innerwest.nsw.gov.au/sites/default/files/styles/teaser_image/public/2026-03/Balmain%20Library%20Firefighters%20Storytime.png.webp?h=fc5dbef0&itok=h2M8PB2R",
-    "imageCredit": "Illustrative Inner West Council photo of an earlier Balmain Library storytime, not this session or necessarily this branch.",
+    "imageUrl": "/images/organiser/family-tales-at-stanmore-library-oct-2026.webp",
+    "imageCredit": "Image sourced from the event organiser",
     "description": "Family Tales at Stanmore Library at Stanmore Library on Saturday 2026-10-17. 10:30am. Please check the organiser for any changes and booking requirements.",
     "longDescription": "Family Tales at Stanmore Library is listed for Saturday, 2026-10-17, at Stanmore Library. Scheduled time: 10:30am. Admission: Free. Check the organiser before travelling for changes, accessibility and booking availability. The photograph may be illustrative rather than taken at this event.",
     "venue": "Stanmore Library",
@@ -663,14 +681,16 @@
     ],
     "category": "Books & Stories",
     "expired": false,
-    "editorialPriority": 3
+    "editorialPriority": 3,
+    "imageVerifiedFromSource": true,
+    "imageSourceUrl": "https://www.innerwest.nsw.gov.au/whats-on/family-tales-stanmore-library"
   },
   {
     "id": 1018,
     "title": "Family Tales at Dulwich Hill Library",
     "website": "https://www.innerwest.nsw.gov.au/whats-on/family-tales-etc-library",
-    "imageUrl": "https://www.innerwest.nsw.gov.au/sites/default/files/styles/teaser_image/public/2026-03/Balmain%20Library%20Firefighters%20Storytime.png.webp?h=fc5dbef0&itok=h2M8PB2R",
-    "imageCredit": "Illustrative Inner West Council photo of an earlier Balmain Library storytime, not this session or necessarily this branch.",
+    "imageUrl": "/images/organiser/family-tales-at-dulwich-hill-library-oct-2026.webp",
+    "imageCredit": "Image sourced from the event organiser",
     "description": "Family Tales at Dulwich Hill Library at Dulwich Hill Library on Saturday 2026-10-17. 10:30am. Please check the organiser for any changes and booking requirements.",
     "longDescription": "Family Tales at Dulwich Hill Library is listed for Saturday, 2026-10-17, at Dulwich Hill Library. Scheduled time: 10:30am. Admission: Free. Check the organiser before travelling for changes, accessibility and booking availability. The photograph may be illustrative rather than taken at this event.",
     "venue": "Dulwich Hill Library",
@@ -700,14 +720,16 @@
     ],
     "category": "Books & Stories",
     "expired": false,
-    "editorialPriority": 3
+    "editorialPriority": 3,
+    "imageVerifiedFromSource": true,
+    "imageSourceUrl": "https://www.innerwest.nsw.gov.au/whats-on/family-tales-etc-library"
   },
   {
     "id": 1019,
     "title": "Family Tales at St Peters/Sydenham Library",
     "website": "https://www.innerwest.nsw.gov.au/whats-on/family-tales-st-peters-library",
-    "imageUrl": "https://www.innerwest.nsw.gov.au/sites/default/files/styles/teaser_image/public/2026-03/Balmain%20Library%20Firefighters%20Storytime.png.webp?h=fc5dbef0&itok=h2M8PB2R",
-    "imageCredit": "Illustrative Inner West Council photo of an earlier Balmain Library storytime, not this session or necessarily this branch.",
+    "imageUrl": "/images/organiser/family-tales-at-st-peters-sydenham-library-oct-2026.webp",
+    "imageCredit": "Image sourced from the event organiser",
     "description": "Family Tales at St Peters/Sydenham Library at St Peters/Sydenham Library on Saturday 2026-10-17. 10:30am. Please check the organiser for any changes and booking requirements.",
     "longDescription": "Family Tales at St Peters/Sydenham Library is listed for Saturday, 2026-10-17, at St Peters/Sydenham Library. Scheduled time: 10:30am. Admission: Free. Check the organiser before travelling for changes, accessibility and booking availability. The photograph may be illustrative rather than taken at this event.",
     "venue": "St Peters/Sydenham Library",
@@ -737,14 +759,16 @@
     ],
     "category": "Books & Stories",
     "expired": false,
-    "editorialPriority": 3
+    "editorialPriority": 3,
+    "imageVerifiedFromSource": true,
+    "imageSourceUrl": "https://www.innerwest.nsw.gov.au/whats-on/family-tales-st-peters-library"
   },
   {
     "id": 1020,
     "title": "Family Tales at Ashfield Library",
     "website": "https://www.innerwest.nsw.gov.au/whats-on/family-tales-ashfield-library",
-    "imageUrl": "https://www.innerwest.nsw.gov.au/sites/default/files/styles/teaser_image/public/2026-03/Balmain%20Library%20Firefighters%20Storytime.png.webp?h=fc5dbef0&itok=h2M8PB2R",
-    "imageCredit": "Illustrative Inner West Council photo of an earlier Balmain Library storytime, not this session or necessarily this branch.",
+    "imageUrl": "/images/organiser/family-tales-at-ashfield-library-oct-2026.webp",
+    "imageCredit": "Image sourced from the event organiser",
     "description": "Family Tales at Ashfield Library at Ashfield Library on Sunday 2026-10-18. 10:30am. Please check the organiser for any changes and booking requirements.",
     "longDescription": "Family Tales at Ashfield Library is listed for Sunday, 2026-10-18, at Ashfield Library. Scheduled time: 10:30am. Admission: Free. Check the organiser before travelling for changes, accessibility and booking availability. The photograph may be illustrative rather than taken at this event.",
     "venue": "Ashfield Library",
@@ -774,14 +798,16 @@
     ],
     "category": "Books & Stories",
     "expired": false,
-    "editorialPriority": 3
+    "editorialPriority": 3,
+    "imageVerifiedFromSource": true,
+    "imageSourceUrl": "https://www.innerwest.nsw.gov.au/whats-on/family-tales-ashfield-library"
   },
   {
     "id": 1021,
     "title": "Family Tales at Marrickville Library",
     "website": "https://www.innerwest.nsw.gov.au/whats-on/family-tales-marrickville-library",
-    "imageUrl": "https://www.innerwest.nsw.gov.au/sites/default/files/styles/teaser_image/public/2026-03/Balmain%20Library%20Firefighters%20Storytime.png.webp?h=fc5dbef0&itok=h2M8PB2R",
-    "imageCredit": "Illustrative Inner West Council photo of an earlier Balmain Library storytime, not this session or necessarily this branch.",
+    "imageUrl": "/images/organiser/family-tales-at-marrickville-library-oct-2026.webp",
+    "imageCredit": "Image sourced from the event organiser",
     "description": "Family Tales at Marrickville Library at Marrickville Library on Sunday 2026-10-18. 10:30am. Please check the organiser for any changes and booking requirements.",
     "longDescription": "Family Tales at Marrickville Library is listed for Sunday, 2026-10-18, at Marrickville Library. Scheduled time: 10:30am. Admission: Free. Check the organiser before travelling for changes, accessibility and booking availability. The photograph may be illustrative rather than taken at this event.",
     "venue": "Marrickville Library",
@@ -811,7 +837,9 @@
     ],
     "category": "Books & Stories",
     "expired": false,
-    "editorialPriority": 3
+    "editorialPriority": 3,
+    "imageVerifiedFromSource": true,
+    "imageSourceUrl": "https://www.innerwest.nsw.gov.au/whats-on/family-tales-marrickville-library"
   },
   {
     "id": 1022,
