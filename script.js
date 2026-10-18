@@ -4,7 +4,7 @@
 let activities = [];
 
 async function loadActivities() {
-  const res = await fetch('activities.json?v=oct18-filter-fix');
+  const res = await fetch('activities.json?v=oct18-week35-v3');
   activities = await res.json();
   init();
 }
@@ -298,9 +298,11 @@ function renderCards(list) {
 =========================== */
 function applyFilters() {
   const { age, neighborhood, days } = state;
-  const today = new Intl.DateTimeFormat('en-CA', {
+  const dateParts = new Intl.DateTimeFormat('en-AU', {
     timeZone: 'Australia/Sydney', year: 'numeric', month: '2-digit', day: '2-digit'
-  }).format(new Date());
+  }).formatToParts(new Date());
+  const part = type => dateParts.find(p => p.type === type)?.value || '';
+  const today = `${part('year')}-${part('month')}-${part('day')}`;
 
   const normalizeAge = value => {
     const v = String(value || '').toLowerCase();
