@@ -1,5 +1,905 @@
 [
   {
+    "id": 202610300,
+    "title": "The Nicho Halloween Festival",
+    "website": "https://www.innerwest.nsw.gov.au/",
+    "imageUrl": "",
+    "imageCredit": "Image not verified",
+    "description": "The Nicho Halloween Festival at Nicholson Street Public School, Balmain East, 24 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "longDescription": "The Nicho Halloween Festival at Nicholson Street Public School, Balmain East, 24 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "venue": "Nicholson Street Public School, Balmain East",
+    "address": "Nicholson Street Public School, Balmain East, Sydney NSW",
+    "age": [
+      "All Ages"
+    ],
+    "neighborhood": "Inner West",
+    "day": [
+      "Saturday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry reported — confirm with organiser",
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-24",
+    "time": "3pm–7pm",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "the-nicho-halloween-festival-oct-2026",
+    "seoTitle": "The Nicho Halloween Festival | Little Discoveries",
+    "seoDescription": "The Nicho Halloween Festival at Nicholson Street Public School, Balmain East, 24 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "isFeatured": false,
+    "source": "https://www.innerwest.nsw.gov.au/",
+    "tags": [
+      "free"
+    ],
+    "category": "Festivals & Events",
+    "expired": false,
+    "editorialPriority": 2
+  },
+  {
+    "id": 202610301,
+    "title": "Kids Halloween Costume Swap",
+    "website": "https://www.innerwest.nsw.gov.au/",
+    "imageUrl": "",
+    "imageCredit": "Image not verified",
+    "description": "Kids Halloween Costume Swap at 7 Prospect Road, Summer Hill, 24 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "longDescription": "Kids Halloween Costume Swap at 7 Prospect Road, Summer Hill, 24 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "venue": "7 Prospect Road, Summer Hill",
+    "address": "7 Prospect Road, Summer Hill, Sydney NSW",
+    "age": [
+      "All Ages"
+    ],
+    "neighborhood": "Inner West",
+    "day": [
+      "Saturday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry reported — confirm with organiser",
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-24",
+    "time": "10am–2pm",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "kids-halloween-costume-swap-oct-2026",
+    "seoTitle": "Kids Halloween Costume Swap | Little Discoveries",
+    "seoDescription": "Kids Halloween Costume Swap at 7 Prospect Road, Summer Hill, 24 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "isFeatured": false,
+    "source": "https://www.innerwest.nsw.gov.au/",
+    "tags": [
+      "free"
+    ],
+    "category": "Festivals & Events",
+    "expired": false,
+    "editorialPriority": 2
+  },
+  {
+    "id": 202610302,
+    "title": "Put a Bird on It Lantern Workshop",
+    "website": "https://whatson.cityofsydney.nsw.gov.au/",
+    "imageUrl": "",
+    "imageCredit": "Image not verified",
+    "description": "Put a Bird on It Lantern Workshop at Darling Square Library, Haymarket, 20 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "longDescription": "Put a Bird on It Lantern Workshop at Darling Square Library, Haymarket, 20 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "venue": "Darling Square Library, Haymarket",
+    "address": "Darling Square Library, Haymarket, Sydney NSW",
+    "age": [
+      "All Ages"
+    ],
+    "neighborhood": "CBD",
+    "day": [
+      "Tuesday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry reported — confirm with organiser",
+    "startDate": "2026-10-20",
+    "endDate": "2026-10-20",
+    "time": "3:30pm–4:30pm",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "put-a-bird-on-it-lantern-workshop-oct-2026",
+    "seoTitle": "Put a Bird on It Lantern Workshop | Little Discoveries",
+    "seoDescription": "Put a Bird on It Lantern Workshop at Darling Square Library, Haymarket, 20 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "isFeatured": false,
+    "source": "https://whatson.cityofsydney.nsw.gov.au/",
+    "tags": [
+      "free"
+    ],
+    "category": "Festivals & Events",
+    "expired": false,
+    "editorialPriority": 2
+  },
+  {
+    "id": 202610303,
+    "title": "QVB Classical Pop-Up Concert",
+    "website": "https://whatson.cityofsydney.nsw.gov.au/",
+    "imageUrl": "",
+    "imageCredit": "Image not verified",
+    "description": "QVB Classical Pop-Up Concert at Queen Victoria Building, Sydney, 24 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "longDescription": "QVB Classical Pop-Up Concert at Queen Victoria Building, Sydney, 24 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "venue": "Queen Victoria Building, Sydney",
+    "address": "Queen Victoria Building, Sydney, Sydney NSW",
+    "age": [
+      "All Ages"
+    ],
+    "neighborhood": "CBD",
+    "day": [
+      "Saturday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry reported — confirm with organiser",
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-24",
+    "time": "4:30pm–5:30pm",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "qvb-classical-pop-up-concert-oct-2026",
+    "seoTitle": "QVB Classical Pop-Up Concert | Little Discoveries",
+    "seoDescription": "QVB Classical Pop-Up Concert at Queen Victoria Building, Sydney, 24 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "isFeatured": false,
+    "source": "https://whatson.cityofsydney.nsw.gov.au/",
+    "tags": [
+      "free"
+    ],
+    "category": "Festivals & Events",
+    "expired": false,
+    "editorialPriority": 2
+  },
+  {
+    "id": 202610304,
+    "title": "Asquith Veterinary Hospital Open Day",
+    "website": "https://events.mosman.nsw.gov.au/",
+    "imageUrl": "",
+    "imageCredit": "Image not verified",
+    "description": "Asquith Veterinary Hospital Open Day at Asquith Veterinary Hospital, Asquith, 24 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "longDescription": "Asquith Veterinary Hospital Open Day at Asquith Veterinary Hospital, Asquith, 24 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "venue": "Asquith Veterinary Hospital, Asquith",
+    "address": "Asquith Veterinary Hospital, Asquith, Sydney NSW",
+    "age": [
+      "All Ages"
+    ],
+    "neighborhood": "Upper North Shore",
+    "day": [
+      "Saturday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry reported — confirm with organiser",
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-24",
+    "time": "9am–12pm",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "asquith-veterinary-hospital-open-day-oct-2026",
+    "seoTitle": "Asquith Veterinary Hospital Open Day | Little Discoveries",
+    "seoDescription": "Asquith Veterinary Hospital Open Day at Asquith Veterinary Hospital, Asquith, 24 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "isFeatured": false,
+    "source": "https://events.mosman.nsw.gov.au/",
+    "tags": [
+      "free"
+    ],
+    "category": "Festivals & Events",
+    "expired": false,
+    "editorialPriority": 2
+  },
+  {
+    "id": 202610305,
+    "title": "Glebe Art Show",
+    "website": "https://www.innerwest.nsw.gov.au/",
+    "imageUrl": "",
+    "imageCredit": "Image not verified",
+    "description": "Glebe Art Show at Tramsheds, Forest Lodge, 19 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "longDescription": "Glebe Art Show at Tramsheds, Forest Lodge, 19 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "venue": "Tramsheds, Forest Lodge",
+    "address": "Tramsheds, Forest Lodge, Sydney NSW",
+    "age": [
+      "All Ages"
+    ],
+    "neighborhood": "Inner West",
+    "day": [
+      "Monday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry reported — confirm with organiser",
+    "startDate": "2026-10-19",
+    "endDate": "2026-10-25",
+    "time": "Check organiser",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "glebe-art-show-oct-2026",
+    "seoTitle": "Glebe Art Show | Little Discoveries",
+    "seoDescription": "Glebe Art Show at Tramsheds, Forest Lodge, 19 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "isFeatured": false,
+    "source": "https://www.innerwest.nsw.gov.au/",
+    "tags": [
+      "free"
+    ],
+    "category": "Festivals & Events",
+    "expired": false,
+    "editorialPriority": 2
+  },
+  {
+    "id": 202610306,
+    "title": "Young Paddo Art Prize Exhibition",
+    "website": "https://whatson.cityofsydney.nsw.gov.au/",
+    "imageUrl": "",
+    "imageCredit": "Image not verified",
+    "description": "Young Paddo Art Prize Exhibition at 111 Queen Street, Woollahra, 19 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "longDescription": "Young Paddo Art Prize Exhibition at 111 Queen Street, Woollahra, 19 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "venue": "111 Queen Street, Woollahra",
+    "address": "111 Queen Street, Woollahra, Sydney NSW",
+    "age": [
+      "All Ages"
+    ],
+    "neighborhood": "Eastern Suburbs",
+    "day": [
+      "Monday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry reported — confirm with organiser",
+    "startDate": "2026-10-19",
+    "endDate": "2026-10-25",
+    "time": "11am–5pm",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "young-paddo-art-prize-exhibition-oct-2026",
+    "seoTitle": "Young Paddo Art Prize Exhibition | Little Discoveries",
+    "seoDescription": "Young Paddo Art Prize Exhibition at 111 Queen Street, Woollahra, 19 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "isFeatured": false,
+    "source": "https://whatson.cityofsydney.nsw.gov.au/",
+    "tags": [
+      "free"
+    ],
+    "category": "Festivals & Events",
+    "expired": false,
+    "editorialPriority": 2
+  },
+  {
+    "id": 202610307,
+    "title": "Alchemy of a Rainforest",
+    "website": "https://whatson.cityofsydney.nsw.gov.au/",
+    "imageUrl": "",
+    "imageCredit": "Image not verified",
+    "description": "Alchemy of a Rainforest at The Calyx, Royal Botanic Garden Sydney, 19 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "longDescription": "Alchemy of a Rainforest at The Calyx, Royal Botanic Garden Sydney, 19 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "venue": "The Calyx, Royal Botanic Garden Sydney",
+    "address": "The Calyx, Royal Botanic Garden Sydney, Sydney NSW",
+    "age": [
+      "All Ages"
+    ],
+    "neighborhood": "CBD",
+    "day": [
+      "Monday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry reported — confirm with organiser",
+    "startDate": "2026-10-19",
+    "endDate": "2026-10-25",
+    "time": "10am–4pm",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "alchemy-of-a-rainforest-oct-2026",
+    "seoTitle": "Alchemy of a Rainforest | Little Discoveries",
+    "seoDescription": "Alchemy of a Rainforest at The Calyx, Royal Botanic Garden Sydney, 19 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "isFeatured": false,
+    "source": "https://whatson.cityofsydney.nsw.gov.au/",
+    "tags": [
+      "free"
+    ],
+    "category": "Festivals & Events",
+    "expired": false,
+    "editorialPriority": 2
+  },
+  {
+    "id": 202610308,
+    "title": "Jazz Up the Cross",
+    "website": "https://whatson.cityofsydney.nsw.gov.au/",
+    "imageUrl": "",
+    "imageCredit": "Image not verified",
+    "description": "Jazz Up the Cross at Fitzroy Gardens, Potts Point, 25 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "longDescription": "Jazz Up the Cross at Fitzroy Gardens, Potts Point, 25 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "venue": "Fitzroy Gardens, Potts Point",
+    "address": "Fitzroy Gardens, Potts Point, Sydney NSW",
+    "age": [
+      "All Ages"
+    ],
+    "neighborhood": "Eastern Suburbs",
+    "day": [
+      "Sunday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry reported — confirm with organiser",
+    "startDate": "2026-10-25",
+    "endDate": "2026-10-25",
+    "time": "3pm–6pm",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "jazz-up-the-cross-oct-2026",
+    "seoTitle": "Jazz Up the Cross | Little Discoveries",
+    "seoDescription": "Jazz Up the Cross at Fitzroy Gardens, Potts Point, 25 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "isFeatured": false,
+    "source": "https://whatson.cityofsydney.nsw.gov.au/",
+    "tags": [
+      "free"
+    ],
+    "category": "Festivals & Events",
+    "expired": false,
+    "editorialPriority": 2
+  },
+  {
+    "id": 202610309,
+    "title": "Sydney Rare Book Fair",
+    "website": "https://whatson.cityofsydney.nsw.gov.au/",
+    "imageUrl": "",
+    "imageCredit": "Image not verified",
+    "description": "Sydney Rare Book Fair at State Library of NSW, Sydney, 22 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "longDescription": "Sydney Rare Book Fair at State Library of NSW, Sydney, 22 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "venue": "State Library of NSW, Sydney",
+    "address": "State Library of NSW, Sydney, Sydney NSW",
+    "age": [
+      "All Ages"
+    ],
+    "neighborhood": "CBD",
+    "day": [
+      "Thursday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry reported — confirm with organiser",
+    "startDate": "2026-10-22",
+    "endDate": "2026-10-24",
+    "time": "Check organiser",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "sydney-rare-book-fair-oct-2026",
+    "seoTitle": "Sydney Rare Book Fair | Little Discoveries",
+    "seoDescription": "Sydney Rare Book Fair at State Library of NSW, Sydney, 22 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "isFeatured": false,
+    "source": "https://whatson.cityofsydney.nsw.gov.au/",
+    "tags": [
+      "free"
+    ],
+    "category": "Festivals & Events",
+    "expired": false,
+    "editorialPriority": 2
+  },
+  {
+    "id": 202610310,
+    "title": "Journey Bird Week Exhibition",
+    "website": "https://www.innerwest.nsw.gov.au/",
+    "imageUrl": "",
+    "imageCredit": "Image not verified",
+    "description": "Journey Bird Week Exhibition at Corner Gallery, Stanmore, 20 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "longDescription": "Journey Bird Week Exhibition at Corner Gallery, Stanmore, 20 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "venue": "Corner Gallery, Stanmore",
+    "address": "Corner Gallery, Stanmore, Sydney NSW",
+    "age": [
+      "All Ages"
+    ],
+    "neighborhood": "Inner West",
+    "day": [
+      "Tuesday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry reported — confirm with organiser",
+    "startDate": "2026-10-20",
+    "endDate": "2026-10-25",
+    "time": "Check organiser",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "journey-bird-week-exhibition-oct-2026",
+    "seoTitle": "Journey Bird Week Exhibition | Little Discoveries",
+    "seoDescription": "Journey Bird Week Exhibition at Corner Gallery, Stanmore, 20 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "isFeatured": false,
+    "source": "https://www.innerwest.nsw.gov.au/",
+    "tags": [
+      "free"
+    ],
+    "category": "Festivals & Events",
+    "expired": false,
+    "editorialPriority": 2
+  },
+  {
+    "id": 202610311,
+    "title": "Bicycle Education Centre Open Day",
+    "website": "https://www.campbelltown.nsw.gov.au/",
+    "imageUrl": "",
+    "imageCredit": "Image not verified",
+    "description": "Bicycle Education Centre Open Day at King Street, Campbelltown, 25 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "longDescription": "Bicycle Education Centre Open Day at King Street, Campbelltown, 25 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "venue": "King Street, Campbelltown",
+    "address": "King Street, Campbelltown, Sydney NSW",
+    "age": [
+      "All Ages"
+    ],
+    "neighborhood": "Western Sydney",
+    "day": [
+      "Sunday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry reported — confirm with organiser",
+    "startDate": "2026-10-25",
+    "endDate": "2026-10-25",
+    "time": "10am–3pm",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "bicycle-education-centre-open-day-oct-2026",
+    "seoTitle": "Bicycle Education Centre Open Day | Little Discoveries",
+    "seoDescription": "Bicycle Education Centre Open Day at King Street, Campbelltown, 25 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "isFeatured": false,
+    "source": "https://www.campbelltown.nsw.gov.au/",
+    "tags": [
+      "free"
+    ],
+    "category": "Festivals & Events",
+    "expired": false,
+    "editorialPriority": 2
+  },
+  {
+    "id": 202610312,
+    "title": "Dungeons and Dragons All Welcome",
+    "website": "https://www.campbelltown.nsw.gov.au/",
+    "imageUrl": "",
+    "imageCredit": "Image not verified",
+    "description": "Dungeons and Dragons All Welcome at Campbelltown Library, Campbelltown, 24 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "longDescription": "Dungeons and Dragons All Welcome at Campbelltown Library, Campbelltown, 24 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "venue": "Campbelltown Library, Campbelltown",
+    "address": "Campbelltown Library, Campbelltown, Sydney NSW",
+    "age": [
+      "All Ages"
+    ],
+    "neighborhood": "Western Sydney",
+    "day": [
+      "Saturday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry reported — confirm with organiser",
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-24",
+    "time": "12pm–3:30pm",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "dungeons-and-dragons-all-welcome-oct-2026",
+    "seoTitle": "Dungeons and Dragons All Welcome | Little Discoveries",
+    "seoDescription": "Dungeons and Dragons All Welcome at Campbelltown Library, Campbelltown, 24 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "isFeatured": false,
+    "source": "https://www.campbelltown.nsw.gov.au/",
+    "tags": [
+      "free"
+    ],
+    "category": "Festivals & Events",
+    "expired": false,
+    "editorialPriority": 2
+  },
+  {
+    "id": 202610313,
+    "title": "Story Play Artarmon Library",
+    "website": "https://events.mosman.nsw.gov.au/",
+    "imageUrl": "",
+    "imageCredit": "Image not verified",
+    "description": "Story Play Artarmon Library at Artarmon Library, Artarmon, 19 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "longDescription": "Story Play Artarmon Library at Artarmon Library, Artarmon, 19 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "venue": "Artarmon Library, Artarmon",
+    "address": "Artarmon Library, Artarmon, Sydney NSW",
+    "age": [
+      "All Ages"
+    ],
+    "neighborhood": "Lower North Shore",
+    "day": [
+      "Monday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry reported — confirm with organiser",
+    "startDate": "2026-10-19",
+    "endDate": "2026-10-19",
+    "time": "10am–10:30am",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "story-play-artarmon-library-oct-2026",
+    "seoTitle": "Story Play Artarmon Library | Little Discoveries",
+    "seoDescription": "Story Play Artarmon Library at Artarmon Library, Artarmon, 19 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "isFeatured": false,
+    "source": "https://events.mosman.nsw.gov.au/",
+    "tags": [
+      "free"
+    ],
+    "category": "Festivals & Events",
+    "expired": false,
+    "editorialPriority": 2
+  },
+  {
+    "id": 202610314,
+    "title": "Story Play Northbridge Library",
+    "website": "https://events.mosman.nsw.gov.au/",
+    "imageUrl": "",
+    "imageCredit": "Image not verified",
+    "description": "Story Play Northbridge Library at Northbridge Library, Northbridge, 20 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "longDescription": "Story Play Northbridge Library at Northbridge Library, Northbridge, 20 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "venue": "Northbridge Library, Northbridge",
+    "address": "Northbridge Library, Northbridge, Sydney NSW",
+    "age": [
+      "All Ages"
+    ],
+    "neighborhood": "Lower North Shore",
+    "day": [
+      "Tuesday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry reported — confirm with organiser",
+    "startDate": "2026-10-20",
+    "endDate": "2026-10-20",
+    "time": "10am–10:30am",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "story-play-northbridge-library-oct-2026",
+    "seoTitle": "Story Play Northbridge Library | Little Discoveries",
+    "seoDescription": "Story Play Northbridge Library at Northbridge Library, Northbridge, 20 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "isFeatured": false,
+    "source": "https://events.mosman.nsw.gov.au/",
+    "tags": [
+      "free"
+    ],
+    "category": "Festivals & Events",
+    "expired": false,
+    "editorialPriority": 2
+  },
+  {
+    "id": 202610315,
+    "title": "Singing and Stories Ultimo Library",
+    "website": "https://whatson.cityofsydney.nsw.gov.au/",
+    "imageUrl": "",
+    "imageCredit": "Image not verified",
+    "description": "Singing and Stories Ultimo Library at Ultimo Library, Ultimo, 19 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "longDescription": "Singing and Stories Ultimo Library at Ultimo Library, Ultimo, 19 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "venue": "Ultimo Library, Ultimo",
+    "address": "Ultimo Library, Ultimo, Sydney NSW",
+    "age": [
+      "All Ages"
+    ],
+    "neighborhood": "CBD",
+    "day": [
+      "Monday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry reported — confirm with organiser",
+    "startDate": "2026-10-19",
+    "endDate": "2026-10-19",
+    "time": "10:30am–11:15am",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "singing-and-stories-ultimo-library-oct-2026",
+    "seoTitle": "Singing and Stories Ultimo Library | Little Discoveries",
+    "seoDescription": "Singing and Stories Ultimo Library at Ultimo Library, Ultimo, 19 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "isFeatured": false,
+    "source": "https://whatson.cityofsydney.nsw.gov.au/",
+    "tags": [
+      "free"
+    ],
+    "category": "Festivals & Events",
+    "expired": false,
+    "editorialPriority": 2
+  },
+  {
+    "id": 202610316,
+    "title": "Singing and Stories Customs House",
+    "website": "https://whatson.cityofsydney.nsw.gov.au/",
+    "imageUrl": "",
+    "imageCredit": "Image not verified",
+    "description": "Singing and Stories Customs House at Customs House Library, Circular Quay, 20 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "longDescription": "Singing and Stories Customs House at Customs House Library, Circular Quay, 20 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "venue": "Customs House Library, Circular Quay",
+    "address": "Customs House Library, Circular Quay, Sydney NSW",
+    "age": [
+      "All Ages"
+    ],
+    "neighborhood": "CBD",
+    "day": [
+      "Tuesday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry reported — confirm with organiser",
+    "startDate": "2026-10-20",
+    "endDate": "2026-10-20",
+    "time": "10:30am–11:15am",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "singing-and-stories-customs-house-oct-2026",
+    "seoTitle": "Singing and Stories Customs House | Little Discoveries",
+    "seoDescription": "Singing and Stories Customs House at Customs House Library, Circular Quay, 20 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "isFeatured": false,
+    "source": "https://whatson.cityofsydney.nsw.gov.au/",
+    "tags": [
+      "free"
+    ],
+    "category": "Festivals & Events",
+    "expired": false,
+    "editorialPriority": 2
+  },
+  {
+    "id": 202610317,
+    "title": "Rhymetime Green Square Library",
+    "website": "https://whatson.cityofsydney.nsw.gov.au/",
+    "imageUrl": "",
+    "imageCredit": "Image not verified",
+    "description": "Rhymetime Green Square Library at Green Square Library, Zetland, 22 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "longDescription": "Rhymetime Green Square Library at Green Square Library, Zetland, 22 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "venue": "Green Square Library, Zetland",
+    "address": "Green Square Library, Zetland, Sydney NSW",
+    "age": [
+      "All Ages"
+    ],
+    "neighborhood": "Eastern Suburbs",
+    "day": [
+      "Thursday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry reported — confirm with organiser",
+    "startDate": "2026-10-22",
+    "endDate": "2026-10-22",
+    "time": "10:15am or 11am",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "rhymetime-green-square-library-oct-2026",
+    "seoTitle": "Rhymetime Green Square Library | Little Discoveries",
+    "seoDescription": "Rhymetime Green Square Library at Green Square Library, Zetland, 22 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "isFeatured": false,
+    "source": "https://whatson.cityofsydney.nsw.gov.au/",
+    "tags": [
+      "free"
+    ],
+    "category": "Festivals & Events",
+    "expired": false,
+    "editorialPriority": 2
+  },
+  {
+    "id": 202610322,
+    "title": "Family Tales Balmain Library",
+    "website": "https://www.innerwest.nsw.gov.au/",
+    "imageUrl": "",
+    "imageCredit": "Image not verified",
+    "description": "Family Tales Balmain Library at Balmain Library, Balmain, 24 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "longDescription": "Family Tales Balmain Library at Balmain Library, Balmain, 24 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "venue": "Balmain Library, Balmain",
+    "address": "Balmain Library, Balmain, Sydney NSW",
+    "age": [
+      "All Ages"
+    ],
+    "neighborhood": "Inner West",
+    "day": [
+      "Saturday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry reported — confirm with organiser",
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-24",
+    "time": "10:30am–11am",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "family-tales-balmain-library-oct-2026",
+    "seoTitle": "Family Tales Balmain Library | Little Discoveries",
+    "seoDescription": "Family Tales Balmain Library at Balmain Library, Balmain, 24 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "isFeatured": false,
+    "source": "https://www.innerwest.nsw.gov.au/",
+    "tags": [
+      "free"
+    ],
+    "category": "Festivals & Events",
+    "expired": false,
+    "editorialPriority": 2
+  },
+  {
+    "id": 202610323,
+    "title": "Family Tales Stanmore Library",
+    "website": "https://www.innerwest.nsw.gov.au/",
+    "imageUrl": "",
+    "imageCredit": "Image not verified",
+    "description": "Family Tales Stanmore Library at Stanmore Library, Stanmore, 24 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "longDescription": "Family Tales Stanmore Library at Stanmore Library, Stanmore, 24 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "venue": "Stanmore Library, Stanmore",
+    "address": "Stanmore Library, Stanmore, Sydney NSW",
+    "age": [
+      "All Ages"
+    ],
+    "neighborhood": "Inner West",
+    "day": [
+      "Saturday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry reported — confirm with organiser",
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-24",
+    "time": "10:30am–11am",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "family-tales-stanmore-library-oct-2026",
+    "seoTitle": "Family Tales Stanmore Library | Little Discoveries",
+    "seoDescription": "Family Tales Stanmore Library at Stanmore Library, Stanmore, 24 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "isFeatured": false,
+    "source": "https://www.innerwest.nsw.gov.au/",
+    "tags": [
+      "free"
+    ],
+    "category": "Festivals & Events",
+    "expired": false,
+    "editorialPriority": 2
+  },
+  {
+    "id": 202610324,
+    "title": "Family Tales Dulwich Hill Library",
+    "website": "https://www.innerwest.nsw.gov.au/",
+    "imageUrl": "",
+    "imageCredit": "Image not verified",
+    "description": "Family Tales Dulwich Hill Library at Emanuel Tsardoulias Community Library, Dulwich Hill, 24 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "longDescription": "Family Tales Dulwich Hill Library at Emanuel Tsardoulias Community Library, Dulwich Hill, 24 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "venue": "Emanuel Tsardoulias Community Library, Dulwich Hill",
+    "address": "Emanuel Tsardoulias Community Library, Dulwich Hill, Sydney NSW",
+    "age": [
+      "All Ages"
+    ],
+    "neighborhood": "Inner West",
+    "day": [
+      "Saturday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry reported — confirm with organiser",
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-24",
+    "time": "10:30am–11am",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "family-tales-dulwich-hill-library-oct-2026",
+    "seoTitle": "Family Tales Dulwich Hill Library | Little Discoveries",
+    "seoDescription": "Family Tales Dulwich Hill Library at Emanuel Tsardoulias Community Library, Dulwich Hill, 24 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "isFeatured": false,
+    "source": "https://www.innerwest.nsw.gov.au/",
+    "tags": [
+      "free"
+    ],
+    "category": "Festivals & Events",
+    "expired": false,
+    "editorialPriority": 2
+  },
+  {
+    "id": 202610325,
+    "title": "Family Tales St Peters Library",
+    "website": "https://www.innerwest.nsw.gov.au/",
+    "imageUrl": "",
+    "imageCredit": "Image not verified",
+    "description": "Family Tales St Peters Library at St Peters/Sydenham Library, 24 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "longDescription": "Family Tales St Peters Library at St Peters/Sydenham Library, 24 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "venue": "St Peters/Sydenham Library",
+    "address": "St Peters/Sydenham Library, Sydney NSW",
+    "age": [
+      "All Ages"
+    ],
+    "neighborhood": "Inner West",
+    "day": [
+      "Saturday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry reported — confirm with organiser",
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-24",
+    "time": "10:30am–11am",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "family-tales-st-peters-library-oct-2026",
+    "seoTitle": "Family Tales St Peters Library | Little Discoveries",
+    "seoDescription": "Family Tales St Peters Library at St Peters/Sydenham Library, 24 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "isFeatured": false,
+    "source": "https://www.innerwest.nsw.gov.au/",
+    "tags": [
+      "free"
+    ],
+    "category": "Festivals & Events",
+    "expired": false,
+    "editorialPriority": 2
+  },
+  {
+    "id": 202610326,
+    "title": "Family Tales Ashfield Library",
+    "website": "https://www.innerwest.nsw.gov.au/",
+    "imageUrl": "",
+    "imageCredit": "Image not verified",
+    "description": "Family Tales Ashfield Library at Ashfield Library, Ashfield, 25 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "longDescription": "Family Tales Ashfield Library at Ashfield Library, Ashfield, 25 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "venue": "Ashfield Library, Ashfield",
+    "address": "Ashfield Library, Ashfield, Sydney NSW",
+    "age": [
+      "All Ages"
+    ],
+    "neighborhood": "Inner West",
+    "day": [
+      "Sunday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry reported — confirm with organiser",
+    "startDate": "2026-10-25",
+    "endDate": "2026-10-25",
+    "time": "10:30am–11am",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "family-tales-ashfield-library-oct-2026",
+    "seoTitle": "Family Tales Ashfield Library | Little Discoveries",
+    "seoDescription": "Family Tales Ashfield Library at Ashfield Library, Ashfield, 25 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "isFeatured": false,
+    "source": "https://www.innerwest.nsw.gov.au/",
+    "tags": [
+      "free"
+    ],
+    "category": "Festivals & Events",
+    "expired": false,
+    "editorialPriority": 2
+  },
+  {
+    "id": 202610327,
+    "title": "Family Tales Marrickville Library",
+    "website": "https://www.innerwest.nsw.gov.au/",
+    "imageUrl": "",
+    "imageCredit": "Image not verified",
+    "description": "Family Tales Marrickville Library at Marrickville Library, Marrickville, 25 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "longDescription": "Family Tales Marrickville Library at Marrickville Library, Marrickville, 25 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "venue": "Marrickville Library, Marrickville",
+    "address": "Marrickville Library, Marrickville, Sydney NSW",
+    "age": [
+      "All Ages"
+    ],
+    "neighborhood": "Inner West",
+    "day": [
+      "Sunday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry reported — confirm with organiser",
+    "startDate": "2026-10-25",
+    "endDate": "2026-10-25",
+    "time": "10:30am–11am",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "family-tales-marrickville-library-oct-2026",
+    "seoTitle": "Family Tales Marrickville Library | Little Discoveries",
+    "seoDescription": "Family Tales Marrickville Library at Marrickville Library, Marrickville, 25 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "isFeatured": false,
+    "source": "https://www.innerwest.nsw.gov.au/",
+    "tags": [
+      "free"
+    ],
+    "category": "Festivals & Events",
+    "expired": false,
+    "editorialPriority": 2
+  },
+  {
+    "id": 202610328,
+    "title": "Grandma Theres a Pig in My Room",
+    "website": "https://www.innerwest.nsw.gov.au/",
+    "imageUrl": "",
+    "imageCredit": "Image not verified",
+    "description": "Grandma Theres a Pig in My Room at Marrickville Library, Marrickville, 25 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "longDescription": "Grandma Theres a Pig in My Room at Marrickville Library, Marrickville, 25 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "venue": "Marrickville Library, Marrickville",
+    "address": "Marrickville Library, Marrickville, Sydney NSW",
+    "age": [
+      "All Ages"
+    ],
+    "neighborhood": "Inner West",
+    "day": [
+      "Sunday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry reported — confirm with organiser",
+    "startDate": "2026-10-25",
+    "endDate": "2026-10-25",
+    "time": "10am–11am",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "grandma-theres-a-pig-in-my-room-oct-2026",
+    "seoTitle": "Grandma Theres a Pig in My Room | Little Discoveries",
+    "seoDescription": "Grandma Theres a Pig in My Room at Marrickville Library, Marrickville, 25 October 2026. Listed as free; please check the organiser for confirmation, updates and booking requirements.",
+    "isFeatured": false,
+    "source": "https://www.innerwest.nsw.gov.au/",
+    "tags": [
+      "free"
+    ],
+    "category": "Festivals & Events",
+    "expired": false,
+    "editorialPriority": 2
+  },
+  {
     "id": 202610190,
     "title": "Norton Russell Playground Opening",
     "website": "https://www.innerwest.nsw.gov.au/whats-on/official-opening-upgraded-norton-russell-playground",
