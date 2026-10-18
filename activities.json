@@ -1,5 +1,227 @@
 [
   {
+    "id": 202610190,
+    "title": "Norton Russell Playground Opening",
+    "website": "https://www.innerwest.nsw.gov.au/whats-on/official-opening-upgraded-norton-russell-playground",
+    "imageUrl": "",
+    "imageCredit": "No verified organiser image available",
+    "description": "Celebrate the upgraded playground with free face painting, ice cream and coffee.",
+    "longDescription": "Celebrate the upgraded playground with free face painting, ice cream and coffee. Check the organiser’s current listing for any last-minute changes.",
+    "venue": "Norton Russell Playground, Bedford Street, Newtown",
+    "address": "Norton Russell Playground, Bedford Street, Newtown, Sydney NSW",
+    "age": [
+      "All Ages"
+    ],
+    "neighborhood": "Inner West",
+    "day": [
+      "Saturday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry",
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-24",
+    "time": "10am–12pm",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "norton-russell-playground-opening-oct-2026",
+    "seoTitle": "Norton Russell Playground Opening | Little Discoveries",
+    "seoDescription": "Celebrate the upgraded playground with free face painting, ice cream and coffee.",
+    "isFeatured": false,
+    "source": "https://www.innerwest.nsw.gov.au/whats-on/official-opening-upgraded-norton-russell-playground",
+    "tags": [
+      "free",
+      "Inner West"
+    ],
+    "category": "Festivals & Events",
+    "expired": false,
+    "editorialPriority": 1
+  },
+  {
+    "id": 202610191,
+    "title": "Spooky Storytime at Mosman Library",
+    "website": "https://events.mosman.nsw.gov.au/events/spooky-storytime",
+    "imageUrl": "",
+    "imageCredit": "No verified organiser image available",
+    "description": "Costume-friendly stories, songs and a spooky craft to take home. Free drop-in, no booking required.",
+    "longDescription": "Costume-friendly stories, songs and a spooky craft to take home. Free drop-in, no booking required. Check the organiser’s current listing for any last-minute changes.",
+    "venue": "Barry O’Keefe Library, 605 Military Road, Mosman",
+    "address": "Barry O’Keefe Library, 605 Military Road, Mosman, Sydney NSW",
+    "age": [
+      "Pre-schoolers (3–5 years)"
+    ],
+    "neighborhood": "Lower North Shore",
+    "day": [
+      "Thursday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry",
+    "startDate": "2026-10-22",
+    "endDate": "2026-10-22",
+    "time": "10:30am–11:15am",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "spooky-storytime-at-mosman-library-oct-2026",
+    "seoTitle": "Spooky Storytime at Mosman Library | Little Discoveries",
+    "seoDescription": "Costume-friendly stories, songs and a spooky craft to take home. Free drop-in, no booking required.",
+    "isFeatured": false,
+    "source": "https://events.mosman.nsw.gov.au/events/spooky-storytime",
+    "tags": [
+      "free",
+      "Lower North Shore"
+    ],
+    "category": "Storytime",
+    "expired": false,
+    "editorialPriority": 1
+  },
+  {
+    "id": 202610192,
+    "title": "Family Tales at Leichhardt Library",
+    "website": "https://www.innerwest.nsw.gov.au/whats-on/family-tales-leichhardt-library",
+    "imageUrl": "",
+    "imageCredit": "No verified organiser image available",
+    "description": "Free weekend books and rhymes for children aged 0–5 and carers.",
+    "longDescription": "Free weekend books and rhymes for children aged 0–5 and carers. Check the organiser’s current listing for any last-minute changes.",
+    "venue": "Leichhardt Library, 23 Norton Street, Leichhardt",
+    "address": "Leichhardt Library, 23 Norton Street, Leichhardt, Sydney NSW",
+    "age": [
+      "Babies (0–1 years)"
+    ],
+    "neighborhood": "Inner West",
+    "day": [
+      "Sunday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry",
+    "startDate": "2026-10-25",
+    "endDate": "2026-10-25",
+    "time": "10:30am–11am",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "family-tales-at-leichhardt-library-oct-2026",
+    "seoTitle": "Family Tales at Leichhardt Library | Little Discoveries",
+    "seoDescription": "Free weekend books and rhymes for children aged 0–5 and carers.",
+    "isFeatured": false,
+    "source": "https://www.innerwest.nsw.gov.au/whats-on/family-tales-leichhardt-library",
+    "tags": [
+      "free",
+      "Inner West"
+    ],
+    "category": "Storytime",
+    "expired": false,
+    "editorialPriority": 1
+  },
+  {
+    "id": 202610193,
+    "title": "Storytime at Leichhardt Library",
+    "website": "https://www.innerwest.nsw.gov.au/whats-on/storytime-leichhardt-library-1",
+    "imageUrl": "",
+    "imageCredit": "No verified organiser image available",
+    "description": "Free stories and rhymes for preschoolers aged 3–5.",
+    "longDescription": "Free stories and rhymes for preschoolers aged 3–5. Check the organiser’s current listing for any last-minute changes.",
+    "venue": "Leichhardt Library, 23 Norton Street, Leichhardt",
+    "address": "Leichhardt Library, 23 Norton Street, Leichhardt, Sydney NSW",
+    "age": [
+      "Pre-schoolers (3–5 years)"
+    ],
+    "neighborhood": "Inner West",
+    "day": [
+      "Monday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry",
+    "startDate": "2026-10-19",
+    "endDate": "2026-10-19",
+    "time": "10:30am–11am",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "storytime-at-leichhardt-library-oct-2026",
+    "seoTitle": "Storytime at Leichhardt Library | Little Discoveries",
+    "seoDescription": "Free stories and rhymes for preschoolers aged 3–5.",
+    "isFeatured": false,
+    "source": "https://www.innerwest.nsw.gov.au/whats-on/storytime-leichhardt-library-1",
+    "tags": [
+      "free",
+      "Inner West"
+    ],
+    "category": "Storytime",
+    "expired": false,
+    "editorialPriority": 1
+  },
+  {
+    "id": 202610194,
+    "title": "Songs & Stories at Headland Park",
+    "website": "https://mosmanliving.com.au/event/songs-stories-at-headland-park/",
+    "imageUrl": "",
+    "imageCredit": "No verified organiser image available",
+    "description": "Free puppetry, storytelling, art, music, nature activities and family workshops. Optional café purchases are extra.",
+    "longDescription": "Free puppetry, storytelling, art, music, nature activities and family workshops. Optional café purchases are extra. Check the organiser’s current listing for any last-minute changes.",
+    "venue": "Headland Park, Mosman",
+    "address": "Headland Park, Mosman, Sydney NSW",
+    "age": [
+      "All Ages"
+    ],
+    "neighborhood": "Lower North Shore",
+    "day": [
+      "Sunday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry",
+    "startDate": "2026-10-25",
+    "endDate": "2026-10-25",
+    "time": "11am–3pm",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "songs-stories-at-headland-park-oct-2026",
+    "seoTitle": "Songs & Stories at Headland Park | Little Discoveries",
+    "seoDescription": "Free puppetry, storytelling, art, music, nature activities and family workshops. Optional café purchases are extra.",
+    "isFeatured": false,
+    "source": "https://mosmanliving.com.au/event/songs-stories-at-headland-park/",
+    "tags": [
+      "free",
+      "Lower North Shore"
+    ],
+    "category": "Festivals & Events",
+    "expired": false,
+    "editorialPriority": 1
+  },
+  {
+    "id": 202610195,
+    "title": "Magic Yellow Bus Grandparents Day",
+    "website": "https://www.innerwest.nsw.gov.au/childrens-services/magic-yellow-bus",
+    "imageUrl": "",
+    "imageCredit": "No verified organiser image available",
+    "description": "Free mobile playgroup for ages 0–6, with a special Grandparents Day morning tea.",
+    "longDescription": "Free mobile playgroup for ages 0–6, with a special Grandparents Day morning tea. Check the organiser’s current listing for any last-minute changes.",
+    "venue": "Petersham Park, Petersham",
+    "address": "Petersham Park, Petersham, Sydney NSW",
+    "age": [
+      "Toddlers (2–3 years)"
+    ],
+    "neighborhood": "Inner West",
+    "day": [
+      "Wednesday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry",
+    "startDate": "2026-10-21",
+    "endDate": "2026-10-21",
+    "time": "9:30am–12pm",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "magic-yellow-bus-grandparents-day-oct-2026",
+    "seoTitle": "Magic Yellow Bus Grandparents Day | Little Discoveries",
+    "seoDescription": "Free mobile playgroup for ages 0–6, with a special Grandparents Day morning tea.",
+    "isFeatured": false,
+    "source": "https://www.innerwest.nsw.gov.au/childrens-services/magic-yellow-bus",
+    "tags": [
+      "free",
+      "Inner West"
+    ],
+    "category": "Playgroups",
+    "expired": false,
+    "editorialPriority": 1
+  },
+  {
     "id": 1000,
     "title": "Moore Park South Family Fun Day",
     "website": "https://whatson.cityofsydney.nsw.gov.au/",
