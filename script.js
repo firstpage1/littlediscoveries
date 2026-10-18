@@ -4,7 +4,7 @@
 let activities = [];
 
 async function loadActivities() {
-  const res = await fetch('activities.json?v=oct12-approved-26-v2');
+  const res = await fetch('activities.json?v=oct18-filter-fix');
   activities = await res.json();
   init();
 }
@@ -298,25 +298,54 @@ function renderCards(list) {
 =========================== */
 function applyFilters() {
   const { age, neighborhood, days } = state;
+  const today = new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Australia/Sydney', year: 'numeric', month: '2-digit', day: '2-digit'
+  }).format(new Date());
+
+  const normalizeAge = value => {
+    const v = String(value || '').toLowerCase();
+    if (v.includes('all ages')) return 'all';
+    if (v.includes('babies') || v.includes('baby')) return 'babies';
+    if (v.includes('toddler')) return 'toddlers';
+    if (v.includes('pre-school') || v.includes('preschool')) return 'preschool';
+    if (v.includes('school kids')) return 'school';
+    if (v.includes('teen')) return 'teens';
+    return v;
+  };
+  const normalizeArea = value => {
+    const v = String(value || '').toLowerCase().trim();
+    if (v.includes('north shore')) return 'north shore';
+    if (v === 'city centre' || v === 'city center') return 'cbd';
+    return v;
+  };
+  const dayNames = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+  const activeDays = act => {
+    if (!act.startDate) return Array.isArray(act.day) ? act.day : [];
+    const start = new Date(act.startDate + 'T12:00:00Z');
+    const end = new Date((act.endDate || act.startDate) + 'T12:00:00Z');
+    if (Number.isNaN(start.getTime()) || Number.isNaN(end.getTime())) return act.day || [];
+    const span = Math.round((end - start) / 86400000);
+    if (span < 0 || span > 365) return act.day || [];
+    const result = [];
+    for (let i = 0; i <= span; i++) {
+      const d = new Date(start.getTime() + i * 86400000);
+      result.push(dayNames[d.getUTCDay()]);
+    }
+    return result;
+  };
 
   const filtered = activities.filter(act => {
-    // Editorial preview: display the complete approved Monday 12 October week.
-    // The 26 approved activities remain visible regardless of today's date.
-    if (act.editorialPriority) return true;
     if (act.expired) return false;
-    // Sydney-local dates: automatically hide activities that have ended,
-    // and avoid showing a single-day activity after its scheduled day.
-    const today = new Intl.DateTimeFormat('en-CA', {
-      timeZone: 'Australia/Sydney', year: 'numeric', month: '2-digit', day: '2-digit'
-    }).format(new Date());
     if (act.endDate && act.endDate < today) return false;
     if (!act.endDate && act.startDate && act.startDate < today) return false;
-    const ageMatch = !age || (act.age && act.age.includes(age));
-    const neighborhoodMatch = !neighborhood || act.neighborhood === neighborhood;
-    const dayMatch = days.length === 0 || (act.day && days.some(d => act.day.includes(d)));
-    return ageMatch && neighborhoodMatch && dayMatch;
-  });
 
+    const ages = Array.isArray(act.age) ? act.age : [act.age];
+    const selectedAge = normalizeAge(age);
+    const ageMatch = !age || ages.some(a => normalizeAge(a) === 'all' || normalizeAge(a) === selectedAge);
+    const areaMatch = !neighborhood || normalizeArea(act.neighborhood) === normalizeArea(neighborhood);
+    const dayMatch = days.length === 0 || days.some(d => activeDays(act).includes(d));
+    return ageMatch && areaMatch && dayMatch;
+  });
   renderCards(filtered);
 }
 
