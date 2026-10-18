@@ -137,60 +137,28 @@ function renderCards(list) {
 
   noResults.classList.add("hidden");
 
-  // Sort: EC → non-recurring short-term free → non-recurring ongoing free → non-recurring paid → recurring free → recurring paid
-  const isFreeAct = a => (a.cost === "Free" || a.cost === "free" || (a.costLabel || "").toLowerCase().startsWith("free"));
-  const isOngoing = a => {
-    if (!a.endDate) return false;
-    const diff = (new Date(a.endDate) - Date.now()) / 86400000;
-    return diff > 30;
+  // Rank special, date-specific experiences first. Routine weekly programmes go last.
+  // Editor's Choice is deliberately only set by an editor.
+  const recurringPattern = /storytime|story play|family tales|rhymetime|singing and stories|mindspark monday|kidtopia|lego challenge|game-a-thon|weekly|regular|every (monday|tuesday|wednesday|thursday|friday|saturday|sunday)/i;
+  const specialPattern = /festival|opening|workshop|exhibition|art prize|fair|concert|rainforest|costume swap|open day|bird week|jazz|grandparents day|halloween|songs & stories/i;
+  const isRecurringEvent = a => Boolean(a.isRecurring) ||
+    (recurringPattern.test(a.title || '') && !specialPattern.test(a.title || ''));
+  const rank = a => {
+    if (a.editorsChoice) return -1000 + (a.ecOrder ?? 100);
+    if (isRecurringEvent(a)) return 1000;
+    let score = 100;
+    if (specialPattern.test(a.title || '')) score -= 60;
+    if (a.startDate && a.endDate && a.startDate === a.endDate) score -= 15;
+    if (a.imageUrl && !/pexels|unsplash|pixabay/i.test(a.imageUrl)) score -= 8;
+    if (a.cost === 'Free') score -= 5;
+    return score;
   };
-  const CATEGORY_CYCLE = ["Festivals","STEM","Arts & Crafts","Science","Music","Storytime","Technology","Outdoor Adventures","Sports","Cooking"];
-  const ecItems      = list.filter(a => a.editorsChoice);
-  const nonEC        = list.filter(a => !a.editorsChoice);
-  const recurring    = nonEC.filter(a => a.isRecurring);
-  const nonRecurring = nonEC.filter(a => !a.isRecurring);
-  const shortFree    = nonRecurring.filter(a => isFreeAct(a) && !isOngoing(a));
-  const ongoingFree  = nonRecurring.filter(a => isFreeAct(a) &&  isOngoing(a));
-  const paidItems    = nonRecurring.filter(a => !isFreeAct(a));
-  const recurringFree = recurring.filter(a => isFreeAct(a));
-  const recurringPaid = recurring.filter(a => !isFreeAct(a));
-
-  function interleave(items) {
-    const catGroups = {};
-    items.forEach(act => {
-      const cat = act.category || "Other";
-      (catGroups[cat] = catGroups[cat] || []).push(act);
-    });
-    Object.values(catGroups).forEach(g => g.sort((a, b) => a.id - b.id));
-    const orderedCats = [
-      ...CATEGORY_CYCLE.filter(c => catGroups[c]),
-      ...Object.keys(catGroups).filter(c => !CATEGORY_CYCLE.includes(c))
-    ];
-    const mixed = [];
-    for (let round = 0; ; round++) {
-      let added = false;
-      for (const cat of orderedCats) {
-        if (catGroups[cat] && catGroups[cat][round]) { mixed.push(catGroups[cat][round]); added = true; }
-      }
-      if (!added) break;
-    }
-    return mixed;
-  }
-
-  ecItems.sort((a, b) => (a.ecOrder ?? 999) - (b.ecOrder ?? 999));
-
-  // Approved October editorial order: strongest, good, then coverage-useful.
-  const approved = list.filter(a => a.editorialPriority);
-  approved.sort((a, b) => a.editorialPriority - b.editorialPriority || a.id - b.id);
-  const sorted = [
-    ...approved,
-    ...ecItems.filter(a => !a.editorialPriority),
-    ...interleave(shortFree).filter(a => !a.editorialPriority),
-    ...interleave(ongoingFree).filter(a => !a.editorialPriority),
-    ...paidItems.filter(a => !a.editorialPriority),
-    ...interleave(recurringFree).filter(a => !a.editorialPriority),
-    ...recurringPaid.filter(a => !a.editorialPriority),
-  ];
+  const sorted = [...list].sort((a, b) =>
+    rank(a) - rank(b) ||
+    (a.editorialPriority ?? 999) - (b.editorialPriority ?? 999) ||
+    (a.startDate || '9999').localeCompare(b.startDate || '9999') ||
+    (a.title || '').localeCompare(b.title || '')
+  );
 
   const visible = sorted.slice(0, state.visibleCount);
   const hasMore = sorted.length > state.visibleCount;
