@@ -1,5 +1,47 @@
 [
   {
+    "id": 2026102501,
+    "title": "Pound Paws Dog Day at Bondi Beach",
+    "website": "https://www.eventbrite.com.au/e/pound-paws-dog-day-at-bondi-beach-tickets-2000083441414",
+    "imageUrl": "https://cdn.happeningnext.com/events10/banners/2fd6efb0-aea8-11f1-ae8e-cb23acdfea65-rimg-w1200-h675-dcb8d8a8-gmir.jpg",
+    "imageCredit": "Original Pound Paws event poster, reproduced by the event listing",
+    "description": "A free, dog-loving family day at Bondi Pavilion with rescue pups, fun dog competitions, pup-friendly activities, a pet market and live music.",
+    "longDescription": "Sunday 25 October, 10am–1pm: head to Bondi Pavilion for a free Pound Paws celebration. Meet rescue groups and adoptable dogs; watch the Best Dog Trick and Best Dressed contests; enjoy live acoustic music, dog-friendly exercise and a boutique pet market. Great for animal-loving children, including families without a dog. Food, products and selected activities may cost extra. Check Eventbrite for up-to-date access and ticket arrangements.",
+    "venue": "Bondi Pavilion, Bondi Beach",
+    "address": "Bondi Pavilion, Queen Elizabeth Drive, Bondi Beach NSW 2026",
+    "age": [
+      "All Ages"
+    ],
+    "neighborhood": "Eastern Suburbs",
+    "day": [
+      "Sunday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry; optional purchases extra",
+    "startDate": "2026-10-25",
+    "endDate": "2026-10-25",
+    "time": "10am–1pm",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "pound-paws-dog-day-bondi-beach-oct-2026",
+    "seoTitle": "Pound Paws Dog Day at Bondi Beach | Little Discoveries",
+    "seoDescription": "Free Sunday family event at Bondi Pavilion: rescue dogs, competitions, music and pet market, 25 October 2026, 10am–1pm.",
+    "isFeatured": true,
+    "editorsChoice": true,
+    "ecOrder": 0,
+    "source": "https://www.eventbrite.com.au/e/pound-paws-dog-day-at-bondi-beach-tickets-2000083441414",
+    "tags": [
+      "free",
+      "dogs",
+      "rescue dogs",
+      "festival",
+      "family"
+    ],
+    "category": "Festivals & Events",
+    "expired": false,
+    "editorialPriority": 0
+  },
+  {
     "id": 202610300,
     "title": "The Nicho Halloween Festival",
     "website": "https://www.innerwest.nsw.gov.au/",
