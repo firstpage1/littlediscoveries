@@ -1,5 +1,46 @@
 [
   {
+    "id": 2026102502,
+    "title": "Norton Street Italian Festa 2026",
+    "website": "https://festa.net.au/",
+    "imageUrl": "https://festa.net.au/wp-content/uploads/2023/05/2018442_T0A0263.jpg",
+    "imageCredit": "Official Norton Street Italian Festa photograph (festa.net.au)",
+    "description": "Leichhardt's free Italian street festival turns 40! Live music, cooking demos, rides, family activities, classic cars and delicious food.",
+    "longDescription": "Celebrate the 40th anniversary of Norton Street Italian Festa on Sunday 25 October 2026, 10am–5pm. The free street festival takes over Norton Street in Leichhardt with live entertainment, kids' rides, an animal farm, pony rides, cooking demonstrations, Italian food stalls and classic vehicles. Entry is free, while rides, food and some activities cost extra. Public transport is recommended because of road closures.",
+    "venue": "Norton Street, Leichhardt",
+    "address": "Norton Street between Marion Street and William Street, Leichhardt NSW 2040",
+    "age": [
+      "All Ages"
+    ],
+    "neighborhood": "Inner West",
+    "day": [
+      "Sunday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry; purchases and rides extra",
+    "startDate": "2026-10-25",
+    "endDate": "2026-10-25",
+    "time": "10am–5pm",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "norton-street-italian-festa-2026",
+    "seoTitle": "Norton Street Italian Festa 2026 | Little Discoveries",
+    "seoDescription": "Free family-friendly Norton Street Italian Festa on Sunday 25 October 2026, 10am–5pm, Leichhardt. Celebrate 40 years with live music, food and family fun.",
+    "isFeatured": true,
+    "editorsChoice": true,
+    "ecOrder": 1,
+    "source": "https://festa.net.au/",
+    "tags": [
+      "free",
+      "festival",
+      "music",
+      "family"
+    ],
+    "category": "Festivals & Events",
+    "expired": false,
+    "editorialPriority": 0
+  },
+  {
     "id": 2026102501,
     "title": "Pound Paws Dog Day at Bondi Beach",
     "website": "https://www.eventbrite.com.au/e/pound-paws-dog-day-at-bondi-beach-tickets-2000083441414",
