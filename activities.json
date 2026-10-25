@@ -1,5 +1,614 @@
 [
   {
+    "title": "Halloween at the Boot Factory",
+    "startDate": "2026-10-31",
+    "time": "3pm–6pm",
+    "venue": "The Boot Factory, 27–33 Spring Street, Bondi Junction",
+    "neighborhood": "Eastern Suburbs",
+    "age": [
+      "Pre-schoolers (3–5 years)",
+      "School Kids (5–13 years)"
+    ],
+    "bookingStatus": "Free drop-in; no booking required",
+    "source": "https://www.waverley.nsw.gov.au/recreation/events/events/halloween_at_the_boot_factory",
+    "about": "Little monsters are invited to transform the Boot Factory into a spooky Halloween playground. Families can explore creepy decorations, meet entertainers, join a costume parade and dance along to a Halloween soundtrack.",
+    "highlights": [
+      "Halloween costume parade and dancing",
+      "Creepy crafts and playful decorations",
+      "Spooky entertainers for children aged 3–12"
+    ],
+    "imageUrl": "",
+    "imageCredit": "Waverley Council event photograph — direct image URL not yet confirmed",
+    "id": 2026102600,
+    "website": "https://www.waverley.nsw.gov.au/recreation/events/events/halloween_at_the_boot_factory",
+    "description": "Little monsters are invited to transform the Boot Factory into a spooky Halloween playground. Families can explore creepy decorations, meet entertainers, join a costume parade and dance along to a Halloween soundtrack.",
+    "longDescription": "Little monsters are invited to transform the Boot Factory into a spooky Halloween playground. Families can explore creepy decorations, meet entertainers, join a costume parade and dance along to a Halloween soundtrack. Halloween costume parade and dancing. Creepy crafts and playful decorations. Spooky entertainers for children aged 3–12.",
+    "address": "The Boot Factory, 27–33 Spring Street, Bondi Junction NSW",
+    "day": [
+      "Saturday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "halloween-at-the-boot-factory-oct-2026",
+    "seoTitle": "Halloween at the Boot Factory | Little Discoveries",
+    "seoDescription": "Little monsters are invited to transform the Boot Factory into a spooky Halloween playground. Families can explore creepy decorations, meet entertainers, j",
+    "isFeatured": true,
+    "editorsChoice": true,
+    "ecOrder": 1,
+    "editorialPriority": 1,
+    "category": "Festivals & Events",
+    "tags": [
+      "festival",
+      "Eastern Suburbs"
+    ],
+    "expired": false,
+    "isRecurring": false
+  },
+  {
+    "title": "Skeletopia Halloween Festival",
+    "startDate": "2026-10-31",
+    "time": "4pm–8:30pm",
+    "venue": "Town Square, Cockle Bay Wharf, 201 Sussex Street, Sydney",
+    "neighborhood": "CBD",
+    "age": [
+      "All Ages"
+    ],
+    "bookingStatus": "Free public event; no ticket requirement listed",
+    "source": "https://www.darlingharbour.com/whats-on/events/skeletopia-halloween-festival-at-cockle-bay-wharf",
+    "about": "The waterfront comes alive for an evening of Halloween theatre. Encounter larger-than-life Day of the Dead puppets Frida and Diego, meet roaming skeleton performers and soak up the spooky atmosphere at Cockle Bay Wharf.",
+    "highlights": [
+      "Free face painting from 4pm–7pm",
+      "Giant puppets from 5pm–7pm",
+      "Roaming skeleton performers from 5:30pm–8:30pm; lollipop giveaways while stocks last"
+    ],
+    "imageUrl": "",
+    "imageCredit": "Darling Harbour / Cockle Bay Wharf event image — direct image URL not yet confirmed",
+    "id": 2026102601,
+    "website": "https://www.darlingharbour.com/whats-on/events/skeletopia-halloween-festival-at-cockle-bay-wharf",
+    "description": "The waterfront comes alive for an evening of Halloween theatre. Encounter larger-than-life Day of the Dead puppets Frida and Diego, meet roaming skeleton performers and soak up the spooky atmosphere at Cockle Bay Wharf.",
+    "longDescription": "The waterfront comes alive for an evening of Halloween theatre. Encounter larger-than-life Day of the Dead puppets Frida and Diego, meet roaming skeleton performers and soak up the spooky atmosphere at Cockle Bay Wharf. Free face painting from 4pm–7pm. Giant puppets from 5pm–7pm. Roaming skeleton performers from 5:30pm–8:30pm; lollipop giveaways while stocks last.",
+    "address": "Town Square, Cockle Bay Wharf, 201 Sussex Street, Sydney NSW",
+    "day": [
+      "Saturday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "skeletopia-halloween-festival-oct-2026",
+    "seoTitle": "Skeletopia Halloween Festival | Little Discoveries",
+    "seoDescription": "The waterfront comes alive for an evening of Halloween theatre. Encounter larger-than-life Day of the Dead puppets Frida and Diego, meet roaming skeleton p",
+    "isFeatured": true,
+    "editorsChoice": true,
+    "ecOrder": 2,
+    "editorialPriority": 2,
+    "category": "Festivals & Events",
+    "tags": [
+      "festival",
+      "CBD"
+    ],
+    "expired": false,
+    "isRecurring": false
+  },
+  {
+    "title": "Halloween at Darling Square – Trick or Treat Hunt",
+    "startDate": "2026-10-31",
+    "time": "12pm–3pm",
+    "venue": "Darling Square, 35 Tumbalong Boulevard, Haymarket",
+    "neighborhood": "CBD",
+    "age": [
+      "All Ages"
+    ],
+    "bookingStatus": "Free; collect your hunt map on site",
+    "source": "https://www.darlingharbour.com/whats-on/events/halloween-at-darling-square",
+    "about": "Dress up and follow a family-friendly Halloween trail through Darling Square. Collect a map from the Trick or Treat Station, visit stops around the precinct and finish your costume with colourful free face painting.",
+    "highlights": [
+      "Free trick-or-treat trail; collect the map in the Square",
+      "Free face painting from noon to 3pm",
+      "Optional shopping, dining and spend-to-win offers are separate"
+    ],
+    "imageUrl": "",
+    "imageCredit": "Darling Harbour organiser event image — direct image URL not yet confirmed",
+    "id": 2026102602,
+    "website": "https://www.darlingharbour.com/whats-on/events/halloween-at-darling-square",
+    "description": "Dress up and follow a family-friendly Halloween trail through Darling Square. Collect a map from the Trick or Treat Station, visit stops around the precinct and finish your costume with colourful free face painting.",
+    "longDescription": "Dress up and follow a family-friendly Halloween trail through Darling Square. Collect a map from the Trick or Treat Station, visit stops around the precinct and finish your costume with colourful free face painting. Free trick-or-treat trail; collect the map in the Square. Free face painting from noon to 3pm. Optional shopping, dining and spend-to-win offers are separate.",
+    "address": "Darling Square, 35 Tumbalong Boulevard, Haymarket NSW",
+    "day": [
+      "Saturday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "halloween-at-darling-square-trick-or-treat-hunt-oct-2026",
+    "seoTitle": "Halloween at Darling Square – Trick or Treat Hunt | Little Discoveries",
+    "seoDescription": "Dress up and follow a family-friendly Halloween trail through Darling Square. Collect a map from the Trick or Treat Station, visit stops around the precinc",
+    "isFeatured": true,
+    "editorsChoice": true,
+    "ecOrder": 3,
+    "editorialPriority": 3,
+    "category": "Festivals & Events",
+    "tags": [
+      "festival",
+      "CBD"
+    ],
+    "expired": false,
+    "isRecurring": false
+  },
+  {
+    "title": "Children's Fair 2026",
+    "startDate": "2026-10-27",
+    "time": "10am–12pm",
+    "venue": "Mosman Square and Village Green, Spit Junction",
+    "neighborhood": "Lower North Shore",
+    "age": [
+      "Babies (0–1 years)",
+      "Toddlers (2–3 years)",
+      "Pre-schoolers (3–5 years)",
+      "School Kids (5–13 years)"
+    ],
+    "bookingStatus": "Free community fair; no ticket requirement listed",
+    "source": "https://events.mosman.nsw.gov.au/events/childrens-fair-2026",
+    "about": "Mosman’s much-loved Children’s Fair brings a busy morning of outdoor discovery to the village green. Meet reptiles, enjoy art and face painting, get moving with drumming and watch giant bubbles drift over the crowd.",
+    "highlights": [
+      "Reptile encounters and educational activities",
+      "Face painting, art sessions and storytelling",
+      "Drumming, fun rides and Bubble Man show"
+    ],
+    "imageUrl": "https://imagedelivery.net/2zUSvcC7jHjpA3xQVA24_A/b2c6c94d-6daa-44a4-f0aa-f851866e7a00/public",
+    "imageCredit": "Photograph of Children's Fair featuring giant bubbles, via Pack Snacks (organiser photo rights not confirmed)",
+    "id": 2026102603,
+    "website": "https://events.mosman.nsw.gov.au/events/childrens-fair-2026",
+    "description": "Mosman’s much-loved Children’s Fair brings a busy morning of outdoor discovery to the village green. Meet reptiles, enjoy art and face painting, get moving with drumming and watch giant bubbles drift over the crowd.",
+    "longDescription": "Mosman’s much-loved Children’s Fair brings a busy morning of outdoor discovery to the village green. Meet reptiles, enjoy art and face painting, get moving with drumming and watch giant bubbles drift over the crowd. Reptile encounters and educational activities. Face painting, art sessions and storytelling. Drumming, fun rides and Bubble Man show.",
+    "address": "Mosman Square and Village Green, Spit Junction NSW",
+    "day": [
+      "Tuesday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "children-s-fair-2026-oct-2026",
+    "seoTitle": "Children's Fair 2026 | Little Discoveries",
+    "seoDescription": "Mosman’s much-loved Children’s Fair brings a busy morning of outdoor discovery to the village green. Meet reptiles, enjoy art and face painting, get moving",
+    "isFeatured": true,
+    "editorsChoice": true,
+    "ecOrder": 4,
+    "editorialPriority": 4,
+    "category": "Festivals & Events",
+    "tags": [
+      "festival",
+      "Lower North Shore"
+    ],
+    "expired": false,
+    "isRecurring": false
+  },
+  {
+    "title": "Art Unleashed at Mosman Art Gallery",
+    "startDate": "2026-10-26",
+    "time": "6pm–9pm",
+    "venue": "Mosman Art Gallery & Community Centre, 1 Art Gallery Way, Mosman",
+    "neighborhood": "Lower North Shore",
+    "age": [
+      "Teens (13–16 years)",
+      "Young Adults (16–18 years)",
+      "Adults (18+ years)"
+    ],
+    "bookingStatus": "Free event; confirm family suitability and access with organiser",
+    "source": "https://events.mosman.nsw.gov.au/events/art-unleashed",
+    "about": "One night only, the art gallery transforms into an adventurous venue for live music, creative experiments and immersive performance. Look out for illuminated puppets, roaming characters and unexpected encounters between artworks.",
+    "highlights": [
+      "DJ sets from Queen Bee DJ Collective and live Kaunta Band",
+      "Hands-on art experiences",
+      "Illuminated puppets and immersive theatre"
+    ],
+    "imageUrl": "",
+    "imageCredit": "Mosman Council Art Unleashed event image — direct image URL not yet confirmed",
+    "id": 2026102604,
+    "website": "https://events.mosman.nsw.gov.au/events/art-unleashed",
+    "description": "One night only, the art gallery transforms into an adventurous venue for live music, creative experiments and immersive performance. Look out for illuminated puppets, roaming characters and unexpected encounters between artworks.",
+    "longDescription": "One night only, the art gallery transforms into an adventurous venue for live music, creative experiments and immersive performance. Look out for illuminated puppets, roaming characters and unexpected encounters between artworks. DJ sets from Queen Bee DJ Collective and live Kaunta Band. Hands-on art experiences. Illuminated puppets and immersive theatre.",
+    "address": "Mosman Art Gallery & Community Centre, 1 Art Gallery Way, Mosman NSW",
+    "day": [
+      "Monday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "art-unleashed-at-mosman-art-gallery-oct-2026",
+    "seoTitle": "Art Unleashed at Mosman Art Gallery | Little Discoveries",
+    "seoDescription": "One night only, the art gallery transforms into an adventurous venue for live music, creative experiments and immersive performance. Look out for illuminat",
+    "isFeatured": true,
+    "editorsChoice": true,
+    "ecOrder": 5,
+    "editorialPriority": 5,
+    "category": "Festivals & Events",
+    "tags": [
+      "festival",
+      "Lower North Shore"
+    ],
+    "expired": false,
+    "isRecurring": false
+  },
+  {
+    "title": "Fisher's Ghost Parade",
+    "startDate": "2026-10-31",
+    "time": "2pm–4pm",
+    "venue": "Queen Street, from Dumaresq Street towards Cordeaux Street, Campbelltown",
+    "neighborhood": "Western Sydney",
+    "age": [
+      "All Ages"
+    ],
+    "bookingStatus": "Free to watch; no booking required for spectators",
+    "source": "https://www.campbelltown.nsw.gov.au/Whats-On/Fishers-Ghost-Parade",
+    "about": "A much-loved community parade returns to Campbelltown to celebrate the legendary Fred Fisher. Colourful floats, costumed performers, schools and community groups make their way along Queen Street to launch the Festival of Fisher’s Ghost.",
+    "highlights": [
+      "Festive street parade with community floats and performers",
+      "Starts at Dumaresq Street and heads north along Queen Street",
+      "Connects with Fisher's Twilight Streets after the parade"
+    ],
+    "imageUrl": "https://www.campbelltown.nsw.gov.au/files/sharedassets/public/v/1/fishers-ghost/images/fishers-street-parade-2016.jpg?w=1200",
+    "imageCredit": "Campbelltown City Council, official Fisher’s Ghost street parade photograph (archive image, 2016)",
+    "id": 2026102605,
+    "website": "https://www.campbelltown.nsw.gov.au/Whats-On/Fishers-Ghost-Parade",
+    "description": "A much-loved community parade returns to Campbelltown to celebrate the legendary Fred Fisher. Colourful floats, costumed performers, schools and community groups make their way along Queen Street to launch the Festival of Fisher’s Ghost.",
+    "longDescription": "A much-loved community parade returns to Campbelltown to celebrate the legendary Fred Fisher. Colourful floats, costumed performers, schools and community groups make their way along Queen Street to launch the Festival of Fisher’s Ghost. Festive street parade with community floats and performers. Starts at Dumaresq Street and heads north along Queen Street. Connects with Fisher's Twilight Streets after the parade.",
+    "address": "Queen Street, from Dumaresq Street towards Cordeaux Street, Campbelltown NSW",
+    "day": [
+      "Saturday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "fisher-s-ghost-parade-oct-2026",
+    "seoTitle": "Fisher's Ghost Parade | Little Discoveries",
+    "seoDescription": "A much-loved community parade returns to Campbelltown to celebrate the legendary Fred Fisher. Colourful floats, costumed performers, schools and community ",
+    "isFeatured": true,
+    "editorsChoice": true,
+    "ecOrder": 6,
+    "editorialPriority": 6,
+    "category": "Festivals & Events",
+    "tags": [
+      "festival",
+      "Western Sydney"
+    ],
+    "expired": false,
+    "isRecurring": false
+  },
+  {
+    "title": "Fisher's Twilight Streets – Saturday",
+    "startDate": "2026-10-31",
+    "time": "4pm–10pm",
+    "venue": "Mawson Park and Queen Street, Campbelltown",
+    "neighborhood": "Western Sydney",
+    "age": [
+      "All Ages"
+    ],
+    "bookingStatus": "Free entry; optional food and market purchases extra",
+    "source": "https://www.campbelltown.nsw.gov.au/Whats-On/FishersTwilightStreets",
+    "about": "Campbelltown’s streets become a festival after the Fisher’s Ghost Parade. Expect music, interactive installations, live performers and colourful lights. Saturday has an especially energetic youth and teen focus, with a drone show as the evening highlight.",
+    "highlights": [
+      "Free live entertainment and interactive installations",
+      "Dramatic lighting installations in Mawson Park",
+      "Drone show scheduled for 8pm (approximately 15 minutes)"
+    ],
+    "imageUrl": "https://www.campbelltown.nsw.gov.au/files/sharedassets/public/v/2/council-and-councillors/images/fishers-ghost-festival/fishers-get-involved-banner-1060x444.jpg?w=1080",
+    "imageCredit": "Campbelltown City Council, official Festival of Fisher’s Ghost photograph (festival image)",
+    "id": 2026102606,
+    "website": "https://www.campbelltown.nsw.gov.au/Whats-On/FishersTwilightStreets",
+    "description": "Campbelltown’s streets become a festival after the Fisher’s Ghost Parade. Expect music, interactive installations, live performers and colourful lights. Saturday has an especially energetic youth and teen focus, with a drone show as the evening highlight.",
+    "longDescription": "Campbelltown’s streets become a festival after the Fisher’s Ghost Parade. Expect music, interactive installations, live performers and colourful lights. Saturday has an especially energetic youth and teen focus, with a drone show as the evening highlight. Free live entertainment and interactive installations. Dramatic lighting installations in Mawson Park. Drone show scheduled for 8pm (approximately 15 minutes).",
+    "address": "Mawson Park and Queen Street, Campbelltown NSW",
+    "day": [
+      "Saturday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "fisher-s-twilight-streets-saturday-oct-2026",
+    "seoTitle": "Fisher's Twilight Streets – Saturday | Little Discoveries",
+    "seoDescription": "Campbelltown’s streets become a festival after the Fisher’s Ghost Parade. Expect music, interactive installations, live performers and colourful lights. Sa",
+    "isFeatured": true,
+    "editorsChoice": true,
+    "ecOrder": 7,
+    "editorialPriority": 7,
+    "category": "Festivals & Events",
+    "tags": [
+      "festival",
+      "Western Sydney"
+    ],
+    "expired": false,
+    "isRecurring": false
+  },
+  {
+    "title": "Fisher's Twilight Streets – Sunday Family Day",
+    "startDate": "2026-11-01",
+    "time": "3pm–9pm",
+    "venue": "Mawson Park and Queen Street, Campbelltown",
+    "neighborhood": "Western Sydney",
+    "age": [
+      "All Ages"
+    ],
+    "bookingStatus": "Free entry; optional purchases extra",
+    "source": "https://www.campbelltown.nsw.gov.au/Whats-On/FishersTwilightStreets",
+    "about": "Sunday brings a family-focused finale to the Twilight Streets festival. Wander between market stalls and family attractions, enjoy light installations in Mawson Park and discover a welcoming mix of live entertainment and hands-on activities.",
+    "highlights": [
+      "Dedicated Sunday family programme",
+      "Colourful lighting and family entertainment around Mawson Park",
+      "Fred’s Treat Trail runs 3pm–6pm; collect map at Mawson Park"
+    ],
+    "imageUrl": "https://www.campbelltown.nsw.gov.au/files/sharedassets/public/v/2/council-and-councillors/images/fishers-ghost-festival/fishers-get-involved-banner-1060x444.jpg?w=1080",
+    "imageCredit": "Campbelltown City Council, official Festival of Fisher’s Ghost photograph (festival image)",
+    "id": 2026102607,
+    "website": "https://www.campbelltown.nsw.gov.au/Whats-On/FishersTwilightStreets",
+    "description": "Sunday brings a family-focused finale to the Twilight Streets festival. Wander between market stalls and family attractions, enjoy light installations in Mawson Park and discover a welcoming mix of live entertainment and hands-on activities.",
+    "longDescription": "Sunday brings a family-focused finale to the Twilight Streets festival. Wander between market stalls and family attractions, enjoy light installations in Mawson Park and discover a welcoming mix of live entertainment and hands-on activities. Dedicated Sunday family programme. Colourful lighting and family entertainment around Mawson Park. Fred’s Treat Trail runs 3pm–6pm; collect map at Mawson Park.",
+    "address": "Mawson Park and Queen Street, Campbelltown NSW",
+    "day": [
+      "Sunday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "fisher-s-twilight-streets-sunday-family-day-oct-2026",
+    "seoTitle": "Fisher's Twilight Streets – Sunday Family Day | Little Discoveries",
+    "seoDescription": "Sunday brings a family-focused finale to the Twilight Streets festival. Wander between market stalls and family attractions, enjoy light installations in M",
+    "isFeatured": true,
+    "editorsChoice": true,
+    "ecOrder": 8,
+    "editorialPriority": 8,
+    "category": "Festivals & Events",
+    "tags": [
+      "festival",
+      "Western Sydney"
+    ],
+    "expired": false,
+    "isRecurring": false
+  },
+  {
+    "title": "Fisher's Ghost Carnival",
+    "startDate": "2026-10-29",
+    "endDate": "2026-11-01",
+    "time": "Thu 6–10pm; Fri 6–11pm; Sat 2–11pm; Sun 12–6pm",
+    "venue": "Campbelltown Showground, King Street, Campbelltown",
+    "neighborhood": "Western Sydney",
+    "age": [
+      "All Ages"
+    ],
+    "bookingStatus": "Free admission; rides, sideshow games, food and drink cost extra",
+    "source": "https://www.campbelltown.nsw.gov.au/Whats-On/Fishers-Carnival",
+    "about": "Campbelltown Showground transforms into a bright carnival for the Festival of Fisher’s Ghost. Families can stroll through the festive atmosphere for free, with rides, games and treats available to purchase. A fireworks display is planned on Saturday night.",
+    "highlights": [
+      "Free entry to the carnival grounds",
+      "Amusement rides and games require paid tickets",
+      "Saturday 31 October fireworks scheduled for 9pm"
+    ],
+    "imageUrl": "https://www.campbelltown.nsw.gov.au/files/sharedassets/public/v/2/council-and-councillors/images/fishers-ghost-festival/fishers-get-involved-banner-1060x444.jpg?w=1080",
+    "imageCredit": "Campbelltown City Council, Festival of Fisher’s Ghost photograph (not necessarily the carnival grounds)",
+    "id": 2026102608,
+    "website": "https://www.campbelltown.nsw.gov.au/Whats-On/Fishers-Carnival",
+    "description": "Campbelltown Showground transforms into a bright carnival for the Festival of Fisher’s Ghost. Families can stroll through the festive atmosphere for free, with rides, games and treats available to purchase. A fireworks display is planned on Saturday night.",
+    "longDescription": "Campbelltown Showground transforms into a bright carnival for the Festival of Fisher’s Ghost. Families can stroll through the festive atmosphere for free, with rides, games and treats available to purchase. A fireworks display is planned on Saturday night. Free entry to the carnival grounds. Amusement rides and games require paid tickets. Saturday 31 October fireworks scheduled for 9pm.",
+    "address": "Campbelltown Showground, King Street, Campbelltown NSW",
+    "day": [
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry; rides and games extra",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "fisher-s-ghost-carnival-oct-2026",
+    "seoTitle": "Fisher's Ghost Carnival | Little Discoveries",
+    "seoDescription": "Campbelltown Showground transforms into a bright carnival for the Festival of Fisher’s Ghost. Families can stroll through the festive atmosphere for free, ",
+    "isFeatured": true,
+    "editorsChoice": true,
+    "ecOrder": 9,
+    "editorialPriority": 9,
+    "category": "Festivals & Events",
+    "tags": [
+      "festival",
+      "Western Sydney"
+    ],
+    "expired": false,
+    "isRecurring": false
+  },
+  {
+    "title": "Halloween Twilight Markets",
+    "startDate": "2026-10-31",
+    "time": "2pm–8pm",
+    "venue": "Mascot Public School, 207 King Street, Mascot",
+    "neighborhood": "South Sydney",
+    "age": [
+      "All Ages"
+    ],
+    "bookingStatus": "Free entry; rides, haunted house, food and stalls may charge",
+    "source": "https://www.bayside.nsw.gov.au/community-noticeboard/halloween-twilight-markets",
+    "about": "A family-friendly community fundraiser at Mascot Public School, combining a bustling twilight market with Halloween excitement. Browse food and artisan stalls, dress up for trick-or-treating and explore optional rides and a haunted house.",
+    "highlights": [
+      "Costumes, trick-or-treating and Halloween atmosphere",
+      "Fresh produce, artisan stalls and local food",
+      "Rides and haunted house are optional paid activities"
+    ],
+    "imageUrl": "",
+    "imageCredit": "Bayside Council event listing photo — direct image URL not yet confirmed",
+    "id": 2026102609,
+    "website": "https://www.bayside.nsw.gov.au/community-noticeboard/halloween-twilight-markets",
+    "description": "A family-friendly community fundraiser at Mascot Public School, combining a bustling twilight market with Halloween excitement. Browse food and artisan stalls, dress up for trick-or-treating and explore optional rides and a haunted house.",
+    "longDescription": "A family-friendly community fundraiser at Mascot Public School, combining a bustling twilight market with Halloween excitement. Browse food and artisan stalls, dress up for trick-or-treating and explore optional rides and a haunted house. Costumes, trick-or-treating and Halloween atmosphere. Fresh produce, artisan stalls and local food. Rides and haunted house are optional paid activities.",
+    "address": "Mascot Public School, 207 King Street, Mascot NSW",
+    "day": [
+      "Saturday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry; optional purchases extra",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "halloween-twilight-markets-oct-2026",
+    "seoTitle": "Halloween Twilight Markets | Little Discoveries",
+    "seoDescription": "A family-friendly community fundraiser at Mascot Public School, combining a bustling twilight market with Halloween excitement. Browse food and artisan sta",
+    "isFeatured": true,
+    "editorsChoice": true,
+    "ecOrder": 10,
+    "editorialPriority": 10,
+    "category": "Festivals & Events",
+    "tags": [
+      "festival",
+      "South Sydney"
+    ],
+    "expired": false,
+    "isRecurring": false
+  },
+  {
+    "title": "Ghostly Coding",
+    "startDate": "2026-10-29",
+    "time": "3:15pm–4:45pm",
+    "venue": "Glenquarie Library, 12 Brooks Street, Macquarie Fields",
+    "neighborhood": "Western Sydney",
+    "age": [
+      "School Kids (5–13 years)",
+      "Teens (13–16 years)"
+    ],
+    "bookingStatus": "Free; booking required through organiser",
+    "source": "https://www.campbelltown.nsw.gov.au/Whats-On/Ghostly-Coding",
+    "about": "An imaginative Halloween coding workshop where young creators work together to design their own ghostly computer game using Scratch or Python. Library laptops are available to share, and costumes are welcome.",
+    "highlights": [
+      "Build a spooky-themed game using Scratch or Python",
+      "Designed for ages 8–16; under-12s must have an adult with them",
+      "Library laptops provided; participants may bring a device"
+    ],
+    "imageUrl": "",
+    "imageCredit": "Campbelltown City Libraries Ghostly Coding artwork — direct image URL not yet confirmed",
+    "id": 2026102610,
+    "website": "https://www.campbelltown.nsw.gov.au/Whats-On/Ghostly-Coding",
+    "description": "An imaginative Halloween coding workshop where young creators work together to design their own ghostly computer game using Scratch or Python. Library laptops are available to share, and costumes are welcome.",
+    "longDescription": "An imaginative Halloween coding workshop where young creators work together to design their own ghostly computer game using Scratch or Python. Library laptops are available to share, and costumes are welcome. Build a spooky-themed game using Scratch or Python. Designed for ages 8–16; under-12s must have an adult with them. Library laptops provided; participants may bring a device.",
+    "address": "Glenquarie Library, 12 Brooks Street, Macquarie Fields NSW",
+    "day": [
+      "Thursday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "ghostly-coding-oct-2026",
+    "seoTitle": "Ghostly Coding | Little Discoveries",
+    "seoDescription": "An imaginative Halloween coding workshop where young creators work together to design their own ghostly computer game using Scratch or Python. Library lapt",
+    "isFeatured": true,
+    "editorsChoice": true,
+    "ecOrder": 11,
+    "editorialPriority": 11,
+    "category": "STEM",
+    "tags": [
+      "festival",
+      "Western Sydney"
+    ],
+    "expired": false,
+    "isRecurring": false
+  },
+  {
+    "title": "Halloween Story Time – Wentworth Point",
+    "startDate": "2026-10-28",
+    "time": "10:30am–11am",
+    "venue": "Wentworth Point Community Centre and Library, 10 Footbridge Boulevard",
+    "neighborhood": "Western Sydney",
+    "age": [
+      "School Kids (5–13 years)"
+    ],
+    "bookingStatus": "Free; no booking required",
+    "source": "https://www.cityofparramatta.nsw.gov.au/community/events/upcoming-events/Halloween-Story-Time-Wentworth-Point-Library-ev_d276cb2c92084cb7acf54199dae8421b",
+    "about": "Bring your favourite Halloween costume to a not-too-scary storytelling session. Sing songs, discover playful Halloween tales and join in a cute rather than creepy craft activity at Wentworth Point Library.",
+    "highlights": [
+      "Halloween stories and songs",
+      "Dress-ups welcome",
+      "Simple craft activity for ages 5–10"
+    ],
+    "imageUrl": "",
+    "imageCredit": "City of Parramatta event artwork — direct image URL not yet confirmed",
+    "id": 2026102611,
+    "website": "https://www.cityofparramatta.nsw.gov.au/community/events/upcoming-events/Halloween-Story-Time-Wentworth-Point-Library-ev_d276cb2c92084cb7acf54199dae8421b",
+    "description": "Bring your favourite Halloween costume to a not-too-scary storytelling session. Sing songs, discover playful Halloween tales and join in a cute rather than creepy craft activity at Wentworth Point Library.",
+    "longDescription": "Bring your favourite Halloween costume to a not-too-scary storytelling session. Sing songs, discover playful Halloween tales and join in a cute rather than creepy craft activity at Wentworth Point Library. Halloween stories and songs. Dress-ups welcome. Simple craft activity for ages 5–10.",
+    "address": "Wentworth Point Community Centre and Library, 10 Footbridge Boulevard NSW",
+    "day": [
+      "Wednesday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "halloween-story-time-wentworth-point-oct-2026",
+    "seoTitle": "Halloween Story Time – Wentworth Point | Little Discoveries",
+    "seoDescription": "Bring your favourite Halloween costume to a not-too-scary storytelling session. Sing songs, discover playful Halloween tales and join in a cute rather than",
+    "isFeatured": true,
+    "editorsChoice": true,
+    "ecOrder": 12,
+    "editorialPriority": 12,
+    "category": "Storytime",
+    "tags": [
+      "festival",
+      "Western Sydney"
+    ],
+    "expired": false,
+    "isRecurring": false
+  },
+  {
+    "title": "Halloween Story Time – Carlingford",
+    "startDate": "2026-10-30",
+    "time": "10:30am–11am",
+    "venue": "Carlingford Library, Lloyds Avenue, Carlingford",
+    "neighborhood": "Western Sydney",
+    "age": [
+      "Pre-schoolers (3–5 years)"
+    ],
+    "bookingStatus": "Free; no booking required",
+    "source": "https://www.cityofparramatta.nsw.gov.au/community/events/upcoming-events/Halloween-Story-Time-Carlingford-Library-ev_6e030566c17d4553b62b57f5d8d53fc8",
+    "about": "A gentle Halloween celebration for preschoolers at Carlingford Library. Dress up if you like, sing along to familiar tunes, listen to spooky-but-friendly stories and make a colourful craft to take home.",
+    "highlights": [
+      "Ages 3–5",
+      "Fun Halloween stories, songs and a craft",
+      "Free drop-in event; fancy dress welcome"
+    ],
+    "imageUrl": "",
+    "imageCredit": "City of Parramatta event artwork — direct image URL not yet confirmed",
+    "id": 2026102612,
+    "website": "https://www.cityofparramatta.nsw.gov.au/community/events/upcoming-events/Halloween-Story-Time-Carlingford-Library-ev_6e030566c17d4553b62b57f5d8d53fc8",
+    "description": "A gentle Halloween celebration for preschoolers at Carlingford Library. Dress up if you like, sing along to familiar tunes, listen to spooky-but-friendly stories and make a colourful craft to take home.",
+    "longDescription": "A gentle Halloween celebration for preschoolers at Carlingford Library. Dress up if you like, sing along to familiar tunes, listen to spooky-but-friendly stories and make a colourful craft to take home. Ages 3–5. Fun Halloween stories, songs and a craft. Free drop-in event; fancy dress welcome.",
+    "address": "Carlingford Library, Lloyds Avenue, Carlingford NSW",
+    "day": [
+      "Friday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "halloween-story-time-carlingford-oct-2026",
+    "seoTitle": "Halloween Story Time – Carlingford | Little Discoveries",
+    "seoDescription": "A gentle Halloween celebration for preschoolers at Carlingford Library. Dress up if you like, sing along to familiar tunes, listen to spooky-but-friendly s",
+    "isFeatured": true,
+    "editorsChoice": true,
+    "ecOrder": 13,
+    "editorialPriority": 13,
+    "category": "Storytime",
+    "tags": [
+      "festival",
+      "Western Sydney"
+    ],
+    "expired": false,
+    "isRecurring": false
+  },
+  {
     "id": 2026102502,
     "title": "Norton Street Italian Festa 2026",
     "website": "https://festa.net.au/",
