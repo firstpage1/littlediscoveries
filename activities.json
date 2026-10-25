@@ -138,8 +138,8 @@
     "id": 2026104003,
     "title": "Bondi's Day of the Dead Festival",
     "website": "https://whatson.cityofsydney.nsw.gov.au/events/bondis-day-of-the-dead-festival",
-    "imageUrl": "",
-    "imageCredit": "Original organiser photograph not confirmed; no substitute image used",
+    "imageUrl": "/images/organiser/bondi-s-day-of-the-dead-festival-oct-nov-2026.jpg",
+    "imageCredit": "Image sourced from the event organiser",
     "description": "Vivid Day of the Dead-inspired street celebrations bring Latin American flavours, music, colourful market stalls and a festive family atmosphere to Bondi Junction's Oxford Street Mall.",
     "longDescription": "Vivid Day of the Dead-inspired street celebrations bring Latin American flavours, music, colourful market stalls and a festive family atmosphere to Bondi Junction's Oxford Street Mall.",
     "venue": "Oxford Street Mall, Bondi Junction",
@@ -175,14 +175,16 @@
     "category": "Festivals & Events",
     "expired": false,
     "isRecurring": false,
-    "highlights": []
+    "highlights": [],
+    "imageVerifiedFromSource": true,
+    "imageSourceUrl": "https://whatson.cityofsydney.nsw.gov.au/events/bondis-day-of-the-dead-festival"
   },
   {
     "id": 2026104004,
     "title": "Newtown Halloween Street Party",
     "website": "https://www.innerwest.nsw.gov.au/whats-on/halloween-street-party-nnc",
-    "imageUrl": "https://res.cloudinary.com/cityofsydney/image/upload/v1758614668/k7h9gk6i1z6d/neOD6Av4JAwjhAHFxIKrS/74fe3651-9853-11f0-a56c-cfab9833cf1a--Newtown-Halloween-Street-Party--tile.jpg",
-    "imageCredit": "Newtown Neighbourhood Centre Halloween event photography via City of Sydney (prior edition)",
+    "imageUrl": "/images/organiser/newtown-halloween-street-party-oct-nov-2026.webp",
+    "imageCredit": "Image sourced from the event organiser",
     "description": "Put on a costume for Newtown's warm-hearted neighbourhood Halloween party with a haunted house, trick-or-treating, face painting, pumpkin decorating, games, a costume parade and free community BBQ.",
     "longDescription": "Put on a costume for Newtown's warm-hearted neighbourhood Halloween party with a haunted house, trick-or-treating, face painting, pumpkin decorating, games, a costume parade and free community BBQ.",
     "venue": "Newtown Neighbourhood Centre, 11–13 Darley Street, Newtown",
@@ -218,14 +220,16 @@
     "category": "Arts & Crafts",
     "expired": false,
     "isRecurring": false,
-    "highlights": []
+    "highlights": [],
+    "imageVerifiedFromSource": true,
+    "imageSourceUrl": "https://www.innerwest.nsw.gov.au/whats-on/halloween-street-party-nnc"
   },
   {
     "id": 2026104005,
     "title": "Halloween on Majors Bay Road",
     "website": "https://www.canadabay.nsw.gov.au/event/halloween-majors-bay-road-0",
-    "imageUrl": "https://hdp-au-prod-app-cbay-collaborate-files.s3.ap-southeast-2.amazonaws.com/3617/5636/4258/CBC20241031-00554_www.fluential.au.jpg",
-    "imageCredit": "City of Canada Bay: official Halloween Festival photograph, 2024 edition; photo credit fluential.au",
+    "imageUrl": "/images/organiser/halloween-on-majors-bay-road-oct-nov-2026.jpg",
+    "imageCredit": "Image sourced from the event organiser",
     "description": "Majors Bay Road becomes a lively Halloween streetscape with music, roving performers, children's workshops, fortune telling and a haunted house; visit local businesses along the way.",
     "longDescription": "Majors Bay Road becomes a lively Halloween streetscape with music, roving performers, children's workshops, fortune telling and a haunted house; visit local businesses along the way.",
     "venue": "Majors Bay Road, Concord",
@@ -261,14 +265,16 @@
     "category": "Festivals & Events",
     "expired": false,
     "isRecurring": false,
-    "highlights": []
+    "highlights": [],
+    "imageVerifiedFromSource": true,
+    "imageSourceUrl": "https://www.canadabay.nsw.gov.au/event/halloween-majors-bay-road-0"
   },
   {
     "id": 2026104006,
     "title": "Scooby-Doo Movies Under the Stars Panania",
     "website": "https://whereinterestinghappens.com.au/event/movies-under-the-stars-2026/",
-    "imageUrl": "",
-    "imageCredit": "Original organiser photograph not confirmed; no substitute image used",
+    "imageUrl": "/images/organiser/scooby-doo-movies-under-the-stars-panania-oct-nov-2026.jpg",
+    "imageCredit": "Image sourced from the event organiser",
     "description": "Finish Halloween with an outdoor screening of Scooby-Doo! and the Curse of the 13th Ghost. Arrive early for spooky face painting, inflatable obstacle courses, games and crafts; food vendors sell treats.",
     "longDescription": "Finish Halloween with an outdoor screening of Scooby-Doo! and the Curse of the 13th Ghost. Arrive early for spooky face painting, inflatable obstacle courses, games and crafts; food vendors sell treats.",
     "venue": "Marco Reserve, Marco Avenue, Panania",
@@ -304,7 +310,9 @@
     "category": "Festivals & Events",
     "expired": false,
     "isRecurring": false,
-    "highlights": []
+    "highlights": [],
+    "imageVerifiedFromSource": true,
+    "imageSourceUrl": "https://whereinterestinghappens.com.au/event/movies-under-the-stars-2026/"
   },
   {
     "id": 2026104007,
@@ -353,8 +361,8 @@
     "id": 2026104008,
     "title": "Blacktown City Mirrung",
     "website": "https://www.blacktown.nsw.gov.au/Events-and-activities/Blacktown-City-Mirrung",
-    "imageUrl": "",
-    "imageCredit": "Original organiser photograph not confirmed; no substitute image used",
+    "imageUrl": "/images/organiser/blacktown-city-mirrung-oct-nov-2026.png",
+    "imageCredit": "Image sourced from the event organiser",
     "description": "A vibrant celebration of First Nations culture and belonging. Discover weaving, Jannawi Dance, textiles, visual arts and singing workshops hosted by Blacktown City Council.",
     "longDescription": "A vibrant celebration of First Nations culture and belonging. Discover weaving, Jannawi Dance, textiles, visual arts and singing workshops hosted by Blacktown City Council.",
     "venue": "The Colebee, Knox Road, Doonside",
@@ -390,14 +398,16 @@
     "category": "Festivals & Events",
     "expired": false,
     "isRecurring": false,
-    "highlights": []
+    "highlights": [],
+    "imageVerifiedFromSource": true,
+    "imageSourceUrl": "https://www.blacktown.nsw.gov.au/Events-and-activities/Blacktown-City-Mirrung"
   },
   {
     "id": 2026104009,
     "title": "Pasifika Unity Festival",
     "website": "https://www.blacktown.nsw.gov.au/Events-and-activities/Pasifika-Unity-Festival",
-    "imageUrl": "https://www.blacktown.nsw.gov.au/files/assets/public/v/1/events/pasifika.png?w=1200",
-    "imageCredit": "Blacktown City Council: official Pasifika Unity Festival listing image (promotional event photograph)",
+    "imageUrl": "/images/organiser/pasifika-unity-festival-oct-nov-2026.png",
+    "imageCredit": "Image sourced from the event organiser",
     "description": "Celebrate Polynesian, Micronesian and Melanesian culture with live music, traditional dances, a parade, markets, food and free children's activities at Blacktown's new two-day festival.",
     "longDescription": "Celebrate Polynesian, Micronesian and Melanesian culture with live music, traditional dances, a parade, markets, food and free children's activities at Blacktown's new two-day festival.",
     "venue": "Blacktown Football Park, Eastern Road, Rooty Hill",
@@ -434,7 +444,9 @@
     "category": "Festivals & Events",
     "expired": false,
     "isRecurring": false,
-    "highlights": []
+    "highlights": [],
+    "imageVerifiedFromSource": true,
+    "imageSourceUrl": "https://www.blacktown.nsw.gov.au/Events-and-activities/Pasifika-Unity-Festival"
   },
   {
     "id": 2026104010,
@@ -1707,8 +1719,8 @@
       "Amusement rides and games require paid tickets",
       "Saturday 31 October fireworks scheduled for 9pm"
     ],
-    "imageUrl": "https://www.campbelltown.nsw.gov.au/files/sharedassets/public/v/2/council-and-councillors/images/fishers-ghost-festival/fishers-get-involved-banner-1060x444.jpg?w=1080",
-    "imageCredit": "Campbelltown City Council, Festival of Fisher’s Ghost photograph (not necessarily the carnival grounds)",
+    "imageUrl": "/images/organiser/fisher-s-ghost-carnival-oct-2026.png",
+    "imageCredit": "Image sourced from the event organiser",
     "id": 2026102608,
     "website": "https://www.campbelltown.nsw.gov.au/Whats-On/Fishers-Carnival",
     "description": "Campbelltown Showground transforms into a bright carnival for the Festival of Fisher’s Ghost. Families can stroll through the festive atmosphere for free, with rides, games and treats available to purchase. A fireworks display is planned on Saturday night.",
@@ -1737,7 +1749,9 @@
       "Western Sydney"
     ],
     "expired": false,
-    "isRecurring": false
+    "isRecurring": false,
+    "imageVerifiedFromSource": true,
+    "imageSourceUrl": "https://www.campbelltown.nsw.gov.au/Whats-On/Fishers-Carnival"
   },
   {
     "title": "Halloween Twilight Markets",
