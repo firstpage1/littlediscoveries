@@ -4,7 +4,7 @@
 let activities = [];
 
 async function loadActivities() {
-  const res = await fetch('activities.json?v=20261025-editor-choice-live');
+  const res = await fetch('activities.json?v=20261025-week43-release');
   activities = await res.json();
   init();
 }
@@ -320,9 +320,12 @@ function datePlusDays(dateString, days) {
 
 function weekWindow() {
   const today = sydneyToday();
-  const monday = datePlusDays(today.date, -today.dayIndex);
+  // Sunday publishes the coming Monday-Sunday listings immediately.
+  // On other days show the remainder of the current Sydney week.
+  const nextWeek = today.dayIndex === 6;
+  const monday = datePlusDays(today.date, -today.dayIndex + (nextWeek ? 7 : 0));
   const sunday = datePlusDays(monday, 6);
-  return { ...today, monday, sunday };
+  return { ...today, monday, sunday, dayIndex: nextWeek ? 0 : today.dayIndex };
 }
 
 function updateDayChips() {
