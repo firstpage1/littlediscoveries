@@ -4425,7 +4425,7 @@
     "id": 19,
     "title": "Centennial Parklands – Family Outdoor Fun",
     "website": "https://www.centennialparklands.com.au",
-    "imageUrl": "https://images.pexels.com/photos/264031/pexels-photo-264031.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "/images/organiser/centennial-parklands-sydney-family.jpg",
     "description": "580 acres of beautiful parkland in the Eastern Suburbs with playgrounds, cycling, duck ponds, picnic spots and wide open spaces — free to explore any day.",
     "longDescription": "580 acres of parkland, smack in the middle of Sydney's Eastern Suburbs, free to visit every day of the year. Centennial Parklands is the kind of place that becomes a family ritual — the spot you go every Sunday morning, every school holiday, every time you need open air and green space and room to breathe.\n\nThe park has something for genuinely every age and energy level. Babies nap in prams along the wide paths while toddlers chase ducks at the ponds. Primary-age kids tear around the playgrounds and beg to hire bikes or pedal cars. Older children explore on foot, spot birds, or bring a ball for a kick in the vast open meadows. And parents get to sit on the grass and do absolutely nothing for an hour, which is also excellent.\n\nFamilies can look forward to:\n* Multiple free playgrounds suited to different age groups — from toddler-safe to big-kid climbing structures\n* Feed the ducks, geese and swans at the iconic duck and goose ponds\n* Hire bikes, tandems and pedal cars for a leisurely ride around the park (small hire fee)\n* Wide open lawns perfect for picnics, cricket, kicking a ball or flying a kite\n* Birdwatching — over 130 species recorded in the park, including ibis, herons and parrots\n* Café on-site for breakfast and lunch — or BYO and use one of the free BBQ areas\n* Open from sunrise to sunset every day — free always, for everyone",
     "address": "Centennial Park, Oxford Street, Centennial Park NSW 2021",
@@ -4467,7 +4467,10 @@
       "picnic",
       "cycling"
     ],
-    "category": "Outdoor Adventures"
+    "category": "Outdoor Adventures",
+    "imageVerifiedFromSource": true,
+    "imageSourceUrl": "https://www.centennialparklands.com.au",
+    "imageCredit": "Image sourced from the event organiser"
   },
   {
     "id": 20,
@@ -6221,7 +6224,7 @@
     "id": 66,
     "title": "Cockatoo Island – Free Family Explorer Day",
     "website": "https://www.cockatooisland.gov.au/",
-    "imageUrl": "https://images.pexels.com/photos/1619854/pexels-photo-1619854.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "/images/organiser/cockatoo-island-free-family-day-sydney-harbour.jpg",
     "description": "Hire bikes, explore convict-era tunnels, camp under the stars or just wander the harbourside dockyard — Cockatoo Island is Sydney Harbour's most remarkable free day out for curious kids.",
     "address": "Cockatoo Island, Sydney Harbour NSW 2000",
     "venue": "Cockatoo Island",
@@ -6260,7 +6263,10 @@
       "family",
       "free"
     ],
-    "category": "Outdoor Adventures"
+    "category": "Outdoor Adventures",
+    "imageVerifiedFromSource": true,
+    "imageSourceUrl": "https://www.cockatooisland.gov.au/",
+    "imageCredit": "Image sourced from the event organiser"
   },
   {
     "id": 67,
@@ -6438,7 +6444,7 @@
     "id": 71,
     "title": "Chau Chak Wing Museum – Free Family Visit",
     "website": "https://www.sydney.edu.au/museum/",
-    "imageUrl": "https://images.pexels.com/photos/11156255/pexels-photo-11156255.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "/images/organiser/chau-chak-wing-museum-free-family-visit-sydney.jpg",
     "description": "Sydney University's free public museum houses real Egyptian mummies, ancient Greek pottery, Pacific and First Nations collections, and fascinating natural history — open to all, completely free.",
     "address": "Science Road, The University of Sydney, Camperdown NSW 2006",
     "venue": "Chau Chak Wing Museum, University of Sydney",
@@ -6474,13 +6480,16 @@
       "family",
       "free"
     ],
-    "category": "Science"
+    "category": "Science",
+    "imageVerifiedFromSource": true,
+    "imageSourceUrl": "https://www.sydney.edu.au/museum/",
+    "imageCredit": "Image sourced from the event organiser"
   },
   {
     "id": 72,
     "title": "Justice & Police Museum – Free Weekends",
     "website": "https://www.sydneylivingmuseums.com.au/justice-police-museum",
-    "imageUrl": "https://images.pexels.com/photos/5668858/pexels-photo-5668858.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "/images/organiser/justice-police-museum-free-weekends-sydney.webp",
     "description": "Step into Sydney's original Water Police Court and Police Station — free on weekends. Mugshots, weapons, contraband and crime stories that fascinate kids who love mysteries.",
     "address": "Corner Albert and Phillip Streets, Sydney NSW 2000",
     "venue": "Justice & Police Museum",
@@ -6510,7 +6519,10 @@
       "family",
       "free"
     ],
-    "category": "Science"
+    "category": "Science",
+    "imageVerifiedFromSource": true,
+    "imageSourceUrl": "https://www.sydneylivingmuseums.com.au/justice-police-museum",
+    "imageCredit": "Image sourced from the event organiser"
   },
   {
     "id": 73,
@@ -6559,7 +6571,7 @@
     "id": 74,
     "title": "Powerhouse Castle Hill – Free Discovery Museum",
     "website": "https://powerhouse.com.au/castle-hill",
-    "imageUrl": "https://images.pexels.com/photos/8926841/pexels-photo-8926841.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "imageUrl": "/images/organiser/powerhouse-castle-hill-free-discovery-museum.jpg",
     "description": "The Powerhouse's Castle Hill venue is a free community discovery museum in Sydney's Hills District — interactive exhibits on science, technology and local heritage for all ages.",
     "address": "Pennant Hills Road, Castle Hill NSW 2154",
     "venue": "Powerhouse Castle Hill",
@@ -6595,7 +6607,10 @@
       "family",
       "free"
     ],
-    "category": "Science"
+    "category": "Science",
+    "imageVerifiedFromSource": true,
+    "imageSourceUrl": "https://powerhouse.com.au/castle-hill",
+    "imageCredit": "Image sourced from the event organiser"
   },
   {
     "id": 75,

@@ -4,7 +4,7 @@
 let activities = [];
 
 async function loadActivities() {
-  const res = await fetch('activities.json?v=organiser-images-20261016-priority');
+  const res = await fetch('activities.json?v=organiser-images-20261016-other');
   activities = await res.json();
   init();
 }
