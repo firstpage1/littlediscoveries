@@ -10,11 +10,17 @@ const imageDir = path.join(site, "images", "organiser");
 fs.mkdirSync(imageDir, {recursive:true});
 const stock = v => /pexels\.com|unsplash\.com|pixabay\.com/i.test(v||"");
 const unverified = a => stock(a.imageUrl) || !a.imageUrl ||
+  (!a.imageVerifiedFromSource && !String(a.imageUrl||"").startsWith("/images/organiser/")) ||
   /illustrativ|substitut|stock image|not this event|not the event|not this session|not necessarily|not this match|earlier .*event|earlier .*festival/i.test(a.imageCredit||"");
-const ordered = activities.filter(a => a.seoSlug && /^[a-z0-9-]+$/.test(a.seoSlug) && (a.source || a.website) && unverified(a))
+// Focus each run on the actual live week, not hundreds of expired historical pages.
+// Keep a separate first stage for the main editorial picks so they publish first.
+const inLiveWeek = a => a.startDate && a.endDate &&
+  a.startDate <= "2026-11-01" && a.endDate >= "2026-10-26";
+const ordered = activities.filter(a => a.seoSlug && /^[a-z0-9-]+$/.test(a.seoSlug) &&
+  (a.source || a.website) && inLiveWeek(a) && unverified(a))
   .filter(a => mode === "priority" ? Boolean(a.editorialPriority) : !a.editorialPriority);
-ordered.sort((a,b) => Number(b.seoSlug === "moore-park-south-family-fun-day-oct-2026") -
-  Number(a.seoSlug === "moore-park-south-family-fun-day-oct-2026") || (a.editorialPriority||99)-(b.editorialPriority||99));
+ordered.sort((a,b) => Number(!b.imageUrl) - Number(!a.imageUrl) ||
+  (a.editorialPriority||999)-(b.editorialPriority||999));
 
 console.log("MODE",mode,"TO REVIEW",ordered.length);
 const browser = await chromium.launch({headless:true});
@@ -107,9 +113,21 @@ async function worker() {
    html=html.replace(/(<div class="activity-hero"[^>]*>[\s\S]*?<img[^>]*src=")[^"]+(")/,
      (_all,start,end)=>{matched=true;return start+newURL+end;});
   }
+  if(!matched && /<figure>\s*<img\s[^>]*src="[^"]+"/.test(html)){
+    html=html.replace(/(<figure>\s*<img\s[^>]*src=")[^"]+(")/,
+      (_all,start,end)=>{matched=true;return start+newURL+end;});
+  }
+  if(!matched && /<div class="image-pending">[\s\S]*?<\/div>/.test(html)){
+    const title=String(a.title||"").replace(/&/g,"&amp;").replace(/"/g,"&quot;").replace(/</g,"&lt;");
+    const figure='<figure><img src="'+newURL+'" loading="eager" alt="'+title+'"><figcaption>Image from the original event organiser</figcaption></figure>';
+    html=html.replace(/<div class="image-pending">[\s\S]*?<\/div>/,figure);
+    matched=true;
+  }
   if(!matched){failed++;console.log("NO HERO IMG",a.seoSlug);continue;}
   html=html.replace(/(<div class="image-credit">)[\s\S]*?(?=<a\s)/,
     "$1Event image supplied by the organiser. ");
+  html=html.replace(/<figcaption>[\s\S]*?<\/figcaption>/,
+    "<figcaption>Image from the original event organiser</figcaption>");
   html=html.replace(/(<meta\s+property="og:image"\s+content=")[^"]+(")/,
      (_all,start,end)=>start+"https://www.littlediscoveries.com.au"+newURL+end);
   fs.writeFileSync(path.join(imageDir,a.seoSlug+"."+winner.ext),winner.bytes);
