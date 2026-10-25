@@ -4,7 +4,7 @@
 let activities = [];
 
 async function loadActivities() {
-  const res = await fetch('activities.json?v=20261025-week43-release');
+  const res = await fetch('activities.json?v=20261025-43-static-fallback-v2');
   activities = await res.json();
   init();
 }
@@ -12,7 +12,7 @@ async function loadActivities() {
 /* ===========================
    STATE
 =========================== */
-const PAGE_SIZE = 15;
+const PAGE_SIZE = 50;
 
 const state = {
   age: "",
