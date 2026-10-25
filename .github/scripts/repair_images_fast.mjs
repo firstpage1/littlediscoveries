@@ -147,7 +147,22 @@ if(updated){
  fs.writeFileSync(jsonFile,JSON.stringify(activities,null,2)+"\n");
  let html=fs.readFileSync(path.join(site,"index.html"),"utf8");
  let js=fs.readFileSync(path.join(site,"script.js"),"utf8");
- const version="organiser-images-20261016-"+mode;
+ const version="organiser-images-20261026-"+mode;
+ // The index has server-rendered fallback cards as well as JS-rendered cards.
+ // Replace thumbnails in those fallback cards so visitors see the photo immediately.
+ for(const a of activities.filter(a => a.imageVerifiedFromSource && String(a.imageUrl||"").startsWith("/images/organiser/"))){
+   const slug=a.seoSlug;
+   const start=html.indexOf('<a href="/'+slug+'/"');
+   if(start<0)continue;
+   const finish=html.indexOf('</article>',start);
+   if(finish<0)continue;
+   let card=html.slice(start,finish);
+   const image='<img src="'+a.imageUrl+'" alt="'+String(a.title||"").replace(/&/g,"&amp;").replace(/"/g,"&quot;").replace(/</g,"&lt;")+'" loading="lazy" style="width:100%;height:100%;object-fit:cover">';
+   if(/<div class="activity-card__thumb"[^>]*>/.test(card)){
+     card=card.replace(/(<div class="activity-card__thumb"[^>]*>)(?:<span[^>]*>[^<]*<\/span>)?/,(_m,open)=>open+image);
+     html=html.slice(0,start)+card+html.slice(finish);
+   }
+ }
  html=html.replace(/script\.js\?v=[^"]+/, "script.js?v="+version);
  js=js.replace(/activities\.json\?v=[^']+/, "activities.json?v="+version);
  fs.writeFileSync(path.join(site,"index.html"),html);
