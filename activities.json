@@ -1,5 +1,58 @@
 [
   {
+    "id": 2026110101,
+    "title": "Le Marché French Market – Moore Park",
+    "website": "https://whatson.cityofsydney.nsw.gov.au/events/le-marche-french-market",
+    "imageUrl": "https://res.cloudinary.com/cityofsydney/image/upload/v1708475261/k7h9gk6i1z6d/4VaAgFhm57CjvTJaVpcAss/5a304250-d04f-11ee-9f18-454e6cc5c610--Le-March--French-market-at-the-Entertainment-Quarter-tile.jpg",
+    "imageCredit": "City of Sydney What’s On: original Le Marché French Market event photograph",
+    "description": "Take the family on a mini trip to France with freshly baked croissants, crêpes, macarons, raclette, French music and more than 40 market stalls. Free entry; food and shopping extra.",
+    "longDescription": "Stroll beneath the covered market canopy at The Entertainment Quarter for a French-themed Sunday outing. Browse more than 40 stalls selling pastries, macarons, crêpes, baguettes, cheeses and artisan gifts, with live jazz adding a Parisian atmosphere. Children can enjoy the bustling stalls and treats. Entry is free, while food and purchases cost extra.",
+    "venue": "The Entertainment Quarter, The Canopy, 122 Lang Road, Moore Park",
+    "address": "The Entertainment Quarter, 122 Lang Road, Moore Park NSW 2021, Australia",
+    "age": [
+      "All Ages"
+    ],
+    "neighborhood": "Eastern Suburbs",
+    "day": [
+      "Sunday"
+    ],
+    "cost": "Free",
+    "costLabel": "Free entry; purchases extra",
+    "bookingStatus": "No booking required for entry; food and shopping extra",
+    "source": "https://whatson.cityofsydney.nsw.gov.au/events/le-marche-french-market",
+    "startDate": "2026-11-01",
+    "endDate": "2026-11-01",
+    "time": "9:30am–2pm",
+    "about": "Take the family on a mini trip to France with freshly baked croissants, crêpes, macarons, raclette, French music and more than 40 market stalls. Free entry; food and shopping extra.",
+    "isOnline": false,
+    "seoIndex": true,
+    "seoSlug": "le-marche-french-market-moore-park-nov-2026",
+    "seoTitle": "Le Marché French Market – Moore Park | Little Discoveries",
+    "seoDescription": "Free family-friendly French market at Moore Park on Sunday 1 November 2026, 9:30am–2pm. Croissants, crêpes, French stalls and live jazz.",
+    "isFeatured": true,
+    "editorsChoice": true,
+    "ecOrder": -1,
+    "editorialPriority": -1,
+    "tags": [
+      "Eastern Suburbs",
+      "markets",
+      "food",
+      "family",
+      "monthly"
+    ],
+    "category": "Markets & Food",
+    "expired": false,
+    "isRecurring": true,
+    "highlights": [
+      "40+ French-style food and artisan stalls",
+      "French pastries, crêpes, raclette and macarons",
+      "Live jazz in a fully covered market space",
+      "Dog-friendly with two hours of free parking"
+    ],
+    "imageVerifiedFromSource": true,
+    "imageSourceUrl": "https://whatson.cityofsydney.nsw.gov.au/events/le-marche-french-market"
+  },
+  {
     "id": 2026104000,
     "title": "Sculpture by the Sea Bondi 2026",
     "website": "https://sculpturebythesea.com/bondi/",
@@ -51,11 +104,11 @@
   {
     "id": 2026104001,
     "title": "Randwick Eco Living Festival 2026",
-    "website": "https://www.randwick.nsw.gov.au/community/whats-on/events/2026/november/eco-living-festival",
+    "website": "https://www.randwick.nsw.gov.au/community/whats-on/major-events/eco-living",
     "imageUrl": "https://www.randwick.nsw.gov.au/__data/assets/image/0019/423154/768x500-Eco-Living-Festival-panoramic.jpg",
     "imageCredit": "Randwick City Council: official Eco Living Festival photograph from a previous edition",
     "description": "A flagship family sustainability festival with children's crafts, toy swaps, First Nations creative workshops, a repair café, market stalls, music and fun ways to save money while helping the environment.",
-    "longDescription": "A flagship family sustainability festival with children's crafts, toy swaps, First Nations creative workshops, a repair café, market stalls, music and fun ways to save money while helping the environment.",
+    "longDescription": "Enjoy a free family festival by Maroubra Beach with a dedicated Kids Space, storytime, botanical bookmark making, toy swaps, creative sewing, First Nations cultural experiences, music and food stalls. Explore practical ways to save money and cut waste. Some workshops require registration.",
     "venue": "Broadarrow Reserve, 292–310 Fitzgerald Avenue, Maroubra",
     "address": "Broadarrow Reserve, 292–310 Fitzgerald Avenue, Maroubra, NSW Australia",
     "age": [
@@ -68,11 +121,11 @@
     "cost": "Free",
     "costLabel": "Free",
     "bookingStatus": "Free entry; some workshops require registration",
-    "source": "https://www.randwick.nsw.gov.au/community/whats-on/events/2026/november/eco-living-festival",
+    "source": "https://www.randwick.nsw.gov.au/community/whats-on/major-events/eco-living",
     "startDate": "2026-11-01",
     "endDate": "2026-11-01",
     "time": "10am–3pm",
-    "about": "A flagship family sustainability festival with children's crafts, toy swaps, First Nations creative workshops, a repair café, market stalls, music and fun ways to save money while helping the environment.",
+    "about": "Enjoy a free family festival by Maroubra Beach with a dedicated Kids Space, storytime, botanical bookmark making, toy swaps, creative sewing, First Nations cultural experiences, music and food stalls. Explore practical ways to save money and cut waste. Some workshops require registration.",
     "isOnline": false,
     "seoIndex": true,
     "seoSlug": "randwick-eco-living-festival-2026-oct-nov-2026",
@@ -80,8 +133,8 @@
     "seoDescription": "A flagship family sustainability festival with children's crafts, toy swaps, First Nations creative workshops, a repair café, market stalls, music and fun wa",
     "isFeatured": true,
     "editorsChoice": true,
-    "ecOrder": 15,
-    "editorialPriority": 15,
+    "ecOrder": -2,
+    "editorialPriority": -2,
     "tags": [
       "Eastern Suburbs",
       "unique-event"

@@ -4,7 +4,7 @@
 let activities = [];
 
 async function loadActivities() {
-  const res = await fetch('activities.json?v=organiser-images-20261016-other');
+  const res = await fetch('activities.json?v=editors-choice-20261101');
   activities = await res.json();
   init();
 }
@@ -400,6 +400,12 @@ function applyFilters() {
       const scheduledDay = !act.day || !act.day.length || act.day.includes(day);
       return scheduledDay && start <= dayDate && end >= dayDate;
     });
+    // On Sunday, keep today's still-running events visible alongside the
+    // coming week's listings (Sunday normally rolls to next week immediately).
+    const isCurrentSundayEvent = sydneyToday().dayIndex === 6 &&
+      start <= today && end >= today &&
+      (!Array.isArray(act.day) || !act.day.length || act.day.includes("Sunday"));
+    if (isCurrentSundayEvent && !eligibleDays.includes("Sunday")) eligibleDays.push("Sunday");
     if (!eligibleDays.length) return false;
     return days.length === 0 || days.some(day => eligibleDays.includes(day));
   });
