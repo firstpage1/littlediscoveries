@@ -6,6 +6,13 @@ let activities = [];
 async function loadActivities() {
   const res = await fetch('activities.json?v=oct26-approved-43-event-release');
   activities = await res.json();
+  try {
+    const weekly = await fetch('nov-2026-approved.json?v=20261102-release-1', {cache:'no-store'});
+    if (weekly.ok) {
+      const approved = await weekly.json();
+      activities = [...approved, ...activities.map(a => ({...a, editorsChoice:false}))];
+    }
+  } catch (error) { console.warn('Weekly event data unavailable', error); }
   init();
 }
 
