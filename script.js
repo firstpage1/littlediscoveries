@@ -4,15 +4,20 @@
 let activities = [];
 
 async function loadActivities() {
-  const res = await fetch('activities.json?v=oct26-approved-43-event-release');
-  activities = await res.json();
+  // The current week's approved release is the source of truth.
+  // Do not silently show an obsolete week's Editor's Choice if it fails.
   try {
-    const weekly = await fetch('nov-2026-approved.json?v=20261102-release-1', {cache:'no-store'});
-    if (weekly.ok) {
-      const approved = await weekly.json();
-      activities = [...approved, ...activities.map(a => ({...a, editorsChoice:false}))];
-    }
-  } catch (error) { console.warn('Weekly event data unavailable', error); }
+    const res = await fetch('/nov-2026-approved.json?v=20261102-fix-2', {cache: 'no-store'});
+    if (!res.ok) throw new Error('Weekly release unavailable: ' + res.status);
+    const weekly = await res.json();
+    if (!Array.isArray(weekly) || weekly.length !== 40) throw new Error('Incomplete weekly release');
+    activities = weekly;
+  } catch (error) {
+    console.error('Could not load current activities', error);
+    activities = [];
+    const grid = document.getElementById('activity-grid');
+    if (grid) grid.innerHTML = '<p>Current activities are temporarily unavailable. Please check back shortly.</p>';
+  }
   init();
 }
 
