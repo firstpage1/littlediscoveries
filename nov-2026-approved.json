@@ -17,13 +17,27 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": true,
     "ecOrder": 1,
     "editorialPriority": 1,
     "isRecurring": false,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "fisher-s-kids-festival-timecraft-nov-2026",
+    "longDescription": "Fisher’s Kids Festival: TIMECRAFT at Campbelltown Arts Centre. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Campbelltown Arts Centre, Sydney NSW",
+    "about": "Fisher’s Kids Festival: TIMECRAFT at Campbelltown Arts Centre. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Fisher’s Kids Festival: TIMECRAFT | Little Discoveries",
+    "seoDescription": "Fisher’s Kids Festival: TIMECRAFT at Campbelltown Arts Centre. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": true,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110202,
@@ -43,13 +57,27 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": true,
     "ecOrder": 2,
     "editorialPriority": 2,
     "isRecurring": false,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "canterbury-aquatic-centre-grand-opening-nov-2026",
+    "longDescription": "Canterbury Aquatic Centre Grand Opening at Canterbury Aquatic Centre. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Canterbury Aquatic Centre, Sydney NSW",
+    "about": "Canterbury Aquatic Centre Grand Opening at Canterbury Aquatic Centre. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Canterbury Aquatic Centre Grand Opening | Little Discoveries",
+    "seoDescription": "Canterbury Aquatic Centre Grand Opening at Canterbury Aquatic Centre. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": true,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110203,
@@ -69,13 +97,27 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": true,
     "ecOrder": 3,
     "editorialPriority": 3,
     "isRecurring": false,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "bayside-diwali-festival-nov-2026",
+    "longDescription": "Bayside Diwali Festival at King Street, Rockdale. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "King Street, Rockdale, Sydney NSW",
+    "about": "Bayside Diwali Festival at King Street, Rockdale. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Bayside Diwali Festival | Little Discoveries",
+    "seoDescription": "Bayside Diwali Festival at King Street, Rockdale. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": true,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110204,
@@ -95,13 +137,27 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": true,
     "ecOrder": 4,
     "editorialPriority": 4,
     "isRecurring": false,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "hornsby-spring-fest-nov-2026",
+    "longDescription": "Hornsby Spring Fest at Dural Lane, Hornsby. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Dural Lane, Hornsby, Sydney NSW",
+    "about": "Hornsby Spring Fest at Dural Lane, Hornsby. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Hornsby Spring Fest | Little Discoveries",
+    "seoDescription": "Hornsby Spring Fest at Dural Lane, Hornsby. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": true,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110205,
@@ -121,13 +177,27 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": true,
     "ecOrder": 5,
     "editorialPriority": 5,
     "isRecurring": false,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "let-s-go-bug-hunting-nov-2026",
+    "longDescription": "Let’s Go Bug Hunting at Batten Reserve, Lane Cove North. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Batten Reserve, Lane Cove North, Sydney NSW",
+    "about": "Let’s Go Bug Hunting at Batten Reserve, Lane Cove North. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Let’s Go Bug Hunting | Little Discoveries",
+    "seoDescription": "Let’s Go Bug Hunting at Batten Reserve, Lane Cove North. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": true,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110206,
@@ -147,13 +217,27 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": true,
     "ecOrder": 6,
     "editorialPriority": 6,
     "isRecurring": false,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "meet-illustrator-li-chen-nov-2026",
+    "longDescription": "Meet Illustrator Li Chen at Stanton Library, North Sydney. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Stanton Library, North Sydney, Sydney NSW",
+    "about": "Meet Illustrator Li Chen at Stanton Library, North Sydney. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Meet Illustrator Li Chen | Little Discoveries",
+    "seoDescription": "Meet Illustrator Li Chen at Stanton Library, North Sydney. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": true,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110207,
@@ -173,12 +257,26 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 7,
     "isRecurring": false,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "eco-playgroup-nov-2026",
+    "longDescription": "Eco Playgroup at Coal Loader, Waverton. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Coal Loader, Waverton, Sydney NSW",
+    "about": "Eco Playgroup at Coal Loader, Waverton. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Eco Playgroup | Little Discoveries",
+    "seoDescription": "Eco Playgroup at Coal Loader, Waverton. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110208,
@@ -198,12 +296,26 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 8,
     "isRecurring": false,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "spark-in-the-park-music-nov-2026",
+    "longDescription": "Spark in the Park: Music at Randwick Community Centre. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Randwick Community Centre, Sydney NSW",
+    "about": "Spark in the Park: Music at Randwick Community Centre. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Spark in the Park: Music | Little Discoveries",
+    "seoDescription": "Spark in the Park: Music at Randwick Community Centre. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110209,
@@ -223,12 +335,26 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 9,
     "isRecurring": false,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "atlas-for-young-people-writers-club-nov-2026",
+    "longDescription": "Atlas for Young People: Writers Club at Stanton Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Stanton Library, Sydney NSW",
+    "about": "Atlas for Young People: Writers Club at Stanton Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Atlas for Young People: Writers Club | Little Discoveries",
+    "seoDescription": "Atlas for Young People: Writers Club at Stanton Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110210,
@@ -248,12 +374,26 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 10,
     "isRecurring": false,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "meet-the-author-with-kristin-darell-nov-2026",
+    "longDescription": "Meet the Author with Kristin Darell at Stanton Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Stanton Library, Sydney NSW",
+    "about": "Meet the Author with Kristin Darell at Stanton Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Meet the Author with Kristin Darell | Little Discoveries",
+    "seoDescription": "Meet the Author with Kristin Darell at Stanton Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110211,
@@ -273,12 +413,26 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 11,
     "isRecurring": false,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "lego-legends-nov-2026",
+    "longDescription": "LEGO Legends at Stanton Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Stanton Library, Sydney NSW",
+    "about": "LEGO Legends at Stanton Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "LEGO Legends | Little Discoveries",
+    "seoDescription": "LEGO Legends at Stanton Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110212,
@@ -298,12 +452,26 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 12,
     "isRecurring": false,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "live-coding-music-with-sonic-pi-nov-2026",
+    "longDescription": "Live Coding Music with Sonic Pi at Lionel Bowen Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Lionel Bowen Library, Sydney NSW",
+    "about": "Live Coding Music with Sonic Pi at Lionel Bowen Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Live Coding Music with Sonic Pi | Little Discoveries",
+    "seoDescription": "Live Coding Music with Sonic Pi at Lionel Bowen Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110213,
@@ -323,12 +491,26 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 13,
     "isRecurring": false,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "sensory-storytime-nov-2026",
+    "longDescription": "Sensory Storytime at Lionel Bowen Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Lionel Bowen Library, Sydney NSW",
+    "about": "Sensory Storytime at Lionel Bowen Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Sensory Storytime | Little Discoveries",
+    "seoDescription": "Sensory Storytime at Lionel Bowen Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110214,
@@ -348,12 +530,26 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 14,
     "isRecurring": false,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "open-lab-family-technology-and-robotics-nov-2026",
+    "longDescription": "Open Lab: Family Technology and Robotics at Bonnyrigg Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Bonnyrigg Library, Sydney NSW",
+    "about": "Open Lab: Family Technology and Robotics at Bonnyrigg Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Open Lab: Family Technology and Robotics | Little Discoveries",
+    "seoDescription": "Open Lab: Family Technology and Robotics at Bonnyrigg Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110215,
@@ -373,12 +569,26 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 15,
     "isRecurring": false,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "endangered-forest-walk-nov-2026",
+    "longDescription": "Endangered Forest Walk at Cherrybrook. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Cherrybrook, Sydney NSW",
+    "about": "Endangered Forest Walk at Cherrybrook. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Endangered Forest Walk | Little Discoveries",
+    "seoDescription": "Endangered Forest Walk at Cherrybrook. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110216,
@@ -398,12 +608,26 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 16,
     "isRecurring": false,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "woollahra-small-sculpture-prize-gallery-tour-nov-2026",
+    "longDescription": "Woollahra Small Sculpture Prize Gallery Tour at Woollahra Gallery. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Woollahra Gallery, Sydney NSW",
+    "about": "Woollahra Small Sculpture Prize Gallery Tour at Woollahra Gallery. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Woollahra Small Sculpture Prize Gallery Tour | Little Discoveries",
+    "seoDescription": "Woollahra Small Sculpture Prize Gallery Tour at Woollahra Gallery. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110217,
@@ -423,12 +647,26 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 17,
     "isRecurring": false,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "2027-kindy-kids-open-day-nov-2026",
+    "longDescription": "2027 Kindy Kids Open Day at North Sydney Community Centre. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "North Sydney Community Centre, Sydney NSW",
+    "about": "2027 Kindy Kids Open Day at North Sydney Community Centre. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "2027 Kindy Kids Open Day | Little Discoveries",
+    "seoDescription": "2027 Kindy Kids Open Day at North Sydney Community Centre. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110218,
@@ -448,12 +686,26 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 18,
     "isRecurring": false,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "northside-produce-market-nov-2026",
+    "longDescription": "Northside Produce Market at Ted Mack Civic Park. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Ted Mack Civic Park, Sydney NSW",
+    "about": "Northside Produce Market at Ted Mack Civic Park. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Northside Produce Market | Little Discoveries",
+    "seoDescription": "Northside Produce Market at Ted Mack Civic Park. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110219,
@@ -473,12 +725,26 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 19,
     "isRecurring": false,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "second-hand-hornsby-market-nov-2026",
+    "longDescription": "Second-Hand Hornsby Market at Coronation StrEat Precinct. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Coronation StrEat Precinct, Sydney NSW",
+    "about": "Second-Hand Hornsby Market at Coronation StrEat Precinct. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Second-Hand Hornsby Market | Little Discoveries",
+    "seoDescription": "Second-Hand Hornsby Market at Coronation StrEat Precinct. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110220,
@@ -498,12 +764,26 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1586165368502-1bad197a6461?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 20,
     "isRecurring": false,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "chess-club-cabramatta-nov-2026",
+    "longDescription": "Chess Club Cabramatta at Whitlam Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Whitlam Library, Sydney NSW",
+    "about": "Chess Club Cabramatta at Whitlam Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Chess Club Cabramatta | Little Discoveries",
+    "seoDescription": "Chess Club Cabramatta at Whitlam Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110221,
@@ -523,12 +803,26 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 21,
     "isRecurring": false,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "tuesday-chill-zone-nov-2026",
+    "longDescription": "Tuesday Chill Zone at Hornsby Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Hornsby Library, Sydney NSW",
+    "about": "Tuesday Chill Zone at Hornsby Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Tuesday Chill Zone | Little Discoveries",
+    "seoDescription": "Tuesday Chill Zone at Hornsby Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110222,
@@ -548,12 +842,26 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 22,
     "isRecurring": false,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "native-wildflowers-for-pollinators-nov-2026",
+    "longDescription": "Native Wildflowers for Pollinators at Lane Cove Community Nursery. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Lane Cove Community Nursery, Sydney NSW",
+    "about": "Native Wildflowers for Pollinators at Lane Cove Community Nursery. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Native Wildflowers for Pollinators | Little Discoveries",
+    "seoDescription": "Native Wildflowers for Pollinators at Lane Cove Community Nursery. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110223,
@@ -573,12 +881,26 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 23,
     "isRecurring": false,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "free-heritage-tour-of-the-coal-loader-nov-2026",
+    "longDescription": "Free Heritage Tour of The Coal Loader at Coal Loader. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Coal Loader, Sydney NSW",
+    "about": "Free Heritage Tour of The Coal Loader at Coal Loader. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Free Heritage Tour of The Coal Loader | Little Discoveries",
+    "seoDescription": "Free Heritage Tour of The Coal Loader at Coal Loader. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110224,
@@ -599,12 +921,26 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 24,
     "isRecurring": true,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "drop-in-duplo-nov-2026",
+    "longDescription": "Drop-in DUPLO at Stanton Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Stanton Library, Sydney NSW",
+    "about": "Drop-in DUPLO at Stanton Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Drop-in DUPLO | Little Discoveries",
+    "seoDescription": "Drop-in DUPLO at Stanton Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110225,
@@ -624,12 +960,26 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 25,
     "isRecurring": true,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "book-babies-double-bay-nov-2026",
+    "longDescription": "Book Babies Double Bay at Woollahra Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Woollahra Library, Sydney NSW",
+    "about": "Book Babies Double Bay at Woollahra Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Book Babies Double Bay | Little Discoveries",
+    "seoDescription": "Book Babies Double Bay at Woollahra Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110226,
@@ -649,12 +999,26 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 26,
     "isRecurring": true,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "building-buddies-double-bay-nov-2026",
+    "longDescription": "Building Buddies Double Bay at Woollahra Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Woollahra Library, Sydney NSW",
+    "about": "Building Buddies Double Bay at Woollahra Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Building Buddies Double Bay | Little Discoveries",
+    "seoDescription": "Building Buddies Double Bay at Woollahra Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110227,
@@ -674,12 +1038,26 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 27,
     "isRecurring": true,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "watsons-bay-library-rhyme-time-nov-2026",
+    "longDescription": "Watsons Bay Library Rhyme Time at Watsons Bay Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Watsons Bay Library, Sydney NSW",
+    "about": "Watsons Bay Library Rhyme Time at Watsons Bay Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Watsons Bay Library Rhyme Time | Little Discoveries",
+    "seoDescription": "Watsons Bay Library Rhyme Time at Watsons Bay Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110228,
@@ -699,12 +1077,26 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 28,
     "isRecurring": true,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "toddler-time-bonnyrigg-nov-2026",
+    "longDescription": "Toddler Time Bonnyrigg at Bonnyrigg Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Bonnyrigg Library, Sydney NSW",
+    "about": "Toddler Time Bonnyrigg at Bonnyrigg Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Toddler Time Bonnyrigg | Little Discoveries",
+    "seoDescription": "Toddler Time Bonnyrigg at Bonnyrigg Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110229,
@@ -724,12 +1116,26 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 29,
     "isRecurring": true,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "toddler-time-cabramatta-nov-2026",
+    "longDescription": "Toddler Time Cabramatta at Whitlam Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Whitlam Library, Sydney NSW",
+    "about": "Toddler Time Cabramatta at Whitlam Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Toddler Time Cabramatta | Little Discoveries",
+    "seoDescription": "Toddler Time Cabramatta at Whitlam Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110230,
@@ -749,12 +1155,26 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 30,
     "isRecurring": true,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "baby-time-cabramatta-nov-2026",
+    "longDescription": "Baby Time Cabramatta at Whitlam Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Whitlam Library, Sydney NSW",
+    "about": "Baby Time Cabramatta at Whitlam Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Baby Time Cabramatta | Little Discoveries",
+    "seoDescription": "Baby Time Cabramatta at Whitlam Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110231,
@@ -774,12 +1194,26 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 31,
     "isRecurring": true,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "baby-time-bonnyrigg-nov-2026",
+    "longDescription": "Baby Time Bonnyrigg at Bonnyrigg Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Bonnyrigg Library, Sydney NSW",
+    "about": "Baby Time Bonnyrigg at Bonnyrigg Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Baby Time Bonnyrigg | Little Discoveries",
+    "seoDescription": "Baby Time Bonnyrigg at Bonnyrigg Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110232,
@@ -799,12 +1233,26 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 32,
     "isRecurring": true,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "preschool-storytime-fairfield-nov-2026",
+    "longDescription": "Preschool Storytime Fairfield at Fairfield Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Fairfield Library, Sydney NSW",
+    "about": "Preschool Storytime Fairfield at Fairfield Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Preschool Storytime Fairfield | Little Discoveries",
+    "seoDescription": "Preschool Storytime Fairfield at Fairfield Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110233,
@@ -824,12 +1272,26 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 33,
     "isRecurring": true,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "guitar-school-children-nov-2026",
+    "longDescription": "Guitar School Children at Fairfield Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Fairfield Library, Sydney NSW",
+    "about": "Guitar School Children at Fairfield Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Guitar School Children | Little Discoveries",
+    "seoDescription": "Guitar School Children at Fairfield Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110234,
@@ -849,12 +1311,26 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 34,
     "isRecurring": true,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "guitar-school-youth-and-adults-nov-2026",
+    "longDescription": "Guitar School Youth and Adults at Fairfield Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Fairfield Library, Sydney NSW",
+    "about": "Guitar School Youth and Adults at Fairfield Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Guitar School Youth and Adults | Little Discoveries",
+    "seoDescription": "Guitar School Youth and Adults at Fairfield Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110235,
@@ -874,12 +1350,26 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 35,
     "isRecurring": true,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "free-zumba-fairfield-showground-nov-2026",
+    "longDescription": "Free Zumba Fairfield Showground at Fairfield Showground. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Fairfield Showground, Sydney NSW",
+    "about": "Free Zumba Fairfield Showground at Fairfield Showground. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Free Zumba Fairfield Showground | Little Discoveries",
+    "seoDescription": "Free Zumba Fairfield Showground at Fairfield Showground. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110236,
@@ -899,12 +1389,26 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 36,
     "isRecurring": true,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "crafters-corner-nov-2026",
+    "longDescription": "Crafters Corner at Lane Cove Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Lane Cove Library, Sydney NSW",
+    "about": "Crafters Corner at Lane Cove Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Crafters Corner | Little Discoveries",
+    "seoDescription": "Crafters Corner at Lane Cove Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110237,
@@ -924,12 +1428,26 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 37,
     "isRecurring": true,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "film-and-sound-studio-induction-nov-2026",
+    "longDescription": "Film and Sound Studio Induction at St Leonards Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "St Leonards Library, Sydney NSW",
+    "about": "Film and Sound Studio Induction at St Leonards Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Film and Sound Studio Induction | Little Discoveries",
+    "seoDescription": "Film and Sound Studio Induction at St Leonards Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110238,
@@ -950,12 +1468,26 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 38,
     "isRecurring": false,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "the-artists-of-brooklyn-public-school-nov-2026",
+    "longDescription": "The Artists of Brooklyn Public School at The Cottage, Brooklyn. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "The Cottage, Brooklyn, Sydney NSW",
+    "about": "The Artists of Brooklyn Public School at The Cottage, Brooklyn. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "The Artists of Brooklyn Public School | Little Discoveries",
+    "seoDescription": "The Artists of Brooklyn Public School at The Cottage, Brooklyn. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110239,
@@ -981,12 +1513,26 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 39,
     "isRecurring": false,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "2026-fisher-s-ghost-art-award-exhibition-nov-2026",
+    "longDescription": "2026 Fisher’s Ghost Art Award Exhibition at Campbelltown Arts Centre. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Campbelltown Arts Centre, Sydney NSW",
+    "about": "2026 Fisher’s Ghost Art Award Exhibition at Campbelltown Arts Centre. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "2026 Fisher’s Ghost Art Award Exhibition | Little Discoveries",
+    "seoDescription": "2026 Fisher’s Ghost Art Award Exhibition at Campbelltown Arts Centre. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   },
   {
     "id": 2026110240,
@@ -1006,11 +1552,25 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "",
+    "imageUrl": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1200&q=80",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 40,
     "isRecurring": false,
-    "expired": false
+    "expired": false,
+    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "seoSlug": "babies-love-books-in-french-nov-2026",
+    "longDescription": "Babies Love Books in French at Lionel Bowen Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "address": "Lionel Bowen Library, Sydney NSW",
+    "about": "Babies Love Books in French at Lionel Bowen Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "bookingStatus": "Confirm availability with organiser",
+    "seoIndex": true,
+    "seoTitle": "Babies Love Books in French | Little Discoveries",
+    "seoDescription": "Babies Love Books in French at Lionel Bowen Library. Visit the organiser's page to confirm times, age suitability and booking.",
+    "isFeatured": false,
+    "tags": [
+      "Family activities"
+    ],
+    "category": "Events"
   }
 ]
