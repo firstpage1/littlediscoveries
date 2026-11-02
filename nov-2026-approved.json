@@ -17,14 +17,14 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=80",
+    "imageUrl": "https://www.campbelltown.nsw.gov.au/files/sharedassets/public/v/1/fishers-ghost/images/fishersassociateeventsbanner-1060x444.jpeg?h=444&w=1060",
     "time": "See organiser",
     "editorsChoice": true,
     "ecOrder": 1,
     "editorialPriority": 1,
     "isRecurring": false,
     "expired": false,
-    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "imageCredit": "Campbelltown City Council, Fisher's Ghost festival photograph; related festival, not TIMECRAFT 2026",
     "seoSlug": "fisher-s-kids-festival-timecraft-nov-2026",
     "longDescription": "Fisher’s Kids Festival: TIMECRAFT at Campbelltown Arts Centre. Visit the organiser's page to confirm times, age suitability and booking.",
     "address": "Campbelltown Arts Centre, Sydney NSW",
@@ -37,7 +37,8 @@
     "tags": [
       "Family activities"
     ],
-    "category": "Events"
+    "category": "Events",
+    "imageVerification": "Related organiser festival image, not exact event"
   },
   {
     "id": 2026110202,
@@ -180,14 +181,14 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1200&q=80",
+    "imageUrl": "https://cdn.envirotivity.com/uploads/5_children_exploring_a_river_kids.jpg",
     "time": "See organiser",
     "editorsChoice": true,
     "ecOrder": 5,
     "editorialPriority": 5,
     "isRecurring": false,
     "expired": false,
-    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "imageCredit": "Envirotivity, Lane Cove Bush Kids river activity; illustrative, not the Bug Hunting session",
     "seoSlug": "let-s-go-bug-hunting-nov-2026",
     "longDescription": "Let’s Go Bug Hunting at Batten Reserve, Lane Cove North. Visit the organiser's page to confirm times, age suitability and booking.",
     "address": "Batten Reserve, Lane Cove North, Sydney NSW",
@@ -200,7 +201,8 @@
     "tags": [
       "Family activities"
     ],
-    "category": "Events"
+    "category": "Events",
+    "imageVerification": "Related Lane Cove activity, not original event image"
   },
   {
     "id": 2026110206,
@@ -220,14 +222,14 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=1200&q=80",
+    "imageUrl": "https://media.rnztools.nz/rnz/image/upload/s--DvSUnkc8--/c_crop%2Ch_3144%2Cw_5030%2Cx_1204%2Cy_755/c_scale%2Ch_3144%2Cw_5030/c_scale%2Cf_auto%2Cq_auto%2Cw_1050/v1755127604/4K2Q2MR_Li_Chen_winner_of_NZ_Book_Awards_for_children_and_young_adults_jpg?_a=BACCd2AD",
     "time": "See organiser",
     "editorsChoice": true,
     "ecOrder": 6,
     "editorialPriority": 6,
     "isRecurring": false,
     "expired": false,
-    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "imageCredit": "RNZ photograph of illustrator Li Chen, holding Detective Beans; not the event's original promotional image",
     "seoSlug": "meet-illustrator-li-chen-nov-2026",
     "longDescription": "Meet Illustrator Li Chen at Stanton Library, North Sydney. Visit the organiser's page to confirm times, age suitability and booking.",
     "address": "Stanton Library, North Sydney, Sydney NSW",
@@ -240,7 +242,8 @@
     "tags": [
       "Family activities"
     ],
-    "category": "Events"
+    "category": "Events",
+    "imageVerification": "Actual featured illustrator, alternate source"
   },
   {
     "id": 2026110207,
@@ -260,13 +263,13 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=1200&q=80",
+    "imageUrl": "https://res.cloudinary.com/cityofsydney/image/upload/v1713496814/k7h9gk6i1z6d/7AU0EhG1Ksw7Ca74MzfknF/ae8933f1-fdfb-11ee-a8aa-33060995de5e---Eco-Playgroup-May-13---Nature-Play-tile.jpg",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 7,
     "isRecurring": false,
     "expired": false,
-    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "imageCredit": "City of Sydney event listing, Coal Loader Eco Playgroup nature play; photograph of an earlier session",
     "seoSlug": "eco-playgroup-nov-2026",
     "longDescription": "Eco Playgroup at Coal Loader, Waverton. Visit the organiser's page to confirm times, age suitability and booking.",
     "address": "Coal Loader, Waverton, Sydney NSW",
@@ -279,7 +282,8 @@
     "tags": [
       "Family activities"
     ],
-    "category": "Events"
+    "category": "Events",
+    "imageVerification": "Same programme, earlier session"
   },
   {
     "id": 2026110208,
@@ -299,13 +303,13 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=1200&q=80",
+    "imageUrl": "https://www.randwick.nsw.gov.au/__data/assets/image/0018/407160/768x500-spark-in-the-park-award.jpg",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 8,
     "isRecurring": false,
     "expired": false,
-    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "imageCredit": "Randwick City Council, Spark in the Park team photograph; same programme, earlier session",
     "seoSlug": "spark-in-the-park-music-nov-2026",
     "longDescription": "Spark in the Park: Music at Randwick Community Centre. Visit the organiser's page to confirm times, age suitability and booking.",
     "address": "Randwick Community Centre, Sydney NSW",
@@ -318,7 +322,8 @@
     "tags": [
       "Family activities"
     ],
-    "category": "Events"
+    "category": "Events",
+    "imageVerification": "Same programme, earlier session"
   },
   {
     "id": 2026110209,
