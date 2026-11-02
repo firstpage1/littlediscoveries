@@ -4,15 +4,27 @@
 let activities = [];
 
 async function loadActivities() {
-  const res = await fetch('activities.json?v=editors-choice-20261101');
-  activities = await res.json();
+  // The current week's approved release is the source of truth.
+  // Do not silently show an obsolete week's Editor's Choice if it fails.
+  try {
+    const res = await fetch('/nov-2026-approved.json?v=20261102-fix-2', {cache: 'no-store'});
+    if (!res.ok) throw new Error('Weekly release unavailable: ' + res.status);
+    const weekly = await res.json();
+    if (!Array.isArray(weekly) || weekly.length !== 40) throw new Error('Incomplete weekly release');
+    activities = weekly;
+  } catch (error) {
+    console.error('Could not load current activities', error);
+    activities = [];
+    const grid = document.getElementById('activity-grid');
+    if (grid) grid.innerHTML = '<p>Current activities are temporarily unavailable. Please check back shortly.</p>';
+  }
   init();
 }
 
 /* ===========================
    STATE
 =========================== */
-const PAGE_SIZE = 50;
+const PAGE_SIZE = 15;
 
 const state = {
   age: "",
@@ -129,8 +141,6 @@ function renderCards(list) {
   const countEl = document.getElementById("results-count");
 
   if (list.length === 0) {
-    const showMoreBtn = document.getElementById("show-more-btn");
-    if (showMoreBtn) showMoreBtn.style.display = "none";
     grid.innerHTML = "";
     noResults.classList.remove("hidden");
     countEl.textContent = "No activities found";
@@ -139,60 +149,28 @@ function renderCards(list) {
 
   noResults.classList.add("hidden");
 
-  // Sort: EC → non-recurring short-term free → non-recurring ongoing free → non-recurring paid → recurring free → recurring paid
-  const isFreeAct = a => (a.cost === "Free" || a.cost === "free" || (a.costLabel || "").toLowerCase().startsWith("free"));
-  const isOngoing = a => {
-    if (!a.endDate) return false;
-    const diff = (new Date(a.endDate) - Date.now()) / 86400000;
-    return diff > 30;
+  // Rank special, date-specific experiences first. Routine weekly programmes go last.
+  // Editor's Choice is deliberately only set by an editor.
+  const recurringPattern = /storytime|story play|family tales|rhymetime|singing and stories|mindspark monday|kidtopia|lego challenge|game-a-thon|weekly|regular|every (monday|tuesday|wednesday|thursday|friday|saturday|sunday)/i;
+  const specialPattern = /festival|opening|workshop|exhibition|art prize|fair|concert|rainforest|costume swap|open day|bird week|jazz|grandparents day|halloween|songs & stories/i;
+  const isRecurringEvent = a => Boolean(a.isRecurring) ||
+    (recurringPattern.test(a.title || '') && !specialPattern.test(a.title || ''));
+  const rank = a => {
+    if (a.editorsChoice) return -1000 + (a.ecOrder ?? 100);
+    if (isRecurringEvent(a)) return 1000;
+    let score = 100;
+    if (specialPattern.test(a.title || '')) score -= 60;
+    if (a.startDate && a.endDate && a.startDate === a.endDate) score -= 15;
+    if (a.imageUrl && !/pexels|unsplash|pixabay/i.test(a.imageUrl)) score -= 8;
+    if (a.cost === 'Free') score -= 5;
+    return score;
   };
-  const CATEGORY_CYCLE = ["Festivals","STEM","Arts & Crafts","Science","Music","Storytime","Technology","Outdoor Adventures","Sports","Cooking"];
-  const ecItems      = list.filter(a => a.editorsChoice);
-  const nonEC        = list.filter(a => !a.editorsChoice);
-  const recurring    = nonEC.filter(a => a.isRecurring);
-  const nonRecurring = nonEC.filter(a => !a.isRecurring);
-  const shortFree    = nonRecurring.filter(a => isFreeAct(a) && !isOngoing(a));
-  const ongoingFree  = nonRecurring.filter(a => isFreeAct(a) &&  isOngoing(a));
-  const paidItems    = nonRecurring.filter(a => !isFreeAct(a));
-  const recurringFree = recurring.filter(a => isFreeAct(a));
-  const recurringPaid = recurring.filter(a => !isFreeAct(a));
-
-  function interleave(items) {
-    const catGroups = {};
-    items.forEach(act => {
-      const cat = act.category || "Other";
-      (catGroups[cat] = catGroups[cat] || []).push(act);
-    });
-    Object.values(catGroups).forEach(g => g.sort((a, b) => a.id - b.id));
-    const orderedCats = [
-      ...CATEGORY_CYCLE.filter(c => catGroups[c]),
-      ...Object.keys(catGroups).filter(c => !CATEGORY_CYCLE.includes(c))
-    ];
-    const mixed = [];
-    for (let round = 0; ; round++) {
-      let added = false;
-      for (const cat of orderedCats) {
-        if (catGroups[cat] && catGroups[cat][round]) { mixed.push(catGroups[cat][round]); added = true; }
-      }
-      if (!added) break;
-    }
-    return mixed;
-  }
-
-  ecItems.sort((a, b) => (a.ecOrder ?? 999) - (b.ecOrder ?? 999));
-
-  // Approved October editorial order: strongest, good, then coverage-useful.
-  const approved = list.filter(a => a.editorialPriority);
-  approved.sort((a, b) => a.editorialPriority - b.editorialPriority || a.id - b.id);
-  const sorted = [
-    ...approved,
-    ...ecItems.filter(a => !a.editorialPriority),
-    ...interleave(shortFree).filter(a => !a.editorialPriority),
-    ...interleave(ongoingFree).filter(a => !a.editorialPriority),
-    ...paidItems.filter(a => !a.editorialPriority),
-    ...interleave(recurringFree).filter(a => !a.editorialPriority),
-    ...recurringPaid.filter(a => !a.editorialPriority),
-  ];
+  const sorted = [...list].sort((a, b) =>
+    rank(a) - rank(b) ||
+    (a.editorialPriority ?? 999) - (b.editorialPriority ?? 999) ||
+    (a.startDate || '9999').localeCompare(b.startDate || '9999') ||
+    (a.title || '').localeCompare(b.title || '')
+  );
 
   const visible = sorted.slice(0, state.visibleCount);
   const hasMore = sorted.length > state.visibleCount;
@@ -296,118 +274,59 @@ function renderCards(list) {
 }
 
 /* ===========================
-   WEEK / DAY FILTER
-   Use Sydney time and Monday–Sunday as the editorial week.
+   FILTER
 =========================== */
-const WEEK_DAYS = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
-
-function sydneyToday() {
-  const parts = Object.fromEntries(new Intl.DateTimeFormat("en-AU", {
-    timeZone: "Australia/Sydney", year: "numeric", month: "2-digit", day: "2-digit",
-    weekday: "long"
-  }).formatToParts(new Date()).map(p => [p.type, p.value]));
-  return {
-    date: `${parts.year}-${parts.month}-${parts.day}`,
-    dayIndex: WEEK_DAYS.indexOf(parts.weekday)
-  };
-}
-
-function datePlusDays(dateString, days) {
-  const date = new Date(dateString + "T12:00:00Z");
-  date.setUTCDate(date.getUTCDate() + days);
-  return date.toISOString().slice(0, 10);
-}
-
-function weekWindow() {
-  const today = sydneyToday();
-  // Sunday publishes the coming Monday-Sunday listings immediately.
-  // On other days show the remainder of the current Sydney week.
-  const nextWeek = today.dayIndex === 6;
-  const monday = datePlusDays(today.date, -today.dayIndex + (nextWeek ? 7 : 0));
-  const sunday = datePlusDays(monday, 6);
-  return { ...today, monday, sunday, dayIndex: nextWeek ? 0 : today.dayIndex };
-}
-
-function updateDayChips() {
-  const group = document.querySelector('.filter-chips[data-filter="day"]');
-  if (!group) return;
-  const { dayIndex } = weekWindow();
-  const remainingSelection = [];
-  group.querySelectorAll(".chip").forEach(chip => {
-    if (!chip.dataset.value) return;
-    const past = WEEK_DAYS.indexOf(chip.dataset.value) < dayIndex;
-    chip.disabled = past;
-    chip.classList.toggle("chip--past", past);
-    chip.setAttribute("aria-disabled", String(past));
-    if (past) chip.classList.remove("chip--active");
-    else if (state.days.includes(chip.dataset.value)) remainingSelection.push(chip.dataset.value);
-  });
-  state.days = remainingSelection;
-  const anyDay = group.querySelector('[data-value=""]');
-  if (anyDay) anyDay.classList.toggle("chip--active", state.days.length === 0);
-}
-
-const AREA_GROUPS = {
-  "City Center/ CBD": ["CBD", "Darling Harbour", "The Rocks", "Haymarket", "Pyrmont"],
-  "South Sydney": ["South Sydney", "Sutherland Shire", "Green Square"],
-  "Western Sydney": ["Western Sydney", "Baulkham Hills"],
-  "Lower North Shore": ["Lower North Shore", "North Shore", "Ryde"],
-  "Upper North Shore": ["Upper North Shore", "North Shore"]
-};
-
-// Match age categories rather than literal text: the data includes labels
-// such as "Babies (0–2 years)" while filter chips use "Babies (0–1)".
-function matchesAgeFilter(act, selectedAge) {
-  if (!selectedAge) return true;
-  const labels = Array.isArray(act.age) ? act.age : [];
-  if (selectedAge === "All Ages") {
-    return labels.some(label => label.trim().toLowerCase() === "all ages");
-  }
-  const category = selectedAge.split(" (")[0].toLowerCase();
-  return labels.some(label => {
-    const normalized = label.trim().toLowerCase();
-    return normalized === "all ages" || normalized.startsWith(category + " (");
-  });
-}
-
-// The area chips are broader regions than the values on some activities.
-function matchesAreaFilter(act, selectedArea) {
-  if (!selectedArea) return true;
-  if (selectedArea === "Online") {
-    return Boolean(act.isOnline) || act.neighborhood === "Online";
-  }
-  return (AREA_GROUPS[selectedArea] || [selectedArea]).includes(act.neighborhood);
-}
-
 function applyFilters() {
-  updateDayChips();
   const { age, neighborhood, days } = state;
-  const { date: today, monday, sunday, dayIndex } = weekWindow();
+  const dateParts = new Intl.DateTimeFormat('en-AU', {
+    timeZone: 'Australia/Sydney', year: 'numeric', month: '2-digit', day: '2-digit'
+  }).formatToParts(new Date());
+  const part = type => dateParts.find(p => p.type === type)?.value || '';
+  const today = `${part('year')}-${part('month')}-${part('day')}`;
+
+  const normalizeAge = value => {
+    const v = String(value || '').toLowerCase();
+    if (v.includes('all ages')) return 'all';
+    if (v.includes('babies') || v.includes('baby')) return 'babies';
+    if (v.includes('toddler')) return 'toddlers';
+    if (v.includes('pre-school') || v.includes('preschool')) return 'preschool';
+    if (v.includes('school kids')) return 'school';
+    if (v.includes('teen')) return 'teens';
+    return v;
+  };
+  const normalizeArea = value => {
+    const v = String(value || '').toLowerCase().trim();
+    if (v.includes('north shore')) return 'north shore';
+    if (v === 'city centre' || v === 'city center') return 'cbd';
+    return v;
+  };
+  const dayNames = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+  const activeDays = act => {
+    if (!act.startDate) return Array.isArray(act.day) ? act.day : [];
+    const start = new Date(act.startDate + 'T12:00:00Z');
+    const end = new Date((act.endDate || act.startDate) + 'T12:00:00Z');
+    if (Number.isNaN(start.getTime()) || Number.isNaN(end.getTime())) return act.day || [];
+    const span = Math.round((end - start) / 86400000);
+    if (span < 0 || span > 365) return act.day || [];
+    const result = [];
+    for (let i = 0; i <= span; i++) {
+      const d = new Date(start.getTime() + i * 86400000);
+      result.push(dayNames[d.getUTCDay()]);
+    }
+    return result;
+  };
+
   const filtered = activities.filter(act => {
     if (act.expired) return false;
-    // An event may span several dates. Do not show last week's finished
-    // events, or activities scheduled only for already-passed days.
-    const start = act.startDate || monday;
-    const end = act.endDate || act.startDate || sunday;
-    if (end < today || start > sunday) return false;
-    const ageMatch = matchesAgeFilter(act, age);
-    const neighborhoodMatch = matchesAreaFilter(act, neighborhood);
-    if (!ageMatch || !neighborhoodMatch) return false;
+    if (act.endDate && act.endDate < today) return false;
+    if (!act.endDate && act.startDate && act.startDate < today) return false;
 
-    // Only consider days in the remainder of the current Sydney week.
-    const eligibleDays = WEEK_DAYS.slice(dayIndex).filter((day, index) => {
-      const dayDate = datePlusDays(monday, dayIndex + index);
-      const scheduledDay = !act.day || !act.day.length || act.day.includes(day);
-      return scheduledDay && start <= dayDate && end >= dayDate;
-    });
-    // On Sunday, keep today's still-running events visible alongside the
-    // coming week's listings (Sunday normally rolls to next week immediately).
-    const isCurrentSundayEvent = sydneyToday().dayIndex === 6 &&
-      start <= today && end >= today &&
-      (!Array.isArray(act.day) || !act.day.length || act.day.includes("Sunday"));
-    if (isCurrentSundayEvent && !eligibleDays.includes("Sunday")) eligibleDays.push("Sunday");
-    if (!eligibleDays.length) return false;
-    return days.length === 0 || days.some(day => eligibleDays.includes(day));
+    const ages = Array.isArray(act.age) ? act.age : [act.age];
+    const selectedAge = normalizeAge(age);
+    const ageMatch = !age || ages.some(a => normalizeAge(a) === 'all' || normalizeAge(a) === selectedAge);
+    const areaMatch = !neighborhood || normalizeArea(act.neighborhood) === normalizeArea(neighborhood);
+    const dayMatch = days.length === 0 || days.some(d => activeDays(act).includes(d));
+    return ageMatch && areaMatch && dayMatch;
   });
   renderCards(filtered);
 }
@@ -417,11 +336,13 @@ function resetFilters() {
   state.neighborhood = "";
   state.days = [];
   state.visibleCount = PAGE_SIZE;
+
   document.querySelectorAll(".filter-chips").forEach(group => {
     group.querySelectorAll(".chip").forEach(chip => {
       chip.classList.toggle("chip--active", chip.dataset.value === "");
     });
   });
+
   applyFilters();
 }
 
@@ -433,7 +354,6 @@ function bindEvents() {
     const filterKey = group.dataset.filter;
     group.querySelectorAll(".chip").forEach(chip => {
       chip.addEventListener("click", () => {
-        if (chip.disabled) return;
         state.visibleCount = PAGE_SIZE;
         if (filterKey === "day") {
           const val = chip.dataset.value;
@@ -467,10 +387,6 @@ function bindEvents() {
 
   document.getElementById("clear-filters").addEventListener("click", resetFilters);
   document.getElementById("no-results-clear").addEventListener("click", resetFilters);
-  // The newsletter link at the end of the day filter should work as a CTA.
-  document.getElementById("next-week-newsletter-cta")?.addEventListener("click", () => {
-    document.getElementById("newsletter")?.scrollIntoView({ behavior: "smooth", block: "start" });
-  });
 }
 
 /* ===========================
