@@ -343,13 +343,13 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=1200&q=80",
+    "imageUrl": "https://atlas.sl.nsw.gov.au/sites/default/files/styles/swcolumn_image/public/1_main_atlasclub_V2_1.png?itok=vweL_GSO",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 9,
     "isRecurring": false,
     "expired": false,
-    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "imageCredit": "State Library of NSW Atlas Club artwork (official programme illustration)",
     "seoSlug": "atlas-for-young-people-writers-club-nov-2026",
     "longDescription": "Atlas for Young People: Writers Club at Stanton Library. Visit the organiser's page to confirm times, age suitability and booking.",
     "address": "Stanton Library, Sydney NSW",
@@ -362,7 +362,8 @@
     "tags": [
       "Family activities"
     ],
-    "category": "Events"
+    "category": "Events",
+    "imageVerification": "Official programme image; not event-specific"
   },
   {
     "id": 2026110210,
@@ -382,13 +383,13 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=1200&q=80",
+    "imageUrl": "https://files.northernbeaches.nsw.gov.au/nbc-prod-files/styles/promoted_event/azblob/images/2026-07/Webtile-%20Kristin%20Darell.png?itok=0NFLPiS_",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 10,
     "isRecurring": false,
     "expired": false,
-    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "imageCredit": "Northern Beaches Council photograph of featured author Kristin Darell",
     "seoSlug": "meet-the-author-with-kristin-darell-nov-2026",
     "longDescription": "Meet the Author with Kristin Darell at Stanton Library. Visit the organiser's page to confirm times, age suitability and booking.",
     "address": "Stanton Library, Sydney NSW",
@@ -401,7 +402,8 @@
     "tags": [
       "Family activities"
     ],
-    "category": "Events"
+    "category": "Events",
+    "imageVerification": "Photograph of the actual featured author, from another council event"
   },
   {
     "id": 2026110211,
@@ -421,13 +423,13 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=1200&q=80",
+    "imageUrl": "https://www.wildlifesydney.com.au/media/2dfjg1e2/ste-lego-benholgate-73.jpg",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 11,
     "isRecurring": false,
     "expired": false,
-    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "imageCredit": "WILD LIFE Sydney Zoo photograph of children building LEGO; illustrative, not Stanton Library",
     "seoSlug": "lego-legends-nov-2026",
     "longDescription": "LEGO Legends at Stanton Library. Visit the organiser's page to confirm times, age suitability and booking.",
     "address": "Stanton Library, Sydney NSW",
@@ -440,7 +442,8 @@
     "tags": [
       "Family activities"
     ],
-    "category": "Events"
+    "category": "Events",
+    "imageVerification": "Relevant activity photograph; not the original organiser image"
   },
   {
     "id": 2026110212,
@@ -460,13 +463,13 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=1200&q=80",
+    "imageUrl": "https://live-production.wcms.abc-cdn.net.au/3cbaa042acd678455511a4e5a56ea5c3?cropH=576&cropW=1023&height=485&impolicy=wcms_crop_resize&width=862&xPos=0&yPos=0",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 12,
     "isRecurring": false,
     "expired": false,
-    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "imageCredit": "ABC News photograph of a live-coding music performance; illustrative, not the Randwick Library event",
     "seoSlug": "live-coding-music-with-sonic-pi-nov-2026",
     "longDescription": "Live Coding Music with Sonic Pi at Lionel Bowen Library. Visit the organiser's page to confirm times, age suitability and booking.",
     "address": "Lionel Bowen Library, Sydney NSW",
@@ -479,7 +482,8 @@
     "tags": [
       "Family activities"
     ],
-    "category": "Events"
+    "category": "Events",
+    "imageVerification": "Related live coding photo, not original event"
   },
   {
     "id": 2026110213,
@@ -499,13 +503,13 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1200&q=80",
+    "imageUrl": "https://www.randwick.nsw.gov.au/__data/assets/image/0009/409626/Kids-page-banner_1400px-X-500px-v2.jpg",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 13,
     "isRecurring": false,
     "expired": false,
-    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "imageCredit": "Randwick City Library children's programme photograph; illustrative, not the Sensory Storytime session",
     "seoSlug": "sensory-storytime-nov-2026",
     "longDescription": "Sensory Storytime at Lionel Bowen Library. Visit the organiser's page to confirm times, age suitability and booking.",
     "address": "Lionel Bowen Library, Sydney NSW",
@@ -518,7 +522,8 @@
     "tags": [
       "Family activities"
     ],
-    "category": "Events"
+    "category": "Events",
+    "imageVerification": "Organiser's own children's activities image; not event-specific"
   },
   {
     "id": 2026110214,
