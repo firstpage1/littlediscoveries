@@ -57,14 +57,14 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=1200&q=80",
+    "imageUrl": "https://www.cbcity.nsw.gov.au/sites/default/files/2026-07/mayorwithhose.jpg",
     "time": "See organiser",
     "editorsChoice": true,
     "ecOrder": 2,
     "editorialPriority": 2,
     "isRecurring": false,
     "expired": false,
-    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "imageCredit": "Canterbury-Bankstown Council: photograph of the new aquatic centre during commissioning (not the grand opening)",
     "seoSlug": "canterbury-aquatic-centre-grand-opening-nov-2026",
     "longDescription": "Canterbury Aquatic Centre Grand Opening at Canterbury Aquatic Centre. Visit the organiser's page to confirm times, age suitability and booking.",
     "address": "Canterbury Aquatic Centre, Sydney NSW",
@@ -77,7 +77,8 @@
     "tags": [
       "Family activities"
     ],
-    "category": "Events"
+    "category": "Events",
+    "imageVerification": "Organiser-hosted image identified; direct rendering not independently tested"
   },
   {
     "id": 2026110203,
@@ -97,14 +98,14 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=80",
+    "imageUrl": "https://www.bayside.nsw.gov.au/sites/default/files/2025-10/diwali_event_746x420.jpg",
     "time": "See organiser",
     "editorsChoice": true,
     "ecOrder": 3,
     "editorialPriority": 3,
     "isRecurring": false,
     "expired": false,
-    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "imageCredit": "Bayside Council: photograph of the 2025 Rockdale Diwali Festival",
     "seoSlug": "bayside-diwali-festival-nov-2026",
     "longDescription": "Bayside Diwali Festival at King Street, Rockdale. Visit the organiser's page to confirm times, age suitability and booking.",
     "address": "King Street, Rockdale, Sydney NSW",
@@ -117,7 +118,8 @@
     "tags": [
       "Family activities"
     ],
-    "category": "Events"
+    "category": "Events",
+    "imageVerification": "Organiser-hosted image identified; direct rendering not independently tested"
   },
   {
     "id": 2026110204,
@@ -137,14 +139,14 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=1200&q=80",
+    "imageUrl": "https://www.hornsby.nsw.gov.au/files/assets/public/v/1/community/events/spring-fest/hornsby-spring-fest-4.jpg",
     "time": "See organiser",
     "editorsChoice": true,
     "ecOrder": 4,
     "editorialPriority": 4,
     "isRecurring": false,
     "expired": false,
-    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "imageCredit": "Hornsby Shire Council: photograph of a previous Spring Fest",
     "seoSlug": "hornsby-spring-fest-nov-2026",
     "longDescription": "Hornsby Spring Fest at Dural Lane, Hornsby. Visit the organiser's page to confirm times, age suitability and booking.",
     "address": "Dural Lane, Hornsby, Sydney NSW",
@@ -157,7 +159,8 @@
     "tags": [
       "Family activities"
     ],
-    "category": "Events"
+    "category": "Events",
+    "imageVerification": "Organiser-hosted image identified; direct rendering not independently tested"
   },
   {
     "id": 2026110205,
@@ -686,13 +689,13 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=1200&q=80",
+    "imageUrl": "https://www.northsydney.nsw.gov.au/images/Northside_Produce_Market_event.png",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 18,
     "isRecurring": false,
     "expired": false,
-    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "imageCredit": "North Sydney Council: Northside Produce Market photograph",
     "seoSlug": "northside-produce-market-nov-2026",
     "longDescription": "Northside Produce Market at Ted Mack Civic Park. Visit the organiser's page to confirm times, age suitability and booking.",
     "address": "Ted Mack Civic Park, Sydney NSW",
@@ -705,7 +708,8 @@
     "tags": [
       "Family activities"
     ],
-    "category": "Events"
+    "category": "Events",
+    "imageVerification": "Organiser-hosted image identified; direct rendering not independently tested"
   },
   {
     "id": 2026110219,
@@ -725,13 +729,13 @@
     ],
     "cost": "See organiser",
     "costLabel": "Check booking details",
-    "imageUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=1200&q=80",
+    "imageUrl": "https://www.hornsby.nsw.gov.au/files/assets/public/v/1/community/events/images/shh-market-1.jpg?w=1200",
     "time": "See organiser",
     "editorsChoice": false,
     "editorialPriority": 19,
     "isRecurring": false,
     "expired": false,
-    "imageCredit": "Illustrative photograph (Unsplash), not the original event image",
+    "imageCredit": "Hornsby Shire Council: Second-Hand Hornsby Market photograph",
     "seoSlug": "second-hand-hornsby-market-nov-2026",
     "longDescription": "Second-Hand Hornsby Market at Coronation StrEat Precinct. Visit the organiser's page to confirm times, age suitability and booking.",
     "address": "Coronation StrEat Precinct, Sydney NSW",
@@ -744,7 +748,8 @@
     "tags": [
       "Family activities"
     ],
-    "category": "Events"
+    "category": "Events",
+    "imageVerification": "Organiser-hosted image identified; direct rendering not independently tested"
   },
   {
     "id": 2026110220,
