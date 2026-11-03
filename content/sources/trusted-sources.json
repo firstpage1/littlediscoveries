@@ -1,0 +1,240 @@
+{
+  "sources": [
+    {
+      "name": "City of Sydney What's On",
+      "url": "https://whatson.cityofsydney.nsw.gov.au/",
+      "enabled": true,
+      "trustScore": 5
+    },
+    {
+      "name": "Australian Museum",
+      "url": "https://australian.museum/",
+      "enabled": true,
+      "trustScore": 5
+    },
+    {
+      "name": "Art Gallery of NSW",
+      "url": "https://www.artgallery.nsw.gov.au/",
+      "enabled": true,
+      "trustScore": 5
+    },
+    {
+      "name": "Sydney Olympic Park",
+      "url": "https://www.sydneyolympicpark.com.au/",
+      "enabled": true,
+      "trustScore": 5
+    },
+    {
+      "name": "Eastern Suburbs Mums",
+      "url": "https://easternsuburbsmums.com.au/category/what-to-do/what-to-do-events/",
+      "enabled": true,
+      "trustScore": 4,
+      "sourceType": "discovery"
+    },
+    {
+      "name": "Randwick City Council Major Events",
+      "url": "https://www.randwick.nsw.gov.au/community/whats-on/major-events",
+      "enabled": true,
+      "trustScore": 5,
+      "sourceType": "official"
+    },
+    {
+      "name": "Randwick City Council Activities for Kids",
+      "url": "https://www.randwick.nsw.gov.au/community/families-children-and-youth/activities-for-kids",
+      "enabled": true,
+      "trustScore": 5,
+      "sourceType": "official"
+    },
+    {
+      "name": "Darling Harbour Cultural Festivals",
+      "url": "https://www.darlingharbour.com/whats-on/campaigns/cultural-festivals",
+      "enabled": true,
+      "trustScore": 5,
+      "sourceType": "official"
+    },
+    {
+      "name": "Bondi Pavilion Kids & Family",
+      "url": "https://www.bondipavilion.com.au/whats_on?queries_category_query_posted=1&queries_category_query%5B7%5D=kids_family",
+      "enabled": true,
+      "trustScore": 5,
+      "sourceType": "official"
+    },
+    {
+      "name": "Ellaslist Sydney Events",
+      "url": "https://www.ellaslist.com.au/sydney/events",
+      "enabled": true,
+      "trustScore": 4,
+      "sourceType": "discovery"
+    },
+    {
+      "name": "Waverley Council Events",
+      "url": "https://www.waverley.nsw.gov.au/recreation/events",
+      "enabled": true,
+      "trustScore": 5,
+      "sourceType": "official"
+    },
+    {
+      "name": "Woollahra Council Events",
+      "url": "https://www.woollahra.nsw.gov.au/Events",
+      "enabled": true,
+      "trustScore": 5,
+      "sourceType": "official"
+    },
+    {
+      "name": "Inner West Council What's On",
+      "url": "https://www.innerwest.nsw.gov.au/whats-on?event_type%5B%5D=145",
+      "enabled": true,
+      "trustScore": 5,
+      "sourceType": "official"
+    },
+    {
+      "name": "Bayside Council What's On",
+      "url": "https://www.bayside.nsw.gov.au/whats-on?category=1792&event_date=All&combine=",
+      "enabled": true,
+      "trustScore": 5,
+      "sourceType": "official"
+    },
+    {
+      "name": "Georges River Council What's On",
+      "url": "https://www.georgesriver.nsw.gov.au/Whats-On",
+      "enabled": true,
+      "trustScore": 5,
+      "sourceType": "official"
+    },
+    {
+      "name": "City of Canada Bay What's On",
+      "url": "https://www.canadabay.nsw.gov.au/whats-on?field_event_categories_target_id%5B208%5D=208&field_event_categories_target_id%5B204%5D=204",
+      "enabled": true,
+      "trustScore": 5,
+      "sourceType": "official"
+    },
+    {
+      "name": "Burwood Council Events",
+      "url": "https://www.burwood.nsw.gov.au/For-Residents/Events-and-Activities/Events-listing",
+      "enabled": true,
+      "trustScore": 5,
+      "sourceType": "official"
+    },
+    {
+      "name": "Strathfield Council Events",
+      "url": "https://www.strathfield.nsw.gov.au/Play/Events-Calendar",
+      "enabled": true,
+      "trustScore": 5,
+      "sourceType": "official"
+    },
+    {
+      "name": "North Sydney Council Events",
+      "url": "https://www.northsydney.nsw.gov.au/events",
+      "enabled": true,
+      "trustScore": 5,
+      "sourceType": "official"
+    },
+    {
+      "name": "Mosman Council Events",
+      "url": "https://events.mosman.nsw.gov.au/",
+      "enabled": true,
+      "trustScore": 5,
+      "sourceType": "official"
+    },
+    {
+      "name": "Willoughby Council Events",
+      "url": "https://www.willoughby.nsw.gov.au/Events",
+      "enabled": true,
+      "trustScore": 5,
+      "sourceType": "official"
+    },
+    {
+      "name": "Lane Cove Council Events",
+      "url": "https://www.lanecove.nsw.gov.au/Community/Events-and-Festivals",
+      "enabled": true,
+      "trustScore": 5,
+      "sourceType": "official"
+    },
+    {
+      "name": "Hunters Hill Council Events",
+      "url": "https://www.huntershill.nsw.gov.au/Community/Events",
+      "enabled": true,
+      "trustScore": 5,
+      "sourceType": "official"
+    },
+    {
+      "name": "City of Ryde Events",
+      "url": "https://www.ryde.nsw.gov.au/Events",
+      "enabled": true,
+      "trustScore": 5,
+      "sourceType": "official"
+    },
+    {
+      "name": "Ku-ring-gai What's On",
+      "url": "https://www.krg.nsw.gov.au/Things-to-do/Whats-on",
+      "enabled": true,
+      "trustScore": 5,
+      "sourceType": "official"
+    },
+    {
+      "name": "Hornsby Council Events",
+      "url": "https://www.hornsby.nsw.gov.au/Community/Events",
+      "enabled": true,
+      "trustScore": 5,
+      "sourceType": "official"
+    },
+    {
+      "name": "Northern Beaches What's On",
+      "url": "https://www.northernbeaches.nsw.gov.au/things-to-do/whats-on",
+      "enabled": true,
+      "trustScore": 5,
+      "sourceType": "official"
+    },
+    {
+      "name": "Sutherland Shire What's On",
+      "url": "https://www.sutherlandshire.nsw.gov.au/play-and-explore/whats-on",
+      "enabled": true,
+      "trustScore": 5,
+      "sourceType": "official"
+    },
+    {
+      "name": "At Parramatta What's On",
+      "url": "https://atparramatta.com/whats-on",
+      "enabled": true,
+      "trustScore": 5,
+      "sourceType": "official"
+    },
+    {
+      "name": "Canterbury-Bankstown What's On",
+      "url": "https://www.cbcity.nsw.gov.au/whats-on",
+      "enabled": true,
+      "trustScore": 5,
+      "sourceType": "official"
+    },
+    {
+      "name": "Cumberland Council What's On",
+      "url": "https://www.cumberland.nsw.gov.au/whats-on",
+      "enabled": true,
+      "trustScore": 5,
+      "sourceType": "official"
+    },
+    {
+      "name": "Darling Harbour Events",
+      "url": "https://www.darlingharbour.com/whats-on/events/",
+      "enabled": true,
+      "trustScore": 5,
+      "sourceType": "official"
+    },
+    {
+      "name": "Sydney Opera House Kids & Families",
+      "url": "https://www.sydneyoperahouse.com/kids-families",
+      "enabled": true,
+      "trustScore": 5,
+      "sourceType": "official",
+      "priority": "must-check-weekly"
+    },
+    {
+      "name": "City of Sydney Leisure News & Events",
+      "url": "https://cityofsydneyleisure.com.au/news-and-events",
+      "enabled": true,
+      "trustScore": 5,
+      "sourceType": "official",
+      "priority": "must-check-weekly"
+    }
+  ]
+}
