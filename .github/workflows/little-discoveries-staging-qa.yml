@@ -1,0 +1,82 @@
+name: Little Discoveries approval-only staging QA
+on:
+  push:
+    branches:
+      - test/little-discoveries-2026-11-09
+    paths:
+      - "tools/little_discoveries_release.py"
+      - "tools/little_discoveries_image_audit.py"
+      - "tests/test_little_discoveries_release.py"
+      - "reviews/2026-11-09/**"
+      - ".github/workflows/little-discoveries-staging-qa.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Checkout staging branch without write token
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Run approval gate unit tests
+        run: python3 -m unittest discover -s tests -p 'test_little_discoveries_release.py' -v
+      - name: Assert real 50-candidate batch is NOT publishable without approvals
+        run: |
+          mkdir -p /tmp/little-discoveries
+          printf '{"weekStart":"2026-11-09","weekEnd":"2026-11-15","approvedEventIds":[],"approvedEditorsChoiceIds":[],"status":"pending"}' > /tmp/little-discoveries/unapproved.json
+          if python3 tools/little_discoveries_release.py --candidates reviews/2026-11-09/candidates.test.json --approval /tmp/little-discoveries/unapproved.json --output /tmp/little-discoveries/blocked; then
+            echo 'SECURITY FAILURE: unapproved release accepted'
+            exit 1
+          else
+            echo 'PASS: unapproved release rejected'
+          fi
+      - name: Run synthetic end-to-end build with no deployment
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          import sys
+          sys.path.insert(0, 'tests')
+          from test_little_discoveries_release import event
+          p=Path('/tmp/little-discoveries')
+          dataset={"weekStart":"2026-11-09","weekEnd":"2026-11-15","candidates":[event(i) for i in range(1,7)]}
+          approval={"weekStart":"2026-11-09","weekEnd":"2026-11-15","approvedEventIds":[f"T-{i}" for i in range(1,7)],"approvedEditorsChoiceIds":[f"T-{i}" for i in range(1,7)],"status":"approved_by_editor","editorApprovalReference":"SYNTHETIC_FIXTURE_NOT_REAL_APPROVAL"}
+          (p/'synthetic.json').write_text(json.dumps(dataset))
+          (p/'synthetic-approval.json').write_text(json.dumps(approval))
+          PY
+          python3 tools/little_discoveries_release.py --candidates /tmp/little-discoveries/synthetic.json --approval /tmp/little-discoveries/synthetic-approval.json --output /tmp/little-discoveries/synthetic-site
+          test "$(find /tmp/little-discoveries/synthetic-site/events -name index.html | wc -l)" -eq 6
+          grep -q 'noindex,nofollow' /tmp/little-discoveries/synthetic-site/events/T-1/index.html
+          python3 - <<'PY'
+          import json
+          p=json.load(open('/tmp/little-discoveries/synthetic-site/validation-report.json'))
+          assert p['pass'] and not p['productionChanged'] and not p['deploymentPerformed']
+          print('PASS: six fictional events rendered in isolated staging, no production deployment')
+          PY
+      - name: Upload isolated QA reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: little-discoveries-staging-qa
+          path: /tmp/little-discoveries/
+          if-no-files-found: error
+          retention-days: 14
+  image-discovery:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout staging branch without write token
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Collect organiser OG image candidates for editorial review only
+        run: python3 tools/little_discoveries_image_audit.py --candidates reviews/2026-11-09/candidates.test.json --output /tmp/little-discoveries/image-audit.json --limit 50
+      - name: Upload read-only image check report
+        uses: actions/upload-artifact@v4
+        with:
+          name: little-discoveries-image-audit
+          path: /tmp/little-discoveries/image-audit.json
+          if-no-files-found: error
+          retention-days: 14
