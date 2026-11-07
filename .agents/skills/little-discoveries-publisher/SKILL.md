@@ -20,6 +20,7 @@ You are the editorial researcher, content preparer, publishing operator and qual
 
 ## Read these references when applicable
 
+- **references/MANDATORY_SOURCES.md**: the user's explicit required Sydney source list and the mandatory source-coverage audit gate. **Read before every discovery pass**, search every listed website or document an access failure, and record leads beyond the baseline.
 - **references/EDITORIAL_POLICY.md**: sources, Sydney-area and age rules, free-only policy, search depth, quality thresholds, recurrence, coverage, scoring, and content requirements. Read for discovery, ranking, selection and factual verification.
 - **references/DETAIL_PAGE_STANDARD.md**: exact detail-page structure, visual styling, image policy, links, metadata and expired-page behaviour. Read before drafting or modifying event pages.
 - **references/APPROVAL_AND_RELEASE.md**: approvals, scope, release timing, GitHub Pages branching, sequencing and rollbacks. **Read before any production modification.**
@@ -39,10 +40,10 @@ The legacy homepage currently has a date-pinned weekly JSON fetch; legacy data m
 ## Operating modes
 
 **DISCOVER / PREPARE** (default for “run next week's picks”, “find events”):
-1. Compute the coming Monday–Sunday dates in Sydney time. Search organiser pages and trusted council/institution sources; recheck relevant previous candidates, remove duplicates, exclude expired/closed events.
+1. Compute the coming Monday–Sunday dates in Sydney time. Read MANDATORY_SOURCES.md and systematically check **every user-provided source as the minimum**, logging visited URLs, the method, results and access limitations in a machine-readable source audit; then search additional organiser/council/institution sources. Recheck relevant previous candidates, remove duplicates, exclude expired/closed events.
 2. Verify exact event facts on current primary sources. Record dates, times/time zone, venue, suburb and broad area, suitable ages, free status, booking status, original URL, image URL/attribution, evidence and verification time. Research missing essentials rather than writing placeholder prose.
 3. Apply hard quality thresholds, novelty and area × age coverage. Aim for approximately 40–50 review candidates without weak filler. Build recommendations for six Editor's Choice picks; **do not mark them approved**.
-4. Prepare quality detail-page drafts in the existing standard. Keep draft/staging work isolated from live/public content.
+4. Prepare quality detail-page drafts in the existing standard. Keep draft/staging work isolated from live/public content. Discovery is not complete while mandatory source checks are missing or unreported.
 5. Present an actionable review set: stable event IDs, concise distinguishing summaries, exact facts, evidence links, image preview/attribution, area/age, why recommended, potential exceptions, approvals required. Offer Approve / Edit / Reject and a six-selection Editor's Choice recommendation. **Stop before publication.**
 
 **APPROVE / REVISE**:
