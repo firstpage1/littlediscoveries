@@ -82,7 +82,7 @@ async function imageCheck(locator,label){
    check(row.id+' precise age',()=>assert.ok(facts.includes(row.ageGuidance)));
    check(row.id+' metadata',()=>{assert.equal(structured.startDate,row.startAt);assert.equal(structured.endDate,row.endAt);assert.equal(structured.offers.price,'0');assert.equal(structured.image[0],row.imageUrl);});
    const badge=await page.locator('.pic .ec').count();check(row.id+' Editor’s Choice detail treatment',()=>assert.equal(badge,row.editorsChoice?1:0));
-   const og=await page.locator('meta[property="og:image"]').getAttribute('content');check(row.id+' social image',()=>assert.equal(new URL(og,base).href,new URL(row.imageUrl,base).href));
+   const og=await page.locator('meta[property="og:image"]').getAttribute('content');check(row.id+' social image',()=>assert.equal(new URL(og,base).href,new URL(row.imageUrl,'https://www.littlediscoveries.com.au').href));
    const factCount=await page.locator('.fact').count();check(row.id+' five facts',()=>assert.equal(factCount,5));
    const headings=await page.locator('.article h2').allTextContents();
    check(row.id+' practical article sections',()=>assert.deepEqual(headings,['About this activity','Good to know','Planning your visit']));
