@@ -5,8 +5,8 @@ const rows=JSON.parse(fs.readFileSync('week-2026-11-09-approved.json','utf8'));
 const live=process.env.QA_LIVE==='true';
 const base=live?'https://www.littlediscoveries.com.au':'http://127.0.0.1:8765';
 const output='qa-approved-week';fs.mkdirSync(output,{recursive:true});
-const expected=['43','01','03','04','05','45','49','47','31','14','15','10','46','21'].map(x=>'LD-20261109-'+x);
-const expectedChoice=[];
+const expected=['43','01','02','03','04','05','45','49','47','31','14','15','10','46','21'].map(x=>'LD-20261109-'+x);
+const expectedChoice=['43','01','02','03','04','05'].map(x=>'LD-20261109-'+x);
 const report={base,live,started:new Date().toISOString(),checks:[],details:[],images:[],errors:[]};
 const pause=ms=>new Promise(r=>setTimeout(r,ms));
 const check=(name,fn)=>{try{fn();report.checks.push({name,pass:true});}catch(e){report.errors.push(name+': '+e.message);}};
@@ -27,9 +27,9 @@ async function imageCheck(locator,label){
 (async()=>{
  let browser;
  try{
-  check('only approved 14 IDs',()=>assert.deepEqual(rows.map(x=>x.id),expected));
-  check('Editor’s Choice activation held pending cinema image',()=>assert.deepEqual(rows.filter(x=>x.editorsChoice).sort((a,b)=>a.ecOrder-b.ecOrder).map(x=>x.id),expectedChoice));
-  browser=await chromium.launch({headless:true});
+  check('only approved 15 IDs',()=>assert.deepEqual(rows.map(x=>x.id),expected));
+  check('exact approved six Editor’s Choice IDs',()=>assert.deepEqual(rows.filter(x=>x.editorsChoice).sort((a,b)=>a.ecOrder-b.ecOrder).map(x=>x.id),expectedChoice));
+  browser=await chromium.launch({headless:true,...(process.env.QA_CHROMIUM?{executablePath:process.env.QA_CHROMIUM,args:['--no-sandbox']}: {})});
   const page=await browser.newPage({viewport:{width:1440,height:1000}});
   if(live){
    let matched=false;
@@ -41,12 +41,12 @@ async function imageCheck(locator,label){
    }
    if(!matched)throw new Error('Production did not serve the approved release within four minutes');
   }
-  const home=await page.goto(base+'/?verify=20261109-approved-14',{waitUntil:'domcontentloaded'});
+  const home=await page.goto(base+'/?verify=20261109-approved-15',{waitUntil:'domcontentloaded'});
   await page.locator('.activity-card').first().waitFor();
   check('homepage HTTP 200',()=>assert.equal(home.status(),200));
   await assertTitles(page,rows,'homepage approved cards');
   const choices=await page.locator('.activity-card--editors-choice .activity-card__title').allTextContents();
-  check('no partial Editor’s Choice selection activated',()=>assert.deepEqual(choices,rows.filter(x=>x.editorsChoice).map(x=>x.title)));
+  check('approved six Editor’s Choice order',()=>assert.deepEqual(choices,rows.filter(x=>x.editorsChoice).map(x=>x.title)));
   for(const row of rows){
    const card=page.locator('.activity-card').filter({has:page.locator('.activity-card__title').getByText(row.title,{exact:true})});
    await imageCheck(card.locator('.activity-card__thumb img'),row.id+' thumbnail');
@@ -81,6 +81,8 @@ async function imageCheck(locator,label){
    check(row.id+' detail title',()=>assert.equal(title,row.title));
    check(row.id+' precise age',()=>assert.ok(facts.includes(row.ageGuidance)));
    check(row.id+' metadata',()=>{assert.equal(structured.startDate,row.startAt);assert.equal(structured.endDate,row.endAt);assert.equal(structured.offers.price,'0');assert.equal(structured.image[0],row.imageUrl);});
+   const badge=await page.locator('.pic .ec').count();check(row.id+' Editor’s Choice detail treatment',()=>assert.equal(badge,row.editorsChoice?1:0));
+   const og=await page.locator('meta[property="og:image"]').getAttribute('content');check(row.id+' social image',()=>assert.equal(new URL(og,base).href,new URL(row.imageUrl,base).href));
    const factCount=await page.locator('.fact').count();check(row.id+' five facts',()=>assert.equal(factCount,5));
    const headings=await page.locator('.article h2').allTextContents();
    check(row.id+' practical article sections',()=>assert.deepEqual(headings,['About this activity','Good to know','Planning your visit']));
@@ -96,7 +98,7 @@ async function imageCheck(locator,label){
    }
    report.details.push({id:row.id,url:page.url(),title,booking,verified:true});
    await page.setViewportSize({width:1440,height:1000});
-   await page.goto(base+'/?verify=20261109-approved-14',{waitUntil:'domcontentloaded'});
+   await page.goto(base+'/?verify=20261109-approved-15',{waitUntil:'domcontentloaded'});
    await page.locator('.activity-card').first().waitFor();
   }
   // Exercise end-time expiry in a separate browser context without changing production content.
