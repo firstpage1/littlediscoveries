@@ -1,0 +1,290 @@
+{
+  "scope": "9–15 November 2026 weekly discovery source audit",
+  "checkedAtSydney": "2026-11-07",
+  "policy": "Every user-named source is searched or explicitly logged as inaccessible; organiser pages must confirm each candidate. Unavailable sources never count as successfully checked.",
+  "summary": {
+    "requiredSources": 23,
+    "reviewedSources": 15,
+    "accessBlockedSources": 7,
+    "searchAttemptedSources": 1
+  },
+  "sources": [
+    {
+      "id": "ellaslist",
+      "name": "Ella’s List",
+      "url": "https://www.ellaslist.com.au/sydney/events",
+      "mandatoryBaseline": true,
+      "checkDateSydney": "2026-11-07",
+      "checkMethod": "site portal/open or targeted indexed search; NOT a full crawl",
+      "status": "reviewed_current_listings",
+      "note": "LEGO Christmas pop-up at Myer Sydney; original Myer page and original image still require review"
+    },
+    {
+      "id": "weekendnotes",
+      "name": "WeekendNotes",
+      "url": "https://www.weekendnotes.com/sydney/",
+      "mandatoryBaseline": true,
+      "checkDateSydney": "2026-11-07",
+      "checkMethod": "site portal/open or targeted indexed search; NOT a full crawl",
+      "status": "reviewed_site_no_week_match",
+      "note": "What's On landing page accessible but content appeared older; no target-week family event independently verified"
+    },
+    {
+      "id": "kidsbook",
+      "name": "KidsBook",
+      "url": "https://www.kidsbook.com.au/",
+      "mandatoryBaseline": true,
+      "checkDateSydney": "2026-11-07",
+      "checkMethod": "direct page attempt + indexed search",
+      "status": "access_blocked",
+      "note": "Attempted direct URL and site-targeted query; current event listings not obtained"
+    },
+    {
+      "id": "sydneyexpert",
+      "name": "Sydney Expert",
+      "url": "https://sydneyexpert.com/sydney-in-november/",
+      "mandatoryBaseline": true,
+      "checkDateSydney": "2026-11-07",
+      "checkMethod": "site portal/open or targeted indexed search; NOT a full crawl",
+      "status": "reviewed_current_listings",
+      "note": "Powerhouse Parramatta opening festival identified; individual free family sessions need verification"
+    },
+    {
+      "id": "outandabout",
+      "name": "Out and About With Kids",
+      "url": "https://outandaboutwithkids.com.au/",
+      "mandatoryBaseline": true,
+      "checkDateSydney": "2026-11-07",
+      "checkMethod": "site portal/open or targeted indexed search; NOT a full crawl",
+      "status": "reviewed_site_no_week_match",
+      "note": "Sydney travel content accessible; not a reliable weekly 9–15 Nov dated events source"
+    },
+    {
+      "id": "hellosydneykids",
+      "name": "Hello Sydney Kids",
+      "url": "https://hellosydneykids.com.au/",
+      "mandatoryBaseline": true,
+      "checkDateSydney": "2026-11-07",
+      "checkMethod": "site portal/open or targeted indexed search; NOT a full crawl",
+      "status": "reviewed_site_no_week_match",
+      "note": "Site accessible but recent featured material largely evergreen, no verified target-week event found"
+    },
+    {
+      "id": "doingsydneywithkids",
+      "name": "Doing Sydney With Kids",
+      "url": "https://www.doingsydneywithkids.com.au/",
+      "mandatoryBaseline": true,
+      "checkDateSydney": "2026-11-07",
+      "checkMethod": "direct page attempt + indexed search",
+      "status": "access_blocked",
+      "note": "Direct website inaccessible; targeted web search returned no matching 2026 family events"
+    },
+    {
+      "id": "kidbucketlist",
+      "name": "Kid Bucket List",
+      "url": "https://www.kidbucketlist.com.au/",
+      "mandatoryBaseline": true,
+      "checkDateSydney": "2026-11-07",
+      "checkMethod": "direct page attempt + indexed search",
+      "status": "access_blocked",
+      "note": "Direct URL inaccessible; no confirmed target-week indexed Sydney family event"
+    },
+    {
+      "id": "marcie",
+      "name": "Marcie in Mommyland",
+      "url": "https://www.marcieinmommyland.com/",
+      "mandatoryBaseline": true,
+      "checkDateSydney": "2026-11-07",
+      "checkMethod": "site portal/open or targeted indexed search; NOT a full crawl",
+      "status": "reviewed_site_no_week_match",
+      "note": "Primarily international family travel, no target-week Sydney event"
+    },
+    {
+      "id": "mumslittleexplorers",
+      "name": "Mums Little Explorers",
+      "url": "https://mumslittleexplorers.com/",
+      "mandatoryBaseline": true,
+      "checkDateSydney": "2026-11-07",
+      "checkMethod": "site portal/open or targeted indexed search; NOT a full crawl",
+      "status": "reviewed_site_no_week_match",
+      "note": "Primarily Melbourne family listings; Sydney travel content only"
+    },
+    {
+      "id": "lonelyplanet",
+      "name": "Lonely Planet",
+      "url": "https://www.lonelyplanet.com/australia/sydney",
+      "mandatoryBaseline": true,
+      "checkDateSydney": "2026-11-07",
+      "checkMethod": "direct page attempt + indexed search",
+      "status": "access_blocked",
+      "note": "Site blocked direct retrieval (403); destination/evergreen rather than current local events"
+    },
+    {
+      "id": "secretsydney",
+      "name": "Secret Sydney",
+      "url": "https://secretsydney.com/",
+      "mandatoryBaseline": true,
+      "checkDateSydney": "2026-11-07",
+      "checkMethod": "direct page attempt + indexed search",
+      "status": "access_blocked",
+      "note": "Direct retrieval failed and targeted query yielded no independently verifiable 9–15 Nov candidate"
+    },
+    {
+      "id": "urbanlist",
+      "name": "The Urban List",
+      "url": "https://www.theurbanlist.com/sydney",
+      "mandatoryBaseline": true,
+      "checkDateSydney": "2026-11-07",
+      "checkMethod": "site portal/open or targeted indexed search; NOT a full crawl",
+      "status": "reviewed_site_no_week_match",
+      "note": "Sydney editorial landing site accessible, no unique verified week-specific free family event"
+    },
+    {
+      "id": "redballoon",
+      "name": "RedBalloon",
+      "url": "https://www.redballoon.com.au/nsw/things-to-do-in-sydney/kids/",
+      "mandatoryBaseline": true,
+      "checkDateSydney": "2026-11-07",
+      "checkMethod": "direct page attempt + indexed search",
+      "status": "access_blocked",
+      "note": "Direct listing blocked (403); mostly paid experiences, incompatible with free-only unless separate proof"
+    },
+    {
+      "id": "northshoremums",
+      "name": "North Shore Mums",
+      "url": "https://www.northshoremums.com.au/events/",
+      "mandatoryBaseline": true,
+      "checkDateSydney": "2026-11-07",
+      "checkMethod": "site portal/open or targeted indexed search; NOT a full crawl",
+      "status": "reviewed_current_listings",
+      "note": "Events portal and weekend guide accessible; source can supply council candidates after original check"
+    },
+    {
+      "id": "citywhatson",
+      "name": "City of Sydney What’s On",
+      "url": "https://whatson.cityofsydney.nsw.gov.au/events/",
+      "mandatoryBaseline": true,
+      "checkDateSydney": "2026-11-07",
+      "checkMethod": "site portal/open or targeted indexed search; NOT a full crawl",
+      "status": "reviewed_current_listings",
+      "note": "Dated, free family events reviewed and several included in candidate batch; precise price verified individually"
+    },
+    {
+      "id": "timeout",
+      "name": "Time Out Sydney Kids",
+      "url": "https://www.timeout.com/sydney/kids",
+      "mandatoryBaseline": true,
+      "checkDateSydney": "2026-11-07",
+      "checkMethod": "site portal/open or targeted indexed search; NOT a full crawl",
+      "status": "reviewed_current_listings",
+      "note": "Head On free exhibition found; paid Wundrful World of Christmas excluded"
+    },
+    {
+      "id": "easternsuburbsmums",
+      "name": "Eastern Suburbs Mums",
+      "url": "https://easternsuburbsmums.com.au/",
+      "mandatoryBaseline": true,
+      "checkDateSydney": "2026-11-07",
+      "checkMethod": "direct page attempt + indexed search",
+      "status": "access_blocked",
+      "note": "Earlier user-preferred local lead source; direct access not confirmed; search fallback inconclusive"
+    },
+    {
+      "id": "eventbrite",
+      "name": "Eventbrite Sydney",
+      "url": "https://www.eventbrite.com.au/",
+      "mandatoryBaseline": true,
+      "checkDateSydney": "2026-11-07",
+      "checkMethod": "site portal/open or targeted indexed search; NOT a full crawl",
+      "status": "reviewed_current_listings",
+      "note": "Flicks by the River Lane Cove Council 14 Nov free family film identified; verify original organiser and image"
+    },
+    {
+      "id": "humanitix",
+      "name": "Humanitix",
+      "url": "https://events.humanitix.com/",
+      "mandatoryBaseline": true,
+      "checkDateSydney": "2026-11-07",
+      "checkMethod": "site portal/open or targeted indexed search; NOT a full crawl",
+      "status": "reviewed_current_listings",
+      "note": "Convent Kids pop-up result found but venue/location needs check to prevent Melbourne leakage"
+    },
+    {
+      "id": "sydneyoperahouse",
+      "name": "Sydney Opera House",
+      "url": "https://www.sydneyoperahouse.com/",
+      "mandatoryBaseline": true,
+      "checkDateSydney": "2026-11-07",
+      "checkMethod": "site portal/open or targeted indexed search; NOT a full crawl",
+      "status": "search_attempted_no_week_match",
+      "note": "User-preferred flagship source; only paid Big Book of Music emerged for 14 Nov, excluded"
+    },
+    {
+      "id": "statelibrary",
+      "name": "State Library NSW",
+      "url": "https://www.sl.nsw.gov.au/",
+      "mandatoryBaseline": true,
+      "checkDateSydney": "2026-11-07",
+      "checkMethod": "site portal/open or targeted indexed search; NOT a full crawl",
+      "status": "reviewed_current_listings",
+      "note": "Paid Pirate Academy and writing workshops excluded after price cross-check"
+    },
+    {
+      "id": "nsw-councils",
+      "name": "Local councils and institutions",
+      "url": "https://www.woollahra.nsw.gov.au/",
+      "mandatoryBaseline": true,
+      "checkDateSydney": "2026-11-07",
+      "checkMethod": "site portal/open or targeted indexed search; NOT a full crawl",
+      "status": "reviewed_current_listings",
+      "note": "Woollahra, Randwick, North Sydney, Lane Cove, Bayside and others represented; must expand all geographic coverage"
+    },
+    {
+      "id": "kindaling",
+      "name": "Kindaling (competitor benchmark, Germany)",
+      "url": "https://kindaling.de/",
+      "mandatoryBaseline": false,
+      "checkDateSydney": "2026-11-07",
+      "checkMethod": "site portal/open or targeted indexed search; NOT a full crawl",
+      "status": "benchmark_not_event_source",
+      "note": "User-provided product/provider coverage benchmark, not a Sydney event-crawling source"
+    }
+  ],
+  "newLeads": [
+    {
+      "title": "LEGO Christmas Workshop at Myer Sydney",
+      "source": "https://www.ellaslist.com.au/sydney/events/christmas-lego-pop-up",
+      "dateRange": "2026-11-04 to 2026-12-24",
+      "freeAsListedByDirectory": true,
+      "nextAction": "Verify on Myer's official page, booking and original image",
+      "status": "lead_not_publication_ready"
+    },
+    {
+      "title": "Flicks by the River",
+      "source": "https://www.eventbrite.com.au/e/flicks-by-the-river-tickets-2003439357048",
+      "date": "2026-11-14",
+      "cost": "Free",
+      "nextAction": "Cross-check Lane Cove Council original and original event image",
+      "status": "lead_not_publication_ready"
+    },
+    {
+      "title": "Powerhouse Parramatta Opening Festival",
+      "source": "https://www.ellaslist.com.au/sydney/events/powerhouse-parramatta-opening-festival",
+      "dateRange": "2026-11-07 to 2026-11-29",
+      "nextAction": "Identify individual free child-suitable 9–15 November sessions; do not list whole programme generically",
+      "status": "lead_not_publication_ready"
+    },
+    {
+      "title": "Head On Photo Festival free exhibitions",
+      "source": "https://www.timeout.com/sydney/kids/kids-activities-sydney",
+      "dateRange": "2026-11-06 to 2026-11-29",
+      "nextAction": "Confirm exact family suitability, location, entry, date, and original image on festival source",
+      "status": "lead_not_publication_ready"
+    }
+  ],
+  "limitations": [
+    "This audit involved targeted indexed searches and reachable public site pages; it is not an exhaustive crawl of every link on every source.",
+    "Original image rights and rendering for newly discovered leads are not verified.",
+    "Some mandatory user sources are inaccessible or non-Sydney and remain flagged; discovery gate cannot be marked fully passed."
+  ]
+}
