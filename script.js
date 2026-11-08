@@ -7,10 +7,10 @@ async function loadActivities() {
   // The current week's approved release is the source of truth.
   // Do not silently show an obsolete week's Editor's Choice if it fails.
   try {
-    const res = await fetch('/nov-2026-approved.json?v=20261102-fix-2', {cache: 'no-store'});
+    const res = await fetch('/week-2026-11-09-approved.json?v=20261109-approved-15', {cache: 'no-store'});
     if (!res.ok) throw new Error('Weekly release unavailable: ' + res.status);
     const weekly = await res.json();
-    if (!Array.isArray(weekly) || weekly.length !== 40) throw new Error('Incomplete weekly release');
+    if (!Array.isArray(weekly) || !weekly.length || weekly.some(a => !a.id || !a.seoSlug || !a.startAt || !a.endAt)) throw new Error('Invalid weekly release');
     activities = weekly;
   } catch (error) {
     console.error('Could not load current activities', error);
@@ -38,7 +38,7 @@ const state = {
 =========================== */
 function ageLabel(ageArr) {
   if (!ageArr || ageArr.length === 0) return "All Ages";
-  if (ageArr.length >= 4) return "All Ages";
+  
   // Shorten the new verbose labels for the card tags
   return ageArr.map(a => a.replace(" years)", ")")).join(", ");
 }
@@ -181,7 +181,7 @@ function renderCards(list) {
     // Thumbnail: real image if available, else gradient + emoji
     let thumbContent;
     if (act.imageUrl && act.imageUrl.trim() !== "") {
-      thumbContent = `<img src="${escapeHtml(act.imageUrl)}" alt="${escapeHtml(act.title)}" loading="lazy" style="width:100%;height:100%;object-fit:cover;" onerror="this.parentElement.style.background='${cardGradient(i)}'; this.outerHTML='<span style=\\'font-size:4rem;\\'>${tagsEmoji(act.tags)}</span>';" />`;
+      thumbContent = `<img src="${escapeHtml(act.imageUrl)}" alt="${escapeHtml(act.imageCredit || act.title)}" loading="lazy" style="width:100%;height:100%;object-fit:${act.imageFit === 'contain' ? 'contain' : 'cover'};" onerror="this.hidden=true;this.nextElementSibling.hidden=false" /><span hidden style="padding:20px;font-size:14px;color:#9b1745">Organiser image unavailable</span>`;
     } else {
       thumbContent = `<span style="font-size:4rem;">${tagsEmoji(act.tags)}</span>`;
     }
@@ -229,7 +229,7 @@ function renderCards(list) {
       <div class="activity-card__body">
         <div class="activity-card__tags">
           ${act.category ? `<span class="tag tag--category">${escapeHtml(act.category)}</span>` : ""}
-          <span class="tag tag--age">🧒 ${escapeHtml(ageLabel(act.age))}</span>
+          <span class="tag tag--age">🧒 ${escapeHtml(act.ageGuidance || ageLabel(act.age))}</span>
           <span class="tag tag--area">🏙️ ${escapeHtml(act.neighborhood)}</span>
           <span class="tag tag--day">📅 ${escapeHtml(dayLabel(act.day))}</span>
           ${onlineBadge}
@@ -292,11 +292,13 @@ function applyFilters() {
     if (v.includes('pre-school') || v.includes('preschool')) return 'preschool';
     if (v.includes('school kids')) return 'school';
     if (v.includes('teen')) return 'teens';
+    if (v.includes('young adult')) return 'young adults';
+    if (v.includes('adult')) return 'adults';
     return v;
   };
   const normalizeArea = value => {
     const v = String(value || '').toLowerCase().trim();
-    if (v.includes('north shore')) return 'north shore';
+    if (v === 'north shore' || v === 'lower north shore' || v === 'upper north shore') return 'north shore';
     if (v === 'city centre' || v === 'city center') return 'cbd';
     return v;
   };
@@ -318,6 +320,7 @@ function applyFilters() {
 
   const filtered = activities.filter(act => {
     if (act.expired) return false;
+    if (act.endAt && Date.now() > Date.parse(act.endAt)) return false;
     if (act.endDate && act.endDate < today) return false;
     if (!act.endDate && act.startDate && act.startDate < today) return false;
 
