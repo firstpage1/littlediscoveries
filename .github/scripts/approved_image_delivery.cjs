@@ -1,0 +1,77 @@
+const fs=require('fs');const path=require('path');const {chromium}=require('playwright');
+const file='week-2026-11-09-approved.json';const rows=JSON.parse(fs.readFileSync(file,'utf8'));
+const fix=new Set(['02','45','49','47','10','46']);
+(async()=>{
+ const browser=await chromium.launch({headless:true});
+ const page=await browser.newPage();
+ const report=[];
+ try{
+  for(const e of rows){
+   if(!fix.has(e.id.slice(-2))||e.imageUrl.startsWith('/'))continue;
+   const original=e.imageUrl;
+   const variants=[...new Set([original,decodeURI(original),decodeURIComponent(original),original.replace(/%40/g,'@').replace(/%3D/g,'=')])];
+   if(e.id.endsWith('-02')){
+    variants.push(original.replace('www.waverley.nsw.gov.au','www.bondipavilion.com.au'));
+    variants.push(original.replace('www.waverley.nsw.gov.au','waverley.nsw.gov.au'));
+    variants.push('https://whatson.cityofsydney.nsw.gov.au/api/v1/events/events/10413/images/featured-e45nz1.webp');
+    for(const source of ['https://whatson.cityofsydney.nsw.gov.au/events/bondi-outdoor-cinema','https://www.nsw.gov.au/visiting-and-exploring-nsw/nsw-events/bondi-outdoor-cinema']){
+     try{
+      const resp=await page.request.get(source,{timeout:20000});
+      const html=await resp.text();
+      const urls=[...new Set((html.match(/https?:[^\s"'<>\\]+\.(?:png|jpe?g|webp)(?:[^\s"'<>\\]*)/gi)||[]))];
+      console.log('CINEMA_ORGANISER_MIRROR '+JSON.stringify({source,status:resp.status(),urls:urls.slice(0,35)}));
+     }catch(error){console.log('CINEMA_ORGANISER_MIRROR '+JSON.stringify({source,error:error.message}));}
+    }
+   }
+   try{
+    await page.goto(e.imageSource,{waitUntil:'domcontentloaded',timeout:20000});
+    if(e.id.endsWith('-45')){
+     const heading=page.getByText('Try Skiff Sailing Day - Sunday 15th November',{exact:true});
+     const refreshed=await heading.locator('xpath=following::img[2]').getAttribute('src');
+     if(refreshed&&/^https:\/\/[^/]*googleusercontent\.com\//.test(refreshed)){
+      variants.push(refreshed);
+      console.log('REFRESHED_ORGANISER_IMAGE '+JSON.stringify({id:e.id,refreshed,reason:'same second photograph in organiser’s Try Skiff Sailing section'}));
+     }
+    }
+   }catch(error){report.push({id:e.id,sourceVisit:error.message});}
+   let saved=false;
+   for(const url of variants){
+    try{
+     const response=await page.request.get(url,{headers:{Referer:e.imageSource,'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36'},timeout:20000});
+     const type=response.headers()['content-type']||'';
+     const item={id:e.id,url,status:response.status(),type};
+     if(response.ok()&&/^image\//.test(type)){
+      const bytes=await response.body();const data='data:'+type.split(';')[0]+';base64,'+bytes.toString('base64');
+      await page.goto('about:blank');
+      await page.setContent('<img id="verify-image" src="'+data+'">');
+      await page.locator('#verify-image').evaluate(i=>i.decode());
+      const dims=await page.locator('#verify-image').evaluate(i=>({width:i.naturalWidth,height:i.naturalHeight}));
+      Object.assign(item,dims);
+      if(dims.width>=300&&dims.height>=200){
+       const ext=type.includes('png')?'png':type.includes('webp')?'webp':type.includes('jpeg')?'jpg':null;
+       if(ext){
+        const optimized=await page.locator('#verify-image').evaluate(i=>{const c=document.createElement('canvas');c.width=i.naturalWidth;c.height=i.naturalHeight;c.getContext('2d').drawImage(i,0,0);return c.toDataURL('image/webp',0.92).split(',')[1];});
+        const local='/images/organiser/approved-20261109/'+e.id+'.webp';
+        const delivered=Buffer.from(optimized,'base64');
+        fs.mkdirSync(path.dirname('.'+local),{recursive:true});fs.writeFileSync('.'+local,delivered);
+        const htmlFile=e.seoSlug+'/index.html';let html=fs.readFileSync(htmlFile,'utf8');
+        // Keep the original image link and credit, replace only hero/social/structured-data delivery URLs.
+        html=html.replace('src="'+original.replace(/&/g,'&amp;')+'"','src="'+local+'"');
+        html=html.replace('property="og:image" content="'+original.replace(/&/g,'&amp;')+'"','property="og:image" content="https://www.littlediscoveries.com.au'+local+'"');
+        html=html.replace('"image": ["'+original+'"]','"image": ["'+local+'"]');
+        fs.writeFileSync(htmlFile,html);
+        e.originalImageUrl=original;e.imageUrl=local;e.imageDelivery='Same approved organiser asset, locally served';saved=true;
+        item.savedAs=local;
+        console.log('APPROVED_ASSET '+JSON.stringify({id:e.id,path:local,originalImageUrl:original,base64:optimized}));
+       }
+      }
+     }
+     report.push(item);if(saved)break;
+    }catch(error){report.push({id:e.id,url,error:error.message});}
+   }
+  }
+  fs.writeFileSync(file,JSON.stringify(rows,null,2)+'\n');
+  fs.mkdirSync('qa-approved-week',{recursive:true});fs.writeFileSync('qa-approved-week/image-delivery.json',JSON.stringify(report,null,2));
+  console.log('IMAGE_DELIVERY '+JSON.stringify(report));
+ }finally{await browser.close();}
+})();

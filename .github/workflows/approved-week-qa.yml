@@ -1,0 +1,46 @@
+name: Approved week 9-15 November QA
+on:
+  pull_request:
+    branches: [gh-pages]
+    paths:
+      - 'week-2026-11-09-approved.json'
+      - '.github/scripts/approved_week_qa.cjs'
+      - '.github/workflows/approved-week-qa.yml'
+  push:
+    branches: [gh-pages]
+    paths:
+      - 'week-2026-11-09-approved.json'
+      - '.github/scripts/approved_week_qa.cjs'
+      - '.github/workflows/approved-week-qa.yml'
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install browser test dependencies
+        run: |
+          npm install --prefix /tmp/ld-approved-qa playwright
+          /tmp/ld-approved-qa/node_modules/.bin/playwright install --with-deps chromium
+      - name: Verify preview or deployed website
+        env:
+          QA_LIVE: ${{ github.event_name == 'push' && 'true' || 'false' }}
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/ld-approved-http.log 2>&1 &
+          trap 'kill $!' EXIT
+          if [ "$QA_LIVE" = false ]; then
+            NODE_PATH=/tmp/ld-approved-qa/node_modules node .github/scripts/approved_image_delivery.cjs
+          fi
+          NODE_PATH=/tmp/ld-approved-qa/node_modules node .github/scripts/approved_week_qa.cjs
+      - name: Save verification evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: approved-week-browser-qa
+          path: qa-approved-week/
+          retention-days: 7
