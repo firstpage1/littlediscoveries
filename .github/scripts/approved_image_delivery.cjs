@@ -13,6 +13,14 @@ const fix=new Set(['02','45','49','47','10','46']);
    if(e.id.endsWith('-02')){
     variants.push(original.replace('www.waverley.nsw.gov.au','www.bondipavilion.com.au'));
     variants.push(original.replace('www.waverley.nsw.gov.au','waverley.nsw.gov.au'));
+    for(const source of ['https://whatson.cityofsydney.nsw.gov.au/events/bondi-outdoor-cinema','https://www.nsw.gov.au/visiting-and-exploring-nsw/nsw-events/bondi-outdoor-cinema']){
+     try{
+      const resp=await page.request.get(source,{timeout:20000});
+      const html=await resp.text();
+      const urls=[...new Set((html.match(/https?:[^\s"'<>\\]+\.(?:png|jpe?g|webp)(?:[^\s"'<>\\]*)/gi)||[]))];
+      console.log('CINEMA_ORGANISER_MIRROR '+JSON.stringify({source,status:resp.status(),urls:urls.slice(0,35)}));
+     }catch(error){console.log('CINEMA_ORGANISER_MIRROR '+JSON.stringify({source,error:error.message}));}
+    }
    }
    try{
     await page.goto(e.imageSource,{waitUntil:'domcontentloaded',timeout:20000});
@@ -40,8 +48,10 @@ const fix=new Set(['02','45','49','47','10','46']);
       if(dims.width>=300&&dims.height>=200){
        const ext=type.includes('png')?'png':type.includes('webp')?'webp':type.includes('jpeg')?'jpg':null;
        if(ext){
-        const local='/images/organiser/approved-20261109/'+e.id+'.'+ext;
-        fs.mkdirSync(path.dirname('.'+local),{recursive:true});fs.writeFileSync('.'+local,bytes);
+        const optimized=await page.locator('#verify-image').evaluate(i=>{const c=document.createElement('canvas');c.width=i.naturalWidth;c.height=i.naturalHeight;c.getContext('2d').drawImage(i,0,0);return c.toDataURL('image/webp',0.92).split(',')[1];});
+        const local='/images/organiser/approved-20261109/'+e.id+'.webp';
+        const delivered=Buffer.from(optimized,'base64');
+        fs.mkdirSync(path.dirname('.'+local),{recursive:true});fs.writeFileSync('.'+local,delivered);
         const htmlFile=e.seoSlug+'/index.html';let html=fs.readFileSync(htmlFile,'utf8');
         // Keep the original image link and credit, replace only hero/social/structured-data delivery URLs.
         html=html.replace('src="'+original.replace(/&/g,'&amp;')+'"','src="'+local+'"');
@@ -50,7 +60,7 @@ const fix=new Set(['02','45','49','47','10','46']);
         fs.writeFileSync(htmlFile,html);
         e.originalImageUrl=original;e.imageUrl=local;e.imageDelivery='Same approved organiser asset, locally served';saved=true;
         item.savedAs=local;
-        console.log('APPROVED_ASSET '+JSON.stringify({id:e.id,path:local,originalImageUrl:original,base64:bytes.toString('base64')}));
+        console.log('APPROVED_ASSET '+JSON.stringify({id:e.id,path:local,originalImageUrl:original,base64:optimized}));
        }
       }
      }
