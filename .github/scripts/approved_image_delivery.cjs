@@ -10,6 +10,21 @@ const fix=new Set(['02','45','49','47','10','46']);
    if(!fix.has(e.id.slice(-2))||e.imageUrl.startsWith('/'))continue;
    const original=e.imageUrl;
    const variants=[...new Set([original,decodeURI(original),decodeURIComponent(original),original.replace(/%40/g,'@').replace(/%3D/g,'=')])];
+   if(e.id.endsWith('-02')){
+    variants.push(original.replace('www.waverley.nsw.gov.au','www.bondipavilion.com.au'));
+    variants.push(original.replace('www.waverley.nsw.gov.au','waverley.nsw.gov.au'));
+   }
+   try{
+    await page.goto(e.imageSource,{waitUntil:'domcontentloaded',timeout:20000});
+    if(e.id.endsWith('-45')){
+     const heading=page.getByText('Try Skiff Sailing Day - Sunday 15th November',{exact:true});
+     const refreshed=await heading.locator('xpath=following::img[2]').getAttribute('src');
+     if(refreshed&&/^https:\/\/[^/]*googleusercontent\.com\//.test(refreshed)){
+      variants.push(refreshed);
+      console.log('REFRESHED_ORGANISER_IMAGE '+JSON.stringify({id:e.id,refreshed,reason:'same second photograph in organiser’s Try Skiff Sailing section'}));
+     }
+    }
+   }catch(error){report.push({id:e.id,sourceVisit:error.message});}
    let saved=false;
    for(const url of variants){
     try{
