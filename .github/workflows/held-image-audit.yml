@@ -1,0 +1,30 @@
+name: Held organiser image audit (research only)
+on:
+  pull_request:
+    branches: [gh-pages]
+    paths:
+      - '.github/workflows/held-image-audit.yml'
+      - '.github/scripts/held_image_audit.cjs'
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install browser
+        run: |
+          npm install --prefix /tmp/ld-research playwright
+          /tmp/ld-research/node_modules/.bin/playwright install --with-deps chromium
+      - name: Read public organiser pages and verify image assets
+        run: NODE_PATH=/tmp/ld-research/node_modules node .github/scripts/held_image_audit.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: held-image-audit-metadata
+          path: held-image-audit.json
+          retention-days: 7
