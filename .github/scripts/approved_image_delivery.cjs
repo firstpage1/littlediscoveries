@@ -42,6 +42,7 @@ const fix=new Set(['02','45','49','47','10','46']);
      const item={id:e.id,url,status:response.status(),type};
      if(response.ok()&&/^image\//.test(type)){
       const bytes=await response.body();const data='data:'+type.split(';')[0]+';base64,'+bytes.toString('base64');
+      await page.goto('about:blank');
       await page.setContent('<img id="verify-image" src="'+data+'">');
       await page.locator('#verify-image').evaluate(i=>i.decode());
       const dims=await page.locator('#verify-image').evaluate(i=>({width:i.naturalWidth,height:i.naturalHeight}));
