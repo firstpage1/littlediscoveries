@@ -33,6 +33,9 @@ jobs:
         run: |
           python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/ld-approved-http.log 2>&1 &
           trap 'kill $!' EXIT
+          if [ "$QA_LIVE" = false ]; then
+            NODE_PATH=/tmp/ld-approved-qa/node_modules node .github/scripts/approved_image_delivery.cjs
+          fi
           NODE_PATH=/tmp/ld-approved-qa/node_modules node .github/scripts/approved_week_qa.cjs
       - name: Save verification evidence
         if: always()
