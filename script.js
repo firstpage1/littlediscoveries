@@ -7,7 +7,7 @@ async function loadActivities() {
   // The current week's approved release is the source of truth.
   // Do not silently show an obsolete week's Editor's Choice if it fails.
   try {
-    const res = await fetch('/week-2026-11-09-approved.json?v=20261109-approved-15', {cache: 'no-store'});
+    const res = await fetch('/week-2026-11-09-approved.json?v=20261109-approved-41', {cache: 'no-store'});
     if (!res.ok) throw new Error('Weekly release unavailable: ' + res.status);
     const weekly = await res.json();
     if (!Array.isArray(weekly) || !weekly.length || weekly.some(a => !a.id || !a.seoSlug || !a.startAt || !a.endAt)) throw new Error('Invalid weekly release');
@@ -144,6 +144,8 @@ function renderCards(list) {
     grid.innerHTML = "";
     noResults.classList.remove("hidden");
     countEl.textContent = "No activities found";
+    const more = document.getElementById("show-more-btn");
+    if (more) more.style.display = "none";
     return;
   }
 
@@ -305,6 +307,7 @@ function applyFilters() {
   };
   const dayNames = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
   const activeDays = act => {
+    if (Array.isArray(act.day) && act.day.length) return act.day;
     if (!act.startDate) return Array.isArray(act.day) ? act.day : [];
     const start = new Date(act.startDate + 'T12:00:00Z');
     const end = new Date((act.endDate || act.startDate) + 'T12:00:00Z');
