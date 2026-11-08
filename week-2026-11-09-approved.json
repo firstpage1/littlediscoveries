@@ -27,8 +27,8 @@
     "imageSource": "https://yoursay.woollahra.nsw.gov.au/youthrecarea",
     "imageFit": "cover",
     "time": "10am–12pm AEDT",
-    "editorsChoice": true,
-    "ecOrder": 1,
+    "editorsChoice": false,
+    "ecOrder": null,
     "editorialPriority": 1,
     "isRecurring": false,
     "expired": false,
@@ -39,7 +39,7 @@
     "seoIndex": true,
     "seoTitle": "Rushcutters Bay Park Youth Recreation Area Opening | Little Discoveries",
     "seoDescription": "See the new youth recreation area open with skateboarding and basketball demonstrations, professional skateboarders and live music.",
-    "isFeatured": true,
+    "isFeatured": false,
     "tags": [
       "Opening celebration"
     ],
@@ -76,8 +76,8 @@
     "imageSource": "https://community.acf.org.au/wild_at_art_2026_opening_event",
     "imageFit": "contain",
     "time": "1pm–2pm AEDT",
-    "editorsChoice": true,
-    "ecOrder": 2,
+    "editorsChoice": false,
+    "ecOrder": null,
     "editorialPriority": 2,
     "isRecurring": false,
     "expired": false,
@@ -88,58 +88,11 @@
     "seoIndex": true,
     "seoTitle": "Wild at Art opening | Little Discoveries",
     "seoDescription": "Celebrate children’s wildlife art and meet some of Australia’s threatened species through pictures, a quiz and free face painting.",
-    "isFeatured": true,
+    "isFeatured": false,
     "tags": [
       "Art & wildlife"
     ],
     "category": "Art & wildlife",
-    "status": "approved",
-    "approvedAt": "2026-11-08T10:41:49+00:00",
-    "lastVerifiedAt": "2026-11-08T10:41:49+00:00"
-  },
-  {
-    "id": "LD-20261109-02",
-    "title": "Bondi Outdoor Cinema: Minions & Monsters",
-    "venue": "Dolphin Court, Bondi Pavilion, Bondi Beach",
-    "address": "Dolphin Court, Bondi Pavilion, Bondi Beach",
-    "neighborhood": "Eastern Suburbs",
-    "source": "https://www.waverley.nsw.gov.au/recreation/events/events/bondi_outdoor_cinema/bondi_outdoor_cinema",
-    "website": "https://www.waverley.nsw.gov.au/recreation/events/events/bondi_outdoor_cinema/bondi_outdoor_cinema",
-    "startDate": "2026-11-13",
-    "endDate": "2026-11-13",
-    "startAt": "2026-11-13T19:30:00+11:00",
-    "endAt": "2026-11-13T21:30:00+11:00",
-    "day": [
-      "Friday"
-    ],
-    "description": "Make a beachside evening of Minions & Monsters at Bondi Pavilion’s free outdoor cinema.",
-    "age": [],
-    "ageGuidance": "PG (organiser's classification)",
-    "cost": "Free",
-    "costLabel": "Free screening and popcorn",
-    "imageUrl": "https://www.waverley.nsw.gov.au/__data/assets/image/0008/262565/THUMB_EVENTS_Bondi_Outdoor_Cinema.png",
-    "imageCredit": "Waverley Council / Bondi Outdoor Cinema programme artwork, not a film still",
-    "imageType": "organiser cinema programme artwork",
-    "imageSource": "https://www.waverley.nsw.gov.au/recreation/events/events/bondi_outdoor_cinema/bondi_outdoor_cinema",
-    "imageFit": "contain",
-    "time": "7:30pm–9:30pm AEDT",
-    "editorsChoice": true,
-    "ecOrder": 3,
-    "editorialPriority": 3,
-    "isRecurring": false,
-    "expired": false,
-    "seoSlug": "bondi-outdoor-cinema-minions-monsters-2026",
-    "longDescription": "Dolphin Court becomes an open-air cinema for this Friday-night family screening. The programme includes free popcorn as well as the film.",
-    "about": "Dolphin Court becomes an open-air cinema for this Friday-night family screening. The programme includes free popcorn as well as the film.",
-    "bookingStatus": "Open to public; no reservation requirement stated",
-    "seoIndex": true,
-    "seoTitle": "Bondi Outdoor Cinema: Minions & Monsters | Little Discoveries",
-    "seoDescription": "Make a beachside evening of Minions & Monsters at Bondi Pavilion’s free outdoor cinema.",
-    "isFeatured": true,
-    "tags": [
-      "Outdoor cinema"
-    ],
-    "category": "Outdoor cinema",
     "status": "approved",
     "approvedAt": "2026-11-08T10:41:49+00:00",
     "lastVerifiedAt": "2026-11-08T10:41:49+00:00"
@@ -174,8 +127,8 @@
     "imageSource": "https://haven.hackclub.com/sydney",
     "imageFit": "cover",
     "time": "9am–6pm each day AEDT",
-    "editorsChoice": true,
-    "ecOrder": 4,
+    "editorsChoice": false,
+    "ecOrder": null,
     "editorialPriority": 4,
     "isRecurring": false,
     "expired": false,
@@ -186,7 +139,7 @@
     "seoIndex": true,
     "seoTitle": "Haven Sydney game development hackathon | Little Discoveries",
     "seoDescription": "Turn a game idea into something playable during a free, two-day game jam for high-school students aged 13–18.",
-    "isFeatured": true,
+    "isFeatured": false,
     "tags": [
       "Game-making & coding"
     ],
@@ -217,17 +170,17 @@
       "Pre-schoolers (3–5)",
       "School Kids (5–13)"
     ],
-    "ageGuidance": "Council tags children 0–5 and 5–12; families",
+    "ageGuidance": "Children 0–5 and 5–12; families",
     "cost": "Free",
     "costLabel": "Free",
     "imageUrl": "https://www.woollahra.nsw.gov.au/files/assets/public/v/1/events/images/samhain-the-spirit-of-woollahra-festival-family-day.jpg?dimension=pageimage&w=480",
-    "imageCredit": "Woollahra Council / Samhain event artwork; 480px derivative",
+    "imageCredit": "Woollahra Council / Samhain event artwork",
     "imageType": "original organiser event artwork",
     "imageSource": "https://www.woollahra.nsw.gov.au/Events/Samhain-the-Spirit-of-Woollahra-Festival-Family-Day",
     "imageFit": "contain",
     "time": "3:30pm–6pm AEDT",
-    "editorsChoice": true,
-    "ecOrder": 5,
+    "editorsChoice": false,
+    "ecOrder": null,
     "editorialPriority": 5,
     "isRecurring": false,
     "expired": false,
@@ -238,7 +191,7 @@
     "seoIndex": true,
     "seoTitle": "Samhain, the Spirit of Woollahra Festival Family Day | Little Discoveries",
     "seoDescription": "Discover the Irish origins of Halloween through an afternoon of traditional Samhain activities and music.",
-    "isFeatured": true,
+    "isFeatured": false,
     "tags": [
       "Culture & music"
     ],
@@ -275,8 +228,8 @@
     "imageSource": "https://www.ymcansw.org.au/promotion/y-epping-60th-anniversary/",
     "imageFit": "contain",
     "time": "12pm–4pm AEDT",
-    "editorsChoice": true,
-    "ecOrder": 6,
+    "editorsChoice": false,
+    "ecOrder": null,
     "editorialPriority": 6,
     "isRecurring": false,
     "expired": false,
@@ -287,7 +240,7 @@
     "seoIndex": true,
     "seoTitle": "Y Epping 60th Anniversary Celebration | Little Discoveries",
     "seoDescription": "The Y Epping turns 60 with an afternoon of free sport, face painting, a jumping castle and community celebrations.",
-    "isFeatured": true,
+    "isFeatured": false,
     "tags": [
       "Community celebration"
     ],
@@ -321,7 +274,7 @@
     "ageGuidance": "Sabots 8+; Flying 11s teens; Cherubs/skiffs 15+; Pacers new sailors/families",
     "cost": "Free",
     "costLabel": "Free participation; drinks/snacks optional extra",
-    "imageUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72ttO9bEMfCIK-WPlPq9zTFc4XUptIVmSqxTf1NiHqH80mrk9myUJ0VV29U-vW5dR4CaVLFRI6L7bRir9YRIi4DSbCQYE9H0jOeBuw_T_d-eD0mM01PGWDYGgl8x_pDggCaXjyKUo4OEmP3-TbGIAG23DnSHOgFeoEv3qXvfCCGFgY3heLIBjP1Qfa1_AHXHxPwkKpySSOQd4DstnU8YRuy8ymZOOy5vSNXYLSAV%3Dw1280",
+    "imageUrl": "/images/organiser/approved-20261109/LD-20261109-45.webp",
     "imageCredit": "Lane Cove 12ft Sailing Skiff Club image accompanying the Try Skiff Sailing section; illustration of club sailing, not a photograph of the future event",
     "imageType": "related_organiser_photo",
     "imageSource": "https://www.lc12ftssc.org.au/events",
@@ -346,7 +299,9 @@
     "category": "Sailing",
     "status": "approved",
     "approvedAt": "2026-11-08T10:41:49+00:00",
-    "lastVerifiedAt": "2026-11-08T10:41:49+00:00"
+    "lastVerifiedAt": "2026-11-08T10:41:49+00:00",
+    "originalImageUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72ttO9bEMfCIK-WPlPq9zTFc4XUptIVmSqxTf1NiHqH80mrk9myUJ0VV29U-vW5dR4CaVLFRI6L7bRir9YRIi4DSbCQYE9H0jOeBuw_T_d-eD0mM01PGWDYGgl8x_pDggCaXjyKUo4OEmP3-TbGIAG23DnSHOgFeoEv3qXvfCCGFgY3heLIBjP1Qfa1_AHXHxPwkKpySSOQd4DstnU8YRuy8ymZOOy5vSNXYLSAV%3Dw1280",
+    "imageDelivery": "Same approved organiser asset, locally served"
   },
   {
     "id": "LD-20261109-49",
@@ -370,7 +325,7 @@
     "ageGuidance": "All ages; children must be supervised",
     "cost": "Free",
     "costLabel": "Free; one ticket per person; bring up to two pre-loved toys",
-    "imageUrl": "https://images.humanitix.com/i/94f989d6-0004-45ce-84b1-c6594cec18b3.png%40responsive-1600.webp",
+    "imageUrl": "/images/organiser/approved-20261109/LD-20261109-49.webp",
     "imageCredit": "SECNA / Toy Swap & Toys Reimagined Workshop event artwork",
     "imageType": "event_artwork",
     "imageSource": "https://events.humanitix.com/free-toy-swap-and-toys-reimagined-kids-workshop",
@@ -395,7 +350,9 @@
     "category": "Creative reuse",
     "status": "approved",
     "approvedAt": "2026-11-08T10:41:49+00:00",
-    "lastVerifiedAt": "2026-11-08T10:41:49+00:00"
+    "lastVerifiedAt": "2026-11-08T10:41:49+00:00",
+    "originalImageUrl": "https://images.humanitix.com/i/94f989d6-0004-45ce-84b1-c6594cec18b3.png%40responsive-1600.webp",
+    "imageDelivery": "Same approved organiser asset, locally served"
   },
   {
     "id": "LD-20261109-47",
@@ -420,7 +377,7 @@
     "ageGuidance": "5–15",
     "cost": "Free",
     "costLabel": "Free; bookings essential",
-    "imageUrl": "https://www.northsydney.nsw.gov.au/images/Atlas_Art_Club_700x700.png",
+    "imageUrl": "/images/organiser/approved-20261109/LD-20261109-47.webp",
     "imageCredit": "North Sydney Council / Atlas Art Club event artwork",
     "imageType": "event_artwork",
     "imageSource": "https://www.northsydney.nsw.gov.au/events/event/1699/atlas-for-young-people-art-club",
@@ -445,7 +402,9 @@
     "category": "Art workshop",
     "status": "approved",
     "approvedAt": "2026-11-08T10:41:49+00:00",
-    "lastVerifiedAt": "2026-11-08T10:41:49+00:00"
+    "lastVerifiedAt": "2026-11-08T10:41:49+00:00",
+    "originalImageUrl": "https://www.northsydney.nsw.gov.au/images/Atlas_Art_Club_700x700.png",
+    "imageDelivery": "Same approved organiser asset, locally served"
   },
   {
     "id": "LD-20261109-31",
@@ -614,7 +573,7 @@
     "ageGuidance": "Under 5; programme guidance",
     "cost": "Free",
     "costLabel": "Free; booking essential",
-    "imageUrl": "https://www.northsydney.nsw.gov.au/images/Explorers_Playgroup_700x700.png",
+    "imageUrl": "/images/organiser/approved-20261109/LD-20261109-10.webp",
     "imageCredit": "North Sydney Council / Explorers Playgroup programme artwork",
     "imageType": "organiser_programme_artwork",
     "imageSource": "https://www.northsydney.nsw.gov.au/events/event/1778/explorers-playgroup-free-session",
@@ -639,7 +598,9 @@
     "category": "Playgroup special",
     "status": "approved",
     "approvedAt": "2026-11-08T10:41:49+00:00",
-    "lastVerifiedAt": "2026-11-08T10:41:49+00:00"
+    "lastVerifiedAt": "2026-11-08T10:41:49+00:00",
+    "originalImageUrl": "https://www.northsydney.nsw.gov.au/images/Explorers_Playgroup_700x700.png",
+    "imageDelivery": "Same approved organiser asset, locally served"
   },
   {
     "id": "LD-20261109-46",
@@ -663,7 +624,7 @@
     "ageGuidance": "Kids of all ages with their grandparents",
     "cost": "Free",
     "costLabel": "Free; no booking",
-    "imageUrl": "https://www.northsydney.nsw.gov.au/images/Grandparents_Day_Storytime_700x700.png",
+    "imageUrl": "/images/organiser/approved-20261109/LD-20261109-46.webp",
     "imageCredit": "North Sydney Council / Grandparents Storytime event artwork",
     "imageType": "event_artwork",
     "imageSource": "https://www.northsydney.nsw.gov.au/events/event/1787/grandparents-storytime",
@@ -688,7 +649,9 @@
     "category": "Special storytime",
     "status": "approved",
     "approvedAt": "2026-11-08T10:41:49+00:00",
-    "lastVerifiedAt": "2026-11-08T10:41:49+00:00"
+    "lastVerifiedAt": "2026-11-08T10:41:49+00:00",
+    "originalImageUrl": "https://www.northsydney.nsw.gov.au/images/Grandparents_Day_Storytime_700x700.png",
+    "imageDelivery": "Same approved organiser asset, locally served"
   },
   {
     "id": "LD-20261109-21",

@@ -7,7 +7,7 @@ async function loadActivities() {
   // The current week's approved release is the source of truth.
   // Do not silently show an obsolete week's Editor's Choice if it fails.
   try {
-    const res = await fetch('/week-2026-11-09-approved.json?v=20261109-approved-15', {cache: 'no-store'});
+    const res = await fetch('/week-2026-11-09-approved.json?v=20261109-approved-14', {cache: 'no-store'});
     if (!res.ok) throw new Error('Weekly release unavailable: ' + res.status);
     const weekly = await res.json();
     if (!Array.isArray(weekly) || !weekly.length || weekly.some(a => !a.id || !a.seoSlug || !a.startAt || !a.endAt)) throw new Error('Invalid weekly release');
@@ -38,7 +38,7 @@ const state = {
 =========================== */
 function ageLabel(ageArr) {
   if (!ageArr || ageArr.length === 0) return "All Ages";
-  
+
   // Shorten the new verbose labels for the card tags
   return ageArr.map(a => a.replace(" years)", ")")).join(", ");
 }
@@ -153,11 +153,12 @@ function renderCards(list) {
   // Editor's Choice is deliberately only set by an editor.
   const recurringPattern = /storytime|story play|family tales|rhymetime|singing and stories|mindspark monday|kidtopia|lego challenge|game-a-thon|weekly|regular|every (monday|tuesday|wednesday|thursday|friday|saturday|sunday)/i;
   const specialPattern = /festival|opening|workshop|exhibition|art prize|fair|concert|rainforest|costume swap|open day|bird week|jazz|grandparents day|halloween|songs & stories/i;
-  const isRecurringEvent = a => Boolean(a.isRecurring) ||
+  const isRecurringEvent = a => typeof a.isRecurring === "boolean" ? a.isRecurring :
     (recurringPattern.test(a.title || '') && !specialPattern.test(a.title || ''));
   const rank = a => {
     if (a.editorsChoice) return -1000 + (a.ecOrder ?? 100);
     if (isRecurringEvent(a)) return 1000;
+    if (Number.isFinite(a.editorialPriority)) return a.editorialPriority;
     let score = 100;
     if (specialPattern.test(a.title || '')) score -= 60;
     if (a.startDate && a.endDate && a.startDate === a.endDate) score -= 15;
