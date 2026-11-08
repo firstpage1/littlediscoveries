@@ -13,6 +13,7 @@ const fix=new Set(['02','45','49','47','10','46']);
    if(e.id.endsWith('-02')){
     variants.push(original.replace('www.waverley.nsw.gov.au','www.bondipavilion.com.au'));
     variants.push(original.replace('www.waverley.nsw.gov.au','waverley.nsw.gov.au'));
+    variants.push('https://whatson.cityofsydney.nsw.gov.au/api/v1/events/events/10413/images/featured-e45nz1.webp');
     for(const source of ['https://whatson.cityofsydney.nsw.gov.au/events/bondi-outdoor-cinema','https://www.nsw.gov.au/visiting-and-exploring-nsw/nsw-events/bondi-outdoor-cinema']){
      try{
       const resp=await page.request.get(source,{timeout:20000});
