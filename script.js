@@ -7,7 +7,7 @@ async function loadActivities() {
   // The current week's approved release is the source of truth.
   // Do not silently show an obsolete week's Editor's Choice if it fails.
   try {
-    const res = await fetch('/week-2026-11-09-approved.json?v=20261109-approved-14', {cache: 'no-store'});
+    const res = await fetch('/week-2026-11-09-approved.json?v=20261109-approved-15', {cache: 'no-store'});
     if (!res.ok) throw new Error('Weekly release unavailable: ' + res.status);
     const weekly = await res.json();
     if (!Array.isArray(weekly) || !weekly.length || weekly.some(a => !a.id || !a.seoSlug || !a.startAt || !a.endAt)) throw new Error('Invalid weekly release');
