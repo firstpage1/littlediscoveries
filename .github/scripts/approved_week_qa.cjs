@@ -5,13 +5,18 @@ const rows=JSON.parse(fs.readFileSync('week-2026-11-09-approved.json','utf8'));
 const live=process.env.QA_LIVE==='true';
 const base=live?'https://www.littlediscoveries.com.au':'http://127.0.0.1:8765';
 const output='qa-approved-week';fs.mkdirSync(output,{recursive:true});
-const expected=['43','01','02','03','04','05','45','49','47','31','14','15','10','46','21'].map(x=>'LD-20261109-'+x);
+const expected=["LD-20261109-43", "LD-20261109-01", "LD-20261109-02", "LD-20261109-03", "LD-20261109-04", "LD-20261109-05", "LD-20261109-45", "LD-20261109-49", "LD-20261109-47", "LD-20261109-31", "LD-20261109-14", "LD-20261109-15", "LD-20261109-10", "LD-20261109-46", "LD-20261109-21", "LD-20261109-06", "LD-20261109-33", "LD-20261109-44", "LD-20261109-08", "LD-20261109-09", "LD-20261109-12", "LD-20261109-39", "LD-20261109-48", "LD-20261109-35", "LD-20261109-41", "LD-20261109-07", "LD-20261109-13", "LD-20261109-18", "LD-20261109-11", "LD-20261109-19", "LD-20261109-20", "LD-20261109-22", "LD-20261109-30", "LD-20261109-32", "LD-20261109-23", "LD-20261109-24", "LD-20261109-25", "LD-20261109-26", "LD-20261109-27", "LD-20261109-28", "LD-20261109-29"];
 const expectedChoice=['43','01','02','03','04','05'].map(x=>'LD-20261109-'+x);
 const report={base,live,started:new Date().toISOString(),checks:[],details:[],images:[],errors:[]};
 const pause=ms=>new Promise(r=>setTimeout(r,ms));
 const check=(name,fn)=>{try{fn();report.checks.push({name,pass:true});}catch(e){report.errors.push(name+': '+e.message);}};
 const area=v=>/north shore/i.test(v)?'North Shore':v;
+async function expandAll(page){
+ for(let n=0;n<10;n++){if(!await page.locator("#show-more").isVisible())return;await page.locator("#show-more").click();}
+ throw new Error("Show More did not expose the complete approved release");
+}
 async function assertTitles(page,expectedRows,label){
+ await expandAll(page);
  const got=await page.locator('.activity-card__title').allTextContents();
  check(label,()=>assert.deepEqual([...got].sort(),expectedRows.map(x=>x.title).sort()));
 }
@@ -27,7 +32,7 @@ async function imageCheck(locator,label){
 (async()=>{
  let browser;
  try{
-  check('only approved 15 IDs',()=>assert.deepEqual(rows.map(x=>x.id),expected));
+  check('only approved 41 IDs',()=>assert.deepEqual(rows.map(x=>x.id),expected));
   check('exact approved six Editor’s Choice IDs',()=>assert.deepEqual(rows.filter(x=>x.editorsChoice).sort((a,b)=>a.ecOrder-b.ecOrder).map(x=>x.id),expectedChoice));
   browser=await chromium.launch({headless:true,...(process.env.QA_CHROMIUM?{executablePath:process.env.QA_CHROMIUM,args:['--no-sandbox']}: {})});
   const page=await browser.newPage({viewport:{width:1440,height:1000}});
@@ -41,8 +46,8 @@ async function imageCheck(locator,label){
    }
    if(!matched)throw new Error('Production did not serve the approved release within four minutes');
   }
-  const home=await page.goto(base+'/?verify=20261109-approved-15',{waitUntil:'domcontentloaded'});
-  await page.locator('.activity-card').first().waitFor();
+  const home=await page.goto(base+'/?verify=20261109-approved-41',{waitUntil:'domcontentloaded'});
+  await page.locator('.activity-card').first().waitFor();await expandAll(page);
   check('homepage HTTP 200',()=>assert.equal(home.status(),200));
   await assertTitles(page,rows,'homepage approved cards');
   const choices=await page.locator('.activity-card--editors-choice .activity-card__title').allTextContents();
@@ -75,6 +80,7 @@ async function imageCheck(locator,label){
    const card=page.locator('.activity-card').filter({has:page.locator('.activity-card__title').getByText(row.title,{exact:true})});
    await card.locator('.activity-card__cta').click();
    await page.waitForURL(base+'/'+row.seoSlug+'/');
+   const detailResponse=await page.request.get(page.url());check(row.id+' detail HTTP 200',()=>assert.equal(detailResponse.status(),200));
    const title=await page.locator('h1').innerText();
    const facts=await page.locator('.facts').innerText();
    const structured=JSON.parse(await page.locator('script[type="application/ld+json"]').textContent());
@@ -87,6 +93,10 @@ async function imageCheck(locator,label){
    const headings=await page.locator('.article h2').allTextContents();
    check(row.id+' practical article sections',()=>assert.deepEqual(headings,['About this activity','Good to know','Planning your visit']));
    await imageCheck(page.locator('.pic>img'),row.id+' hero');
+   const robots=await page.locator('meta[name="robots"]').getAttribute('content');check(row.id+' public indexing',()=>assert.equal(robots,'index,follow'));
+   const draftBanners=await page.locator('.draftbar').count();check(row.id+' published detail',()=>assert.equal(draftBanners,0));
+   const canonical=await page.locator('link[rel="canonical"]').getAttribute('href');check(row.id+' canonical',()=>assert.equal(canonical,'https://www.littlediscoveries.com.au/'+row.seoSlug+'/'));
+   for(const link of await page.locator('.related .card').evaluateAll(es=>es.map(e=>e.getAttribute('href')))){const response=await page.request.get(new URL(link,base).href);check(row.id+' related '+link,()=>assert.equal(response.status(),200));}
    const booking=await page.locator('#booking .btn').getAttribute('href');
    check(row.id+' booking URL',()=>assert.equal(booking,row.website));
    const credits=await page.locator('.image-credit').innerText();check(row.id+' image attribution',()=>assert.ok(credits.includes(row.imageCredit)));
@@ -98,14 +108,15 @@ async function imageCheck(locator,label){
    }
    report.details.push({id:row.id,url:page.url(),title,booking,verified:true});
    await page.setViewportSize({width:1440,height:1000});
-   await page.goto(base+'/?verify=20261109-approved-15',{waitUntil:'domcontentloaded'});
-   await page.locator('.activity-card').first().waitFor();
+   await page.goto(base+'/?verify=20261109-approved-41',{waitUntil:'domcontentloaded'});
+   await page.locator('.activity-card').first().waitFor();await expandAll(page);
   }
   // Exercise end-time expiry in a separate browser context without changing production content.
   const expired=await browser.newContext();
-  await expired.addInitScript(()=>{const OriginalDate=Date;const fixed=OriginalDate.parse('2026-11-16T00:00:00+11:00');class TestDate extends OriginalDate{constructor(...args){super(...(args.length?args:[fixed]));}static now(){return fixed;}}window.Date=TestDate;});
+  await expired.addInitScript(()=>{const OriginalDate=Date;const fixed=OriginalDate.parse('2026-11-23T00:00:00+11:00');class TestDate extends OriginalDate{constructor(...args){super(...(args.length?args:[fixed]));}static now(){return fixed;}}window.Date=TestDate;});
   const ep=await expired.newPage();await ep.goto(base+'/?expiry-check=20261109',{waitUntil:'domcontentloaded'});await ep.locator('#no-results:not(.hidden)').waitFor();
   check('ended release absent from active results',()=>assert.ok(true));
+  const endedRow=rows.find(r=>r.id.endsWith('-48'));await ep.goto(base+'/'+endedRow.seoSlug+'/',{waitUntil:'domcontentloaded'});const endedVisible=await ep.locator('#activity-status').isVisible();const bookingVisible=await ep.locator('#booking').isVisible();check('ended detail status and booking',()=>{assert.equal(endedVisible,true);assert.equal(bookingVisible,false);});
   await expired.close();
  }catch(e){report.errors.push(e.stack||String(e));}
  finally{
