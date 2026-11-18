@@ -1,0 +1,101 @@
+[
+  {
+    "cost": "Free",
+    "costLabel": "Free entry",
+    "isRecurring": false,
+    "expired": false,
+    "seoIndex": true,
+    "isFeatured": true,
+    "status": "approved",
+    "approvedAt": "2026-11-18T08:47:00+11:00",
+    "lastVerifiedAt": "2026-11-18T08:47:00+11:00",
+    "id": "LD-20261116-BONDI",
+    "title": "Bondi Outdoor Cinema",
+    "venue": "Dolphin Court, Bondi Pavilion",
+    "address": "Bondi Pavilion, Bondi Beach NSW 2026, Australia",
+    "neighborhood": "Eastern Suburbs",
+    "source": "https://www.waverley.nsw.gov.au/recreation/events/events/bondi_outdoor_cinema/bondi_outdoor_cinema5",
+    "website": "https://www.waverley.nsw.gov.au/recreation/events/events/bondi_outdoor_cinema/bondi_outdoor_cinema5",
+    "startDate": "2026-11-19",
+    "endDate": "2026-11-22",
+    "startAt": "2026-11-19T19:30:00+11:00",
+    "endAt": "2026-11-22T21:30:00+11:00",
+    "day": [
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "description": "Four free outdoor film screenings at Bondi Pavilion: Jurassic Park (Thu), Supergirl (Fri), Last Christmas (Sat), and Love Actually (Sun). PG and M film classifications vary.",
+    "longDescription": "Enjoy outdoor cinema by the sea, 7:30–9:30pm each night, 19–22 November. Jurassic Park (PG) Thursday; Supergirl (M) Friday; Last Christmas (PG) Saturday; Love Actually (M) Sunday. Complimentary snacks. Check film classification before bringing children.",
+    "age": [
+      "All Ages"
+    ],
+    "ageGuidance": "PG screenings on Thursday and Saturday; Friday and Sunday films are classified M",
+    "bookingStatus": "Free and open to the public; no advance booking specified by council",
+    "imageUrl": "https://www.waverley.nsw.gov.au/__data/assets/image/0008/262565/THUMB_EVENTS_Bondi_Outdoor_Cinema.png",
+    "imageCredit": "Waverley Council, Bondi Outdoor Cinema event image",
+    "imageSource": "https://www.waverley.nsw.gov.au/recreation/events/events/bondi_outdoor_cinema/bondi_outdoor_cinema5",
+    "imageType": "organiser_listing_image",
+    "time": "7:30–9:30pm each night",
+    "editorsChoice": true,
+    "ecOrder": 1,
+    "editorialPriority": 1,
+    "seoSlug": "bondi-outdoor-cinema-nov-2026",
+    "category": "Film",
+    "tags": [
+      "outdoor cinema",
+      "family",
+      "Bondi"
+    ],
+    "about": "Four free outdoor screenings at Bondi Pavilion."
+  },
+  {
+    "cost": "Free",
+    "costLabel": "Free entry",
+    "isRecurring": false,
+    "expired": false,
+    "seoIndex": true,
+    "isFeatured": true,
+    "status": "approved",
+    "approvedAt": "2026-11-18T08:47:00+11:00",
+    "lastVerifiedAt": "2026-11-18T08:47:00+11:00",
+    "id": "LD-20261116-AUTHOR",
+    "title": "Meet the Author & Illustrator: Tim Harris and Christopher Nielsen",
+    "venue": "Stanton Library, 234 Miller Street, North Sydney",
+    "address": "Stanton Library, 234 Miller Street, North Sydney NSW 2060, Australia",
+    "neighborhood": "Lower North Shore",
+    "source": "https://www.northsydney.nsw.gov.au/events/event/1794/meet-the-author-illustrator-with-tim-harris-and-christopher-nielsen",
+    "website": "https://www.northsydney.nsw.gov.au/events/event/1794/meet-the-author-illustrator-with-tim-harris-and-christopher-nielsen",
+    "startDate": "2026-11-21",
+    "endDate": "2026-11-21",
+    "startAt": "2026-11-21T11:00:00+11:00",
+    "endAt": "2026-11-21T12:00:00+11:00",
+    "day": [
+      "Saturday"
+    ],
+    "description": "Meet the creators of Funny Fairytales for a playful hour of storytelling, games and drawing inspiration.",
+    "longDescription": "Tim Harris and Christopher Nielsen share the making of Funny Fairytales. Free event for children aged 5–12 and their families; book a ticket for every attendee. Live ticket availability has not been confirmed.",
+    "age": [
+      "School Kids (5–13)"
+    ],
+    "ageGuidance": "Children aged 5–12 and families",
+    "bookingStatus": "Booking required for each attendee; availability not verified",
+    "imageUrl": "https://www.northsydney.nsw.gov.au/images/Meet_the_Author_Illustrator_Tim_Harris_Chris_Nielsen_700x700.png",
+    "imageCredit": "North Sydney Council, event artwork featuring Tim Harris and Christopher Nielsen",
+    "imageSource": "https://www.northsydney.nsw.gov.au/events/event/1794/meet-the-author-illustrator-with-tim-harris-and-christopher-nielsen",
+    "imageType": "organiser_listing_image",
+    "time": "11am–12pm",
+    "editorsChoice": true,
+    "ecOrder": 2,
+    "editorialPriority": 2,
+    "seoSlug": "meet-author-illustrator-stanton-library-nov-2026",
+    "category": "Books & Stories",
+    "tags": [
+      "library",
+      "author",
+      "children"
+    ],
+    "about": "Meet the creators of Funny Fairytales."
+  }
+]
