@@ -611,9 +611,9 @@
     "cost": "Free",
     "costLabel": "Free entry (check individual activities)",
     "bookingStatus": "See organiser for bookings and availability",
-    "imageUrl": "",
-    "imageCredit": "No original image verified; no substitute image used",
-    "imageSource": "https://www.northsydney.nsw.gov.au/news/article/491/north-sydney-streets-returns-with-three-big-community-celebrations",
+    "imageUrl": "https://www.northsydney.nsw.gov.au/images/NSFestival202411020089_750x550.png",
+    "imageCredit": "North Sydney Council, North Sydney Streets festival photograph (earlier event in the same series; not the 2026 Kirribilli event)",
+    "imageSource": "https://www.northsydney.nsw.gov.au/news/article/322/bring-our-streets-to-life-get-involved-in-north-sydney-s-summer-events",
     "time": "09:00–15:00 AEDT",
     "editorsChoice": true,
     "ecOrder": 3,
@@ -629,7 +629,8 @@
       "family"
     ],
     "category": "Community",
-    "status": "approved"
+    "status": "approved",
+    "imageType": "organiser_series_photo"
   },
   {
     "id": "LD-20261123-ADD2",
