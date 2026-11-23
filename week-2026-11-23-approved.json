@@ -1,0 +1,96 @@
+[
+  {
+    "id": "LD-20261123-01",
+    "title": "Double Bay Christmas Festival",
+    "venue": "Steyne Park, Double Bay NSW 2028",
+    "address": "Steyne Park, Double Bay NSW 2028, Australia",
+    "neighborhood": "Eastern Suburbs",
+    "source": "https://www.woollahra.nsw.gov.au/Events/Double-Bay-Christmas-Festival-2026",
+    "website": "https://www.woollahra.nsw.gov.au/Events/Double-Bay-Christmas-Festival-2026",
+    "startDate": "2026-11-28",
+    "endDate": "2026-11-28",
+    "startAt": "2026-11-28T12:00:00+11:00",
+    "endAt": "2026-11-28T21:00:00+11:00",
+    "day": [
+      "Saturday"
+    ],
+    "description": "Free Christmas markets, children's rides, live music and fireworks. Markets until 6pm, entertainment until 9pm.",
+    "longDescription": "Free Christmas markets, children's rides, live music and fireworks. Markets until 6pm, entertainment until 9pm.",
+    "about": "Free Christmas markets, children's rides, live music and fireworks. Markets until 6pm, entertainment until 9pm.",
+    "age": [
+      "All Ages"
+    ],
+    "ageGuidance": "All Ages",
+    "cost": "Free",
+    "costLabel": "Free entry",
+    "bookingStatus": "Free entry; no advance booking indicated",
+    "imageUrl": "https://www.woollahra.nsw.gov.au/files/assets/public/v/1/events/images/double-bay-christmas-festival_2.jpg",
+    "imageCredit": "Woollahra Municipal Council, Double Bay Christmas Festival event image",
+    "imageSource": "https://www.woollahra.nsw.gov.au/Events/Double-Bay-Christmas-Festival-2026",
+    "imageType": "organiser_listing_image",
+    "time": "12:00–21:00 AEDT",
+    "editorsChoice": true,
+    "ecOrder": 1,
+    "editorialPriority": 1,
+    "isRecurring": false,
+    "expired": false,
+    "seoSlug": "double-bay-christmas-festival-nov-2026",
+    "seoIndex": true,
+    "seoTitle": "Double Bay Christmas Festival | Little Discoveries",
+    "seoDescription": "Free Christmas markets, children's rides, live music and fireworks. Markets until 6pm, entertainment until 9pm.",
+    "isFeatured": true,
+    "tags": [
+      "Christmas",
+      "family"
+    ],
+    "category": "Festivals & celebrations",
+    "status": "approved"
+  },
+  {
+    "id": "LD-20261123-02",
+    "title": "Community Christmas Tree Lighting",
+    "venue": "Gordon Library Forecourt, 799 Pacific Highway, Gordon NSW 2072",
+    "address": "Gordon Library Forecourt, 799 Pacific Highway, Gordon NSW 2072, Australia",
+    "neighborhood": "Upper North Shore",
+    "source": "https://www.krg.nsw.gov.au/Things-to-do/Whats-on/Community-Christmas-tree-lighting",
+    "website": "https://www.krg.nsw.gov.au/Things-to-do/Whats-on/Community-Christmas-tree-lighting",
+    "startDate": "2026-11-25",
+    "endDate": "2026-11-25",
+    "startAt": "2026-11-25T18:30:00+11:00",
+    "endAt": "2026-11-25T20:00:00+11:00",
+    "day": [
+      "Wednesday"
+    ],
+    "description": "Join Santa and local performers for the community Christmas tree lighting at Gordon Library Forecourt.",
+    "longDescription": "Join Santa and local performers for the community Christmas tree lighting at Gordon Library Forecourt.",
+    "about": "Join Santa and local performers for the community Christmas tree lighting at Gordon Library Forecourt.",
+    "age": [
+      "All Ages"
+    ],
+    "ageGuidance": "All Ages",
+    "cost": "Free",
+    "costLabel": "Free entry",
+    "bookingStatus": "Free public event; no ticket instruction on organiser listing",
+    "imageUrl": "https://www.krg.nsw.gov.au/files/assets/public/v/1/images/1-things-to-do/1-events-whats-on/christmas-tree-lighting-2026.jpg",
+    "imageCredit": "Ku-ring-gai Council, Christmas tree lighting 2026 artwork",
+    "imageSource": "https://www.krg.nsw.gov.au/Things-to-do/Whats-on/Community-Christmas-tree-lighting",
+    "imageType": "organiser_listing_image",
+    "time": "18:30–20:00 AEDT",
+    "editorsChoice": true,
+    "ecOrder": 2,
+    "editorialPriority": 2,
+    "isRecurring": false,
+    "expired": false,
+    "seoSlug": "community-christmas-tree-lighting-nov-2026",
+    "seoIndex": true,
+    "seoTitle": "Community Christmas Tree Lighting | Little Discoveries",
+    "seoDescription": "Join Santa and local performers for the community Christmas tree lighting at Gordon Library Forecourt.",
+    "isFeatured": true,
+    "tags": [
+      "Christmas",
+      "family"
+    ],
+    "category": "Festivals & celebrations",
+    "status": "approved"
+  }
+]
