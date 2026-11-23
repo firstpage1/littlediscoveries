@@ -92,5 +92,141 @@
     ],
     "category": "Festivals & celebrations",
     "status": "approved"
+  },
+  {
+    "id": "LD-20261123-03",
+    "title": "Connecting Through Art Exhibition & Market",
+    "venue": "Into-Arts Gallery, 71 Ryedale Rd, West Ryde NSW 2114",
+    "address": "Into-Arts Gallery, 71 Ryedale Rd, West Ryde NSW 2114, Australia",
+    "neighborhood": "Western Sydney",
+    "source": "https://www.ryde.nsw.gov.au/Events/Listing/Community/Connecting-through-Art",
+    "website": "https://www.ryde.nsw.gov.au/Events/Listing/Community/Connecting-through-Art",
+    "startDate": "2026-11-27",
+    "endDate": "2026-11-28",
+    "startAt": "2026-11-27T10:15:00+11:00",
+    "endAt": "2026-11-28T17:00:00+11:00",
+    "day": [
+      "Friday",
+      "Saturday"
+    ],
+    "description": "Free community art exhibition and market in West Ryde.",
+    "longDescription": "Connecting Through Art Exhibition & Market",
+    "about": "Connecting Through Art Exhibition & Market",
+    "age": [
+      "All Ages"
+    ],
+    "ageGuidance": "All ages",
+    "cost": "Free",
+    "costLabel": "Free",
+    "bookingStatus": "Free; no entry ticket indicated",
+    "imageUrl": "https://www.ryde.nsw.gov.au/files/content/public/v/2/events/listing/community/connecting-through-art/connecting-through-art.png?dimension=pageimagefullwidth&w=1140",
+    "imageCredit": "City of Ryde, Connecting Through Art event artwork",
+    "imageSource": "https://www.ryde.nsw.gov.au/Events/Listing/Community/Connecting-through-Art",
+    "imageType": "organiser_listing_image",
+    "time": "Fri 10:15am–8pm; Sat 11:15am–5pm",
+    "editorsChoice": false,
+    "editorialPriority": 3,
+    "isRecurring": false,
+    "expired": false,
+    "seoSlug": "connecting-through-art-exhibition-market-nov-2026",
+    "seoIndex": true,
+    "seoTitle": "Connecting Through Art Exhibition & Market | Little Discoveries",
+    "seoDescription": "Connecting Through Art Exhibition & Market",
+    "isFeatured": false,
+    "tags": [
+      "family"
+    ],
+    "category": "Arts & Nature",
+    "status": "approved"
+  },
+  {
+    "id": "LD-20261123-04",
+    "title": "Lichens Talk and Walk",
+    "venue": "The Coal Loader, 2 Balls Head Drive, Waverton NSW 2060",
+    "address": "The Coal Loader, 2 Balls Head Drive, Waverton NSW 2060, Australia",
+    "neighborhood": "Lower North Shore",
+    "source": "https://www.northsydney.nsw.gov.au/events/event/1713/lichens-talk-and-walk-rescheduled-",
+    "website": "https://www.northsydney.nsw.gov.au/events/event/1713/lichens-talk-and-walk-rescheduled-",
+    "startDate": "2026-11-29",
+    "endDate": "2026-11-29",
+    "startAt": "2026-11-29T10:00:00+11:00",
+    "endAt": "2026-11-29T13:00:00+11:00",
+    "day": [
+      "Sunday"
+    ],
+    "description": "Explore lichens with a guided talk and walk. Recommended for ages 12+; registration required.",
+    "longDescription": "Lichens Talk and Walk",
+    "about": "Lichens Talk and Walk",
+    "age": [
+      "School Kids (5–13)"
+    ],
+    "ageGuidance": "Recommended 12+",
+    "cost": "Free",
+    "costLabel": "Free",
+    "bookingStatus": "Free; registration required, availability not confirmed",
+    "imageUrl": "https://www.northsydney.nsw.gov.au/images/Native_Beard_Lichen__Usnea_sp.__by_Clare_McElroy_thumbnail.jpg",
+    "imageCredit": "North Sydney Council; native beard lichen photograph by Clare McElroy",
+    "imageSource": "https://www.northsydney.nsw.gov.au/events/event/1713/lichens-talk-and-walk-rescheduled-",
+    "imageType": "organiser_listing_image",
+    "time": "10am–1pm",
+    "editorsChoice": false,
+    "editorialPriority": 4,
+    "isRecurring": false,
+    "expired": false,
+    "seoSlug": "lichens-talk-and-walk-nov-2026",
+    "seoIndex": true,
+    "seoTitle": "Lichens Talk and Walk | Little Discoveries",
+    "seoDescription": "Lichens Talk and Walk",
+    "isFeatured": false,
+    "tags": [
+      "family"
+    ],
+    "category": "Arts & Nature",
+    "status": "approved"
+  },
+  {
+    "id": "LD-20261123-05",
+    "title": "Burwood Sketch Social",
+    "venue": "Burwood Library & Community Hub, 2 Conder St, Burwood NSW 2134",
+    "address": "Burwood Library & Community Hub, 2 Conder St, Burwood NSW 2134, Australia",
+    "neighborhood": "Inner West",
+    "source": "https://www.burwood.nsw.gov.au/For-Residents/Burwood-Library/Library-programs-and-events/Burwood-Sketch-Social-ev_e45830d4e8af46b2b6cba4f76a4d0dc8",
+    "website": "https://www.burwood.nsw.gov.au/For-Residents/Burwood-Library/Library-programs-and-events/Burwood-Sketch-Social-ev_e45830d4e8af46b2b6cba4f76a4d0dc8",
+    "startDate": "2026-11-28",
+    "endDate": "2026-11-28",
+    "startAt": "2026-11-28T12:30:00+11:00",
+    "endAt": "2026-11-28T15:00:00+11:00",
+    "day": [
+      "Saturday"
+    ],
+    "description": "Free sketching session; children under 14 must attend with an adult.",
+    "longDescription": "Burwood Sketch Social",
+    "about": "Burwood Sketch Social",
+    "age": [
+      "All Ages"
+    ],
+    "ageGuidance": "Under 14 accompanied by adult",
+    "cost": "Free",
+    "costLabel": "Free",
+    "bookingStatus": "Free; no booking required",
+    "imageUrl": "https://www.burwood.nsw.gov.au/files/sharedassets/public/v/1/bookable/2026-07-01-12-31-39_8b3fcb0e-f51f-4406-9946-cd25bd167c3d-sketchsocial.jpg?dimension=pageimagefullwidth&w=1140",
+    "imageCredit": "Burwood Council, Sketch Social event image",
+    "imageSource": "https://www.burwood.nsw.gov.au/For-Residents/Burwood-Library/Library-programs-and-events/Burwood-Sketch-Social-ev_e45830d4e8af46b2b6cba4f76a4d0dc8",
+    "imageType": "organiser_listing_image",
+    "time": "12:30–3pm",
+    "editorsChoice": false,
+    "editorialPriority": 5,
+    "isRecurring": true,
+    "expired": false,
+    "seoSlug": "burwood-sketch-social-nov-2026",
+    "seoIndex": true,
+    "seoTitle": "Burwood Sketch Social | Little Discoveries",
+    "seoDescription": "Burwood Sketch Social",
+    "isFeatured": false,
+    "tags": [
+      "family"
+    ],
+    "category": "Arts & Nature",
+    "status": "approved"
   }
 ]
